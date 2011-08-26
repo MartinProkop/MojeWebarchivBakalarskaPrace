@@ -1,0 +1,30 @@
+Otestovat prace v zalozka
+
+rozsirit svuj repos a dat ho na wayback
+	adresar se symlink
+	kovar@kovar-laptop:~/Desktop/wayback/bin$ ./cdx-indexer /home/kovar/Desktop/heritrix-1.14.4/jobs/amkpacov-20110308161817936/arcs/IAH-20110308161832-00000-kovar-laptop-8080.arc.gz | sort > index.cdx
+
+cat x y | sort > 
+
+neco find them
+
+vasek napise kvuli pristupu na war
+
+
+warc-tools
+
+
+
+Václav Rosecký <143335@mail.muni.cz> wrote on Fri, 11 Mar 2011 19:52:45 +0100:
+> Ahoj
+> 
+> Ty locales jsou "export LC_ALL=C".
+> 
+
+
+
+
+
+
+kovar@kovar-laptop:~/WEBARCHIV/jhove$ ./jhove -c ./conf/jhove.conf /home/kovar/WEBARCHIV/heritrix-1.14.4/jobs/amkpacov-20110310152353753/arcs/IAH-20110310152411-00000-kovar-laptop-8080.arc.gz 
+
