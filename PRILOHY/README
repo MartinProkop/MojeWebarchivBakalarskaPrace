@@ -1,0 +1,11 @@
+Je zde:
+ARC.GZ soubor, který jsem stáhnul přes heritrix
+ARC soubor, který jsem z ARC.GZ vyextrahoval
+WARC soubor, který jsem vytvořil převodem pomocí WARC-TOOLS
+WARC.GZ soubor, je komprimovany WARC
+ARC_INDEX.CDX soubor, to je index ARG souboru
+JHOVE_ARC soubor, vystup z JHove pro ARC
+JHOVE_ARCGZ soubor, vystup z JHove pro ARCGZ
+JHOVE_WARC soubor, vystup z JHove pro WARC
+WARC_INDEX.CDX soubor, to je index WARC souboru
+ARC_*_DUMP, kde * je parametr funce ARC() (nevím proc háže chybu) pro soubor ARC

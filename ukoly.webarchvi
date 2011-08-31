@@ -28,3 +28,8 @@ Václav Rosecký <143335@mail.muni.cz> wrote on Fri, 11 Mar 2011 19:52:45 +0100:
 
 kovar@kovar-laptop:~/WEBARCHIV/jhove$ ./jhove -c ./conf/jhove.conf /home/kovar/WEBARCHIV/heritrix-1.14.4/jobs/amkpacov-20110310152353753/arcs/IAH-20110310152411-00000-kovar-laptop-8080.arc.gz 
 
+
+
+
+Analyza kvality sklizne
+nastroj pro hodnoceni kvality
