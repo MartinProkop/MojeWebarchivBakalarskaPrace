@@ -1,0 +1,26 @@
+WARC/1.0
+WARC-Type: response
+WARC-Record-ID: <urn:uuid:02b44417-84c8-d8b4-f8dd-22a8cac5316a>
+WARC-Target-URI: filedesc://IAH-20110826200056-00002-kovar-laptop-8090.arc
+WARC-Date: 20110826200056
+Content-Type: text/plain
+Content-Length: 1160
+WARC-Block-Digest: sha256:a9720d828ff6bb0e73276f1a010fa6eff27e357053d4cba0012d282cf0589039
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<arcmetadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:arc="http://archive.org/arc/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://archive.org/arc/1.0/" xsi:schemaLocation="http://archive.org/arc/1.0/ http://www.archive.org/arc/1.0/arc.xsd">
+<arc:software>Heritrix 1.14.4 http://crawler.archive.org</arc:software>
+<arc:hostname>kovar-laptop</arc:hostname>
+<arc:ip>127.0.0.1</arc:ip>
+<dcterms:isPartOf>amkpacov.cz</dcterms:isPartOf>
+<dc:description>amkpacov.cz</dc:description>
+<arc:operator>Admin</arc:operator>
+<ns0:date xmlns:ns0="http://purl.org/dc/elements/1.1/" xsi:type="dcterms:W3CDTF">2011-08-26T16:27:00+00:00</ns0:date>
+<arc:http-header-user-agent>Mozilla/5.0 (compatible; heritrix/1.14.4 +http://www.amkpacov.cz)</arc:http-header-user-agent>
+<arc:http-header-from>xixaom@centrum.cz</arc:http-header-from>
+<arc:robots>classic</arc:robots>
+<dc:format>ARC file version 1.1</dc:format>
+<dcterms:conformsTo xsi:type="dcterms:URI">http://www.archive.org/web/researcher/ArcFileFormat.php</dcterms:conformsTo>
+</arcmetadata>
+
+

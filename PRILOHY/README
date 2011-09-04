@@ -9,3 +9,19 @@ JHOVE_ARCGZ soubor, vystup z JHove pro ARCGZ
 JHOVE_WARC soubor, vystup z JHove pro WARC
 WARC_INDEX.CDX soubor, to je index WARC souboru
 ARC_*_DUMP, kde * je parametr funce ARC() (nevím proc háže chybu) pro soubor ARC
+
+
+--------------------
+Používám nyní Hanzo / WarcTOOLS
+Podel jeho validatoru jsou WARC soubory z WARC-TOOLS porušené - výstup v souborů:
+HWT_VALID_WARC
+HWT_VALID_WARCGZ
+
+Zkusim tedy prevest pres ten HANZO TOOLS:
+Nejdriv zkousim ./warc2warc vystup: HANZO_WARC_TO_WARC.warc
+Zkusim jeho validaci: HANZO_WARC_TO_WARC_VALID
+To nefunguje
+
+Zkusim arc2warc vystup: HANZO_ARC_TO_WARC.warc
+
+Je to jenom hlavička, musim nastudovatr. Ale podle validatoru je bez chyby,
