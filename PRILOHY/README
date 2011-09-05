@@ -24,4 +24,19 @@ To nefunguje
 
 Zkusim arc2warc vystup: HANZO_ARC_TO_WARC.warc
 
-Je to jenom hlavička, musim nastudovatr. Ale podle validatoru je bez chyby,
+Je to jenom hlavička, musim nastudovatr. Ale podle validatoru je bez chyby.
+******************
+Zkousim to znova s novym souborem..Je to stazeny Web. Podle validatoru ARC je spatnej:
+	kovar@kovar-laptop:~/WEBARCHIV$ arc t IAH-20110905093545-00000-kovar-laptop-8090.arc.gz 
+	An entry in IAH-20110905093545-00000-kovar-laptop-8090.arc.gz has a bad header.
+	hdrver: 1f
+	  8418 bytes skipped.
+	Testing file: 	             WARNING: File 	 fails CRC check
+	An entry in IAH-20110905093545-00000-kovar-laptop-8090.arc.gz has a bad header.
+	hdrver: 74
+	  32917 bytes skipped.
+	Archive truncated in file �Z��=śZ�m`�j���e�Lk1�#��(
+	5 errors detected
+
+
+
