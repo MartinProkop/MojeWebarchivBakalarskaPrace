@@ -1,0 +1,13 @@
+Crawl Name: localamk2
+Crawl Status: Finished - Ended by operator
+Duration Time: 2h4m16s999ms
+Total Seeds Crawled: 1
+Total Seeds not Crawled: 0
+Total Hosts Crawled: 0
+Total Documents Crawled: 1909
+Documents Crawled Successfully: 1909
+Novel Documents Crawled: 1909
+Processed docs/sec: 0.26
+Bandwidth in Kbytes/sec: 10
+Total Raw Data Size in Bytes: 80045291 (76 MB) 
+Novel Bytes: 80045291 (76 MB) 

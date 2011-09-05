@@ -1,0 +1,11 @@
+[#urls] [#bytes] [mime-types]
+1235 1156304 text/html
+601 64652210 image/jpeg
+24 885731 image/png
+15 8871872 application/pdf
+15 19351 image/gif
+12 4177038 application/msword
+3 14154 text/css
+2 214564 application/vnd.ms-excel
+1 39869 application/javascript
+1 14198 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet

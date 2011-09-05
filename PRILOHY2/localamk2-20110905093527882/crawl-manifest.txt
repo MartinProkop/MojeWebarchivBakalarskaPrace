@@ -1,0 +1,13 @@
+L+ /home/kovar/WEBARCHIV/heritrix-1.14.4/jobs/localamk2-20110905093527882/logs/crawl.log
+L+ /home/kovar/WEBARCHIV/heritrix-1.14.4/jobs/localamk2-20110905093527882/logs/runtime-errors.log
+L+ /home/kovar/WEBARCHIV/heritrix-1.14.4/jobs/localamk2-20110905093527882/logs/local-errors.log
+L+ /home/kovar/WEBARCHIV/heritrix-1.14.4/jobs/localamk2-20110905093527882/logs/uri-errors.log
+L+ /home/kovar/WEBARCHIV/heritrix-1.14.4/jobs/localamk2-20110905093527882/logs/progress-statistics.log
+C+ /home/kovar/WEBARCHIV/heritrix-1.14.4/jobs/localamk2-20110905093527882/order.xml
+C+ /home/kovar/WEBARCHIV/heritrix-1.14.4/jobs/localamk2-20110905093527882/seeds.txt
+R+ /home/kovar/WEBARCHIV/heritrix-1.14.4/jobs/localamk2-20110905093527882/hosts-report.txt
+R+ /home/kovar/WEBARCHIV/heritrix-1.14.4/jobs/localamk2-20110905093527882/mimetype-report.txt
+R+ /home/kovar/WEBARCHIV/heritrix-1.14.4/jobs/localamk2-20110905093527882/responsecode-report.txt
+R+ /home/kovar/WEBARCHIV/heritrix-1.14.4/jobs/localamk2-20110905093527882/seeds-report.txt
+R+ /home/kovar/WEBARCHIV/heritrix-1.14.4/jobs/localamk2-20110905093527882/crawl-report.txt
+R+ /home/kovar/WEBARCHIV/heritrix-1.14.4/jobs/localamk2-20110905093527882/processors-report.txt
