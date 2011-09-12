@@ -1,7 +1,4 @@
 
-Analyza kvality sklizne
-nastroj pro hodnoceni kvality
-
 Koukni na zasuvne moduly do JHove
   --arc modul
 
@@ -11,11 +8,8 @@ otestuj WARC-TOOLS / HANZO WARC-TOOLS - udelj vystupy
 JHove na archivy i na jejich obsah
 
 
-Vem od kazde sklizne 2 archivy (WAR/mnt/archives) a otestuj je
-  - hod je do: (WAR/mnt/pole-c)
-
 
 SMAZ PRILOHY1/2..udelej znova a na waru, sem hod jen logy z toho!
 
-Stahni znova WARC-TOOLS 
-a nainstaluj znova JHOVE - nejspis na waru
+
+nainstaluj znova JHOVE - nejspis na waru
