@@ -12,7 +12,11 @@ Zkousim to znova s novym souborem..Je to stazeny Web (pribaluju celou slozku z H
 	5 errors detected
 
 
-Presto udelam index: index.cdx
+Presto udelam indexif [ "$#" != "2" ]; then
+echo -e "Usage of the feed script:\t$0 food-on-menu animal-name\n"
+exit 1
+else
+: index.cdx
 
 Rozcházím wayback a funguje to: http://localhost:8080/wayback/20110905093547/http://127.0.0.1/amk_new/
 
