@@ -1,2 +1,0 @@
-[code] [status] [seed] [redirect]
-200 CRAWLED http://127.0.0.1/amk_new/
