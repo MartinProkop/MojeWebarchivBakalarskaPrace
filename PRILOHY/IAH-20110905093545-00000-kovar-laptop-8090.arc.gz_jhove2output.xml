@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<j2:jhove2 xmlns:j2="http://jhove2.org/xsd/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<j2:feature name="FileSource" fid="http://jhove2.org/terms/reportable/org/jhove2/core/source/FileSource" fidns="JHOVE2">
+ <j2:features>
+ <j2:feature name="StartingOffset" fid="http://jhove2.org/terms/property/org/jhove2/core/source/MeasurableSource/StartingOffset" fidns="JHOVE2" funit="byte">
+  <j2:value>0</j2:value>
+ </j2:feature>
+ <j2:feature name="EndingOffset" fid="http://jhove2.org/terms/property/org/jhove2/core/source/MeasurableSource/EndingOffset" fidns="JHOVE2" funit="byte">
+  <j2:value>74389017</j2:value>
+ </j2:feature>
+ <j2:feature name="Size" fid="http://jhove2.org/terms/property/org/jhove2/core/source/MeasurableSource/Size" fidns="JHOVE2" funit="byte">
+  <j2:value>74389018</j2:value>
+ </j2:feature>
+ <j2:feature name="FileSystemProperties" fid="http://jhove2.org/terms/property/org/jhove2/core/source/Source/FileSystemProperties" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/source/FileSystemProperties" ftidns="JHOVE2">
+  <j2:features>
+  <j2:feature name="Path" fid="http://jhove2.org/terms/property/org/jhove2/core/source/FileSystemProperties/Path" fidns="JHOVE2">
+   <j2:value>/home/kovar/WEBARCHIV/MojeWebarchivBakalarskaPrace/PRILOHY/IAH-20110905093545-00000-kovar-laptop-8090.arc.gz</j2:value>
+  </j2:feature>
+  <j2:feature name="LastModified" fid="http://jhove2.org/terms/property/org/jhove2/core/source/FileSystemProperties/LastModified" fidns="JHOVE2">
+   <j2:value>2011-09-05T12:40:13+02:00</j2:value>
+  </j2:feature>
+  </j2:features>
+ </j2:feature>
+ <j2:feature name="PresumptiveFormats" fid="http://jhove2.org/terms/property/org/jhove2/core/source/Source/PresumptiveFormats" fidns="JHOVE2">
+  <j2:features>
+  <j2:feature name="PresumptiveFormat" fid="http://jhove2.org/terms/property/org/jhove2/core/source/Source/PresumptiveFormats/PresumptiveFormat" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/format/FormatIdentification" ftidns="JHOVE2">
+   <j2:features>
+   <j2:feature name="NativeIdentifier" fid="http://jhove2.org/terms/property/org/jhove2/core/format/FormatIdentification/NativeIdentifier" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/I8R" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="Value" fid="http://jhove2.org/terms/property/org/jhove2/core/I8R/Value" fidns="JHOVE2">
+     <j2:value>x-fmt/266</j2:value>
+    </j2:feature>
+    <j2:feature name="Namespace" fid="http://jhove2.org/terms/property/org/jhove2/core/I8R/Namespace" fidns="JHOVE2">
+     <j2:value>PUID</j2:value>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   <j2:feature name="JHOVE2Identifier" fid="http://jhove2.org/terms/property/org/jhove2/core/format/FormatIdentification/JHOVE2Identifier" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/I8R" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="Value" fid="http://jhove2.org/terms/property/org/jhove2/core/I8R/Value" fidns="JHOVE2">
+     <j2:value>http://jhove2.org/terms/format/gzip</j2:value>
+    </j2:feature>
+    <j2:feature name="Namespace" fid="http://jhove2.org/terms/property/org/jhove2/core/I8R/Namespace" fidns="JHOVE2">
+     <j2:value>JHOVE2</j2:value>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   <j2:feature name="IdentificationProduct" fid="http://jhove2.org/terms/property/org/jhove2/core/format/FormatIdentification/IdentificationProduct" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/I8R" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="Value" fid="http://jhove2.org/terms/property/org/jhove2/core/I8R/Value" fidns="JHOVE2">
+     <j2:value>http://jhove2.org/terms/reportable/org/jhove2/module/identify/DROIDIdentifier</j2:value>
+    </j2:feature>
+    <j2:feature name="Namespace" fid="http://jhove2.org/terms/property/org/jhove2/core/I8R/Namespace" fidns="JHOVE2">
+     <j2:value>JHOVE2</j2:value>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   <j2:feature name="Confidence" fid="http://jhove2.org/terms/property/org/jhove2/core/format/FormatIdentification/Confidence" fidns="JHOVE2">
+    <j2:value>PositiveSpecific</j2:value>
+   </j2:feature>
+   </j2:features>
+  </j2:feature>
+  </j2:features>
+ </j2:feature>
+ <j2:feature name="Modules" fid="http://jhove2.org/terms/property/org/jhove2/core/source/Source/Modules" fidns="JHOVE2">
+  <j2:features>
+  <j2:feature name="Module" fid="http://jhove2.org/terms/property/org/jhove2/core/source/Source/Modules/Module" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/app/JHOVE2CommandLine" ftidns="JHOVE2">
+   <j2:features>
+   <j2:feature name="DateTime" fid="http://jhove2.org/terms/property/org/jhove2/core/app/Application/DateTime" fidns="JHOVE2">
+    <j2:value>2011-11-29T12:51:29+01:00</j2:value>
+   </j2:feature>
+   <j2:feature name="CommandLine" fid="http://jhove2.org/terms/property/org/jhove2/core/app/Application/CommandLine" fidns="JHOVE2">
+    <j2:value>-i -k -d XML -o /home/kovar/WEBARCHIV/MojeWebarchivBakalarskaPrace/PRILOHY/IAH-20110905093545-00000-kovar-laptop-8090.arc.gz_jhove2output /home/kovar/WEBARCHIV/MojeWebarchivBakalarskaPrace/PRILOHY/IAH-20110905093545-00000-kovar-laptop-8090.arc.gz</j2:value>
+   </j2:feature>
+   <j2:feature name="Version" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Version" fidns="JHOVE2">
+    <j2:value>2.0.0</j2:value>
+   </j2:feature>
+   <j2:feature name="ReleaseDate" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/ReleaseDate" fidns="JHOVE2">
+    <j2:value>2010-09-10</j2:value>
+   </j2:feature>
+   <j2:feature name="Scope" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Scope" fidns="JHOVE2">
+    <j2:value>Generic</j2:value>
+   </j2:feature>
+   <j2:feature name="TimerInfo" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/TimerInfo" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/TimerInfo" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="ElapsedTime" fid="http://jhove2.org/terms/property/org/jhove2/core/TimerInfo/ElapsedTime" fidns="JHOVE2">
+     <j2:value>00:00:31.485</j2:value>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   </j2:features>
+  </j2:feature>
+  <j2:feature name="Module" fid="http://jhove2.org/terms/property/org/jhove2/core/source/Source/Modules/Module" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/module/display/XMLDisplayer" ftidns="JHOVE2">
+   <j2:features>
+   <j2:feature name="FilePathname" fid="http://jhove2.org/terms/property/org/jhove2/module/display/Displayer/FilePathname" fidns="JHOVE2">
+    <j2:value>/home/kovar/WEBARCHIV/MojeWebarchivBakalarskaPrace/PRILOHY/IAH-20110905093545-00000-kovar-laptop-8090.arc.gz_jhove2output</j2:value>
+   </j2:feature>
+   <j2:feature name="CharacterEncoding" fid="http://jhove2.org/terms/property/org/jhove2/module/display/Displayer/CharacterEncoding" fidns="JHOVE2">
+    <j2:value>UTF-8</j2:value>
+   </j2:feature>
+   <j2:feature name="ShowIdentifiers" fid="http://jhove2.org/terms/property/org/jhove2/module/display/Displayer/ShowIdentifiers" fidns="JHOVE2">
+    <j2:value>true</j2:value>
+   </j2:feature>
+   <j2:feature name="ShowDescriptiveProperties" fid="http://jhove2.org/terms/property/org/jhove2/module/display/Displayer/ShowDescriptiveProperties" fidns="JHOVE2">
+    <j2:value>true</j2:value>
+   </j2:feature>
+   <j2:feature name="ShowRawProperties" fid="http://jhove2.org/terms/property/org/jhove2/module/display/Displayer/ShowRawProperties" fidns="JHOVE2">
+    <j2:value>true</j2:value>
+   </j2:feature>
+   <j2:feature name="ShouldIndent" fid="http://jhove2.org/terms/property/org/jhove2/module/display/Displayer/ShouldIndent" fidns="JHOVE2">
+    <j2:value>true</j2:value>
+   </j2:feature>
+   <j2:feature name="Version" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Version" fidns="JHOVE2">
+    <j2:value>2.0.0</j2:value>
+   </j2:feature>
+   <j2:feature name="ReleaseDate" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/ReleaseDate" fidns="JHOVE2">
+    <j2:value>2010-09-10</j2:value>
+   </j2:feature>
+   <j2:feature name="Scope" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Scope" fidns="JHOVE2">
+    <j2:value>Generic</j2:value>
+   </j2:feature>
+   <j2:feature name="TimerInfo" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/TimerInfo" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/TimerInfo" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="ElapsedTime" fid="http://jhove2.org/terms/property/org/jhove2/core/TimerInfo/ElapsedTime" fidns="JHOVE2">
+     <j2:value>00:00:25.125</j2:value>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   </j2:features>
+  </j2:feature>
+  <j2:feature name="Module" fid="http://jhove2.org/terms/property/org/jhove2/core/source/Source/Modules/Module" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/JHOVE2" ftidns="JHOVE2">
+   <j2:features>
+   <j2:feature name="Installation" fid="http://jhove2.org/terms/property/org/jhove2/core/JHOVE2/Installation" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/Installation" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="Architecture" fid="http://jhove2.org/terms/property/org/jhove2/core/Installation/Architecture" fidns="JHOVE2">
+     <j2:value>i386</j2:value>
+    </j2:feature>
+    <j2:feature name="NumProcessors" fid="http://jhove2.org/terms/property/org/jhove2/core/Installation/NumProcessors" fidns="JHOVE2">
+     <j2:value>2</j2:value>
+    </j2:feature>
+    <j2:feature name="MaxMemory" fid="http://jhove2.org/terms/property/org/jhove2/core/Installation/MaxMemory" fidns="JHOVE2" funit="byte">
+     <j2:value>477233152</j2:value>
+    </j2:feature>
+    <j2:feature name="OSName" fid="http://jhove2.org/terms/property/org/jhove2/core/Installation/OSName" fidns="JHOVE2">
+     <j2:value>Linux</j2:value>
+    </j2:feature>
+    <j2:feature name="OSVersion" fid="http://jhove2.org/terms/property/org/jhove2/core/Installation/OSVersion" fidns="JHOVE2">
+     <j2:value>3.0.0-14-generic</j2:value>
+    </j2:feature>
+    <j2:feature name="JREVendor" fid="http://jhove2.org/terms/property/org/jhove2/core/Installation/JREVendor" fidns="JHOVE2">
+     <j2:value>Sun Microsystems Inc.</j2:value>
+    </j2:feature>
+    <j2:feature name="JREVersion" fid="http://jhove2.org/terms/property/org/jhove2/core/Installation/JREVersion" fidns="JHOVE2">
+     <j2:value>1.6.0_23</j2:value>
+    </j2:feature>
+    <j2:feature name="JREHome" fid="http://jhove2.org/terms/property/org/jhove2/core/Installation/JREHome" fidns="JHOVE2">
+     <j2:value>/usr/lib/jvm/java-6-openjdk/jre</j2:value>
+    </j2:feature>
+    <j2:feature name="JVMVendor" fid="http://jhove2.org/terms/property/org/jhove2/core/Installation/JVMVendor" fidns="JHOVE2">
+     <j2:value>Sun Microsystems Inc.</j2:value>
+    </j2:feature>
+    <j2:feature name="JVMVersion" fid="http://jhove2.org/terms/property/org/jhove2/core/Installation/JVMVersion" fidns="JHOVE2">
+     <j2:value>20.0-b11</j2:value>
+    </j2:feature>
+    <j2:feature name="JVMName" fid="http://jhove2.org/terms/property/org/jhove2/core/Installation/JVMName" fidns="JHOVE2">
+     <j2:value>OpenJDK Server VM</j2:value>
+    </j2:feature>
+    <j2:feature name="ClassVersion" fid="http://jhove2.org/terms/property/org/jhove2/core/Installation/ClassVersion" fidns="JHOVE2">
+     <j2:value>50.0</j2:value>
+    </j2:feature>
+    <j2:feature name="Classpath" fid="http://jhove2.org/terms/property/org/jhove2/core/Installation/Classpath" fidns="JHOVE2">
+     <j2:value>/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/jhove2-2.0.0.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/aopalliance-1.0.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/je-4.0.103.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/jts-1.10.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/commons-beanutils-1.7.0.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/commons-logging-1.1.1.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/commons-logging-api-1.1.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/commons-pool-1.5.3.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/vecmath-1.3.2.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/jdom-1.0.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/junit-4.4.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/log4j-1.2.14.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/jsr-275-1.0-beta-2.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/jargs-1.0.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/gt-api-2.6.5.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/gt-main-2.6.5.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/gt-metadata-2.6.5.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/gt-referencing-2.6.5.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/gt-shapefile-2.6.5.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/mvel2-2.0.18.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/geoapi-2.3-M1.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/geoapi-pending-2.3-M1.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/spring-beans-2.5.6.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/spring-context-2.5.6.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/spring-core-2.5.6.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/spring-test-2.5.6.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/soap-2.3.1.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/xercesImpl-2.9.1.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/xml-apis-1.3.04.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/lib/xml-resolver-1.2.jar:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/config:/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/config/droid</j2:value>
+    </j2:feature>
+    <j2:feature name="LibraryPath" fid="http://jhove2.org/terms/property/org/jhove2/core/Installation/LibraryPath" fidns="JHOVE2">
+     <j2:value>/usr/lib/jvm/java-6-openjdk/jre/lib/i386/server:/usr/lib/jvm/java-6-openjdk/jre/lib/i386:/usr/lib/jvm/java-6-openjdk/jre/../lib/i386:/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib</j2:value>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   <j2:feature name="Invocation" fid="http://jhove2.org/terms/property/org/jhove2/core/JHOVE2/Invocation" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/Invocation" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="UserName" fid="http://jhove2.org/terms/property/org/jhove2/core/Invocation/UserName" fidns="JHOVE2">
+     <j2:value>kovar</j2:value>
+    </j2:feature>
+    <j2:feature name="WorkingDirectory" fid="http://jhove2.org/terms/property/org/jhove2/core/Invocation/WorkingDirectory" fidns="JHOVE2">
+     <j2:value>/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0</j2:value>
+    </j2:feature>
+    <j2:feature name="TempDirectory" fid="http://jhove2.org/terms/property/org/jhove2/core/Invocation/TempDirectory" fidns="JHOVE2">
+     <j2:value>/tmp</j2:value>
+    </j2:feature>
+    <j2:feature name="TempPrefix" fid="http://jhove2.org/terms/property/org/jhove2/core/Invocation/TempPrefix" fidns="JHOVE2">
+     <j2:value>jhove2-tmp</j2:value>
+    </j2:feature>
+    <j2:feature name="TempSuffix" fid="http://jhove2.org/terms/property/org/jhove2/core/Invocation/TempSuffix" fidns="JHOVE2">
+     <j2:value>.dat</j2:value>
+    </j2:feature>
+    <j2:feature name="DeleteTempFilesOnClose" fid="http://jhove2.org/terms/property/org/jhove2/core/Invocation/DeleteTempFilesOnClose" fidns="JHOVE2">
+     <j2:value>true</j2:value>
+    </j2:feature>
+    <j2:feature name="CalcDigests" fid="http://jhove2.org/terms/property/org/jhove2/core/Invocation/CalcDigests" fidns="JHOVE2">
+     <j2:value>true</j2:value>
+    </j2:feature>
+    <j2:feature name="BufferSize" fid="http://jhove2.org/terms/property/org/jhove2/core/Invocation/BufferSize" fidns="JHOVE2" funit="byte">
+     <j2:value>131072</j2:value>
+    </j2:feature>
+    <j2:feature name="BufferType" fid="http://jhove2.org/terms/property/org/jhove2/core/Invocation/BufferType" fidns="JHOVE2">
+     <j2:value>Direct</j2:value>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   <j2:feature name="Commands" fid="http://jhove2.org/terms/property/org/jhove2/core/JHOVE2/Commands" fidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="Command" fid="http://jhove2.org/terms/property/org/jhove2/core/JHOVE2/Commands/Command" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/module/identify/IdentifierCommand" ftidns="JHOVE2">
+     <j2:features>
+     <j2:feature name="Version" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Version" fidns="JHOVE2">
+      <j2:value>2.0.0</j2:value>
+     </j2:feature>
+     <j2:feature name="ReleaseDate" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/ReleaseDate" fidns="JHOVE2">
+      <j2:value>2010-09-10</j2:value>
+     </j2:feature>
+     <j2:feature name="Scope" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Scope" fidns="JHOVE2">
+      <j2:value>Generic</j2:value>
+     </j2:feature>
+     <j2:feature name="TimerInfo" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/TimerInfo" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/TimerInfo" ftidns="JHOVE2">
+      <j2:features>
+      <j2:feature name="ElapsedTime" fid="http://jhove2.org/terms/property/org/jhove2/core/TimerInfo/ElapsedTime" fidns="JHOVE2">
+       <j2:value>00:00:09.426</j2:value>
+      </j2:feature>
+      </j2:features>
+     </j2:feature>
+     </j2:features>
+    </j2:feature>
+    <j2:feature name="Command" fid="http://jhove2.org/terms/property/org/jhove2/core/JHOVE2/Commands/Command" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/module/format/DispatcherCommand" ftidns="JHOVE2">
+     <j2:features>
+     <j2:feature name="Version" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Version" fidns="JHOVE2">
+      <j2:value>2.0.0</j2:value>
+     </j2:feature>
+     <j2:feature name="ReleaseDate" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/ReleaseDate" fidns="JHOVE2">
+      <j2:value>2010-09-10</j2:value>
+     </j2:feature>
+     <j2:feature name="Scope" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Scope" fidns="JHOVE2">
+      <j2:value>Generic</j2:value>
+     </j2:feature>
+     <j2:feature name="TimerInfo" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/TimerInfo" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/TimerInfo" ftidns="JHOVE2">
+      <j2:features>
+      <j2:feature name="ElapsedTime" fid="http://jhove2.org/terms/property/org/jhove2/core/TimerInfo/ElapsedTime" fidns="JHOVE2">
+       <j2:value>00:00:02.833</j2:value>
+      </j2:feature>
+      </j2:features>
+     </j2:feature>
+     </j2:features>
+    </j2:feature>
+    <j2:feature name="Command" fid="http://jhove2.org/terms/property/org/jhove2/core/JHOVE2/Commands/Command" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/module/digest/DigesterCommand" ftidns="JHOVE2">
+     <j2:features>
+     <j2:feature name="Version" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Version" fidns="JHOVE2">
+      <j2:value>2.0.0</j2:value>
+     </j2:feature>
+     <j2:feature name="ReleaseDate" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/ReleaseDate" fidns="JHOVE2">
+      <j2:value>2010-09-10</j2:value>
+     </j2:feature>
+     <j2:feature name="Scope" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Scope" fidns="JHOVE2">
+      <j2:value>Generic</j2:value>
+     </j2:feature>
+     <j2:feature name="TimerInfo" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/TimerInfo" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/TimerInfo" ftidns="JHOVE2">
+      <j2:features>
+      <j2:feature name="ElapsedTime" fid="http://jhove2.org/terms/property/org/jhove2/core/TimerInfo/ElapsedTime" fidns="JHOVE2">
+       <j2:value>00:00:10.435</j2:value>
+      </j2:feature>
+      </j2:features>
+     </j2:feature>
+     </j2:features>
+    </j2:feature>
+    <j2:feature name="Command" fid="http://jhove2.org/terms/property/org/jhove2/core/JHOVE2/Commands/Command" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/module/assess/AssessorCommand" ftidns="JHOVE2">
+     <j2:features>
+     <j2:feature name="Version" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Version" fidns="JHOVE2">
+      <j2:value>2.0.0</j2:value>
+     </j2:feature>
+     <j2:feature name="ReleaseDate" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/ReleaseDate" fidns="JHOVE2">
+      <j2:value>2010-09-10</j2:value>
+     </j2:feature>
+     <j2:feature name="Scope" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Scope" fidns="JHOVE2">
+      <j2:value>Generic</j2:value>
+     </j2:feature>
+     <j2:feature name="TimerInfo" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/TimerInfo" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/TimerInfo" ftidns="JHOVE2">
+      <j2:features>
+      <j2:feature name="ElapsedTime" fid="http://jhove2.org/terms/property/org/jhove2/core/TimerInfo/ElapsedTime" fidns="JHOVE2">
+       <j2:value>00:00:00.373</j2:value>
+      </j2:feature>
+      </j2:features>
+     </j2:feature>
+     </j2:features>
+    </j2:feature>
+    <j2:feature name="Command" fid="http://jhove2.org/terms/property/org/jhove2/core/JHOVE2/Commands/Command" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/module/aggrefy/AggrefierCommand" ftidns="JHOVE2">
+     <j2:features>
+     <j2:feature name="Version" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Version" fidns="JHOVE2">
+      <j2:value>2.0.0</j2:value>
+     </j2:feature>
+     <j2:feature name="ReleaseDate" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/ReleaseDate" fidns="JHOVE2">
+      <j2:value>2010-09-10</j2:value>
+     </j2:feature>
+     <j2:feature name="Scope" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Scope" fidns="JHOVE2">
+      <j2:value>Generic</j2:value>
+     </j2:feature>
+     <j2:feature name="TimerInfo" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/TimerInfo" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/TimerInfo" ftidns="JHOVE2">
+      <j2:features>
+      <j2:feature name="ElapsedTime" fid="http://jhove2.org/terms/property/org/jhove2/core/TimerInfo/ElapsedTime" fidns="JHOVE2">
+       <j2:value>00:00:00.003</j2:value>
+      </j2:feature>
+      </j2:features>
+     </j2:feature>
+     </j2:features>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   <j2:feature name="SourceCounter" fid="http://jhove2.org/terms/property/org/jhove2/core/JHOVE2/SourceCounter" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/source/SourceCounter" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="NumSources" fid="http://jhove2.org/terms/property/org/jhove2/core/source/SourceCounter/NumSources" fidns="JHOVE2">
+     <j2:value>1</j2:value>
+    </j2:feature>
+    <j2:feature name="NumFileSources" fid="http://jhove2.org/terms/property/org/jhove2/core/source/SourceCounter/NumFileSources" fidns="JHOVE2">
+     <j2:value>1</j2:value>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   <j2:feature name="MemoryUsage" fid="http://jhove2.org/terms/property/org/jhove2/core/JHOVE2/MemoryUsage" fidns="JHOVE2" funit="byte">
+    <j2:value>132681720</j2:value>
+   </j2:feature>
+   <j2:feature name="Version" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Version" fidns="JHOVE2">
+    <j2:value>2.0.0</j2:value>
+   </j2:feature>
+   <j2:feature name="ReleaseDate" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/ReleaseDate" fidns="JHOVE2">
+    <j2:value>2010-09-10</j2:value>
+   </j2:feature>
+   <j2:feature name="Scope" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Scope" fidns="JHOVE2">
+    <j2:value>Generic</j2:value>
+   </j2:feature>
+   <j2:feature name="TimerInfo" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/TimerInfo" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/TimerInfo" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="ElapsedTime" fid="http://jhove2.org/terms/property/org/jhove2/core/TimerInfo/ElapsedTime" fidns="JHOVE2">
+     <j2:value>00:00:23.155</j2:value>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   </j2:features>
+  </j2:feature>
+  <j2:feature name="Module" fid="http://jhove2.org/terms/property/org/jhove2/core/source/Source/Modules/Module" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/module/identify/IdentifierModule" ftidns="JHOVE2">
+   <j2:features>
+   <j2:feature name="isShouldSkipIdentifyIfPreIdentified" fid="http://jhove2.org/terms/property/org/jhove2/module/identify/Identifier/isShouldSkipIdentifyIfPreIdentified" fidns="JHOVE2">
+    <j2:value>true</j2:value>
+   </j2:feature>
+   <j2:feature name="Version" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Version" fidns="JHOVE2">
+    <j2:value>2.0.0</j2:value>
+   </j2:feature>
+   <j2:feature name="ReleaseDate" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/ReleaseDate" fidns="JHOVE2">
+    <j2:value>2010-09-10</j2:value>
+   </j2:feature>
+   <j2:feature name="Scope" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Scope" fidns="JHOVE2">
+    <j2:value>Generic</j2:value>
+   </j2:feature>
+   <j2:feature name="TimerInfo" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/TimerInfo" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/TimerInfo" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="ElapsedTime" fid="http://jhove2.org/terms/property/org/jhove2/core/TimerInfo/ElapsedTime" fidns="JHOVE2">
+     <j2:value>00:00:09.402</j2:value>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   </j2:features>
+  </j2:feature>
+  <j2:feature name="Module" fid="http://jhove2.org/terms/property/org/jhove2/core/source/Source/Modules/Module" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/module/identify/DROIDIdentifier" ftidns="JHOVE2">
+   <j2:features>
+   <j2:feature name="ConfigurationFile" fid="http://jhove2.org/terms/property/org/jhove2/module/identify/DROIDIdentifier/ConfigurationFile" fidns="JHOVE2">
+    <j2:value>/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/config/droid/DROID_config.xml</j2:value>
+   </j2:feature>
+   <j2:feature name="SignatureFile" fid="http://jhove2.org/terms/property/org/jhove2/module/identify/DROIDIdentifier/SignatureFile" fidns="JHOVE2">
+    <j2:value>/home/kovar/WEBARCHIV/TESTOVANI/jhove2-2.0.0/config/droid/DROID_SignatureFile_V20.xml</j2:value>
+   </j2:feature>
+   <j2:feature name="Version" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Version" fidns="JHOVE2">
+    <j2:value>2.0.0</j2:value>
+   </j2:feature>
+   <j2:feature name="ReleaseDate" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/ReleaseDate" fidns="JHOVE2">
+    <j2:value>2010-09-10</j2:value>
+   </j2:feature>
+   <j2:feature name="Scope" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Scope" fidns="JHOVE2">
+    <j2:value>Generic</j2:value>
+   </j2:feature>
+   <j2:feature name="WrappedProduct" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/WrappedProduct" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/WrappedProduct" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="Name" fid="http://jhove2.org/terms/property/org/jhove2/core/WrappedProduct/Name" fidns="JHOVE2">
+     <j2:value>DROID</j2:value>
+    </j2:feature>
+    <j2:feature name="Version" fid="http://jhove2.org/terms/property/org/jhove2/core/WrappedProduct/Version" fidns="JHOVE2">
+     <j2:value>4.0.0</j2:value>
+    </j2:feature>
+    <j2:feature name="ReleaseDate" fid="http://jhove2.org/terms/property/org/jhove2/core/WrappedProduct/ReleaseDate" fidns="JHOVE2">
+     <j2:value>2009-07-23</j2:value>
+    </j2:feature>
+    <j2:feature name="RightsStatement" fid="http://jhove2.org/terms/property/org/jhove2/core/WrappedProduct/RightsStatement" fidns="JHOVE2">
+     <j2:value>BSD license</j2:value>
+    </j2:feature>
+    <j2:feature name="Authority" fid="http://jhove2.org/terms/property/org/jhove2/core/WrappedProduct/Authority" fidns="JHOVE2">
+     <j2:value>The National Archives, Digital Preservation Department http://www.nationalarchives.gov.uk/</j2:value>
+    </j2:feature>
+    <j2:feature name="Environments" fid="http://jhove2.org/terms/property/org/jhove2/core/WrappedProduct/Environments" fidns="JHOVE2">
+     <j2:value>Unix Windows Macintosh</j2:value>
+    </j2:feature>
+    <j2:feature name="Languages" fid="http://jhove2.org/terms/property/org/jhove2/core/WrappedProduct/Languages" fidns="JHOVE2">
+     <j2:value>JAVA</j2:value>
+    </j2:feature>
+    <j2:feature name="isOpenSource" fid="http://jhove2.org/terms/property/org/jhove2/core/WrappedProduct/isOpenSource" fidns="JHOVE2">
+     <j2:value>true</j2:value>
+    </j2:feature>
+    <j2:feature name="Note" fid="http://jhove2.org/terms/property/org/jhove2/core/WrappedProduct/Note" fidns="JHOVE2">
+     <j2:value>The DROID Signature and Configuration files in the JHOVE2 distribution have been edited to, among other things, detect additional signatures for formats</j2:value>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   <j2:feature name="TimerInfo" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/TimerInfo" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/TimerInfo" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="ElapsedTime" fid="http://jhove2.org/terms/property/org/jhove2/core/TimerInfo/ElapsedTime" fidns="JHOVE2">
+     <j2:value>00:00:09.377</j2:value>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   </j2:features>
+  </j2:feature>
+  <j2:feature name="Module" fid="http://jhove2.org/terms/property/org/jhove2/core/source/Source/Modules/Module" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/module/format/BaseFormatModule" ftidns="JHOVE2">
+   <j2:features>
+   <j2:feature name="ModuleNotFoundMessage" fid="http://jhove2.org/terms/message/org/jhove2/module/format/BaseFormatModule/ModuleNotFoundMessage" fidns="JHOVE2">
+    <j2:value>[ERROR/PROCESS] No module name found for Identifier http://jhove2.org/terms/format/gzip</j2:value>
+   </j2:feature>
+   <j2:feature name="Format" fid="http://jhove2.org/terms/property/org/jhove2/module/format/FormatModule/Format" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/format/Format" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="Name" fid="http://jhove2.org/terms/property/org/jhove2/core/format/Format/Name" fidns="JHOVE2">
+     <j2:value>GZIP Format</j2:value>
+    </j2:feature>
+    <j2:feature name="Identifier" fid="http://jhove2.org/terms/property/org/jhove2/core/format/Format/Identifier" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/I8R" ftidns="JHOVE2">
+     <j2:features>
+     <j2:feature name="Value" fid="http://jhove2.org/terms/property/org/jhove2/core/I8R/Value" fidns="JHOVE2">
+      <j2:value>http://jhove2.org/terms/format/gzip</j2:value>
+     </j2:feature>
+     <j2:feature name="Namespace" fid="http://jhove2.org/terms/property/org/jhove2/core/I8R/Namespace" fidns="JHOVE2">
+      <j2:value>JHOVE2</j2:value>
+     </j2:feature>
+     </j2:features>
+    </j2:feature>
+    <j2:feature name="AliasIdentifiers" fid="http://jhove2.org/terms/property/org/jhove2/core/format/Format/AliasIdentifiers" fidns="JHOVE2">
+     <j2:features>
+     <j2:feature name="AliasIdentifier" fid="http://jhove2.org/terms/property/org/jhove2/core/format/Format/AliasIdentifiers/AliasIdentifier" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/I8R" ftidns="JHOVE2">
+      <j2:features>
+      <j2:feature name="Value" fid="http://jhove2.org/terms/property/org/jhove2/core/I8R/Value" fidns="JHOVE2">
+       <j2:value>http://jhove2.org/terms/format/gzip</j2:value>
+      </j2:feature>
+      <j2:feature name="Namespace" fid="http://jhove2.org/terms/property/org/jhove2/core/I8R/Namespace" fidns="JHOVE2">
+       <j2:value>JHOVE2</j2:value>
+      </j2:feature>
+      </j2:features>
+     </j2:feature>
+     <j2:feature name="AliasIdentifier" fid="http://jhove2.org/terms/property/org/jhove2/core/format/Format/AliasIdentifiers/AliasIdentifier" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/I8R" ftidns="JHOVE2">
+      <j2:features>
+      <j2:feature name="Value" fid="http://jhove2.org/terms/property/org/jhove2/core/I8R/Value" fidns="JHOVE2">
+       <j2:value>x-fmt/266</j2:value>
+      </j2:feature>
+      <j2:feature name="Namespace" fid="http://jhove2.org/terms/property/org/jhove2/core/I8R/Namespace" fidns="JHOVE2">
+       <j2:value>PUID</j2:value>
+      </j2:feature>
+      </j2:features>
+     </j2:feature>
+     </j2:features>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   <j2:feature name="Version" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Version" fidns="JHOVE2">
+    <j2:value>2.0.0</j2:value>
+   </j2:feature>
+   <j2:feature name="ReleaseDate" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/ReleaseDate" fidns="JHOVE2">
+    <j2:value>2010-09-10</j2:value>
+   </j2:feature>
+   <j2:feature name="Scope" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Scope" fidns="JHOVE2">
+    <j2:value>Specific</j2:value>
+   </j2:feature>
+   <j2:feature name="TimerInfo" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/TimerInfo" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/TimerInfo" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="ElapsedTime" fid="http://jhove2.org/terms/property/org/jhove2/core/TimerInfo/ElapsedTime" fidns="JHOVE2">
+     <j2:value>00:00:12.775</j2:value>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   </j2:features>
+  </j2:feature>
+  <j2:feature name="Module" fid="http://jhove2.org/terms/property/org/jhove2/core/source/Source/Modules/Module" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/module/digest/DigesterModule" ftidns="JHOVE2">
+   <j2:features>
+   <j2:feature name="Digests" fid="http://jhove2.org/terms/property/org/jhove2/module/digest/Digester/Digests" fidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="Digest" fid="http://jhove2.org/terms/property/org/jhove2/module/digest/Digester/Digests/Digest" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/Digest" ftidns="JHOVE2">
+     <j2:features>
+     <j2:feature name="Algorithm" fid="http://jhove2.org/terms/property/org/jhove2/core/Digest/Algorithm" fidns="JHOVE2">
+      <j2:value>CRC32</j2:value>
+     </j2:feature>
+     <j2:feature name="Value" fid="http://jhove2.org/terms/property/org/jhove2/core/Digest/Value" fidns="JHOVE2">
+      <j2:value>0c6b1eb6</j2:value>
+     </j2:feature>
+     </j2:features>
+    </j2:feature>
+    <j2:feature name="Digest" fid="http://jhove2.org/terms/property/org/jhove2/module/digest/Digester/Digests/Digest" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/Digest" ftidns="JHOVE2">
+     <j2:features>
+     <j2:feature name="Algorithm" fid="http://jhove2.org/terms/property/org/jhove2/core/Digest/Algorithm" fidns="JHOVE2">
+      <j2:value>MD5</j2:value>
+     </j2:feature>
+     <j2:feature name="Value" fid="http://jhove2.org/terms/property/org/jhove2/core/Digest/Value" fidns="JHOVE2">
+      <j2:value>1a05814edb6278c3cc643608ede1943b</j2:value>
+     </j2:feature>
+     </j2:features>
+    </j2:feature>
+    <j2:feature name="Digest" fid="http://jhove2.org/terms/property/org/jhove2/module/digest/Digester/Digests/Digest" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/Digest" ftidns="JHOVE2">
+     <j2:features>
+     <j2:feature name="Algorithm" fid="http://jhove2.org/terms/property/org/jhove2/core/Digest/Algorithm" fidns="JHOVE2">
+      <j2:value>SHA-1</j2:value>
+     </j2:feature>
+     <j2:feature name="Value" fid="http://jhove2.org/terms/property/org/jhove2/core/Digest/Value" fidns="JHOVE2">
+      <j2:value>df4e672830eed3c5e10ac732f29b9d974a295673</j2:value>
+     </j2:feature>
+     </j2:features>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   <j2:feature name="Version" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Version" fidns="JHOVE2">
+    <j2:value>2.0.0</j2:value>
+   </j2:feature>
+   <j2:feature name="ReleaseDate" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/ReleaseDate" fidns="JHOVE2">
+    <j2:value>2010-09-10</j2:value>
+   </j2:feature>
+   <j2:feature name="Scope" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Scope" fidns="JHOVE2">
+    <j2:value>Specific</j2:value>
+   </j2:feature>
+   <j2:feature name="TimerInfo" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/TimerInfo" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/TimerInfo" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="ElapsedTime" fid="http://jhove2.org/terms/property/org/jhove2/core/TimerInfo/ElapsedTime" fidns="JHOVE2">
+     <j2:value>00:00:10.367</j2:value>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   </j2:features>
+  </j2:feature>
+  <j2:feature name="Module" fid="http://jhove2.org/terms/property/org/jhove2/core/source/Source/Modules/Module" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/module/assess/AssessmentModule" ftidns="JHOVE2">
+   <j2:features>
+   <j2:feature name="Version" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Version" fidns="JHOVE2">
+    <j2:value>2.0.0</j2:value>
+   </j2:feature>
+   <j2:feature name="ReleaseDate" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/ReleaseDate" fidns="JHOVE2">
+    <j2:value>2010-09-10</j2:value>
+   </j2:feature>
+   <j2:feature name="Scope" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/Scope" fidns="JHOVE2">
+    <j2:value>Specific</j2:value>
+   </j2:feature>
+   <j2:feature name="TimerInfo" fid="http://jhove2.org/terms/property/org/jhove2/module/Module/TimerInfo" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/TimerInfo" ftidns="JHOVE2">
+    <j2:features>
+    <j2:feature name="ElapsedTime" fid="http://jhove2.org/terms/property/org/jhove2/core/TimerInfo/ElapsedTime" fidns="JHOVE2">
+     <j2:value>00:00:00.210</j2:value>
+    </j2:feature>
+    </j2:features>
+   </j2:feature>
+   </j2:features>
+  </j2:feature>
+  </j2:features>
+ </j2:feature>
+ <j2:feature name="isAggregate" fid="http://jhove2.org/terms/property/org/jhove2/core/source/Source/isAggregate" fidns="JHOVE2">
+  <j2:value>false</j2:value>
+ </j2:feature>
+ <j2:feature name="TimerInfo" fid="http://jhove2.org/terms/property/org/jhove2/core/source/Source/TimerInfo" fidns="JHOVE2" ftid="http://jhove2.org/terms/reportable/org/jhove2/core/TimerInfo" ftidns="JHOVE2">
+  <j2:features>
+  <j2:feature name="ElapsedTime" fid="http://jhove2.org/terms/property/org/jhove2/core/TimerInfo/ElapsedTime" fidns="JHOVE2">
+   <j2:value>00:00:23.080</j2:value>
+  </j2:feature>
+  </j2:features>
+ </j2:feature>
+ <j2:feature name="SourceName" fid="http://jhove2.org/terms/property/org/jhove2/core/source/NamedSource/SourceName" fidns="JHOVE2">
+  <j2:value>IAH-20110905093545-00000-kovar-laptop-8090.arc.gz</j2:value>
+ </j2:feature>
+ </j2:features>
+</j2:feature>
+</j2:jhove2>

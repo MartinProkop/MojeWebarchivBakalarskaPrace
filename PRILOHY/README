@@ -1,0 +1,9 @@
+Tady jsou převody souborů s warcdumpama
+****
+IAH-20110905093545-00000-kovar-laptop-8090.arc.gz - cvičný arc.gz
+index.cdx - jeho cdx index
+IAH-20110905093545-00000-kovar-laptop-8090.arc.gz_jhove2output.xml - výpis z jhove2
+
+warctools - obsahuje převod od warctools - warc a warcdump, vypis z jhove2
+hanzo - obsahuje převod od hanzo - warc a warcdump (arcu i warcu), vypis z jhove2
+kpk09 - obsahuje převod od kpk09 - warc a warcdump (arcu i warcu), vypis z jhove2
