@@ -1,0 +1,76 @@
+From: "Coram, Roger" <Roger.Coram@bl.uk> přidat do adresáře
+Date: Fri, 9 Dec 2011 11:58:22 -0000
+To: <martin.prokop@mail.muni.cz>
+Cc: "Hockx-Yu, Helen" <Helen.Hockx-Yu@bl.uk>
+Subject: RE: arc to warc migration
+
+Hello, Martin.
+
+There are a couple of documents which might be worth reviewing.
+Apologies if you've already read these or have already considered
+anything I jot down. First, the Internet Archive published a page on
+migrating (reversibly) between the two formats:
+
+https://webarchive.jira.com/wiki/display/Heritrix/ARC+to+WARC+%28to+ARC%
+29
+
+We used an earlier version of this page as the starting point for some
+of our own considerations on the process. Additionally, there's a fairly
+detailed series of guidelines on the creation of WARC files which we
+were pointed to recently by the Royal Library of Denmark:
+
+http://netpreserve.org/publications/WARC_Guidelines_v1.pdf
+
+While there's a lot of content there are some useful thoughts on
+migration.
+
+We have actually migrated several terabytes of ARC files to WARCs over
+the last year. The migration process itself isn't particularly
+difficult: ARCs contain a single line of plaintext followed by a content
+block and the content block remains untouched between the ARC and WARC;
+the only real consideration is mapping the relevant headers. The ARC's
+URL, IP, date and content-length have direct equivalents in the
+WARC-Target-URI, WARC-IP-Address, WARC-Date and Content-Length. The only
+oddity is the MIME type which doesn't directly map to the WARC's
+Content-Type. The Content-Type of a WARC record refers to the content
+block, not the payload; for the latter there's
+WARC-Identified-Payload-Type which can be used to store the ARC's MIME
+record. 
+
+Beyond that the only complexities are matters of preservation (i.e.
+making sure the HTTP block really does remain untouched) and metadata
+(which largely depends on the requirements of your institution). I hope
+some of this was useful - please feel free to ask for elaboration on any
+point or specific examples of anything. Other than that: good luck!
+
+Regards,
+Roger G. Coram
+Web Archiving Engineer
+The British Library
+T: +44 (0)1937 546607
+F: +44 (0)1937 546872
+E: roger.coram@bl.uk
+
+
+-----Original Message-----
+From: Martin Prokop [mailto:martin.prokop@mail.muni.cz]
+Sent: Thu 12/8/2011 11:53 AM
+To: Hockx-Yu, Helen
+Cc: Libor.Coufal@nkp.cz
+Subject: arc to warc migration
+
+Hello!
+My name is Martin Prokop, I'm a student of informatics at the Masaryk
+University in Brno.
+
+I'm working on a bachelor thesis on the topic of ARC to WARC migration.
+I think Mr. Coufal mentioned me in one of his e-mails.
+
+I read your information about the migration of your data into WARC from
+your correspondence with Mr. Coufal. I'm particularly interested in
+migration from ARC format directly into WARC. Do you have any
+information or materials concerning this topic, or maybe an experience
+with similar conversion?
+
+Best regards,
+Martin Prokop
