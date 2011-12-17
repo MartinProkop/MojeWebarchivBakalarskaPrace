@@ -1,8 +1,0 @@
-arc_file == <version_block><rest_of_arc_file>
-version_block == See definition below
-rest_of_arc_file == <doc>|<doc><rest_of_arc_file>
-doc == <nl><URL-record><nl><network_doc>
-URL-record == See definition below
-network_doc == whatever the protocol returned
-nl == Unix-newline-delimiter
-sp == ' ' (ascii space) comma is inappropriate because it can be in an URL.
