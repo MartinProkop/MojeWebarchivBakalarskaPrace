@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/237/trunk/app
+END
+warcvalidator.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/211/trunk/app/warcvalidator.c
+END
+warcfilter.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/213/trunk/app/warcfilter.c
+END
+warcdump.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/222/trunk/app/warcdump.c
+END
+warcserver.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/217/trunk/app/warcserver.c
+END
+wrecordbody.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/217/trunk/app/wrecordbody.c
+END
+arc2warc.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/211/trunk/app/arc2warc.c
+END
+arcopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/211/trunk/app/arcopen.c
+END
+warcvalidator.sh
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/118/trunk/app/warcvalidator.sh
+END
+warcclient.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/217/trunk/app/warcclient.c
+END
+readme
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/113/trunk/app/readme
+END
+arc2warc.sh
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/237/trunk/app/arc2warc.sh
+END

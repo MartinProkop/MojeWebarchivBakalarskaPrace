@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip
+END
+wgzipbit.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/wgzipbit.c
+END
+inffast.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/inffast.h
+END
+inffixed.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/inffixed.h
+END
+wgzipbit.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/wgzipbit.h
+END
+deflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/deflate.c
+END
+zlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/zlib.h
+END
+zutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/zutil.c
+END
+deflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/deflate.h
+END
+crc32.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/crc32.c
+END
+zutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/zutil.h
+END
+readme
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/readme
+END
+wos.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/wos.h
+END
+inftrees.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/inftrees.c
+END
+crc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/crc32.h
+END
+trees.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/trees.c
+END
+inflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/inflate.c
+END
+uncompr.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/uncompr.c
+END
+zconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/zconf.h
+END
+inftrees.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/inftrees.h
+END
+trees.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/trees.h
+END
+inflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/inflate.h
+END
+inffast.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/inffast.c
+END
+compress.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/compress.c
+END
+adler32.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/adler32.c
+END
+infback.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/113/trunk/lib/private/plugin/gzip/infback.c
+END

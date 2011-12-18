@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/234/trunk/lib/private/plugin/python
+END
+wuuid.i
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/220/trunk/lib/private/plugin/python/wuuid.i
+END
+wfield.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/234/trunk/lib/private/plugin/python/wfield.c
+END
+arc.i
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/157/trunk/lib/private/plugin/python/arc.i
+END
+wbloc.i
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/217/trunk/lib/private/plugin/python/wbloc.i
+END
+aclass.i
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/157/trunk/lib/private/plugin/python/aclass.i
+END
+wfile.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/161/trunk/lib/private/plugin/python/wfile.py
+END
+wfield.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/197/trunk/lib/private/plugin/python/wfield.h
+END
+apyback.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/217/trunk/lib/private/plugin/python/apyback.h
+END
+wfield.i
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/217/trunk/lib/private/plugin/python/wfield.i
+END
+apybless.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/234/trunk/lib/private/plugin/python/apybless.c
+END
+arecord.i
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/157/trunk/lib/private/plugin/python/arecord.i
+END
+arecord.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/161/trunk/lib/private/plugin/python/arecord.py
+END
+afile.i
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/217/trunk/lib/private/plugin/python/afile.i
+END
+apybless.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/157/trunk/lib/private/plugin/python/apybless.h
+END
+apybless.i
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/217/trunk/lib/private/plugin/python/apybless.i
+END
+wtypes.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/234/trunk/lib/private/plugin/python/wtypes.py
+END
+warc.i
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/197/trunk/lib/private/plugin/python/warc.i
+END
+wclass.i
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/217/trunk/lib/private/plugin/python/wclass.i
+END
+anvl.i
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/217/trunk/lib/private/plugin/python/anvl.i
+END
+wrapper_wbloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/199/trunk/lib/private/plugin/python/wrapper_wbloc.c
+END
+wpybless.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/234/trunk/lib/private/plugin/python/wpybless.c
+END
+wrapper_wbloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/199/trunk/lib/private/plugin/python/wrapper_wbloc.h
+END
+wrecord.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/193/trunk/lib/private/plugin/python/wrecord.py
+END
+wbloc.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/199/trunk/lib/private/plugin/python/wbloc.py
+END
+wrapper_wbloc.i
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/199/trunk/lib/private/plugin/python/wrapper_wbloc.i
+END
+wpybless.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/217/trunk/lib/private/plugin/python/wpybless.h
+END
+pyback.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/234/trunk/lib/private/plugin/python/pyback.h
+END
+wpybless.i
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/217/trunk/lib/private/plugin/python/wpybless.i
+END
+list.i
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/217/trunk/lib/private/plugin/python/list.i
+END
+record.i
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/219/trunk/lib/private/plugin/python/record.i
+END
+file.i
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/220/trunk/lib/private/plugin/python/file.i
+END
+afile.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/161/trunk/lib/private/plugin/python/afile.py
+END

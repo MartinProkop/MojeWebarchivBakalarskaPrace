@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/217/trunk/lib/public
+END
+wport.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/113/trunk/lib/public/wport.h
+END
+warc.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/125/trunk/lib/public/warc.h
+END
+wclass.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/113/trunk/lib/public/wclass.h
+END
+arecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/113/trunk/lib/public/arecord.h
+END
+afile.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/113/trunk/lib/public/afile.h
+END
+old-wrecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/113/trunk/lib/public/old-wrecord.h
+END
+wmisc.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/217/trunk/lib/public/wmisc.h
+END
+wrectype.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/135/trunk/lib/public/wrectype.h
+END
+wrecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/212/trunk/lib/public/wrecord.h
+END
+wfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/217/trunk/lib/public/wfile.h
+END
+readme
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/113/trunk/lib/public/readme
+END

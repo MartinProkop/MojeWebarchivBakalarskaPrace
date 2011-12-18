@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/208/trunk/contrib/youtube
+END
+urls.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/208/trunk/contrib/youtube/urls.txt
+END
+youtube2warc.sh
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/165/trunk/contrib/youtube/youtube2warc.sh
+END
+youtube-dl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/165/trunk/contrib/youtube/youtube-dl
+END
+readme
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/183/trunk/contrib/youtube/readme
+END

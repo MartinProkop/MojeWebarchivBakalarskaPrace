@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/245/trunk/lib/private
+END
+wgetopt.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/113/trunk/lib/private/wgetopt.h
+END
+whdline.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/125/trunk/lib/private/whdline.h
+END
+wgzip.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/217/trunk/lib/private/wgzip.c
+END
+wstring.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/113/trunk/lib/private/wstring.h
+END
+wuuid.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/113/trunk/lib/private/wuuid.h
+END
+wgzip.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/113/trunk/lib/private/wgzip.h
+END
+wclient.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/217/trunk/lib/private/wclient.c
+END
+wbloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/217/trunk/lib/private/wbloc.c
+END
+wkv.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/192/trunk/lib/private/wkv.c
+END
+wclient.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/217/trunk/lib/private/wclient.h
+END
+wmem.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/113/trunk/lib/private/wmem.h
+END
+whash.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/187/trunk/lib/private/whash.c
+END
+wbloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/217/trunk/lib/private/wbloc.h
+END
+wversion.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/154/trunk/lib/private/wversion.c
+END
+wkv.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/113/trunk/lib/private/wkv.h
+END
+afsmhdl.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/240/trunk/lib/private/afsmhdl.c
+END
+arecord.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/217/trunk/lib/private/arecord.c
+END
+whash.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/113/trunk/lib/private/whash.h
+END
+afile.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/239/trunk/lib/private/afile.c
+END
+wversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/153/trunk/lib/private/wversion.h
+END
+afsmhdl.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/113/trunk/lib/private/afsmhdl.h
+END
+wanvl.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/192/trunk/lib/private/wanvl.c
+END
+wbloc.x
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/202/trunk/lib/private/wbloc.x
+END
+wanvl.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/113/trunk/lib/private/wanvl.h
+END
+wclass.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/113/trunk/lib/private/wclass.c
+END
+wserver.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/217/trunk/lib/private/wserver.c
+END
+wfsmanvl.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/212/trunk/lib/private/wfsmanvl.c
+END
+wfsm.x
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/113/trunk/lib/private/wfsm.x
+END
+wlist.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/187/trunk/lib/private/wlist.c
+END
+wserver.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/113/trunk/lib/private/wserver.h
+END
+wfsmanvl.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/113/trunk/lib/private/wfsmanvl.h
+END
+arecord.x
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/217/trunk/lib/private/arecord.x
+END
+wrecord.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/217/trunk/lib/private/wrecord.c
+END
+wfile.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/244/trunk/lib/private/wfile.c
+END
+wlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/217/trunk/lib/private/wlist.h
+END
+wfsmhdl.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/125/trunk/lib/private/wfsmhdl.h
+END
+readme
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/113/trunk/lib/private/readme
+END
+wheader.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/217/trunk/lib/private/wheader.c
+END
+wregexp.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/191/trunk/lib/private/wregexp.c
+END
+wclass.x
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/113/trunk/lib/private/wclass.x
+END
+jwrap.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/227/trunk/lib/private/jwrap.c
+END
+wheader.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/217/trunk/lib/private/wheader.h
+END
+wendian.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/113/trunk/lib/private/wendian.c
+END
+wregexp.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/125/trunk/lib/private/wregexp.h
+END
+wlist.x
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/113/trunk/lib/private/wlist.x
+END
+wgetopt.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/113/trunk/lib/private/wgetopt.c
+END
+wrecord.x
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/217/trunk/lib/private/wrecord.x
+END
+wendian.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/113/trunk/lib/private/wendian.h
+END
+wfile.x
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/217/trunk/lib/private/wfile.x
+END
+wsign.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/113/trunk/lib/private/wsign.h
+END
+wuuid.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/113/trunk/lib/private/wuuid.c
+END
+wstring.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/191/trunk/lib/private/wstring.c
+END

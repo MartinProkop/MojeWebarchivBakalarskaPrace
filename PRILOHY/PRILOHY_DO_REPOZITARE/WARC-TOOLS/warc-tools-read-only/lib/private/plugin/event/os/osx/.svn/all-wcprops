@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/132/trunk/lib/private/plugin/event/os/osx
+END
+event-config.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/132/trunk/lib/private/plugin/event/os/osx/event-config.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/132/trunk/lib/private/plugin/event/os/osx/config.h
+END

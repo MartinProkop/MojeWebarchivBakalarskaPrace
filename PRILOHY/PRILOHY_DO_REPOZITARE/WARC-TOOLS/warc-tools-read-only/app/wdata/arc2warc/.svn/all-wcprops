@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/113/trunk/app/wdata/arc2warc
+END
+mfile.arc.gz
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/113/trunk/app/wdata/arc2warc/mfile.arc.gz
+END
+file.arc.gz
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/113/trunk/app/wdata/arc2warc/file.arc.gz
+END
+test0.arc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/113/trunk/app/wdata/arc2warc/test0.arc
+END
+file.arc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/113/trunk/app/wdata/arc2warc/file.arc
+END
+test1.arc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/113/trunk/app/wdata/arc2warc/test1.arc
+END
+err2.warc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/113/trunk/app/wdata/arc2warc/err2.warc
+END
+test2.arc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/113/trunk/app/wdata/arc2warc/test2.arc
+END
+sfile.arc.gz
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/113/trunk/app/wdata/arc2warc/sfile.arc.gz
+END
+cfile.arc.gz
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/113/trunk/app/wdata/arc2warc/cfile.arc.gz
+END
+cfile.arc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/113/trunk/app/wdata/arc2warc/cfile.arc
+END
+mrec.arc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/113/trunk/app/wdata/arc2warc/mrec.arc
+END
+mmfile.arc.gz
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/113/trunk/app/wdata/arc2warc/mmfile.arc.gz
+END
+err1.arc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/113/trunk/app/wdata/arc2warc/err1.arc
+END
+err2.arc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/113/trunk/app/wdata/arc2warc/err2.arc
+END

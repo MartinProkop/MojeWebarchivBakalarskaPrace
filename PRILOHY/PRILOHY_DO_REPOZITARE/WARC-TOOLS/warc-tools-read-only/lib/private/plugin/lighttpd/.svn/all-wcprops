@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/144/trunk/lib/private/plugin/lighttpd
+END
+lighttpd.conf
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/125/trunk/lib/private/plugin/lighttpd/lighttpd.conf
+END
+modcgi.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/144/trunk/lib/private/plugin/lighttpd/modcgi.c
+END
+modfcgi.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/144/trunk/lib/private/plugin/lighttpd/modfcgi.c
+END
+readme
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/113/trunk/lib/private/plugin/lighttpd/readme
+END

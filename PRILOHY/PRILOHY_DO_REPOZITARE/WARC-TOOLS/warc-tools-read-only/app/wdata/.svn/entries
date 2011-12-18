@@ -1,0 +1,46 @@
+10
+
+dir
+245
+http://warc-tools.googlecode.com/svn/trunk/app/wdata
+http://warc-tools.googlecode.com/svn
+
+
+
+2008-08-25T09:08:30.269302Z
+151
+voidptrptr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+56febe37-ca3d-0410-bfee-2d6649462221
+
+testanvl
+dir
+
+arc2warc
+dir
+
+testarc
+dir
+
+testlnwarc
+dir
+
+testwfile
+dir
+
+testheader
+dir
+

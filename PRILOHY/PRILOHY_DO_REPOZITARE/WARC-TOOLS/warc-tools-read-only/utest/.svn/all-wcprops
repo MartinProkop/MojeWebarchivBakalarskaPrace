@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/212/trunk/utest
+END
+anvl.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/119/trunk/utest/anvl.c
+END
+getopt.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/119/trunk/utest/getopt.c
+END
+hdline.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/113/trunk/utest/hdline.c
+END
+arcrecord.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/119/trunk/utest/arcrecord.c
+END
+arcfile.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/119/trunk/utest/arcfile.c
+END
+uuid.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/119/trunk/utest/uuid.c
+END
+object.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/113/trunk/utest/object.c
+END
+server.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/123/trunk/utest/server.c
+END
+string.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/192/trunk/utest/string.c
+END
+test.sh
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/121/trunk/utest/test.sh
+END
+list.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/136/trunk/utest/list.c
+END
+readme
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/113/trunk/utest/readme
+END
+client.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/128/trunk/utest/client.c
+END
+record.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/144/trunk/utest/record.c
+END
+bloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/212/trunk/utest/bloc.c
+END
+file.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/212/trunk/utest/file.c
+END
+hash.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/187/trunk/utest/hash.c
+END
+warcgzip.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/152/trunk/utest/warcgzip.c
+END
+header.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/154/trunk/utest/header.c
+END
+a2w.c
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/212/trunk/utest/a2w.c
+END
+warcgunzip.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/152/trunk/utest/warcgunzip.c
+END
+regexp.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/125/trunk/utest/regexp.c
+END
