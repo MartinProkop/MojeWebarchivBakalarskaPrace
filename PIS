@@ -1,9 +1,31 @@
-ROZVED ARC, WARC
-
 ROZVED TY TRI WARCTOOLSI
-
-DEDUPLIKACE!!!
-
-
-
 POZOR NA POZNAMKOVY APARAT OD 33 DAL - asi to nesedí!!!
+
+
+VASEK
+- zredukovat úvod, viz třeba starší práce na téma Webarchiv
+- rozepsat definici formátů ARC a WARC, protože je klíčový pro BP +
+jak funguje deduplikace.
+- rozepsat JHove a JHove2
+
+Překlepy, nejasné formulace:
+
+Doposud nebyla řešena otázka, jak využít možnost ukládání větší škály metadat.
+
+Musím ale konstatovat, že ne vždy jsou dokumenty dostupné - některé
+jsou určené pro interní potřebu řešitelů projektu, některé mohou být
+poškozené a na některé nevedou správně odkazy. - tu větu vyhodit a
+poškozené či neplatné odkazy nahlásit Liborovi, ať to můžeme opravit.
+
+Zvyšovala se robustnost infrastruktury a řešitelé se snažili vylepšit
+dohled na sklizněmi.
+
+Autor značí zdroj značkou Creative Commons a uživatel v okamžiku kdy
+použije dílo vstupuje automaticky do smlouvy.
+
+
+
+
+**
+Ještě jsem se bavil s Liborem, jak to je tou zprávou za rok 2003 a za
+ten rok není, protože ještě nebyl grant.
