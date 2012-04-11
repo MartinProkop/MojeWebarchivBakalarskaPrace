@@ -1,8 +1,13 @@
-Tady jsou přílohy
-****
+IAH-20110905093545-00000-kovar-laptop-8090.arc.gz - cvičný arc.gz
+index.cdx - jeho cdx index
+IAH-20110905093545-00000-kovar-laptop-8090.arc.gz_jhove2output.xml - výpis z jhove2
 
-PRILOHY_DO_REPOZITARE - pripravene veci do repozitare do ISu
-warctools - obsahuje převod od warctools - warc a warcdump, vypis z jhove2
-hanzo - obsahuje převod od hanzo - warc a warcdump (arcu i warcu), vypis z jhove2
-kpk09 - obsahuje převod od kpk09 - warc a warcdump (arcu i warcu), vypis z jhove2
+Dalsi warc outputy
+dopisy do BL
+WARC standard
 
+vsechny tri nastroje WARCTOOLS
+
+jhove2
+
+VSECHNY prilohy jsou popsany v korenove slozce v souboru TEXT_PRILOHY.odt
