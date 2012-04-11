@@ -1,89 +1,0 @@
-10
-
-dir
-245
-http://warc-tools.googlecode.com/svn/trunk/lib/private/plugin
-http://warc-tools.googlecode.com/svn
-
-
-
-2008-11-21T11:15:11.179956Z
-234
-voidptrptr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-56febe37-ca3d-0410-bfee-2d6649462221
-
-lighttpd
-dir
-
-ruby
-dir
-
-python
-dir
-
-event
-dir
-
-apache
-dir
-
-cunit
-dir
-
-gzip
-dir
-
-regex
-dir
-
-tiger
-dir
-
-readme
-file
-
-
-
-
-2011-03-11T15:27:51.266264Z
-40ffa70148070ea771ed38b2848ba69b
-2008-04-19T18:17:37.219660Z
-113
-voidptrptr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1951
-
