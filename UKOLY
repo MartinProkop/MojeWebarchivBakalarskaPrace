@@ -1,9 +1,12 @@
+DEDUPLIKACE - jen princip napis a rekni zes ji zkousel s heritrixem : fakt to heritrix dela?
+
+PRIPOJ DO PRILOH UPRAVENY JHOVE2
+
+A pripoj i upraeny warctoolsi a upraveny warctoolsy
+
++OPRAV jeste hanzo - file not found: misto tempfile dej normalni file a nezapoment mazat navic to udelej tak aby sli identifikovat soubry staci treba identifikator - od jedne dozadu, proste poradi
+
++variantu hanzo kdy de jhove v tele forcyklu
 
 
-
-
-DEDUPLIKACE
-
-
-
-PRIPOJ DO PRILOH UPRAVENY JHOVE2, a upraveny warctoolsy
+DO NETBEANS - udelej aby bral run jako parametr adresu kam má vyplivnout autfile
