@@ -1,12 +1,17 @@
 
 rozepsat definici formát WARC, protože je klíčový pro BP +
 
-jak funguje deduplikace.  popsat nedelat
-
-Dopis jaks upravil JHOVE2
+jak funguje deduplikace.  popsat, nedelat
 
 
-Potom: přílohy k JHOVE2 - ukázky kódu atd
+Dopis jaks upravil arc2warc
 
-stejně tak ukazky z arc tu warc
+A pripoj i upraveny warctoolsy
 
+UDELEJ TEST NEKOLIKA WARC z WAR - pres jhove
+
+
+VELKA CHYBA WARCTOOS, kdyz dela archiv se stejnym jmenem, tak neprepisuje, ale dopisuje - duplicity jak prase
+
+
+dopis zaver z porovnabvani
