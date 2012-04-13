@@ -28,7 +28,7 @@ public class RunFromARC2WARC {
      * @throws IOException
      * @throws JHOVE2Exception 
      */
-    public void runJHOVE(String contents[], String path) throws IOException, JHOVE2Exception {
+    public void runJHOVE2(String contents[], String path) throws IOException, JHOVE2Exception {
 
         // Presmerovani vystupu z JHOVE2 do /dev/null
         OutputStream output = new FileOutputStream("/dev/null");
