@@ -2,6 +2,5 @@ Dve moznosti na variant jhove2 ve forcyklu:
 - nejde to delat tak kdyz to poustim vicekrat - proste jhove2 jde spustit jen jednou, zasvini DB a musi schofit masinu
 - kdyz to hodim tak ze v kazdom forcyklu arc2warc nahodim znova masinu, tak mi to system killne
 
-
 KDYBYS MENIL JHOVE - nezapoment zmenit i PRILOHY - soubor i TEXT!
 KDYBYS MENIL ARC2WARC - nezapoment zmenit i PRILOHY - soubor i TEXT!
