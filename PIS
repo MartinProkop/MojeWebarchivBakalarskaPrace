@@ -1,7 +1,15 @@
 
 rozepsat definici formát WARC, protože je klíčový pro BP +
 
+
 jak funguje deduplikace.  popsat, nedelat
+
+
+
+
+ZAVERY
+ : dopis zaver z porovnabvani
+ : Normální
 
 
 UDELEJ TEST NEKOLIKA WARC z WAR - pres jhove
@@ -10,4 +18,4 @@ UDELEJ TEST NEKOLIKA WARC z WAR - pres jhove
 VELKA CHYBA WARCTOOS, kdyz dela archiv se stejnym jmenem, tak neprepisuje, ale dopisuje - duplicity jak prase
 
 
-dopis zaver z porovnabvani
+
