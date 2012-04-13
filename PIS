@@ -1,9 +1,5 @@
-rozepsat definici formát WARC, protože je klíčový pro BP
+Napiš:
+*Jak funguje deduplikace.  popsat, nedelat
+*ZAVER
+*UDELEJ TEST NEKOLIKA WARC z WAR - pres jhove2 - a z toho napis zavery
 
-jak funguje deduplikace.  popsat, nedelat
-
-ZAVERY
-
-UDELEJ TEST NEKOLIKA WARC z WAR - pres jhove - a z toho napis zavery!!!! de to kurva!!!
-
-VELKA CHYBA WARCTOOS, kdyz dela archiv se stejnym jmenem, tak neprepisuje, ale dopisuje - duplicity jak prase
