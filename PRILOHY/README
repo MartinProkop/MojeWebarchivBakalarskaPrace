@@ -1,13 +1,62 @@
-IAH-20110905093545-00000-kovar-laptop-8090.arc.gz - cvičný arc.gz
-index.cdx - jeho cdx index
-IAH-20110905093545-00000-kovar-laptop-8090.arc.gz_jhove2output.xml - výpis z jhove2
-
-Dalsi warc outputy
-dopisy do BL
-WARC standard
-
-vsechny tri nastroje WARCTOOLS
-
-jhove2
-
-VSECHNY prilohy jsou popsany v korenove slozce v souboru TEXT_PRILOHY.odt
+E. Arc soubor vytvořený pomocí crawleru Heritrix
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem IAH-20110905093545-00000-kovar-laptop-8090.arc.gz.
+F. Výstup z programu JHOVE pro přiložený arc soubor
+Výstup pro soubor dostupný jako elektronická příloha bakalářské práce pod názvem IAH-20110905093545-00000-kovar-laptop-8090.arc.gz.
+G. Výstup z programu JHOVE2 pro přiložený arc soubor
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem IAH-20110905093545-00000-kovar-laptop-8090.arc.gz_jhove2output.xml.
+H. Ukázka CDX indexu pro arc soubor
+Celý CDX soubor je dostupný jako elektronická příloha bakalářské práce pod názvem index.cdx.
+L. Warc soubor vytvořený z přiloženého arc souboru pomocí nástroje WARC-TOOLS
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem WARCTOOLS_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz.
+M. Warc soubor vytvořený z přiloženého arc souboru pomocí nástroje WARC-TOOLS / hanzo
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem HANZO_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz.
+N. Warc soubor vytvořený z přiloženého arc souboru pomocí nástroje WARC-TOOLS / kpk09
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem KPK09_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz.
+O. Výstup z programu JHOVE2 pro přiložený warc soubor
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem WARCTOOLS_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz_jhove2output.xml. 
+P. Popis standardu WARC
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem WARC_Guidelines_v1.pdf.
+Q. Mailová korespondence s pracovníky British library
+Soubor je dostupný jako elektronická příloha bakalářské práce. Pod názvem british_library_mail1 jsou informace, které dostal Ing. Libor Coufal. Pod názvem british_library_mail2 jsou informace, které psali přímo mě. Pod názvem british_library_mail3 jsou informace, které jsem od pracovníků požadoval ohledně deduplikace souborů.
+R. WARCTOOLS – Functional Requirements Specification v8
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem warc-tools_phase_III_frs_v8.pdf.
+S. WARCTOOLS – Functional Requirements Specification 
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem warc_tools_frs.pdf.
+T. WARCTOOLS – Non-Functional Requirements 
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem warc_tools_nfr.pdf.
+U. WARCTOOLS – Software Requirements Specification
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem warc_tools_srs.pdf.
+V. WARCTOOLS – výstup z nástroje warcdump pro warc soubor.
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem WARCTOOLS_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz_warcdump.
+W. WARCTOOLS / hanzo – README soubor
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem warctools_hanzo_README.
+X. WARCTOOLS / hanzo – výstup z nástroje warcdump pro warc soubor.
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem HANZO_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz_warcdump.
+Y. WARCTOOLS / hanzo – výstup z programu JHOVE2 pro přiložený warc soubor
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem HANZO_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz_jhove2output.xml.
+Z. WARCTOOLS / kpk09 – README soubor
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem warctools_kpk09_README.
+AA. WARCTOOLS / kpk09 – výstup z nástroje warcdump pro warc soubor.
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem KPK09_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz_warcdump.
+AB. WARCTOOLS / kpk09 – výstup z programu JHOVE2 pro přiložený warc soubor
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem KPK09_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz_jhove2output.xml.
+AC. WARCTOOLS – archiv obsahující nástroj
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem warc-tools.tar.gz.
+AD. WARCTOOLS / hanzo – archiv obsahující nástroj
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem warc-tools_hanzo.tar.gz.
+AE. WARCTOOLS / kpk09 – archiv obsahující nástroj
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem warc-tools_kpk09.tar.gz.
+AF. JHOVE2 – uživatelská příručka nástroje
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem JHOVE2-Users-Guide_20110222.pdf.
+AG. JHOVE2 – informace o aktualizace nástroje
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem NDIIPP-2010-JHOVE2.pdf.
+AH. JHOVE2 – archiv obsahující nástroj
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem jhove2-2.0.0.tar.gz.
+AI. Jpype – archiv obsahující nástroj
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem JPype-0.5.4.2.zip.
+AJ. Warc – ISO specifikace
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem WARC_ISO_28500_final_draft v018 Zentveld 08061.doc. Soubor je také dostupný online na adrese http://archive-access.sourceforge.net/warc/.
+AK. JHOVE2 – vlastní implementace nástroje
+Celý soubor je dostupný jako elektronická příloha bakalářské práce pod názvem RunFromARC2WARC.java. V rámci projektu nástroje JHOVE2 musí být součásti package org.jhove2.app. Zde ukazuji pouze metodu třídy (runJHOVE2), která obstarává přímo spuštění.
+AL. WARCTOOLS / hanzo – vlastní implementace nástroje
+Soubor je dostupný jako elektronická příloha bakalářské práce pod názvem arc2warc_jhove2.py. Aby správně fungoval, je potřeba mít nainstalován nástroj Jpype (příloha AI) a umístit soubor do kořenové složky WARCTOOLS / hanzo (příloha AD).
