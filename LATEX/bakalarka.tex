@@ -1,0 +1,132 @@
+\documentclass[11pt,draft,oneside]{fithesis}
+\usepackage{czech}
+
+
+% kdo v9 co to kurva se
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+
+
+\usepackage[plainpages=false, pdfpagelabels]{hyperref}
+\thesistitle{Nástroje pro migraci webového archivu}
+\thesissubtitle{Bakaláøská práce}
+\thesisstudent{Martin Prokop­}
+\thesiswoman{false}
+\thesisfaculty{fi}
+\thesisyear{jaro 2012}
+\thesisadvisor{Mgr. Václav Rosecký­}
+
+\begin{document}
+\FrontMatter
+\ThesisTitlePage
+
+\begin{ThesisDeclaration}
+\DeclarationText
+\AdvisorName
+\end{ThesisDeclaration}
+
+\begin{ThesisThanks}
+Na tomto místì chci podìkovat Mgr. Václavovi Roseckému a Ing. Petrovi ®abièkovi za pomoc pøi øe¹ení této bakaláøské práce.
+\end{ThesisThanks}
+
+\begin{ThesisAbstract}
+Bakaláøská práce se zabývá mo¾ností migrace webového archivu vytvoøeného v rámci projektu WebArchiv. Pøedstavuji projekt a jeho vývoj, dále podávám pøehled nástrojù a prací s ním souvisejících. 
+
+Po pøehledu a sumarizaci informací o WebArchivu pokraèuji pøehledem archivaèních formátù. Pøedvádím výhody jednotlivých formátù a ukazuji dùvody, proè je potøeba provést migraci stávajícího archivu. 
+
+V poslední èásti práce se zabývám samotnými nástroji slou¾ícími k migraci. Cílem práce je pøedstavit výhody a nevýhody jednotlivých nástrojù a tím pøipravit podklad pro dal¹í studii mo¾nosti migrace a její realizaci.
+\end{ThesisAbstract}
+
+\begin{ThesisAbstracten}
+Bakaláøská práce se zabývá mo¾ností migrace webového archivu vytvoøeného v rámci projektu WebArchiv. Pøedstavuji projekt a jeho vývoj, dále podávám pøehled nástrojù a prací s ním souvisejících. 
+
+Po pøehledu a sumarizaci informací o WebArchivu pokraèuji pøehledem archivaèních formátù. Pøedvádím výhody jednotlivých formátù a ukazuji dùvody, proè je potøeba provést migraci stávajícího archivu. 
+
+V poslední èásti práce se zabývám samotnými nástroji slou¾ícími k migraci. Cílem práce je pøedstavit výhody a nevýhody jednotlivých nástrojù a tím pøipravit podklad pro dal¹í studii mo¾nosti migrace a její realizaci.
+\end{ThesisAbstracten}
+
+\begin{ThesisKeyWords}
+WebArchiv, warc, arc, migrace, archivace webu.
+\end{ThesisKeyWords}
+
+
+\MainMatter
+\tableofcontents
+\chapter{Úvod}
+V dne¹ní dobì je internet jedním z hlavních zdrojù a nositelù informací. Ka¾dým dnem vzniká velké mno¾ství nových elektronických dokumentù. Takové dokumenty nemají charakter stálých informací, jejich obsah se mìní prakticky neustále. Je typické, ¾e staré verze dokumentù jejich autoøi neuchovávají, a proto dochází ke ztrátì cenných informací. Z toho dùvodu je dùle¾ité, aby se webové zdroje dlouhodobì uchovávaly a bylo mo¾né je zpìtnì rekonstruovat. Tato práce je cílem projektu WebArchiv. 
+
+Øe¹itelé projektu WebArchiv se archivaci vìnují ji¾ dvanáctým rokem. S postupujícím zdokonalováním technologií se rychle mìní trendy a parametry, které musí sledovat a splòovat. Dá se øíci, ¾e ka¾dým dal¹ím dnem vznikají dal¹í po¾adavky pro archivaci a dlouhodobé uchování webových zdrojù.
+Jedním ze základních problému je samotné uchovávání datového archivu. Ka¾dým rokem narùstá jeho obsah a tomu se musí pøizpùsobit práce s archivovanými zdroji. Dále je potøeba zajistit, aby archivovaná data byla èitelná dlouhodobì a dalo se s nimi snadno manipulovat. V souèasné dobì se projevují limity archivování zdrojù pomocí formátu arc. Tento formát je pro archivaci sice vhodný, ale je ji¾ zastaralý a málo robustní. 
+
+Ukazuje se, ¾e by bylo vhodné nahradit arc formátem warc. Formát warc je relativnì nový a prozatím ne pøíli¹ pou¾ívaný. V budoucnu se v¹ak pravdìpodobnì stane standardem pro uchovávání webových zdrojù. Vzniká tedy otázka mo¾nosti pøechodu WebArchivu na práci výhradnì s tímto formátem. Pøed samotným pøechodem je potøeba vyøe¹it spoustu problémù a v¹echny pou¾ívané nástroje musí být na práci s novým formátem pøipraveny. 
+
+Pøedmìtem této bakaláøské práce je jedna z dílèích akcích vedoucích k pøechodu WebArchivu na uchovávání dat ve formátu warc archivù. Jedná se o migraci stávajícího archivu do nového formátu. Tato problematika je nová a specifická pøímo pro projekt WebArchiv.
+
+Ve své práci se pokusím nalézt nástroje, které by samotnou migraci umo¾nili. Pøedstavím mo¾ná øe¹ení pøevodu a uká¾i jejich výhody a nevýhody. Výstupem práce by pak mìly být ukázky jednotlivých nástrojù urèených pro migraci, nikoliv samotná migrace. Závìry práce tedy budou tvoøit podklady øe¹itelùm projektu WebArchiv, pro plánování migrace webového archivu.
+
+\chapter{WebArchiv}
+\section{O WebArchivu}
+WebArchiv je projekt, jeho¾ cílem je archivace Èeského internetu. Jeho zøizovatelem je Národní knihovna ÈR, která spolupracuje s Moravskou zemskou knihovnou a Ústavem výpoèetní techniky Masarykovy univerzity. Projekt vznikl roku 2000 v rámci projektu Registrace, ochrana a zpøístupnìní domácích elektronických zdrojù v síti Internet. Jeho cílem je uchovat èeské webové zdroje v rámci zachování èeského kulturního dìdictví.
+WebArchiv klade dùraz na takové elektronické zdroje, které nejsou dostupné v ti¹tìné podobì. Jejich archivace ve WebArchivu jeden z nejspolehlivìj¹ích zpùsobù jejich uchování do budoucna.
+
+Zachování tìchto dokumentù je podstatné hlavnì pro zachycení a mo¾nost hodnocení vývoje èeského kulturního dìdictví. Projekt si klade za cíl uchovávat dlouhodobì èeské webové stránky a umo¾nit jejich zpìtné vyhledávání.
+
+Archivace není dùle¾itá jen pro pøípad ztráty dat, ale i pro pøedejití problému zastarání technologií. Jak víme multimediální technologie se v dne¹ní dobì velmi dynamicky vyvíjí a dokument, který byl pøed nìkolika lety bì¾nì zobrazitelný pro vìt¹inu u¾ivatelù internetu, ji¾ dnes není podporovaný vìt¹inou poèítaèù. Jeliko¾ WebArchiv zálohuje velké mno¾ství dokumentù v prùbìhu let musí øe¹it i tento aspekt archivace dat. Má tudí¾ výborný potenciál k zachování informaèní hodnoty dokumentù.
+
+Databáze WebArchivu obsahuje :
+\begin{itemize}
+\item Digitální dokumenty volnì dostupné prostøednictvím sítì internet
+\item Publikace odborného, umìleckého a zpravodajsko-publicistického zamìøení
+\item Periodika, monografie, konferenèní pøíspìvky, výzkumné a jiné zprávy, a akademické práce
+\end{itemize}
+
+\begin{description}
+\item[nadpis1] Digitální dokumenty \footnote{dokument no} volnì dostupné prostøednictvím sítì internet
+\item[nadpis2] Publikace odborného, umìleckého a zpravodajsko-publicistického zamìøení
+\item[nadpis3] Periodika, monografie, konferenèní pøíspìvky, výzkumné a jiné zprávy, a akademické práce
+\end{description}
+
+
+
+
+
+\section{Vývoj projektu}
+Pokusím se pøedvést cíle a vývoj projektu v prùbìhu jeho øe¹ení. V poèátcích projektu bylo nejprve potøeba stanovit základní parametry projektu a dlouhodobé cíle. V prùbìhu øe¹ení pak docházelo hlavnì k formulaci nových cílù, výzkumu nových technologií a vznikla i potøeba pro adaptování se na nové trendy a technologie. \cite{webarchiv}
+
+WebArchiv pravidelnì publikuje zprávy o své èinnosti a dal¹ích zámìrech. Zprávy jsou samozøejmì vystavovány na webových stránkách projektu. Pøehled vývoje v jednotlivých letech, který uvedu ní¾e, èerpal v¾dy výhradnì ze zpráv pro pøíslu¹ný rok. \cite{webarchiv}
+
+\subsection{Rok 2000}
+V poèátcích projektu bylo dùle¾ité pøipravit podmínky, které by umo¾nili samotné zpracovávání èeské národní bibliografie a zajistit její dlouhodobé ukládání. Následnì bylo potøeba vyøe¹it organizaèní otázky týkající se získávání nových dokumentù. Zde se jedná hlavnì o legislativní rámec a politiku pøijímání nových dokumentù. A poté upøesnìní mo¾ností pøístupu k elektronickým zdrojù v souvislosti s autorským právem.
+\subsection{Rok 2001}
+Dùle¾itou prací bylo mapování situace s archivováním internetových zdrojù v rámci jiných projektù a institucí, proto¾e èerpání zku¹eností od jiných øe¹itelù podobných projektù je výhodné a mù¾e u¹etøit spoustu práce do budoucna.
+Zaèalo samotné shroma¾ïování internetových zdrojù. Zásadní byla otázka archivace sklizených dat, øe¹itelé potøebovali, pro dlouhodobou archivaci a práci s daty, zvolit vhodný formát uchovávání metadat sta¾ených souborù. Zvolili Dublin Core Metadata Element Set1, který byl lokalizován pro èeské zdroje. Probíhal vývoj nových nástrojù: Dublin Core Metadata Generator, Generátor URN, Kalkulátor MD5, Nedlib Harvester.
+\subsubsection{Rok 20012}
+Øe¹itelé upravili kritéria výbìru nových webových zdrojù. Jak jsem zmínil vý¹e, do¹lo k vývoji v oblasti legislativy. Opìt vycházeli ze strategie zahranièních kolegù. Dále byla vìnována pozornost sklizni elektronických seriálù.
+
+pomlèka -
+spojovník --
+dlouhán ---
+
+italika {\it neco}
+
+strojopis {\tt neco - link a tak}
+
+uvozovky? \uv {noco } 
+
+
+
+
+
+
+
+\begin{thebibliography}{99}
+\bibitem{webarchiv}Co je WebArchiv?. WEBARCHIV.\textit{WebArchiv} [online]. 21.3.2012 [cit. 2012-03-21].Dostupné z: http://www.webarchiv.cz.
+\end{thebibliography}
+
+
+
+
+\end{document}
