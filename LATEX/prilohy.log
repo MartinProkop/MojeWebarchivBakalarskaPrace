@@ -1,0 +1,4821 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  15 APR 2012 15:25
+entering extended mode
+ %&-line parsing enabled.
+**prilohy.tex
+(./prilohy.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, czech, slovak, loaded.
+! Undefined control sequence.
+l.1 \chapter
+            {Pøílohy}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter{P
+              øílohy}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no y in font nullfont!
+! Undefined control sequence.
+l.2 \section
+            *{A. Gramatika arc souboru}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+! Undefined control sequence.
+l.11 \section
+             *{B. Arc version block verze 2}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 2 in font nullfont!
+! Undefined control sequence.
+l.12 \subsection
+                *{Vysvìtlivky }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no ì in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no y in font nullfont!
+! Undefined control sequence.
+l.17 \subsection
+                *{Pøíklad}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+! Undefined control sequence.
+l.23 \section
+             *{C. Arc url record verze 2}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 2 in font nullfont!
+! Undefined control sequence.
+l.24 \subsection
+                *{Vysvìtlivky}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no ì in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no y in font nullfont!
+! Undefined control sequence.
+l.36 \subsection
+                *{Pøíklad}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+! Undefined control sequence.
+l.47 \section
+             *{D. Pøíklad arc souboru verze 2}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 2 in font nullfont!
+! Undefined control sequence.
+l.63 \section
+             *{E. Arc soubor vytvoøený pomocí crawleru Heritrix}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no é in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+l.65 \section
+             *{F. Výstup z programu JHOVE pro pøilo¾ený arc soubor}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no J in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no ¾ in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no é in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no   in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+l.67 \subsection
+                *{Pøíklad}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+! Undefined control sequence.
+l.77 \section
+             *{G. Výstup z programu JHOVE2 pro pøilo¾ený arc soubor}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no J in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no ¾ in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no é in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+l.79 \section
+             *{H. Ukázka CDX indexu pro arc soubor}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no é in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+l.81 \subsection
+                *{Pøíklad}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+! Undefined control sequence.
+l.88 \section
+             *{I. Warc -- metadata record}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+! Undefined control sequence.
+l.102 \section
+              *{J. Warc -- request record}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no J in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+! Undefined control sequence.
+l.119 \section
+              *{K. Warc -- warcinfo record}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+! Undefined control sequence.
+l.137 \section
+              *{L. Warc soubor vytvoøený z pøilo¾eného arc souboru pomocí ná...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no ¾ in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no é in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no é in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+l.139 \section
+              *{M. Warc soubor vytvoøený z pøilo¾eného arc souboru pomocí ná...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no ¾ in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no é in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no é in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+l.141 \section
+              *{N. Warc soubor vytvoøený z pøilo¾eného arc souboru pomocí ná...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no ¾ in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no é in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no é in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+l.143 \section
+              *{O. Výstup z programu JHOVE2 pro pøilo¾ený warc soubor}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no J in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no ¾ in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ý in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no ø in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no é in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no á in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.144 ...var-laptop-8090.warc.gz_jhove2output.xml}
+                                                  .
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 144.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 144.
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.144 ...var-laptop-8090.warc.gz_jhove2output.xml}
+                                                  .
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.145 \section
+              *{P. Popis standardu WARC}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.147 \section
+              *{Q. Mailová korespondence s pracovníky British library}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.149 \section
+              *{R. WARCTOOLS ? Functional Requirements Specification v8}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.151 \section
+              *{S. WARCTOOLS ? Functional Requirements Specification }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.153 \section
+              *{T. WARCTOOLS ? Non-Functional Requirements }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.155 \section
+              *{U. WARCTOOLS ? Software Requirements Specification}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.157 \section
+              *{V. WARCTOOLS ? výstup z nástroje warcdump pro warc soubor.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.159 \section
+              *{W. WARCTOOLS / hanzo ? README soubor}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.161 \section
+              *{X. WARCTOOLS / hanzo ? výstup z nástroje warcdump pro warc s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.163 \section
+              *{Y. WARCTOOLS / hanzo ? výstup z programu JHOVE2 pro pøilo¾en...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.165 \section
+              *{Z. WARCTOOLS / kpk09 ? README soubor}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.167 \section
+              *{AA. WARCTOOLS / kpk09 ? výstup z nástroje warcdump pro warc ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.169 \section
+              *{AB. WARCTOOLS / kpk09 ? výstup z programu JHOVE2 pro pøilo¾e...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.171 \section
+              *{AC. WARCTOOLS ? archiv obsahující nástroj}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.173 \section
+              *{AD. WARCTOOLS / hanzo ? archiv obsahující nástroj}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.175 \section
+              *{AE. WARCTOOLS / kpk09 ? archiv obsahující nástroj}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.177 \section
+              *{AF. JHOVE2 ? u¾ivatelská pøíruèka nástroje}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.179 \section
+              *{AG. JHOVE2 ? informace o aktualizace nástroje}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.181 \section
+              *{AH. JHOVE2 ? archiv obsahující nástroj}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.183 \section
+              *{AI. Jpype ? archiv obsahující nástroj}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.185 \section
+              *{AJ. Warc ? ISO specifikace}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.187 \section
+              *{AK. JHOVE2 ? vlastní implementace nástroje}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.197 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ¾ in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no ¾ in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no ¾ in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ¾ in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no è in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no è in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no ¹ in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no í in font cmr10!
+Missing character: There is no ¹ in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ý in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no í in font cmr10!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--197
+[]
+ []
+
+
+Overfull \hbox (40.52963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 arc[]file
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (188.3683pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<version[]block>><<rest[]of[]arc[]file>> 
+ []
+
+
+Overfull \hbox (66.7794pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 version[]block
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 See
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 definition
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 below 
+ []
+
+
+Overfull \hbox (79.58926pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 rest[]of[]arc[]file
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (179.3384pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<doc>>|<<doc>><<rest[]of[]arc[]file>> 
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 doc
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (213.77812pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<nl>><<URL-record>><<nl>><<network[]doc>> 
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 URL-record
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 See
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 definition
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 below 
+ []
+
+
+Overfull \hbox (56.2795pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 network[]doc
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 whatever
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 protocol
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 returned 
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 nl
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (115.499pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Unix-newline-delimiter 
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 sp
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 (ascii
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 space)
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 comma
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 is
+ []
+
+
+Overfull \hbox (68.2494pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 inappropriate
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 because
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 it
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 can
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 be
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 in
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 an
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 URL. 
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 version-number
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 integer
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 in
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ascii 
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 reserved
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 string
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 with
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 no
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 white
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 space 
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 origin-code
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Name
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 gathering
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 organization
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 with
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 no
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 white
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 space 
+ []
+
+
+Overfull \hbox (110.24904pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 URL-record-definition
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 names
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 fields
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 in
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 URL
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 records
+ []
+
+
+Overfull \hbox (78.74931pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 version-2-block
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (203.27821pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 filedesc://<<path>><<sp>><<ip[]address>> 
+ []
+
+
+Overfull \hbox (236.24794pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<sp>><<date>><<sp>>text/plain<<sp>>200<<sp>> 
+ []
+
+
+Overfull \hbox (288.74748pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -<<sp>>-<<sp>>0<<sp>><<filename>><<sp>><<length>><<nl>> 
+ []
+
+
+Overfull \hbox (241.4979pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 2<<sp>><<reserved>><<sp>><<origin-code>><<nl>> 
+ []
+
+
+Overfull \hbox (288.74748pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 URL<<sp>>IP-address<<sp>>Archive-date<<sp>>Content-type 
+ []
+
+
+Overfull \hbox (162.74858pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<sp>>Result-code<<sp>>Checksum 
+ []
+
+
+Overfull \hbox (209.99817pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<sp>>Location<<sp>>Offset<<sp>>Filename 
+ []
+
+
+Overfull \hbox (136.49881pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<sp>>Archive-length<<nl>>
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<nl>>
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 url
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ascii
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 URL
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 string
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 (e.g.,
+ []
+
+
+Overfull \hbox (141.74876pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 "http://www.alexa.com:80/") 
+ []
+
+
+Overfull \hbox (51.02954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ip[]address
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 dotted-quad
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 (eg
+ []
+
+
+Overfull \hbox (68.2494pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 192.216.46.98
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 or
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 0.0.0.0) 
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 archive-date
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 date
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 archived 
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 content-type
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 "no-type"|MIME
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 type
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 data
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 (e.g.,
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 "text/html") 
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 length
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ascii
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 representation
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 size
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 network
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 doc
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 in
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 bytes 
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 date
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 YYYYMMDDhhmmss
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 (Greenwich
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Mean
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Time) 
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 result-code
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 result
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 code
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 or
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 response
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 code,
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 (e.g.
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 200
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 or
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 302) 
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 checksum
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ascii
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 representation
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 a
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 checksum
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 data.
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 The
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 specifics
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 checksum
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 are
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 implementation
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 specific. 
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 location
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 "-"|url
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 re-direct 
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 offset
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 offset
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 in
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 bytes
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 from
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 beginning
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 file
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 beginning
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 URL-record 
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 filename
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 name
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 arc
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 file
+ []
+
+
+Overfull \hbox (68.2494pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 URL-record-v2
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ==
+ []
+
+
+Overfull \hbox (68.2494pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<url>><<sp>> 
+ []
+
+
+Overfull \hbox (104.99908pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<ip-address>><<sp>> 
+ []
+
+
+Overfull \hbox (115.499pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<archive-date>><<sp>> 
+ []
+
+
+Overfull \hbox (115.499pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<content-type>><<sp>> 
+ []
+
+
+Overfull \hbox (110.24904pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<result-code>><<sp>> 
+ []
+
+
+Overfull \hbox (94.49918pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<checksum>><<sp>> 
+ []
+
+
+Overfull \hbox (94.49918pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<location>><<sp>> 
+ []
+
+
+Overfull \hbox (83.99927pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<offset>><<sp>> 
+ []
+
+
+Overfull \hbox (94.49918pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<filename>><<sp>> 
+ []
+
+
+Overfull \hbox (83.99927pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<length>><<nl>>
+ []
+
+
+Overfull \hbox (125.9989pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 filedesc://IA-001102.arc
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 0.0.0.0
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 19960923142103
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 text/plain
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 200
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 0 
+ []
+
+
+Overfull \hbox (68.2494pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 IA-001102.arc
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 122 
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 2
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 0
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Alexa
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Internet 
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 URL
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 IP-address
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Archive-date
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Content-type
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Result-code
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Checksum 
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Location
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Offset
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Filename
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Archive-length 
+ []
+
+
+Overfull \hbox (194.2483pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 http://www.dryswamp.edu:80/index.html
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 127.10.100.2
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 19961104142103 
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 text/html
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 200
+ []
+
+
+Overfull \hbox (167.99854pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 fac069150613fe55599cc7fa88aa089d
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 209
+ []
+
+
+Overfull \hbox (68.2494pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 IA-001102.arc
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 202 
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 HTTP/1.0
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 200
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Document
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 follows 
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Date:
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Mon,
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 04
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Nov
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 1996
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 14:21:06
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 GMT 
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Server:
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 NCSA/1.4.1 
+ []
+
+
+Overfull \hbox (68.2494pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Content-type:
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 text/html
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Last-modified:
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Sat,10
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Aug
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 1996
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 22:33:11
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 GMT 
+ []
+
+
+Overfull \hbox (78.74931pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Content-length:
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 30 
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<HTML>> 
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Hello
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 World!!! 
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <</HTML>>
+ []
+
+
+Overfull \hbox (257.24776pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 IAH-20110905093545-00000-kovar-laptop-8090.arc.gz
+ []
+
+
+Overfull \hbox (257.24776pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 IAH-20110905093545-00000-kovar-laptop-8090.arc.gz
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Jhove
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 (Rel.
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 1.6,
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 2011-01-04) 
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Date:
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 2011-09-05
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 15:14:13
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 CEST 
+ []
+
+
+Overfull \hbox (136.49881pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 RepresentationInformation:
+ []
+
+
+Overfull \hbox (267.74767pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ./IAH-20110905093545-00000-kovar-laptop-8090.arc.gz 
+ []
+
+
+Overfull \hbox (83.99927pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ReportingModule:
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 BYTESTREAM,
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Rel.
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 1.3
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 (2007-04-10) 
+ []
+
+
+Overfull \hbox (68.2494pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 LastModified:
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 2011-09-05
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 12:40:13
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 CEST 
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Size:
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 74389018 
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Format:
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 bytestream 
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Status:
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Well-Formed
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 and
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 valid 
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 MIMEtype:
+ []
+
+
+Overfull \hbox (125.9989pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 application/octet-stream
+ []
+
+
+Overfull \hbox (345.02698pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 IAH-20110905093545-00000-kovar-laptop-8090.arc.gz[]jhove2outpu
+t.xml
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 index.cdx
+ []
+
+
+Overfull \hbox (93.02917pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 127.0.0.1/amk[]new/
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 20110905093547
+ []
+
+
+Overfull \hbox (129.77885pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 http://127.0.0.1/amk[]new/
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 text/html
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 200
+ []
+
+
+Overfull \hbox (167.99854pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 O5DWG2NMAMAAW7JSGZE3BQ64J7VWCYO3
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 1056
+ []
+
+
+Overfull \hbox (257.24776pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 IAH-20110905093545-00000-kovar-laptop-8090.arc.gz 
+ []
+
+
+Overfull \hbox (177.02844pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 127.0.0.1/amk[]new/administrace.php
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 20110905093710
+ []
+
+
+Overfull \hbox (213.77812pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 http://127.0.0.1/amk[]new/administrace.php
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 text/html
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 200
+ []
+
+
+Overfull \hbox (167.99854pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 VU7IP3IZ5B5AFN3W4KJ5GYMFDXIPCOHH
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 6542994 
+ []
+
+
+Overfull \hbox (257.24776pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 IAH-20110905093545-00000-kovar-laptop-8090.arc.gz 
+ []
+
+
+Overfull \hbox (161.27858pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 127.0.0.1/amk[]new/css/style.css
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 20110905093549
+ []
+
+
+Overfull \hbox (198.02826pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 http://127.0.0.1/amk[]new/css/style.css
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 text/css
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 200
+ []
+
+
+Overfull \hbox (167.99854pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 UNJYNYSN3CGVNBPHQXBMM3DSNMH2K5R4
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 4979
+ []
+
+
+Overfull \hbox (257.24776pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 IAH-20110905093545-00000-kovar-laptop-8090.arc.gz 
+ []
+
+
+Overfull \hbox (192.7783pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 127.0.0.1/amk[]new/css/style-print.css
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 20110905093551
+ []
+
+
+Overfull \hbox (229.52798pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 http://127.0.0.1/amk[]new/css/style-print.css
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 text/css
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 200
+ []
+
+
+Overfull \hbox (167.99854pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 KPOV6UAGQ7NLORLWROHYWVOYI7EGISMH
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 7052
+ []
+
+
+Overfull \hbox (257.24776pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 IAH-20110905093545-00000-kovar-laptop-8090.arc.gz 
+ []
+
+
+Overfull \hbox (150.77867pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 127.0.0.1/amk[]new/favicon.ico
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 20110905093553
+ []
+
+
+Overfull \hbox (187.52835pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 http://127.0.0.1/amk[]new/favicon.ico
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 text/html
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 404
+ []
+
+
+Overfull \hbox (167.99854pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 NG54R3G5AQUDPVORCYARJCVCZA3BEMYH
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 7770
+ []
+
+
+Overfull \hbox (257.24776pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 IAH-20110905093545-00000-kovar-laptop-8090.arc.gz 
+ []
+
+
+Overfull \hbox (226.58798pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 127.0.0.1/amk[]new/fotogalerie/10[]4[]05/10.jpg
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 20110905103437
+ []
+
+
+Overfull \hbox (263.33766pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 http://127.0.0.1/amk[]new/fotogalerie/10[]4[]05/10.jpg
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 image/jpeg
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 200
+ []
+
+
+Overfull \hbox (167.99854pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 IAJOPBPAS7SKS4VI3KZFCPXBDDC3XJDZ
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 -
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 56117318
+ []
+
+
+Overfull \hbox (257.24776pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 IAH-20110905093545-00000-kovar-laptop-8090.arc.gz
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC/0.18 
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC-Type:
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 metadata 
+ []
+
+
+Overfull \hbox (83.99927pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC-Target-URI:
+ []
+
+
+Overfull \hbox (204.74821pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 http://www.archive.org/images/logoc.jpg 
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC-Date:
+ []
+
+
+Overfull \hbox (104.99908pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 2006-09-19T17:20:24Z 
+ []
+
+
+Overfull \hbox (78.74931pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC-Record-ID:
+ []
+
+
+Overfull \hbox (257.24776pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<urn:uuid:16da6da0-bcdc-49c3-927e-57494593b943>> 
+ []
+
+
+Overfull \hbox (99.74913pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC-Concurrent-To:
+ []
+
+
+Overfull \hbox (257.24776pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<urn:uuid:92283950-ef2f-4d72-b224-f54c6ec90bb0>> 
+ []
+
+
+Overfull \hbox (68.2494pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Content-Type:
+ []
+
+
+Overfull \hbox (120.74895pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 application/warc-fields 
+ []
+
+
+Overfull \hbox (94.49918pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC-Block-Digest:
+ []
+
+
+Overfull \hbox (194.2483pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 sha1:UZY6ND6CCHXETFVJD2MSS7ZENMWF7KQ2 
+ []
+
+
+Overfull \hbox (78.74931pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Content-Length:
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 59 
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 via:
+ []
+
+
+Overfull \hbox (120.74895pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 http://www.archive.org/ 
+ []
+
+
+Overfull \hbox (68.2494pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 hopsFromSeed:
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 E 
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 fetchTimeMs:
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 565
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC/0.18 
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC-Type:
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 request 
+ []
+
+
+Overfull \hbox (83.99927pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC-Target-URI:
+ []
+
+
+Overfull \hbox (204.74821pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 http://www.archive.org/images/logoc.jpg 
+ []
+
+
+Overfull \hbox (89.24922pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC-Warcinfo-ID:
+ []
+
+
+Overfull \hbox (257.24776pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<urn:uuid:d7ae5c10-e6b3-4d27-967d-34780c58ba39>> 
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC-Date:
+ []
+
+
+Overfull \hbox (104.99908pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 2006-09-19T17:20:24Z 
+ []
+
+
+Overfull \hbox (78.74931pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Content-Length:
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 236 
+ []
+
+
+Overfull \hbox (78.74931pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC-Record-ID:
+ []
+
+
+Overfull \hbox (257.24776pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<urn:uuid:4885803b-eebd-4b27-a090-144450c11594>> 
+ []
+
+
+Overfull \hbox (68.2494pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Content-Type:
+ []
+
+
+Overfull \hbox (167.99854pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 application/http;msgtype=request 
+ []
+
+
+Overfull \hbox (99.74913pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC-Concurrent-To:
+ []
+
+
+Overfull \hbox (257.24776pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<urn:uuid:92283950-ef2f-4d72-b224-f54c6ec90bb0>> 
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 GET
+ []
+
+
+Overfull \hbox (89.24922pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 /images/logoc.jpg
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 HTTP/1.0 
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 User-Agent:
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Mozilla/5.0
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 (compatible;
+ []
+
+
+Overfull \hbox (83.99927pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 heritrix/1.10.0) 
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 From:
+ []
+
+
+Overfull \hbox (89.24922pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 stack@example.org 
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Connection:
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 close 
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Referer:
+ []
+
+
+Overfull \hbox (120.74895pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 http://www.archive.org/ 
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Host:
+ []
+
+
+Overfull \hbox (78.74931pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 www.archive.org
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Cookie:
+ []
+
+
+Overfull \hbox (220.49808pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 PHPSESSID=009d7bb11022f80605aa87e18224d824
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC/0.18 
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC-Type:
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 warcinfo
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC-Date:
+ []
+
+
+Overfull \hbox (104.99908pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 2006-09-19T17:20:14Z 
+ []
+
+
+Overfull \hbox (78.74931pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC-Record-ID:
+ []
+
+
+Overfull \hbox (257.24776pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 <<urn:uuid:d7ae5c10-e6b3-4d27-967d-34780c58ba39>> 
+ []
+
+
+Overfull \hbox (68.2494pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Content-Type:
+ []
+
+
+Overfull \hbox (120.74895pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 application/warc-fields 
+ []
+
+
+Overfull \hbox (78.74931pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Content-Length:
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 381 
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 software:
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Heritrix
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 1.12.0
+ []
+
+
+Overfull \hbox (136.49881pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 http://crawler.archive.org 
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 hostname:
+ []
+
+
+Overfull \hbox (120.74895pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 crawling017.archive.org 
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 ip:
+ []
+
+
+Overfull \hbox (78.74931pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 207.241.227.234 
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 isPartOf:
+ []
+
+
+Overfull \hbox (94.49918pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 testcrawl-20050708 
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 description:
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 testcrawl
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 with
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 output 
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 operator:
+ []
+
+
+Overfull \hbox (40.52963pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 IA[]Admin 
+ []
+
+
+Overfull \hbox (120.74895pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 http-header-user-agent: 
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 Mozilla/5.0
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 (compatible;
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 heritrix/1.4.0
+ []
+
+
+Overfull \hbox (146.99872pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 +http://crawler.archive.org) 
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 format:
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARC
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 file
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 version
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 0.18 
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 conformsTo: 
+ []
+
+
+Overfull \hbox (299.24739pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 http://www.archive.org/documents/WarcFileFormat-0.18.html
+ []
+
+
+Overfull \hbox (313.52725pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARCTOOLS[]IAH-20110905093545-00000-kovar-laptop-8090.warc.gz
+ []
+
+
+Overfull \hbox (292.52744pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 HANZO[]IAH-20110905093545-00000-kovar-laptop-8090.warc.gz
+ []
+
+
+Overfull \hbox (292.52744pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 KPK09[]IAH-20110905093545-00000-kovar-laptop-8090.warc.gz
+ []
+
+
+Overfull \hbox (399.99335pt too wide) in paragraph at lines 1--197
+\OT1/cmtt/m/n/10 WARCTOOLS[]IAH-20110905093545-00000-kovar-laptop-8090.warc.gz$
+[]\OML/cmm/m/it/10 hove\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 output:xml: \OMS/cmsy/
+m/n/10 ^^C
+ []
+
+
+Overfull \hbox (503.36362pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 Souborjedostupnjakoelektronickplohabakalskprcepodnzvem[]: \O
+MS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (1511.09328pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 Souborjedostupnjakoelektronickplohabakalskprce:Podnzvembriti
+sh[]ibrary[]ail\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 jsouinformace; kterdostalIng:L
+iborCoufal:Podnzvembritish[]ibrary[]ail\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 jsouin
+formace; kterpsalipmom:Podnzvembritish[]ibrary[]ail\OT1/cmr/m/n/10 3\OML/cmm/m/
+it/10 jsouinformace; kterjsemodpracovnkpoadovalohledndeduplikacesoubor: \OMS/cm
+sy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (568.3307pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 Souborjedostupnjakoelektronickplohabakalskprcepodnzvemwarc \
+OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (109.30571pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 tools[]hase[]II[]rs[]\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 :pdf: \
+OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (609.11554pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 Souborjedostupnjakoelektronickplohabakalskprcepodnzvemwarc[]
+ools[]rs:pdf: \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (581.71983pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 Souborjedostupnjakoelektronickplohabakalskprcepodnzvemwarc[]
+ools[]fr:pdf: \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (601.91238pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 Souborjedostupnjakoelektronickplohabakalskprcepodnzvemwarc[]
+ools[]rs:pdf: \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (628.33504pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 SouborjedostupnjakoelektronickplohabakalskprcepodnzvemWARCTO
+OLS[]AH \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (77.77802pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 20110905093545 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (32.77788pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 00000 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (33.42714pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 kovar \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (34.7651pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 laptop \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (110.56052pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 8090\OML/cmm/m/it/10 :warc:gz[]arcdump: \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (592.72902pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 Souborjedostupnjakoelektronickplohabakalskprcepodnzvemwarcto
+ols[]anzo[]EADME: \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (632.96396pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 SouborjedostupnjakoelektronickplohabakalskprcepodnzvemHANZO[
+]AH \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (77.77802pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 20110905093545 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (32.77788pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 00000 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (33.42714pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 kovar \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (34.7651pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 laptop \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (110.56052pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 8090\OML/cmm/m/it/10 :warc:gz[]arcdump: \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (664.82318pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 SouborjedostupnjakoelektronickplohabakalskprcepodnzvemHANZO[
+]AH \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (77.77802pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 20110905093545 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (32.77788pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 00000 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (33.42714pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 kovar \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (34.7651pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 laptop \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (143.63176pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 8090\OML/cmm/m/it/10 :warc:gz[]hove\OT1/cmr/m/n/10 2\OML/cmm/m/
+it/10 output:xml: \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (588.69885pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 Souborjedostupnjakoelektronickplohabakalskprcepodnzvemwarcto
+ols[]pk\OT1/cmr/m/n/10 09[]\OML/cmm/m/it/10 EADME: \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (633.84207pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 SouborjedostupnjakoelektronickplohabakalskprcepodnzvemKPK\OT
+1/cmr/m/n/10 09[]\OML/cmm/m/it/10 AH \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (77.77802pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 20110905093545 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (32.77788pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 00000 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (33.42714pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 kovar \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (34.7651pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 laptop \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (110.56052pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 8090\OML/cmm/m/it/10 :warc:gz[]arcdump: \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (668.44084pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 SouborjedostupnjakoelektronickplohabakalskprcepodnzvemKPK\OT
+1/cmr/m/n/10 09[]\OML/cmm/m/it/10 AH \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (77.77802pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 20110905093545 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (32.77788pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 00000 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (33.42714pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 kovar \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (34.7651pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 laptop \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (143.63176pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 8090\OML/cmm/m/it/10 :warc:gz[]hove\OT1/cmr/m/n/10 2\OML/cmm/m/
+it/10 output:xml: \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (487.46811pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 Souborjedostupnjakoelektronickplohabakalskprcepodnzvemwarc \
+OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (57.8566pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 tools:tar:gz: \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (520.14993pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 Souborjedostupnjakoelektronickplohabakalskprcepodnzvemwarc \
+OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (84.26411pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 tools[]anzo:tar:gz: \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (518.63692pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 Souborjedostupnjakoelektronickplohabakalskprcepodnzvemwarc \
+OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (83.32889pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 tools[]pk\OT1/cmr/m/n/10 09\OML/cmm/m/it/10 :tar:gz: \OMS/cmsy
+/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (487.61157pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 SouborjedostupnjakoelektronickplohabakalskprcepodnzvemJHOVE\
+OT1/cmr/m/n/10 2 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (34.51646pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 Users \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (90.9213pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 Guide[]\OT1/cmr/m/n/10 0110222\OML/cmm/m/it/10 :pdf: \OMS/cmsy
+/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (524.57307pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 SouborjedostupnjakoelektronickplohabakalskprcepodnzvemNDIIPP
+ \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (27.77786pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 2010 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (69.09308pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 JHOVE\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :pdf: \OMS/cmsy/m/n/10 
+^^C
+ []
+
+
+Overfull \hbox (471.18883pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 Souborjedostupnjakoelektronickplohabakalskprcepodnzvemjhove\
+OT1/cmr/m/n/10 2 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (57.23857pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/
+m/n/10 0\OML/cmm/m/it/10 :tar:gz: \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (448.83942pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 SouborjedostupnjakoelektronickplohabakalskprcepodnzvemJPype 
+\OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (52.45569pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 :\OT1/cmr/
+m/n/10 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :zip: \OMS/cmsy/m/n
+/10 ^^C
+ []
+
+
+Overfull \hbox (796.18976pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 SouborjedostupnjakoelektronickplohabakalskprcepodnzvemWARC[]
+SO[]\OT1/cmr/m/n/10 8500[]\OML/cmm/m/it/10 inal[]raftv\OT1/cmr/m/n/10 018\OML/c
+mm/m/it/10 Zentveld\OT1/cmr/m/n/10 08061\OML/cmm/m/it/10 :doc:Souborjetakdostup
+nonlinenaadresehttp \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (51.24963pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 ==archive \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (141.83257pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 access:sourceforge:net=warc=: \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (1216.88474pt too wide) in paragraph at lines 1--197
+[]\OML/cmm/m/it/10 CelsouborjedostupnjakoelektronickplohabakalskprcepodnzvemRun
+FromARC\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 WARC:java:VrmciprojektunstrojeJHOVE\OT
+1/cmr/m/n/10 2\OML/cmm/m/it/10 musbtsoustipackageorg:jhove\OT1/cmr/m/n/10 2\OML
+/cmm/m/it/10 :app:Zdeukazujipouzemetodutdy\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 run
+JHOVE\OT1/cmr/m/n/10 2)\OML/cmm/m/it/10 ; kterobstarvpmosputn:= \OMS/cmsy/m/n/1
+0 ^^C
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 1--197
+\OMS/cmsy/m/n/10 ^^C ^^C
+ []
+
+
+Overfull \hbox (261.60239pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 Metodadostanenavstupseznamsoubor; kterpedkezpracovn \OMS/cmsy/
+m/n/10 ^^C
+ []
+
+
+Overfull \hbox (317.56758pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 aplikaciJHOVE\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 anakonecnavyped
+ozadanhosouboruvstupzJHOVE\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 : \OMS/cmsy/m/n/10 
+^^C
+ []
+
+
+Overfull \hbox (160.95992pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 @\OML/cmm/m/it/10 paramcontentsPolecestksouborm \OMS/cmsy/m/n/1
+0 ^^C
+ []
+
+
+Overfull \hbox (277.14915pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 @\OML/cmm/m/it/10 parampathCestaksouboru; dokterhosemajvypsatin
+formace \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (102.58344pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 @\OML/cmm/m/it/10 throwsIOException \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (134.04869pt too wide) in paragraph at lines 1--197
+\OT1/cmr/m/n/10 @\OML/cmm/m/it/10 throwsJHOVE\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 
+Exception \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 1--197
+\OML/cmm/m/it/10 =$ 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.197 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.198 p
+       ublic void runJHOVE2(String contents[], String path) throws IOExcepti...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (51.49973pt too wide) in paragraph at lines 198--206
+[]\OT1/cmtt/m/n/10 public
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 void
+ []
+
+
+Overfull \hbox (83.99927pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 runJHOVE2(String
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 contents[],
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 String
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 path)
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 throws
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 IOException,
+ []
+
+
+Overfull \hbox (78.74931pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 JHOVE2Exception
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 OutputStream
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 output
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 =
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 new
+ []
+
+
+Overfull \hbox (157.49863pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 FileOutputStream("/dev/null");
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 PrintStream
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 nullOut
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 =
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 new
+ []
+
+
+Overfull \hbox (104.99908pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 PrintStream(output);
+ []
+
+
+Overfull \hbox (120.74895pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 System.setErr(nullOut);
+ []
+
+
+Overfull \hbox (120.74895pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 System.setOut(nullOut);
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 String[]
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 data
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 =
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 "-o",
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 path,
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 "-d",
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 "XML";
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 String[]
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 seznam
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 =
+ []
+
+
+Overfull \hbox (83.99927pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 arrayMerge(data,
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 198--206
+\OT1/cmtt/m/n/10 contents); 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.207 	J
+        HOVE2CommandLine.main(seznam);
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.209 \section
+              *{AL. WARCTOOLS / hanzo ? vlastní implementace nástroje}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no í in font cmtt10!
+Missing character: There is no á in font cmtt10!
+Missing character: There is no ý in font cmtt10!
+Missing character: There is no á in font cmtt10!
+Missing character: There is no ø in font cmtt10!
+Missing character: There is no í in font cmtt10!
+Missing character: There is no á in font cmtt10!
+Missing character: There is no ø in font cmtt10!
+Missing character: There is no é in font cmtt10!
+Missing character: There is no á in font cmtt10!
+Missing character: There is no   in font cmtt10!
+Missing character: There is no á in font cmtt10!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.210 ...oha bakaláøské práce pod názvem arc2warc_
+                                                  jhove2.py. Aby správnì fun...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.211 \section
+              *{AM. Warc ? gramatika}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.219 \section
+              *{AN. ? Warc ? seznam definovaných polí}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.221 \section
+              *{AO. ? Warc ? Continuation record}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+! Emergency stop.
+<*> prilohy.tex
+               
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 13 strings out of 495027
+ 225 string characters out of 1181419
+ 75880 words of memory out of 3000000
+ 3291 multiletter control sequences out of 15000+50000
+ 3808 words of font info for 15 fonts, out of 3000000 for 9000
+ 38 hyphenation exceptions out of 8191
+ 20i,4n,13p,369b,137s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
