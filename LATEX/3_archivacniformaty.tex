@@ -1,8 +1,33 @@
-\section{Archivaèní formáty}
-3.1 Úvod
+\chapter{Archivaèní formáty}
+\section{Úvod}
 Jak jsem zmiòoval ji¾ vý¹e v¹echna sklizená data jsou ukládána na datová úlo¾i¹tì, která se fyzicky nacházejí v Brnì a v Praze. Samozøejmì se provádìjí pravidelné zálohy sta¾ených dat. Pro shroma¾ïování tak velkého objemu dat je potøeba zvolit vhodný formát pro jejich archivaci. 
+
 Øe¹itelský tým musel pøi volbì vhodného formátu poèítat se spoustou nárokù, které bude na archiv v budoucnosti klást. Zejména se jednalo o po¾adavky týkající se dostupnosti ulo¾ených dat. S archivovanými daty je potøeba v krátkém èase manipulovat.
-Jeliko¾ mno¾ství souborù, které se v rámci jednotlivých sklizní stáhne, je skuteènì velké mno¾ství1, bylo nutné jednotlivé soubory sdru¾ovat a ne je jednodu¹e umístit do adresáøe v úlo¾i¹ti. S takto volnì ulo¾enými daty by se ¹patnì manipulovalo a i jejich archivace by nebyla snadná.
-Jako nejlep¹í øe¹ení se tedy ukázaly speciální typy souborù, které slou¾í k archivaci webových zdrojù. V minulosti byl pou¾íván formát nedlib, v souèasné dobì je preferovaný formát arc. V budoucnosti se poèítá s vyu¾itím formátu warc. Formát warc je nejnovìj¹í typ internetového archivu, a jako takový má mnoho výhod oproti star¹ím typùm archívù. 
-Z dlouhodobého hlediska je nutné udr¾ovat sta¾ená data v jednom formátu. Právì formát warc se zdá k tomuto úèelu vhodný. Pøedmìtem mé práce je právì prozkoumat mo¾nost migrace star¹ích archivù, ulo¾eným ve formátu arc, do formátu warc.
+
+Jeliko¾ mno¾ství souborù\footnote{V posledních letech pøesahuje desítky miliónù.}, které se v rámci jednotlivých sklizní stáhne se stále zvìt¹uju, bylo nutné jednotlivé soubory sdru¾ovat a ne je jednodu¹e umístit do adresáøe v úlo¾i¹ti. S takto volnì ulo¾enými daty by se ¹patnì manipulovalo a i jejich archivace by nebyla snadná.
+
+Jako nejlep¹í øe¹ení se tedy ukázaly speciální typy souborù, které slou¾í k archivaci webových zdrojù. V minulosti byl pou¾íván formát nedlib, v souèasné dobì je preferovaný formát \texttt{arc}. V budoucnosti se poèítá s vyu¾itím formátu \texttt{warc}. Formát \texttt{warc} je nejnovìj¹í typ internetového archivu, a jako takový má mnoho výhod oproti star¹ím typùm archívù.
+ 
+Z dlouhodobého hlediska je nutné udr¾ovat sta¾ená data v jednom formátu. Právì formát \texttt{warc} se zdá k tomuto úèelu vhodný. Pøedmìtem mé práce je právì prozkoumat mo¾nost migrace star¹ích archivù, ulo¾eným ve formátu \texttt{arc}, do formátu \texttt{warc}.
+
 V následující kapitole pøedstavím podrobnìji archivaèní formáty a uká¾i jejich výhody a nevýhody.
+
+\section{Formát \texttt{nedlib}}
+Archivy v tomto formátu ji¾ WebArchiv nepou¾ívá. Informace o nìm jsou dostupné v diplomové práci Luká¹e Matìjky.
+\subsection{Popis standardu \texttt{nedlib}}
+Typický archiv obsahoval 2000 souborù. Polovinu z nich tvoøily sta¾ené soubory a druhou polovinu soubory obsahující metadata ke sta¾eným souborùm. Ka¾dému sta¾enému souboru odpovídal jeden soubor s metadaty, ve kterém byly obsa¾eny informace o souboru -- napøíklad typ souboru, velikost a dal¹í.
+Názve souboru uvnitø archivu odpovídal \texttt{MD5}\footnote{\texttt{MD5} je standardní hashovací algoritmus, které se pou¾ívá napøíklad k ¹ifrování hesel, ale i pro vytváøení jednoznaèných identifikátorù -- kontrolních souètù -- souborù. Jeliko¾ byly objeveny kolize ¹ifrovací funkce, tak se od \texttt{MD5} zaèalo v posledních letech opou¹tìt. Popis \texttt{MD5} \texttt{RFC} standardu dostupný na adrese \texttt{http://www.ietf.org/rfc/rfc1321.txt}.} souètu pøíslu¹ného souboru. Vyhledávání po¾adovaného souboru v archivu se realizovalo pomocí indexu s \texttt{MD5} názvy souboru.
+\subsection{3.2.2 Výhody \texttt{nedlib} pro WebArchiv}
+\begin{itemize}
+\item Metadata byla zvlá¹» oddìlena pro ka¾dý archivovaný soubor
+\item Soubor pøímo v názvu obsahoval \texttt{MD5} otisk svého obsahu
+\end{itemize}
+
+\subsection{3.2.3 Nevýhody \texttt{nedlib} pro WebArchiv}
+\begin{itemize}
+\item ©patná manipulace s jednotlivými soubory v rámci archivu
+\item Nutnost rozbalit celý archiv pøi pøístupu k jednotlivým souborùm
+\end{itemize}
+
+\subsection{3.2.4 U¾ití v praxi ve WebArchivu}
+Tento typ souboru se ji¾ nevyu¾ívá a archivy v tomto formátu byli pøevedeny do formátu \texttt{arc}. Znaèná èást byla ztracena pøi havárii úlo¾i¹tì. \cite{MATEJKA2006}

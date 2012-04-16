@@ -48,4 +48,11 @@
 \contentsline {subsection}{\numberline {2.6.10}\rmfamily \texttt {Wayback}}{22}{subsection.2.6.10}
 \contentsline {subsection}{\numberline {2.6.11}\rmfamily \texttt {WebAnalyzer}}{22}{subsection.2.6.11}
 \contentsline {subsection}{\numberline {2.6.12}\rmfamily \texttt {Web Curator Tool}}{22}{subsection.2.6.12}
-\contentsline {chapter}{\numberline {3}\bfseries P\v r\IeC {\'\i }lohy}{28}{chapter.3}
+\contentsline {chapter}{\numberline {3}\bfseries Archiva\v cn\IeC {\'\i } form\'aty}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}\slshape \'Uvod}{23}{section.3.1}
+\contentsline {section}{\numberline {3.2}\slshape Form\'at \texttt {nedlib}}{24}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}\rmfamily Popis standardu \texttt {nedlib}}{24}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}\rmfamily 3.2.2 V\'yhody \texttt {nedlib} pro WebArchiv}{24}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}\rmfamily 3.2.3 Nev\'yhody \texttt {nedlib} pro WebArchiv}{24}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}\rmfamily 3.2.4 U\v zit\IeC {\'\i } v praxi ve WebArchivu}{24}{subsection.3.2.4}
+\contentsline {chapter}{\numberline {4}\bfseries P\v r\IeC {\'\i }lohy}{30}{chapter.4}
