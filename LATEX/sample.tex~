@@ -9,9 +9,8 @@ Archivace není dùle¾itá jen pro pøípad ztráty dat, ale i pro pøedejití problému 
 
 Databáze WebArchivu obsahuje :
 \begin{itemize}
-\item Digitální dokumenty volnì dostupné prostøednictvím sítì internet
-\item Publikace odborného, umìleckého a zpravodajsko-publicistického zamìøení
-\item Periodika, monografie, konferenèní pøíspìvky, výzkumné a jiné zprávy, a akademické práce
+\item 
+\item 
 \end{itemize}
 
 \begin{description}
@@ -62,3 +61,29 @@ rok sfg Dal¹í údaje budou popsány v sekci \ref{sec:end}
 na stranì \pageref{sec:end}.
 
 
+\vskip 2cm
+
+\begin{table}[htbp!]
+\caption{Obsah WebArchivu}
+\label{tabulka_obsahu_webarchivu}
+\begin{center}
+\begin{tabular}{|l||c|c|}
+\hline
+\textbf{Sklizeò}&\textbf{Poèet souborù}&\textbf{Rozsah (MB)}\\
+\hline
+2001	&	3 017 058	&	106 520\\
+2002	&	10 272 093	&	315 756\\
+2004	&	32 161 396	&	1 058 305\\
+2005	&	9 336 123	&	253 785\\
+2006	&	70 741 016	&	3 465 016\\
+2007	&	81 300 000	&	3 600 000\\
+2008	&	78 203 483	&	3 900 000\\
+2009	&	Není známo	&	9 300 000\\
+2010	&	Není známo	&	16 800 000\\
+2011	&	Není známo	&	7 800 000\\
+\hline
+Celkem	&	Není známo	&	46 599 382\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}

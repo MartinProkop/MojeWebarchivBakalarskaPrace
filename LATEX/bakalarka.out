@@ -51,7 +51,24 @@
 \BOOKMARK [1][-]{section.3.1}{ \332vod}{chapter.3}
 \BOOKMARK [1][-]{section.3.2}{ Form\341t nedlib}{chapter.3}
 \BOOKMARK [2][-]{subsection.3.2.1}{ Popis standardu nedlib}{section.3.2}
-\BOOKMARK [2][-]{subsection.3.2.2}{ 3.2.2 V\375hody nedlib pro WebArchiv}{section.3.2}
-\BOOKMARK [2][-]{subsection.3.2.3}{ 3.2.3 Nev\375hody nedlib pro WebArchiv}{section.3.2}
-\BOOKMARK [2][-]{subsection.3.2.4}{ 3.2.4 U\236it\355 v praxi ve WebArchivu}{section.3.2}
-\BOOKMARK [0][-]{chapter.4}{Pr\355lohy}{}
+\BOOKMARK [2][-]{subsection.3.2.2}{ V\375hody nedlib pro WebArchiv}{section.3.2}
+\BOOKMARK [2][-]{subsection.3.2.3}{ Nev\375hody nedlib pro WebArchiv}{section.3.2}
+\BOOKMARK [2][-]{subsection.3.2.4}{ U\236it\355 v praxi ve WebArchivu}{section.3.2}
+\BOOKMARK [1][-]{section.3.3}{ Form\341t arc}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.3.1}{ Popis standardu arc}{section.3.3}
+\BOOKMARK [2][-]{subsection.3.3.2}{ V\375hody arc pro WebArchiv}{section.3.3}
+\BOOKMARK [2][-]{subsection.3.3.3}{ Nev\375hody arc pro WebArchiv}{section.3.3}
+\BOOKMARK [2][-]{subsection.3.3.4}{ U\236it\355 v praxi ve WebArchivu}{section.3.3}
+\BOOKMARK [1][-]{section.3.4}{ Form\341t warc}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.4.1}{ \332vod}{section.3.4}
+\BOOKMARK [2][-]{subsection.3.4.2}{ Popis standardu warc}{section.3.4}
+\BOOKMARK [2][-]{subsection.3.4.3}{ V\375hody warc pro WebArchiv}{section.3.4}
+\BOOKMARK [2][-]{subsection.3.4.4}{ Nev\375hody warc pro WebArchiv}{section.3.4}
+\BOOKMARK [2][-]{subsection.3.4.5}{ Pl\341novan\351 vyu\236it\355}{section.3.4}
+\BOOKMARK [2][-]{subsection.3.4.6}{ Deduplikace souboru}{section.3.4}
+\BOOKMARK [0][-]{chapter.4}{Migrace archivu z form\341tu arc do form\341tu warc}{}
+\BOOKMARK [1][-]{section.4.1}{ O migraci}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.1.1}{ \332vod}{section.4.1}
+\BOOKMARK [2][-]{subsection.4.1.2}{ Britsk\341 knihovna}{section.4.1}
+\BOOKMARK [0][-]{chapter.5}{Z\341ver}{}
+\BOOKMARK [0][-]{chapter.6}{Pr\355lohy}{}
