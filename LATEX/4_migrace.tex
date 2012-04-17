@@ -89,7 +89,6 @@ Tento nástroj není ji¾ v souèasnosti dále vyvíjen a podporován, ale je stále dos
 \item pro soubory typu \texttt{arc} hlásí: \texttt{Incompatible Warc Version}
 \end{itemize}
 Nástroj tedy není pøímo kompatibilní s ostatními mnou testovanými nástroji.
-
 \subsubsection{Dal¹í parametry}
 \begin{itemize}
 \item Výhodou nástroje je, ¾e má napsané skripty pro hromadnou migraci.
@@ -97,3 +96,83 @@ Nástroj tedy není pøímo kompatibilní s ostatními mnou testovanými nástroji.
 \item Pøi pøevodu \texttt{arc} souboru do \texttt{warc} archivu pøibalí i archivované soubory. Na rozdíl od ostatních nástrojù -- ostatní nástroje pøibalí archivované soubory pouze pokud dostanou na vstup \texttt{arc} archivy, které jsou zabalené nástrojem \texttt{GZip}. 
 \item Nástroj není v souèasné dobì dále vyvíjen. Z toho se dá odvodit, ¾e pravdìpodobnì nebude mo¾no pou¾ívat ho dlouhodobì -- ostatní nástroje budou obohacovány o dal¹í funkcionalitu a tím reagovat na nové po¾adované parametry k pøevodu \texttt{arc} souborù.
 \end{itemize}
+
+\subsection{\texttt{WARC-TOOLS / hanzo}}
+Dal¹í nástroj obsahující skripty pro pøevod \texttt{arc} souborù na \texttt{warc} soubory, vèetnì nástrojù pro validaci a práci s \texttt{warc} soubory. Tento nástroj vyvíjí tým, který je odvozen od týmu vyvíjejícího pùvodní \texttt{WARC-TOOLS}\footnote{Webové stránky projektu \texttt{WARC-TOOLS / hanzo} dostupné online na adrese \texttt{http://code.hanzoarchives.com/warc-tools/wiki/Home}.}.
+
+V \texttt{pøíloze W na s. \pageref{pr:w}} je k nalezení dokumentace nástroje. \texttt{Pøíloha X na s. \pageref{pr:x}} obsahuje výstup z nástroje \texttt{warcdump} a \texttt{pøíloha Y na s. \pageref{pr:y}} výstup z nástroje \texttt{JHOVE2} pro daný \texttt{warc} soubor. \texttt{Pøíloha AD na s. \pageref{pr:ad}} obsahuje kompletní nástroj.
+\subsubsection{Kompatibilita s ostatními nástroji}
+\begin{itemize}
+\item Nástroj \texttt{warcdump} je kompatibilní s ostatními testovanými nástroji.
+\item Z nástroje zcela vychází nástroj \texttt{WARC-TOOLS / kpk09}.
+\item Dokumentace nástroje s nástrojem \texttt{WARC-TOOLS / kpk09} je toto¾ná.
+\end{itemize}
+\subsubsection{Dal¹í parametry}
+\begin{itemize}
+\item Nemá napsané skripty pro hromadnou migraci.
+\item Pøi pøevodu \texttt{arc} souborù nepøibalí k souboru data. Je potøeba mu dávat na vstup \texttt{arc.gz} soubory.
+\item Po otestování na zku¹ebním vzorku je textový \texttt{warc} soubor, toto¾ný se souborem z \texttt{WARCTOOLS / kpk09}.
+\item Nástroj je v souèasné dobì vyvíjen.
+\item Nástroj nemá dokonèenou dokumentaci. V manuálu stojí, ¾e vytváøí \uv{crappy} \texttt{warc} soubory. Nástroj pro migraci je údajnì pøevzat z nástroje \texttt{WARCTOOLS}.\cite{Hanzo}
+\end{itemize}
+
+\subsection{\texttt{WARC-TOOLS / kpk09}}
+Tøetí mnou testovaný nástroj na urèený pro migraci \texttt{arc} souborù. Jedná se o projekt, který je vyvíjen jako fork k pùvodnímu kódu \texttt{WARC TOOLS / hanzo}\footnote{Webové stránky projektu \texttt{WARC-TOOLS / kpk09} dostupné online na adrese \texttt{https://bitbucket.org/kpk09/warc-tools/wiki/Home}.}.
+V \texttt{pøíloze Z na s. \pageref{pr:z}} je k nalezení dokumentace nástroje. \texttt{Pøíloha AA na s. \pageref{pr:aa}} obsahuje výstup z nástroje \texttt{warcdump} a \texttt{pøíloha AB \pageref{pr:ab}} výstup z nástroje \texttt{JHOVE2} pro daný \texttt{warc} soubor. \texttt{Pøíloha AE na s. \pageref{pr:ae}} obsahuje kompletní nástroj.
+\subsubsection{Kompatibilita s ostatními nástroji}
+\begin{itemize}
+\item Nástroj \texttt{warcdump} je kompatibilní s ostatními testovanými nástroji.
+\item Nástroj zcela vychází z nástroje \texttt{WARC-TOOLS / hanzo}.
+\item Dokumentace nástroje s nástrojem \texttt{WARC-TOOLS / hanzo} je toto¾ná.
+\end{itemize}
+\subsubsection{Dal¹í parametry}
+\begin{itemize}
+\item Nemá napsané skripty pro hromadnou migraci.
+\item Pøi pøevodu \texttt{arc} souborù nepøibalí k souboru data. Je potøeba mu dávat na vstup \texttt{arc.gz} soubory.
+\item Po otestování na zku¹ebním vzorku je textový \texttt{warc} soubor, toto¾ný se souborem z \texttt{WARCTOOLS / hanzo}.
+\item Nástroj je v souèasné dobì vyvíjen.
+\item Nástroj nemá dokonèenou dokumentaci. V manuálu stojí, ¾e vytváøí \uv{crappy} \texttt{warc} soubory. Nástroj pro migraci je údajnì pøevzat z nástroje \texttt{WARCTOOLS}.\cite{Kpk09}
+\end{itemize}
+
+\section{Podobnost \texttt{WARCTOOLS / hanzo s kpk09}}
+Jak jsem zmínil ji¾ vý¹e nástroje \texttt{WARCTOOLS / hanzo} s \texttt{WARCTOOLS / kpk09} jsou si velmi podobné. Tato podobnost logicky vychází z toho, ¾e \texttt{WARCTOOLS / kpk09} vychází z nástroje druhého.
+Pokud bychom chtìli dùslednì porovnávat tyto dva nástroje mù¾eme to udìlat dvìma zpùsoby. První zpùsob je porovnání výstupù pro stejný vstup a druhý je porovnání zdrojového kódu.
+\subsection{Porovnání výstupù pro stejné vstupy}
+Testoval jsem nástroje pro pøevod na vlastním vzorku \texttt{arc} archivù. Konkrétnì jsem testoval podobnost pøíslu¹ných dvou \texttt{warc.gz} archivù a jejich výstupù pøi pou¾ití nástroje \texttt{warcdump}. Výstupy z nástroje \texttt{warcdump} jsem porovnával pomocí nástroje \texttt{diff}\footnote{Informace o nástroji \texttt{diff} dostupné online na adrese \texttt{http://unixhelp.ed.ac.uk/CGI/man-cgi?diff}.}. Výsledky byli a¾ na názvy cest k archivùm toto¾né. Testování samotných \texttt{warc.gz} souborù jsem provádìl pomocí nástroje \texttt{zdiff}\footnote{Informace o nástroji \texttt{zdiff} dostupné online na adrese \texttt{http://resin.csoft.net/cgi-bin/man.cgi?section=1\&topic=zdiff}. }, i tento nástroj potvrdil toto¾nost souborù.
+
+Musím zdùraznit, ¾e jsem pou¾il relativnì malý testovací vzorek. Proto abych mohl uspokojivì konstatovat, bych musel pou¾ít mnohem vìt¹í vzorek dat. Navíc bych musel testovat archivy s rùzným obsahem -- dá se oèekávat, ¾e by mohlo dojít k iferenciaci výstupù, kdyby archivy obsahovali atypické typy souborù.
+\subsection{Porovnání zdrojového kódu}
+Porovnání zdrojového kódu je nároènìj¹í procedura, ale pravdìpodobnì mù¾e jasnì odpovìdìt na otázku. Pravdìpodobnì by bylo nejlep¹í dotázat se na rozdílnost obou nástrojù pøímo vývojáøù. 
+Server, na kterém jsou oba nástroje umístìny, umo¾òuje pøímé porovnávání pomocí nástroje \texttt{diff}. Informace o rozdílnosti je mo¾né zhlédnout z dvou hledisek.
+\begin{itemize}
+\item Zmìny ve \texttt{WARCTOOLS / hanzo}, které se neprojevily v druhém nástroji\footnote{Náhled zmìn mezi porovnávanými nástroji dostupný online na adrese \texttt{https://bitbucket.org/kpk09/warc-tools/compare/hanzo/warc-tools}. 11.4.2012 ¹lo o modifikace ve 34 souborech.}. 
+\item Zmìny ve \texttt{WARCTOOLS /kpk09}, které se neprojevily v druhém nástroji\footnote{Náhled zmìn mezi porovnávanými nástroji dostupný online na adrese \texttt{https://bitbucket.org/kpk09/warc-tools/compare/..hanzo/warc-tools}. 11.4.2012 ¹lo o modifikace ve 7 souborech.}.
+\end{itemize}
+
+\section{Závìry z porovnávání nástrojù}
+Na základì porovnání jednotlivých nástrojù, které rozvádím v pøedcházející kapitole, jsem po poradì se svým vedoucím, Mgr. Václevem Roseckým, do¹el k závìru, ¾e nejlep¹ím nástrojem pro pøípadný pøevod webového archivu bude nástroj \texttt{WARCTOOLS / hanzo}.
+
+Hlavní výhoda tohoto nástroje je to, ¾e je neustále vyvíjen a za jeho vývojem stojí organizace Hanzo Archives.
+
+\section{Implementace úprav v migraèních nástrojích}
+\subsection{Úvod}
+Mým úkolem bylo najít zpùsob, jak pøi procesu migrace na \texttt{warc }archiv zjistit obsah pùvodního archivu. To znamená, ¾e jsem mìl v prùbìhu migrace provést analýzu obsahu archivu. V prùbìhu pøevodu znamená taková analýza nejmen¹í re¾ii, oproti dodateènému provádìní takové analýzy. Navíc by analýza mohla potencionálnì ovlivnit samotný pøevod, jeliko¾ by v pøípadì nutnosti bylo mo¾no zmìnit obsah pøevádìného archivu, pøed tím ne¾ bude ulo¾en do \texttt{warc} archovu.
+
+Z toho dùvodu jsem musel provést nìkolik zmìn v programu \texttt{JHOVE2} i nástroji \texttt{WARCTOOLS}, respektive jsem zmìnu provedl jen v nástroji \texttt{WARCTOOLS / hanzo}. Zmìna v ostatních nástrojích \texttt{WARCTOOLS} by znamenala obdobné zásahy do zdrojového kódu, a pravdìpodobnì by vedla je stejným výsledkùm, jak vyplývá z mého porovnání nástrojù.
+\subsection{Úprava \texttt{JHOVE2}}
+Program \texttt{JHOVE2} je implementován v programovacím jazyce \texttt{Java}. Jeliko¾ je napsán tak, aby ho bylo mo¾né spou¹tìt z pøíkazového øádku, musel jsem provést zmìny, který by mi umo¾nili spou¹tìt jej pøímo z tìla programu \texttt{WARCTOOLS}. Bylo tedy nutno implementovat v rámci programu \texttt{JHOVE2} dal¹í tøídu.
+
+Moje nová tøída je tedy spu¹tìna pøímo z programu \texttt{arc2warc.py}\footnote{Souèást nástroje WARCTOOLS, která je urèena k migraci archivù. Do jiných programù v rámci WARCTOOLS jsem nemusel zasahovat.} a obstará inicializaci a pøedání instrukcí nástroji \texttt{JHOVE2}, který pak provede v¹echny operace a vytvoøí výstupní soubor s informacemi o analýze obsahu \texttt{arc} archivu. Problémem bylo, ¾e program \texttt{HOVE2} neumo¾òuje vícenásobné spu¹tìní, jeliko¾ pro ka¾dé spu¹tìní musí znova inicializovat \texttt{Berkeley DB} databázi -- co¾ by pøi implementaci do programu \texttt{arc2warc} pùsobilo problémy. Proto mnou implementovaná tøída umo¾òuje, aby mohl zpracovat libovolné mno¾ství souborù najednou, a vrátit pro nì souhrnný soubor s informace o analýze.
+Ukázku této tøídy je mo¾no najít v \texttt{pøíloze AK a na s. \pageref{pr:ak}}. 
+\subsection{Úprava WARCTOOLS / hanzo}
+Pøi úpravì nástroje \texttt{WARCTOOLS} staèilo upravit pouze program \texttt{arc2warc.py}, který je implementovám v programovacím jazyce \texttt{Python}. Bylo nutné provést takové zmìny, aby bylo mo¾no pøímo pøi bìhu programu spustit aplikaci v programovacím \texttt{Java}. A upravit program tak, aby bylo mo¾no pøistupovat k jednotlivým souborùm uvnitø \texttt{arc} archivu. Dal¹ím problémem bylo, ¾e program \texttt{JHOVE2} neumo¾òuje vícenásobné spu¹tìní. Opakovaná inicializace by v¹ak byla výpoèetnì velmi nároèná\footnote{Typický archiv je má velikost 100 MB a obsahuje stovky a¾ tisíce souborù.}.
+
+Pro úèely spou¹tìní \texttt{Java} aplikace v rámci rámci skriptu v jazyce \texttt{Python} bylo tøeba vybrat vhodný nástroj. Vybíral jsem mezi nástroji \texttt{Jpype} a \texttt{Jython}\footnote{Webové stránky projektu \texttt{JYTHON} dostupné online na adrese \texttt{http://www.jython.org}.}. Nástroj Jpype umo¾òuje spu¹tìní \texttt{Java Virtual Machine} uvnitø skriptu v jazyce \texttt{Python}, oproti tomu nástroj \texttt{Jython} spustí \texttt{Java Virtual Machine} je¹tì pøed samotným vykonáváním skriptu. Nakonec jsem zvolil nástroj \texttt{Jpype}, který mi pøi¹el vhodnìj¹í. Hlavnì proto¾e v dobì volby nástroje jsem se domníval, ¾e budu potøebovat spou¹tìt \texttt{Java Virtual Machine} vícekrát bìhem prùbìhu skriptu.
+
+Pùvodní program pøevádí \texttt{arc} archiv tak, ¾e pøedìlá metadata uvnitø archivu a jeho obsah -- soubory v nìm obsa¾ené -- pouze jako \texttt{bytestream} pøevede do nového \texttt{warc} archivu. Mùj výsledný upravený program pracuje tak, ¾e bìhem pøevodu archivu provede pomocí regulárního výrazu filtrování jednotlivých souborù uvnitø archivu. Ty ulo¾í do doèasného adresáøe. Potom, co je \texttt{warc} archiv vytvoøený, spustí se \texttt{JHOVE2}, který provede analýzu v¹ech souborù v archivu. Nakonec jsou soubory z doèasného adresáøe odstranìny.
+
+Jako výstup z migrace, je kromì nového \texttt{warc} archivu i soubor ve formátu \texttt{XML} vytvoøený programem \texttt{JHOVE2}, který obsahuje souhrn analýzy souborù.
+
+Ukázku upraveného programu \texttt{arc2warc.py} pod názvem \texttt{arc2warc\_jhove2.py} nabízím v \texttt{pøíloze AL na s. \pageref{pr:al}}, kde jsou i moje komentáøe k úpravám zdrojového kódu.
+\section{Výstupy z analýzy obsahu pøevádìných archivù}
+Na to je¹tì èekám ne¾ to postahuju a zkusím.

@@ -238,7 +238,7 @@ JHOVE2CommandLine.main(seznam);\\
 \} }
 \label{pr:al}
 \section*{AL. WARCTOOLS / hanzo -- vlastní implementace nástroje}
-Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{arc2warc\_jhove2.py}. Aby správnì fungoval, je potøeba mít nainstalován nástroj Jpype (\texttt{pøíloha AI \ref{pr:ai}}) a umístit soubor do koøenové slo¾ky WARCTOOLS / hanzo (\texttt{pøíloha AD \ref{pr:ad}}).
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{arc2warc\_jhove2.py}. Aby správnì fungoval, je potøeba mít nainstalován nástroj Jpype (\texttt{pøíloha AI na s. \pageref{pr:ai}}) a umístit soubor do koøenové slo¾ky WARCTOOLS / hanzo (\texttt{pøíloha AD na s. \pageref{pr:ad}}).
 \label{pr:am}
 \section*{AM. Warc -- gramatika}
 \texttt{Warc-file = 1*warc-record \\

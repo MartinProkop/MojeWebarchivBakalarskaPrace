@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  18 APR 2012 00:24
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  18 APR 2012 01:05
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -229,11 +229,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 ) (./bakalarka.aux (./1_uvod.aux)
 (./2_webarchiv.aux) (./3_archivacniformaty.aux) (./4_migrace.aux)
-(./5_zaver.aux) (./bibliografie.aux) (./prilohy.aux
-
-LaTeX Warning: Label `pr:z' multiply defined.
-
-))
+(./5_zaver.aux) (./bibliografie.aux) (./prilohy.aux))
 \openout1 = `bakalarka.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -252,7 +248,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 18.
 LaTeX Font Info:    Try loading font information for IL2+cmr on input line 18.
- (/usr/share/texmf-texlive/tex/latex/cslatex/il2cmr.fd
+
+(/usr/share/texmf-texlive/tex/latex/cslatex/il2cmr.fd
 File: il2cmr.fd 1997/02/06 CSLaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 18.
@@ -883,7 +880,139 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--77
 2/lmr/m/n/10 do-stupná on-line na ad-rese
  []
 
-[38]) [39]
+[38]
+Overfull \hbox (4.59917pt too wide) in paragraph at lines 101--102
+\IL2/lmr/m/n/12 vy-víjí tým, který je od-vo-zen od týmu vy-ví-je-jí-cího pù-vod
+ní \IL2/lmtt/m/n/12 WARC-TOOLS[][][]\IL2/lmr/m/n/12 . 
+ []
+
+[39]
+Overfull \hbox (5.6612pt too wide) in paragraph at lines 103--104
+[]\IL2/lmr/m/n/12 V \IL2/lmtt/m/n/12 pøíloze W na s. []59[] \IL2/lmr/m/n/12 je 
+k na-le-zení do-ku-men-tace ná-stroje. \IL2/lmtt/m/n/12 Pøíloha
+ []
+
+
+Overfull \hbox (0.30045pt too wide) in paragraph at lines 120--122
+\IL2/lmtt/m/n/12 / hanzo[][][]\IL2/lmr/m/n/12 . V \IL2/lmtt/m/n/12 pøíloze Z na
+ s. []60[] \IL2/lmr/m/n/12 je k na-le-zení do-ku-men-tace ná-stroje.
+ []
+
+[40]
+Overfull \hbox (22.32747pt too wide) in paragraph at lines 138--140
+\IL2/lmr/m/n/12 Jak jsem zmí-nil ji¾ vý¹e ná-stroje \IL2/lmtt/m/n/12 WARCTOOLS 
+/ hanzo \IL2/lmr/m/n/12 s \IL2/lmtt/m/n/12 WARCTOOLS / kpk09
+ []
+
+
+Overfull \hbox (68.24524pt too wide) in paragraph at lines 138--140
+\IL2/lmr/m/n/12 jsou si velmi po-dobné. Tato po-dob-nost lo-gicky vy-chází z to
+ho, ¾e \IL2/lmtt/m/n/12 WARCTOOLS / kpk09
+ []
+
+[41]
+
+Package hyperref Warning: Composite letter `\textring+u'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textring' on input line 140.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+[][][][]\IL2/lmr/m/n/10 Informace o ná-stroji \IL2/lmtt/m/n/10 diff \IL2/lmr/m/
+n/10 do-stupné on-line na ad-rese
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+[][][][]\IL2/lmr/m/n/10 Informace o ná-stroji \IL2/lmtt/m/n/10 zdiff \IL2/lmr/m
+/n/10 do-stupné on-line na ad-rese
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 148--148
+[][][][]\IL2/lmr/m/n/10 Náhled zmìn mezi po-rov-ná-va-nými ná-stroji do-stupný 
+on-line na ad-rese
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+\IL2/lmtt/m/n/10 https://bitbucket.org/kpk09/warc-tools/compare/hanzo/warc-tool
+s\IL2/lmr/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 149--149
+[][][][]\IL2/lmr/m/n/10 Náhled zmìn mezi po-rov-ná-va-nými ná-stroji do-stupný 
+on-line na ad-rese
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+\IL2/lmtt/m/n/10 https://bitbucket.org/kpk09/warc-tools/compare/..hanzo/warc-to
+ols\IL2/lmr/m/n/10 .
+ []
+
+[42]
+
+Package hyperref Warning: Composite letter `\textasciicaron+e'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 152.
+
+
+Package hyperref Warning: Composite letter `\textring+u'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textring' on input line 152.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 157.
+
+
+Overfull \vbox (0.10837pt too high) has occurred while \output is active []
+
+
+[43]
+Overfull \hbox (20.34496pt too wide) in paragraph at lines 168--169
+\IL2/lmr/m/n/12 Pøi úpravì ná-stroje \IL2/lmtt/m/n/12 WARCTOOLS \IL2/lmr/m/n/12
+ sta-èilo upra-vit pouze pro-gram \IL2/lmtt/m/n/12 arc2warc.py\IL2/lmr/m/n/12 ,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+[][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 JYTHON \IL2/l
+mr/m/n/10 do-stupné on-line na ad-rese
+ []
+
+
+Overfull \hbox (13.93918pt too wide) in paragraph at lines 170--171
+\IL2/lmr/m/n/12 spustí \IL2/lmtt/m/n/12 Java Virtual Machine \IL2/lmr/m/n/12 je
+¹tì pøed sa-mot-ným vy-ko-ná-vá-ním skriptu.
+ []
+
+[44]
+Overfull \hbox (54.04475pt too wide) in paragraph at lines 176--177
+[]\IL2/lmr/m/n/12 Ukázku upra-ve-ného pro-gramu \IL2/lmtt/m/n/12 arc2warc.py \I
+L2/lmr/m/n/12 pod ná-zvem \IL2/lmtt/m/n/12 arc2warc[]jhove2.py
+ []
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+r'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 177.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+e'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 177.
+
+
+Package hyperref Warning: Composite letter `\textring+u'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textring' on input line 177.
+
+) [45]
 \openout2 = `5_zaver.aux'.
 
  (./5_zaver.tex
@@ -893,7 +1022,7 @@ Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 1.
 
-) [40
+) [46
 
 
 
@@ -1017,7 +1146,7 @@ Overfull \hbox (73.6171pt too wide) in paragraph at lines 9--10
 .doc\IL2/lmr/m/n/12 . 
  []
 
-[41
+[47
 
 
 
@@ -1159,7 +1288,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 \IL2/lmr/m/n/12 [on-line]. 2012 [cit. 2012-03-21]. Do-stupné z:
  []
 
-[42]
+[48]
 Underfull \hbox (badness 3536) in paragraph at lines 22--23
 []\IL2/lmr/m/n/12 JANSA, Petr. \IL2/lmr/m/it/12 Právní aspekty im-ple-men-tace 
 pro-jektu þCre-
@@ -1204,7 +1333,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
  Do-stupné z:
  []
 
-[43]
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 []\IL2/lmr/m/n/12 JELÍNKOVÁ, Lenka. \IL2/lmr/m/it/12 Bib-li-o-gra-fický po-pis 
 elek-
@@ -1303,7 +1432,7 @@ Overfull \hbox (152.16315pt too wide) in paragraph at lines 39--40
 uide[]20110222.pdf\IL2/lmr/m/n/12 . 
  []
 
-[44]
+[50]
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
 []\IL2/lmr/m/n/12 Hanzo / warc-tools / over-view. BIT-BUCKET. \IL2/lmr/m/it/12 
 Bit-
@@ -1327,7 +1456,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 tupné z:
  []
 
-) [45]
+) [51]
 \openout2 = `prilohy.aux'.
 
  (./prilohy.tex
@@ -1347,7 +1476,7 @@ Overfull \hbox (2.97519pt too wide) in paragraph at lines 18--19
 \IL2/lmtt/m/n/12 origin-code == Name of gathering organization with no white
  []
 
-[46
+[52
 
 
 
@@ -1371,13 +1500,13 @@ Overfull \hbox (2.0259pt too wide) in paragraph at lines 66--68
 []\IL2/lmtt/m/n/12 fac069150613fe55599cc7fa88aa089d - 209 IA-001102.arc 202 
  []
 
-[47]
+[53]
 Overfull \hbox (7.84537pt too wide) in paragraph at lines 72--73
 \IL2/lmr/m/n/12 pod ná-zvem \IL2/lmtt/m/n/12 IAH-20110905093545-00000-kovar-lap
 top-8090.arc.gz\IL2/lmr/m/n/12 . 
  []
 
-[48]
+[54]
 Overfull \hbox (76.49367pt too wide) in paragraph at lines 85--87
 \IL2/lmr/m/n/12 zvem \IL2/lmtt/m/n/12 IAH-20110905093545-00000-kovar-laptop-809
 0.arc.gz[]jhove2output.xml\IL2/lmr/m/n/12 .
@@ -1388,7 +1517,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
-[49]
+[55]
 Overfull \hbox (2.07492pt too wide) in paragraph at lines 140--142
 []\IL2/lmtt/m/n/12 (compatible; heritrix/1.4.0 +http://crawler.archive.org) 
  []
@@ -1401,7 +1530,7 @@ Overfull \hbox (8.24992pt too wide) in paragraph at lines 140--142
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
+ [56]
 Overfull \hbox (39.44365pt too wide) in paragraph at lines 144--145
 \IL2/lmr/m/n/12 zvem \IL2/lmtt/m/n/12 WARCTOOLS[]IAH-20110905093545-00000-kovar
 -laptop-8090.warc.gz\IL2/lmr/m/n/12 . 
@@ -1422,13 +1551,13 @@ top-8090.warc.gz\IL2/lmr/m/n/12 .
 
 Underfull \vbox (badness 3668) has occurred while \output is active []
 
- [51]
+ [57]
 Overfull \hbox (142.68971pt too wide) in paragraph at lines 152--154
 \IL2/lmr/m/n/12 zvem \IL2/lmtt/m/n/12 WARCTOOLS[]IAH-20110905093545-00000-kovar
 -laptop-8090.warc.gz[]jhove2output.xml\IL2/lmr/m/n/12 .
  []
 
-[52]
+[58]
 Overfull \hbox (93.28969pt too wide) in paragraph at lines 173--175
 \IL2/lmr/m/n/12 zvem \IL2/lmtt/m/n/12 WARCTOOLS[]IAH-20110905093545-00000-kovar
 -laptop-8090.warc.gz[]warcdump\IL2/lmr/m/n/12 .
@@ -1446,7 +1575,7 @@ Overfull \hbox (117.9897pt too wide) in paragraph at lines 182--184
 top-8090.warc.gz[]jhove2output.xml\IL2/lmr/m/n/12 .
  []
 
-[53]
+[59]
 Overfull \hbox (68.58267pt too wide) in paragraph at lines 188--190
 \IL2/lmr/m/n/12 zvem \IL2/lmtt/m/n/12 KPK09[]IAH-20110905093545-00000-kovar-lap
 top-8090.warc.gz[]warcdump\IL2/lmr/m/n/12 .
@@ -1461,13 +1590,13 @@ top-8090.warc.gz[]jhove2output.xml\IL2/lmr/m/n/12 .
 
 Underfull \vbox (badness 4144) has occurred while \output is active []
 
- [54]
+ [60]
 Overfull \hbox (95.56982pt too wide) in paragraph at lines 215--217
 \IL2/lmr/m/n/12 bor je také do-stupný on-line na ad-rese \IL2/lmtt/m/n/12 http:
 //archive-access.sourceforge.net/warc/\IL2/lmr/m/n/12 .
  []
 
-[55]
+[61]
 LaTeX Font Info:    Try loading font information for OMS+lmtt on input line 238
 .
 LaTeX Font Info:    No file OMSlmtt.fd. on input line 238.
@@ -1501,7 +1630,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--240
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
+ [62]
 Overfull \hbox (52.37521pt too wide) in paragraph at lines 253--255
 \IL2/lmtt/m/n/12 WARC-Type, WARC-Record-ID, WARC-Date, Content-Length, Content-
 Type,
@@ -1530,21 +1659,18 @@ Overfull \hbox (70.90022pt too wide) in paragraph at lines 253--255
 l-Length
  []
 
-[57]) [58] (./bakalarka.aux (./1_uvod.aux) (./2_webarchiv.aux)
+[63]) [64] (./bakalarka.aux (./1_uvod.aux) (./2_webarchiv.aux)
 (./3_archivacniformaty.aux) (./4_migrace.aux) (./5_zaver.aux)
 (./bibliografie.aux) (./prilohy.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 4835 strings out of 495027
- 70944 string characters out of 1181419
- 141681 words of memory out of 3000000
- 7591 multiletter control sequences out of 15000+50000
+ 4881 strings out of 495027
+ 71530 string characters out of 1181419
+ 143735 words of memory out of 3000000
+ 7607 multiletter control sequences out of 15000+50000
  48501 words of font info for 48 fonts, out of 3000000 for 9000
  38 hyphenation exceptions out of 8191
  38i,8n,42p,994b,445s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1562,9 +1688,9 @@ f/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmtti10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtto10.
 pfb>
-Output written on bakalarka.pdf (64 pages, 630874 bytes).
+Output written on bakalarka.pdf (70 pages, 666840 bytes).
 PDF statistics:
- 1161 PDF objects out of 1200 (max. 8388607)
- 291 named destinations out of 1000 (max. 500000)
- 673 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1296 PDF objects out of 1440 (max. 8388607)
+ 321 named destinations out of 1000 (max. 500000)
+ 793 words of extra memory for PDF output out of 10000 (max. 10000000)
 

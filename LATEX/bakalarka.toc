@@ -81,5 +81,20 @@
 \contentsline {subsection}{\numberline {4.3.1}\rmfamily \texttt {WARC-TOOLS}}{38}{subsection.4.3.1}
 \contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{39}{section*.12}
 \contentsline {subsubsection}{ Dal\v s\IeC {\'\i } parametry}{39}{section*.13}
-\contentsline {chapter}{\numberline {5}\bfseries Z\'av\v er}{40}{chapter.5}
-\contentsline {chapter}{\numberline {6}\bfseries P\v r\IeC {\'\i }lohy}{46}{chapter.6}
+\contentsline {subsection}{\numberline {4.3.2}\rmfamily \texttt {WARC-TOOLS / hanzo}}{40}{subsection.4.3.2}
+\contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{40}{section*.14}
+\contentsline {subsubsection}{ Dal\v s\IeC {\'\i } parametry}{40}{section*.15}
+\contentsline {subsection}{\numberline {4.3.3}\rmfamily \texttt {WARC-TOOLS / kpk09}}{41}{subsection.4.3.3}
+\contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{41}{section*.16}
+\contentsline {subsubsection}{ Dal\v s\IeC {\'\i } parametry}{41}{section*.17}
+\contentsline {section}{\numberline {4.4}\slshape Podobnost \texttt {WARCTOOLS / hanzo s kpk09}}{42}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}\rmfamily Porovn\'an\IeC {\'\i } v\'ystup\r u pro stejn\'e vstupy}{42}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}\rmfamily Porovn\'an\IeC {\'\i } zdrojov\'eho k\'odu}{42}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}\slshape Z\'av\v ery z porovn\'av\'an\IeC {\'\i } n\'astroj\r u}{43}{section.4.5}
+\contentsline {section}{\numberline {4.6}\slshape Implementace \'uprav v migra\v cn\IeC {\'\i }ch n\'astroj\IeC {\'\i }ch}{43}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}\rmfamily \'Uvod}{43}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}\rmfamily \'Uprava \texttt {JHOVE2}}{43}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}\rmfamily \'Uprava WARCTOOLS / hanzo}{44}{subsection.4.6.3}
+\contentsline {section}{\numberline {4.7}\slshape V\'ystupy z anal\'yzy obsahu p\v rev\'ad\v en\'ych archiv\r u}{45}{section.4.7}
+\contentsline {chapter}{\numberline {5}\bfseries Z\'av\v er}{46}{chapter.5}
+\contentsline {chapter}{\numberline {6}\bfseries P\v r\IeC {\'\i }lohy}{52}{chapter.6}
