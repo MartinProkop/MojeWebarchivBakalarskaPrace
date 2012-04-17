@@ -48,7 +48,7 @@ Jak jsem zmínil vý¹e, program \texttt{JHOVE2} je novìj¹í verzí programu \texttt{
 \item[Validace] urèení stupnì korespondence objektu se specifikací formátu.
 \item[Assessment] urèení stupnì korespondence objektu se specifickými nároky urèenými u¾ivatelem softwaru. Nástroj je tedy mo¾no \uv{personalizovat} pro potøeby u¾ivatele, co¾ je výhodné hlavnì proto, ¾e témìø ka¾dá organizace zabývající se archivací webových zdrojù, pou¾ívá odli¹nou politiku archivace dat. Nástroj poté dovede napøíklad urèit rizika pøi práci s rùznými objekty, nebo provést èi doporuèit dal¹í akce ke zpracování objektù.
 \end{description}
-\noindent \\ \\ Mezi dal¹í pøednosti programu patøí \cite{JHOVE2}:
+\noindent \\ Mezi dal¹í pøednosti programu patøí \cite{JHOVE2}:
 \begin{itemize}
 \item Modulární architektura a práce s plug-iny
 \item Jednoduché \texttt{API} a design základních modulù
@@ -76,18 +76,24 @@ Souèástí sady skriptù jsou jak skripty pro pøevod archivù, tak skripty pro analý
 
 Tento nástroj není ji¾ v souèasnosti dále vyvíjen a podporován, ale je stále dostupný ke sta¾ení\footnote{Webové stránky projektu \texttt{WARCTOOLS} dostupná online na adrese \texttt{http://code.google.com/p/warc-tools/}.}. Na webových stránkách projektu je dostupná dokumentace, kterou nabízím v \texttt{pøílohách R, S, T a U na s. \pageref{pr:r}}. \texttt{Pøíloha O na s. \pageref{pr:o}} obsahuje výpis z programu \texttt{JHOVE2} pro \texttt{warc} archiv generovaný tímto nástrojem. \texttt{Pøíloha V na s. \pageref{pr:v}} obsahuje výstup z nástroje \texttt{warcdump} pro \texttt{warc} archiv. V \texttt{pøíloze L na s. \pageref{pr:l}} je \texttt{warc} archiv generovaný nástrojem \texttt{WARCTOOLS}. \texttt{Pøíloha AC na s. \pageref{pr:ac}} obsahuje kompletní nástroj.
 \subsubsection{Kompatibilita s ostatními nástroji}
-\noindent Nástroj WARCDUMP není kompatibilní s ostatními mnou testovanými nástroji.
+\noindent Nástroj \texttt{warcdump} není kompatibilní s ostatními mnou testovanými nástroji.
 \begin{itemize}
-\item
-pro WARC-TOOLS / hanzo hlásí: Incompatible Warc Version
-pro WARC-TOOLS / kpk09 hlásí: Incompatible Warc Version
-pro soubory typu arc hlásí: Incompatible Warc Version
+\item pro \texttt{WARC-TOOLS / hanzo} hlásí: \texttt{Incompatible Warc Version}
+\item pro \texttt{WARC-TOOLS / kpk09} hlásí: \texttt{Incompatible Warc Version}
+\item pro soubory typu \texttt{arc} hlásí: \texttt{Incompatible Warc Version}
 \end{itemize}
-\noindent \\ \\Nástroj WARCVALIDATOR není kompatibilní s ostatními testovanými nástroji.
+\noindent \\ \\Nástroj \texttt{warcvalidator} není kompatibilní s ostatními testovanými nástroji.
 \begin{itemize}
-\item
-pro WARC-TOOLS / hanzo hlásí: Incompatible Warc Version
-pro WARC-TOOLS / kpk09 hlásí: Incompatible Warc Version
-pro soubory typu arc hlásí: Incompatible Warc Version
+\item pro \texttt{WARC-TOOLS / hanzo} hlásí: \texttt{Incompatible Warc Version}
+\item pro \texttt{WARC-TOOLS / kpk09} hlásí: \texttt{Incompatible Warc Version}
+\item pro soubory typu \texttt{arc} hlásí: \texttt{Incompatible Warc Version}
 \end{itemize}
 Nástroj tedy není pøímo kompatibilní s ostatními mnou testovanými nástroji.
+
+\subsubsection{Dal¹í parametry}
+\begin{itemize}
+\item Výhodou nástroje je, ¾e má napsané skripty pro hromadnou migraci.
+\item Zvládá pøevádìt soubory \texttt{arc} i soubory \texttt{arc.gz}.
+\item Pøi pøevodu \texttt{arc} souboru do \texttt{warc} archivu pøibalí i archivované soubory. Na rozdíl od ostatních nástrojù -- ostatní nástroje pøibalí archivované soubory pouze pokud dostanou na vstup \texttt{arc} archivy, které jsou zabalené nástrojem \texttt{GZip}. 
+\item Nástroj není v souèasné dobì dále vyvíjen. Z toho se dá odvodit, ¾e pravdìpodobnì nebude mo¾no pou¾ívat ho dlouhodobì -- ostatní nástroje budou obohacovány o dal¹í funkcionalitu a tím reagovat na nové po¾adované parametry k pøevodu \texttt{arc} souborù.
+\end{itemize}

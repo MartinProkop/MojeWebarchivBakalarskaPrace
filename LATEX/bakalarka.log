@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  18 APR 2012 00:19
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  18 APR 2012 00:24
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -883,12 +883,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--77
 2/lmr/m/n/10 do-stupná on-line na ad-rese
  []
 
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
- []
-
-) [39]
+[38]) [39]
 \openout2 = `5_zaver.aux'.
 
  (./5_zaver.tex
@@ -1546,10 +1541,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4833 strings out of 495027
- 70920 string characters out of 1181419
+ 4835 strings out of 495027
+ 70944 string characters out of 1181419
  141681 words of memory out of 3000000
- 7590 multiletter control sequences out of 15000+50000
+ 7591 multiletter control sequences out of 15000+50000
  48501 words of font info for 48 fonts, out of 3000000 for 9000
  38 hyphenation exceptions out of 8191
  38i,8n,42p,994b,445s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1567,9 +1562,9 @@ f/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmtti10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtto10.
 pfb>
-Output written on bakalarka.pdf (64 pages, 629615 bytes).
+Output written on bakalarka.pdf (64 pages, 630874 bytes).
 PDF statistics:
- 1156 PDF objects out of 1200 (max. 8388607)
- 290 named destinations out of 1000 (max. 500000)
- 665 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1161 PDF objects out of 1200 (max. 8388607)
+ 291 named destinations out of 1000 (max. 500000)
+ 673 words of extra memory for PDF output out of 10000 (max. 10000000)
 

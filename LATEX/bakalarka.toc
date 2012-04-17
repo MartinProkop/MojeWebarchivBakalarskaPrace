@@ -80,5 +80,6 @@
 \contentsline {section}{\numberline {4.3}\slshape Testov\'an\IeC {\'\i } migra\v cn\IeC {\'\i }ch n\'astroj\r u}{38}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}\rmfamily \texttt {WARC-TOOLS}}{38}{subsection.4.3.1}
 \contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{39}{section*.12}
+\contentsline {subsubsection}{ Dal\v s\IeC {\'\i } parametry}{39}{section*.13}
 \contentsline {chapter}{\numberline {5}\bfseries Z\'av\v er}{40}{chapter.5}
 \contentsline {chapter}{\numberline {6}\bfseries P\v r\IeC {\'\i }lohy}{46}{chapter.6}
