@@ -1,15 +1,93 @@
 \chapter{Migrace archivu z formátu \texttt{arc} do formátu \texttt{warc}}
 \section{O migraci}
 \subsection{Úvod}
-Pøevod \texttt{arc} archivù do formátu \texttt{warc} je specifický problém. Rùzné instituce pou¾ívají rùzné formáty na ukládání webových zdrojù. Vìt¹ina tìchto institucí bude mít právì snahu pøevést ulo¾ená data do formátu warc. 
+Pøevod \texttt{arc} archivù do formátu \texttt{warc} je specifický problém. Rùzné instituce pou¾ívají rùzné formáty na ukládání webových zdrojù. Vìt¹ina tìchto institucí bude mít právì snahu pøevést ulo¾ená data do formátu warc.
 
 Informace o migraci nejsou snadno dostupné. To je zpùsobené pøedev¹ím tím, ¾e problematika je relativnì nová. Formát \texttt{warc} byl standardizován v roce 2009. Migraèní nástroje jsou sice vyhledatelné na internetu, ale vìt¹inou není jejich souèástí kompletní dokumentace.
 
 Problém dostupnosti informací o migraci je pøedev¹ím v tom, ¾e ka¾dá instituce, která se archivací zabývá, pou¾ívá jiné nástroje. Ka¾dá instituce si bìhem své existence pøizpùsobila nástroje pro své potøeby. Tyto potøeby mù¾e tvoøit napøíklad jazykové, dostupnost nástrojù, rozdílnost legislativy, rozdílnost v politice ukládání webových zdrojù. Proto, pokud urèitá instituce analyzuje problematiku migrace, zabývá se problémy specifickými pro její podmínky.
 
 Proto napøíklad informace získané z Britské knihovny jsou pro WebArchiv hodnotné, ale ve skuteènosti nejsou jejich nástroje okam¾itì pou¾itelné. Pokud by je chtìli pracovníci WebArchivu vyu¾ít bylo by nutné je pøedìlat pro jejich potøeby.
-
 \subsection{Britská knihovna}
 Øe¹itelé projektu WebArhiv se migrací prozatím pøíli¹ nezabývali. Nicménì ve svìtì se tím ji¾ lidé zabývají. Proto jsem se pokusil zjistit informace o migraci u pracovníkù z Britské knihovny. Mojí mailovou korespondenci uvádím v \texttt{pøíloze Q na s. \pageref{pr:q}}. V Britské knihovnì vyzkou¹el vývojový tým skript pro pøevod do archivního formátu warc u¾ v roce 2009. Celkovì bylo pøevedeno cca 4,4 TB dat.
 
-O pøevodu, který provedli, zatím není dostatek informací. Pracovníci Britské knihovny v¹ak pou¾ili pro migraci nástroje, které nejsou pøímo pou¾itelné ve WebArchivu. Pou¾ívali toti¾ jiné nástroje pro ukládání dat a práci s archivy -- \texttt{Web Curator Tool} a \texttt{PANDAS}. Pøekvapilo mì, ¾e nevyu¾ili ani mo¾nosti deduplikace souborù. \cite{PROKOP2012}
+O pøevodu, který provedli, zatím není dostatek informací. Pracovníci Britské knihovny v¹ak pou¾ili pro migraci nástroje, které nejsou pøímo pou¾itelné ve WebArchivu. Pou¾ívali toti¾ jiné nástroje pro ukládání dat a práci s archivy -- \texttt{Web Curator Tool} a \texttt{PANDAS}. Pøekvapilo mì, ¾e nevyu¾ili ani mo¾nosti deduplikace souborù.\cite{PROKOP2012}
+
+
+\section{Pou¾ité nástroje}
+Kromì samotných nástrojù pro migrci arc archivù jsem pou¾íval i jiné nástroje, zde podávám jejich pøehled.
+\subsection{\texttt{JHOVE}}
+Slou¾í k identifikaci a validaci souborù. Program disponuje mno¾stvím modulù pro rozpoznávání formátù souborù. V \texttt{pøíloze F na s. \pageref{pr:f}} je dostupná ukázka výstupu programu \texttt{JHOVE} pro \texttt{arc} soubor. Program je pou¾íval jen k pokusnému testování souborù.
+
+Konkrétnì program umo¾òuje identifikaci, validaci a charakterizaci digitálních objektù. Identifikace je proces, který urèuje formát objektu. Validace urèuje stupeò korespondence daného objektu se specifikací pøíslu¹ného formátu. Charakterizace navíc informuje o specifických vlastnostech daného objektu.
+
+Tyto operace jsou potøebné pøi správì digitálního archivu. Jeho pou¾ití je nutné pøi uchovávání digitálních souborù. Øe¹itelé projektu Webarchiv musí nutnì vìdìt, jaké typy souborù uchovávají v repositáøích. Jedním z hlavních dùvodù je mo¾nost zpìtné pøevoditelnosti uchovaných webových zdrojù a jejich interpretace\footnote{Rùzné verze elektronických dokumentù je mo¾no zobrazit správnì pouze specifickými nástroji. Proto je potøeba mít informace o tom, jaké verze dokumentù archiv obsahuje.}.
+
+JHOVE obsahuje moduly pro práci s \texttt{bytestreamy}, \texttt{ASCII} a \texttt{UTF-8} texty, \texttt{AIFF} a \texttt{WAVE} audio soubory. Dále s obrázky typu \texttt{GIF, JPEG, JPEG 2000, TIFF}, také \texttt{PDF soubory}, textovými a \texttt{XML output handlery}. Je naprogramován v programovacím jazyce \texttt{Java}.
+
+Jeliko¾ je ji¾ zastaralý, pou¾íval jsem pro svou práci jeho novìj¹í verzi: \texttt{JHOVE2}. Pøesto je tento nástroj stále vyvíjen a dostupný k volnému sta¾ení\footnote{Webové stránky projektu \texttt{JHOVE} dostupné online na adrese \texttt{http://sourceforge.net/projects/jhove}.}.
+
+\subsection{\texttt{JHOVE2}}
+\subsubsection{Úvod}
+Program je novìj¹í verzí ji¾ zmínìného programu \texttt{JHOVE}. Slou¾í k validaci a identifikaci souborù. Program je vyvíjen v mnoha variantách\footnote{Distribuované verzovací systémy umo¾òují pøi vývoji projektu v urèitém checkpointu rozdìlit zdrojový kód na dvì èásti (forky) a pracovat na nich nezávisle. Pøièem¾ checkpoint reprezentuje v¹echny dostupnými komponentami projektu. Pøehled rùzných variant projektu \texttt{JHOVE2} dostupný online na adrese \texttt{https://bitbucket.org/jhove2/main/descendants}.} -- v rámci distribuovaného verzovacího systému \texttt{Mercurial} na serveru www.bitbucket.com. Je vyvíjen \texttt{JHOVE2} Project Team -- California Digital Library, Portico, Stanford University .
+
+Proto¾e je \texttt{JHOVE2} vyvíjen mnoha rùznými vývojáøi, vznikají rùzné verze tohoto programu se specifickými druhy pøidané funkcionality. Pro mé úèely jsem pou¾il oficiální verzi\footnote{Webová stránka projektu \texttt{JHOVE2} dostupná online na adrese \texttt{https://bitbucket.org/jhove2}.} a dále verzi urèenou pro validaci testování souborù\footnote{Webová stránka projektu \texttt{JHOVE2-BNF} dostupná online na adrese \texttt{https://bitbucket.org/lbihanic/jhove2-bnf/overview}.}, která má zásuvný modul pro analýzu \texttt{arc} souborù.
+
+Program jsem pou¾il pro zji¹tìní obsahu pøevádìných \texttt{arc} archivù. Je toti¾ potøeba pøesnì zjistit obsah archivu. Jeliko¾ pøi vytváøení archivù dochází obèas k tomu, ¾e není správnì identifikován \texttt{mimetype} archivovaných souborù. Tato informace je v¹ak zásadní pro zpìtnou interpretaci obsahu sta¾ených souborù. V \texttt{pøíloze G a O ma s. \pageref{pr:g}} je ukázka výstupu z nástroje pro \texttt{arc} a \texttt{warc} soubor. \texttt{Pøíloha AH na s. \pageref{pr:ah}} obsahuje archiv s nástrojem \texttt{JHOVE2}. 
+
+Implementací a analýzou nìkolika archivù z depozitáøe WebArchivu se zabývám v jiné kapitole.
+
+\subsubsection{Podrobnìj¹í informace JHOVE2}
+Detailní informace o programu jsou obsa¾eny v u¾ivatelské pøíruèce \footnote{V celé kapitole pou¾ívám pøi popisu funkcí a vlastností nástroje vlastní pøeklady z této pøíruèky.}, která je k nahlédnutí v \texttt{pøíloze AF na s. \pageref{pr:af}}. Dal¹í podstatné informace lze nalézt v dokumentu z roku 2010, který se vìnuje aktualizaci nástroje, je pøilo¾en k bakaláøské práci v \texttt{pøíloze AG na s. \pageref{pr:ag}}. Nástroj je napsán v programovacím jazyce Java a ke svému správnému bìhu vy¾aduje \texttt{The OpenSP SGML parser}\footnote{Webová stránka \texttt{The OpenSP SGML parser} dostupná online na adrese \texttt{http://search.cpan.org/dist/SGML-Parser-OpenSP/}}.
+
+Jak jsem zmínil vý¹e, program \texttt{JHOVE2} je novìj¹í verzí programu \texttt{JHOVE} a jako takový pøiná¹í nové mo¾nosti a funkcionality. Hlavní zmìnou je to, ¾e u objektù provádí charakterizaci, která je oproti pùvodním partikulárním testovacím procesùm u JHOVE komplexnìj¹í. \uv{\textit{Characterization is the process of examining a formatted digital source unit and automatically extracting or deriving representation information about that source unit that is indicative of its significant nature and useful for purposes of classification, analysis, and use.}}\cite{JHOVE2}\\ \\
+\noindent Charakterizace se skládá ze ètyø procedur \cite{JHOVE2}: 
+\begin{description}
+\item[Identifikace] urèení formátu objektu.
+\item[Feature extraction (extrakce rysù)] urèení charakteristických rysù objektu.
+\item[Validace] urèení stupnì korespondence objektu se specifikací formátu.
+\item[Assessment] urèení stupnì korespondence objektu se specifickými nároky urèenými u¾ivatelem softwaru. Nástroj je tedy mo¾no \uv{personalizovat} pro potøeby u¾ivatele, co¾ je výhodné hlavnì proto, ¾e témìø ka¾dá organizace zabývající se archivací webových zdrojù, pou¾ívá odli¹nou politiku archivace dat. Nástroj poté dovede napøíklad urèit rizika pøi práci s rùznými objekty, nebo provést èi doporuèit dal¹í akce ke zpracování objektù.
+\end{description}
+\noindent \\ Mezi dal¹í pøednosti programu patøí \cite{JHOVE2}:
+\begin{itemize}
+\item Modulární architektura a práce s plug-iny
+\item Jednoduché \texttt{API} a design základních modulù
+\item \texttt{Bufferovaní I/O} operací
+\item Internacionalizovaný výstup: podporuje více formátù -- \texttt{JSON, XML}, text.
+\item ©iroká mo¾nost konfigurace nástroje
+\item Kompletní dokumentace nástroje
+\item ©iroká ¹kála rozpoznatelných objektù\footnote{V následujícím odstavci podávám pouze neúplný výèet podporovaných objektù, podrobný výèet lze nalézt v \texttt{pøíloze AG na s. \pageref{pr:ag}}.}
+\end{itemize}
+Hlavní pøedností nástroje je samozøejmì ¹iroká ¹kála typù souborù, které doká¾e identifikovat a validovat. Identifikovat doká¾e \texttt{JHOVE2} v¹echny objekty obsa¾ené v databázi \texttt{PRONOM}\footnote{Organizace zabývající se problematikou souborových formátù a softwarových produkù s nimi souvisejících. Webové stránky databáze \texttt{PRONOM} dostupné online na adrese \texttt{http://www.nationalarchives.gov.uk/PRONOM}.}, respektive objekty, které definují \texttt{DROID signature files}\footnote{\texttt{DROID} (Digital Record Object Identificatio), je nástroj pro automatickou identifikaci formátu souborù. Webové stránky nástroje \texttt{DROID} dostupné online na adrese \texttt{http://droid.sourceforge.net}.} -- jedná se o více ne¾ 550 formátù. Výèet typù objektù, které dovede \texttt{JHOVE2} validovat obsahuje formáty èi standardy jako: \texttt{ICC color profile, JPEG 2000, PDF, SGML, Shapefile, TIFF, UTF-8, WAVE, XML, Zip}.
+
+Nástroj tedy poskytuje velký potenciál pro vyu¾ití v pøi øe¹ení problému s archivací webových zdrojù. Je podporován a u¾íván velkým mno¾stvím organizací a dá se øíci, ¾e patøí mezi uznávaný a standardní nástroj.
+ \cite{JHOVE2}
+
+\subsection{\texttt{Jpype}}
+Nástroj umo¾òující spu¹tìní programù napsaných v programovacím jazyce \texttt{Java} v rámci programu napsaného v programovacím jazyce \texttt{Python}. Pou¾ití tohoto nástroje bylo nutné kvùli tomu, ¾e nástroje pro migraci arc archivù jsou psány v programovacím jazyce \texttt{Python}, ale \texttt{JHOVE2} je programován jazyce \texttt{Java}.
+
+Nástroj v podstatì umo¾ní spu¹tìní \texttt{Java Virtual Machine}\footnote{Webové stránky \texttt{Java} dostupné online na adrese \texttt{http://www.java.com}.} uvnitø \texttt{Python} skriptu a následnì práci s Java aplikací. Nástroj je dostupný volnì ke sta¾ení na webových stránkách\footnote{Webové stránky projektu \texttt{Jpype} dostupná online na adrese \texttt{http://jpype.sourceforge.net}.} jeho vývojáøù. Jeho vyu¾ití bylo zásadní pro mo¾nost testování pøevádìných \texttt{arc} archivù. V \texttt{pøíloze AI na s. \pageref{pr:ai}} je archiv s nástrojem \texttt{Jpype}.
+
+\section{Testování migraèních nástrojù}
+Migraci realizuji pomocí nìkolika variant nastrojù \texttt{WARC-TOOLS}. Pokusím se pøevést vzorek arc archivù a porovnat výsledky. Z informací, které získám pokusím poukázat na výhody a nevýhody jednotlivých nástrojù.
+\subsection{\texttt{WARC-TOOLS}}
+Sada nástrojù pro práci s \texttt{arc} a \texttt{warc} soubory. Skripty jsou napsány v nìkolika programovacích jazycích -- \texttt{C, Python, Ruby}.
+Souèástí sady skriptù jsou jak skripty pro pøevod archivù, tak skripty pro analýzy warc souborù. Jedná se konkrétnì o \texttt{warcdump} a \texttt{warcvalidator}. Bohu¾el \texttt{WARC-TOOLS} neobsahuje i nástroje na práci s {warc} archivy. 
+
+Tento nástroj není ji¾ v souèasnosti dále vyvíjen a podporován, ale je stále dostupný ke sta¾ení\footnote{Webové stránky projektu \texttt{WARCTOOLS} dostupná online na adrese \texttt{http://code.google.com/p/warc-tools/}.}. Na webových stránkách projektu je dostupná dokumentace, kterou nabízím v \texttt{pøílohách R, S, T a U na s. \pageref{pr:r}}. \texttt{Pøíloha O na s. \pageref{pr:o}} obsahuje výpis z programu \texttt{JHOVE2} pro \texttt{warc} archiv generovaný tímto nástrojem. \texttt{Pøíloha V na s. \pageref{pr:v}} obsahuje výstup z nástroje \texttt{warcdump} pro \texttt{warc} archiv. V \texttt{pøíloze L na s. \pageref{pr:l}} je \texttt{warc} archiv generovaný nástrojem \texttt{WARCTOOLS}. \texttt{Pøíloha AC na s. \pageref{pr:ac}} obsahuje kompletní nástroj.
+\subsubsection{Kompatibilita s ostatními nástroji}
+\noindent Nástroj WARCDUMP není kompatibilní s ostatními mnou testovanými nástroji.
+\begin{itemize}
+\item
+pro WARC-TOOLS / hanzo hlásí: Incompatible Warc Version
+pro WARC-TOOLS / kpk09 hlásí: Incompatible Warc Version
+pro soubory typu arc hlásí: Incompatible Warc Version
+\end{itemize}
+\noindent \\ \\Nástroj WARCVALIDATOR není kompatibilní s ostatními testovanými nástroji.
+\begin{itemize}
+\item
+pro WARC-TOOLS / hanzo hlásí: Incompatible Warc Version
+pro WARC-TOOLS / kpk09 hlásí: Incompatible Warc Version
+pro soubory typu arc hlásí: Incompatible Warc Version
+\end{itemize}
+Nástroj tedy není pøímo kompatibilní s ostatními mnou testovanými nástroji.

@@ -71,5 +71,14 @@
 \contentsline {section}{\numberline {4.1}\slshape O migraci}{33}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}\rmfamily \'Uvod}{33}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}\rmfamily Britsk\'a knihovna}{34}{subsection.4.1.2}
-\contentsline {chapter}{\numberline {5}\bfseries Z\'av\v er}{35}{chapter.5}
-\contentsline {chapter}{\numberline {6}\bfseries P\v r\IeC {\'\i }lohy}{41}{chapter.6}
+\contentsline {section}{\numberline {4.2}\slshape Pou\v zit\'e n\'astroje}{34}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}\rmfamily \texttt {JHOVE}}{34}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}\rmfamily \texttt {JHOVE2}}{35}{subsection.4.2.2}
+\contentsline {subsubsection}{ \'Uvod}{35}{section*.10}
+\contentsline {subsubsection}{ Podrobn\v ej\v s\IeC {\'\i } informace JHOVE2}{36}{section*.11}
+\contentsline {subsection}{\numberline {4.2.3}\rmfamily \texttt {Jpype}}{38}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}\slshape Testov\'an\IeC {\'\i } migra\v cn\IeC {\'\i }ch n\'astroj\r u}{38}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}\rmfamily \texttt {WARC-TOOLS}}{38}{subsection.4.3.1}
+\contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{39}{section*.12}
+\contentsline {chapter}{\numberline {5}\bfseries Z\'av\v er}{40}{chapter.5}
+\contentsline {chapter}{\numberline {6}\bfseries P\v r\IeC {\'\i }lohy}{46}{chapter.6}
