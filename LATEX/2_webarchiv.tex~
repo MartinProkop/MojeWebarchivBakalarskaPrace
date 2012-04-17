@@ -69,7 +69,6 @@ V dobì psaní této bakaláøské práce nebyla zpráva dostupná.
 Zde nabízím pøehled mno¾ství sta¾ených webových zdrojù v celoplo¹ných sklizních. Kompletní pøehledy jsou dostupné na webových stránkách projektu \cite{Celoplosne sklizne}. Mimo celoplo¹né skliznì, urèené pro sbìr dat na \texttt{doménì CZ} tvoøí èást databáze i tématické skliznì a konspekt. Celkovì obsahuje databáze cca 47 TB dat.
 
 Údaje v tabulce odpovídají zprávám, které WebArchiv pravidelnì publikuje. Èísla v¹ak nemusí být úplnì pøesná\footnote{napøíklad z dùvodu havárie v roce 2007}.
-\vskip 2cm
 \begin{table}[htbp!]
 \caption{Obsah WebArchivu}
 \label{tabulka_obsahu_webarchivu}
@@ -153,7 +152,7 @@ V této kapitole se zamìøím na diplomové a bakaláøské práce, které se týkají WebA
 \subsection{Systém pro správu procesu archivace webových informaèních zdrojù}
 Diplomová práce, kterou zpracoval Adam Broke¹ v roce 2009, mìla za cíl vytvoøit systém pro správu zdrojù, vydavatelù a smluv projektu. Autor ve své práci podává informace o projektu, provádí analýzu stavu WebArchivu, zabývá se historií projektu, pracovními postupy a stavem projektu, a právním rámcem archivace webových zdrojù.
 
-Dále analyzuje pou¾ívané nástroje. Konkrétnì nástroj \texttt{Heritrix}, \texttt{WayBack} a \texttt{AutoContractMarker}. Následnì analyzuje \texttt{WA Admin}. Výsledkem analýzy je popis nedostatkù. Autor má zejména výhrady k datovému modelu, neflexibilitì systému a nemo¾nost hodnocení zdrojù. Proto¾e nástroj \texttt{WA Admin} shledá nedostateèným pro dal¹í u¾ívání, hledá za nìj náhradu. \texttt{NetarchiveSuite}, který pou¾ívá Dánská národní knihovna, nedoporuèuje pou¾ít pøedev¹ím kvùli rozdílnosti Èeské a Dánské legislativy. Druhý nástroj, který pøipadá v úvahu, je \texttt{Web Curator Tool} vyvinutý národními knihovnami Velké Británie a Nového Zélandu. Ten také zamítá, proto¾e pracovní postupy, které jsou v nìm implementovány, jsou odli¹né od postupù WebArchivu.
+Dále analyzuje pou¾ívané nástroje. Konkrétnì nástroj \texttt{Heritrix}, \texttt{WayBack} a \texttt{AutoContractMarker}. Následnì analyzuje \texttt{WA Admin}. Výsledkem analýzy je popis nedostatkù. Autor má zejména výhrady k datovému modelu, neflexibilitì systému a nemo¾nost hodnocení zdrojù. Proto¾e nástroj \texttt{WA Admin} shledá nedostateèným pro dal¹í u¾ívání, hledá za nìj náhradu. \texttt{NetarchiveSuite}, který pou¾ívá Dánská národní knihov\-na, nedoporuèuje pou¾ít pøedev¹ím kvùli rozdílnosti Èeské a Dánské legislativy. Druhý nástroj, který pøipadá v úvahu, je \texttt{Web Curator Tool} vyvinutý národními knihovnami Velké Británie a Nového Zélandu. Ten také zamítá, proto¾e pracovní postupy, které jsou v nìm implementovány, jsou odli¹né od postupù WebArchivu.
 
 Rozhodne se tedy vytvoøit vlastní nástroj. Tomu pøedchází analýza pøípadù u¾ití -- stávajících pracovních postupù. Závìreèná èást diplomové práce se zabývá návrhem a implementací nástroje \texttt{WA Admin v2}. Nástroj \texttt{WA ADMIN v2} je v souèasné dobì u¾íván týmem WebArchivu.\cite{BROKES2009}
 \subsection{Identifikace a omezení pøístupu k \uv{nevhodným} stránkám ve webovém archivu}

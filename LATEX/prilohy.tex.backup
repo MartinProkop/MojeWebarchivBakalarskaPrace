@@ -170,36 +170,50 @@ Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{warc\_tools\_srs.pdf}.
 \label{pr:v}
 \section*{V. WARCTOOLS -- výstup z nástroje warcdump pro warc soubor}
-Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{WARCTOOLS\_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz\_warcdump}.
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{WARCTOOLS\_IAH-20110905093545-00000-kovar-laptop-8090.warc\-.gz\_warcdump}.
 \label{pr:w}
 \section*{W. WARCTOOLS / hanzo -- README soubor}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{warctools\_hanzo\_README}.
+\label{pr:x}
 \section*{X. WARCTOOLS / hanzo -- výstup z nástroje warcdump pro warc soubor}
-Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{HANZO\_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz\_warcdump}.
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{HANZO\_IAH-20110905093545-00000-kovar-laptop-8090.warc\-.gz\_warcdump}.
+\label{pr:y}
 \section*{Y. WARCTOOLS / hanzo -- výstup z programu JHOVE2 pro pøilo¾ený warc soubor}
-Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{HANZO\_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz\_jhove2output.xml}.
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{HANZO\_IAH-20110905093545-00000-kovar-laptop-8090.warc\-.gz\_jhove2output.xml}.
+\label{pr:z}
 \section*{Z. WARCTOOLS / kpk09 -- README soubor}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{warctools\_kpk09\_README}.
+\label{pr:aa}
 \section*{AA. WARCTOOLS / kpk09 -- výstup z nástroje warcdump pro warc soubor}
-Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{KPK09\_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz\_warcdump}.
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{KPK09\_IAH-20110905093545-00000-kovar-laptop-8090.warc\-.gz\_warcdump}.
+\label{pr:ab}
 \section*{AB. WARCTOOLS / kpk09 -- výstup z programu JHOVE2 pro pøilo¾ený warc soubor}
-Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{KPK09\_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz\_jhove2output.xml}.
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{KPK09\_IAH-20110905093545-00000-kovar-laptop-8090.warc\-.gz\_jhove2output.xml}.
+\label{pr:ac}
 \section*{AC. WARCTOOLS -- archiv obsahující nástroj}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{warc-tools.tar.gz}.
-\section*{AD. WARCTOOLS / hanzo -- archiv obsahující nástroj} \label{sec:ad}
+\label{pr:ad}
+\section*{AD. WARCTOOLS / hanzo -- archiv obsahující nástroj}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{warc-tools\_hanzo.tar.gz}.
+\label{pr:ae}
 \section*{AE. WARCTOOLS / kpk09 -- archiv obsahující nástroj}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{warc-tools\_kpk09.tar.gz}.
+\label{pr:af}
 \section*{AF. JHOVE2 -- u¾ivatelská pøíruèka nástroje}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{JHOVE2-Users-Guide\_20110222.pdf}.
+\label{pr:ag}
 \section*{AG. JHOVE2 -- informace o aktualizace nástroje}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{NDIIPP-2010-JHOVE2.pdf}.
+\label{pr:ah}
 \section*{AH. JHOVE2 -- archiv obsahující nástroj}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{jhove2-2.0.0.tar.gz}.
-\section*{AI. Jpype -- archiv obsahující nástroj} \label{sec:ai}
+\label{pr:ai}
+\section*{AI. Jpype -- archiv obsahující nástroj} 
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{JPype-0.5.4.2.zip}.
+\label{pr:aj}
 \section*{AJ. Warc -- ISO specifikace}
-Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{WARC\_ISO\_28500\_final\_draft v018 Zentveld 08061.doc}. Soubor je také dostupný online na adrese \texttt{http://archive-access.sourceforge.net/warc/}.
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{WARC\_ISO\_28500\_final\_draft v018 Zentveld 08061.doc}. Soubor je také dostupný online na adrese \texttt{http://archive-access\-.source\-forge.net/warc}.
+\label{pr:ak}
 \section*{AK. JHOVE2 -- vlastní implementace nástroje}
 Celý soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{RunFromARC2WARC.java}. V rámci projektu nástroje JHOVE2 musí být souèásti package org.jhove2.app. Zde ukazuji pouze metodu tøídy (runJHOVE2), která obstarává pøímo spu¹tìní. \\
 \texttt{/**\\
@@ -222,8 +236,10 @@ public void runJHOVE2(String contents[], String path) throws IOException, JHOVE2
 \\
 JHOVE2CommandLine.main(seznam);\\
 \} }
+\label{pr:al}
 \section*{AL. WARCTOOLS / hanzo -- vlastní implementace nástroje}
-Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{arc2warc\_jhove2.py}. Aby správnì fungoval, je potøeba mít nainstalován nástroj Jpype (\texttt{pøíloha AI \ref{sec:ai}}) a umístit soubor do koøenové slo¾ky WARCTOOLS / hanzo (\texttt{pøíloha AD \ref{sec:ad}}).
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{arc2warc\_jhove2.py}. Aby správnì fungoval, je potøeba mít nainstalován nástroj Jpype (\texttt{pøíloha AI na s. \pageref{pr:ai}}) a umístit soubor do koøenové slo¾ky WARCTOOLS / hanzo (\texttt{pøíloha AD na s. \pageref{pr:ad}}).
+\label{pr:am}
 \section*{AM. Warc -- gramatika}
 \texttt{Warc-file = 1*warc-record \\
 warc-record = header CRLF \\
@@ -232,8 +248,10 @@ header =version warc-fields \\
 version ="WARC/0.18" CRLF \\
 warc-fields =*named- field CRLF\\
 block = * OCTET}
+\label{pr:an}
 \section*{AN. Warc -- seznam definovaných polí}
-\texttt{WARC-Type, WARC-Record-ID, WARC-Date, Content-Length, Content-Type, WARC-Concurrent-To, WARC-Block-Digest, WARC-Payload-Digest, WARC-IP-Address, WARC-Refers-To, WARC-Target-URI, WARC-Truncated, WARC-Warcinfo-ID, WARC-Filename, WARC-Profile, WARC-Identified-Payload-Type, WARC-Segment-Origin-ID, WARC-Segment-Number, WARC-Segment-Total-Length}
+\texttt{WARC-Type}, \texttt{WARC-Record-ID}, \texttt{WARC-Date}, \texttt{Content-Length}, \texttt{Content-Type},\\ \texttt{WARC-Concurrent-To}, \texttt{WARC-Block-Digest}, \texttt{WARC-Payload-Digest},\\ \texttt{WARC-IP-Address}, \texttt{WARC-Refers-To}, \texttt{WARC-Target-URI}, \texttt{WARC-Truncated},\\ \texttt{WARC-Warcinfo-ID}, \texttt{WARC-Filename}, \texttt{WARC-Profile},\\ \texttt{WARC-Identified-Payload-Type}, \texttt{WARC-Segment-Origin-ID},\\ \texttt{WARC-Segment-Number}, \texttt{WARC-Segment-Total-Length}
+\label{pr:ao}
 \section*{AO. Warc -- Continuation record}
 \subsection*{První warc záznam}
 \texttt{WARC/0.18 \\
