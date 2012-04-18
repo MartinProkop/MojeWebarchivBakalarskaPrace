@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  18 APR 2012 19:07
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  18 APR 2012 19:31
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -631,13 +631,13 @@ Overfull \hbox (9.1919pt too wide) in paragraph at lines 79--80
  polí má sa-mozøejmì
  []
 
-[28]
+[28] [29]
 Overfull \hbox (1.19986pt too wide) in paragraph at lines 108--109
 []\IL2/lmr/m/n/12 Warc umí pra-co-vat s více pro-to-koly: \IL2/lmtt/m/n/12 HTTP
 , FTP, NNTP a SMTP\IL2/lmr/m/n/12 . 
  []
 
-[29]
+
 Underfull \hbox (badness 10000) in paragraph at lines 110--110
 [][][][]\IL2/lmr/m/n/10 Popis \IL2/lmtt/m/n/10 RFC standardu SHA-1 \IL2/lmr/m/n
 /10 do-stupný on-line na ad-rese
@@ -1476,7 +1476,7 @@ f/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmtti10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtto10.
 pfb>
-Output written on bakalarka.pdf (71 pages, 671420 bytes).
+Output written on bakalarka.pdf (71 pages, 672021 bytes).
 PDF statistics:
  1299 PDF objects out of 1440 (max. 8388607)
  324 named destinations out of 1000 (max. 500000)

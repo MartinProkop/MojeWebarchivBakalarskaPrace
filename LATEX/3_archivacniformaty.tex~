@@ -76,14 +76,14 @@ Soubor formátu \texttt{warc} tvoøí jednoduché zøetìzení jednoho nebo více záznam
 
 Warc záznamy se skládají z hlavièky, kterou následuje blok s obsahem. Hlacièka se skládá z prvního øádku, který definuje, ¾e záznam je typu warc, dále verze souboru, a flexibilní mno¾ství øádkù oddìlených symbolem \texttt{CRLF}, poté následuje ji¾ zmínìný blok obsahu. Záznam splòuje \texttt{BNF}\footnote{Backusova-Naurova forma je jedno z mo¾ných vyjádøení bezkontextové gramatiky.}, ukázka k nalezení v \texttt{pøíloze AM na s. \pageref{pr:am}}. 
 
-Seznam definovaných polí, která se mohou v záznamu zobrazovat lze nalézt v \texttt{pøíloze AN na s. \pageref{pr:an}}. Samozøejmì nìkterá z polí jsou povinnì v ka¾dém záznamu, jako napøíklad \texttt{WARC-Record-ID, Con\-tent-Length, WARC-Type}. Jiné jsou nepovinné: \texttt{Content-Type, WARC-Block-Digest, WARC-Payload-Digest}. Ka¾dé z polí má samozøejmì stanovená pravidla, která urèují jejich mo¾ný obsah. \cite{Information and documentation -- The WARC File Format}
+Seznam definovaných polí, která se mohou v záznamu zobrazovat lze nalézt v \texttt{pøíloze AN na s. \pageref{pr:an}}. Samozøejmì nìkterá z polí jsou povinnì v ka¾dém záznamu, jako napøíklad \texttt{WARC-Record-ID, Con\-tent-Length, WARC-Type}. Jiné jsou nepovinné: \texttt{Content-Type, WA\-RC-Block-Digest, WARC-Payload-Digest}. Ka¾dé z polí má samozøejmì stanovená pravidla, která urèují jejich mo¾ný obsah. \cite{Information and documentation -- The WARC File Format}
 
 
 \noindent \texttt{Warc} záznamy jsouo nìkolika rùzných typù, podle toho k èemu záznam slou¾í: \cite{Information and documentation -- The WARC File Format}
 \begin{description}
-\item[Warcinfo] popisuje ostatní \texttt{warc} soubory. Pøíklad v \texttt{pøíloze K na s. \pageref{pr:s}}.
-\item[Response] nese odpovìï na urèitý dotaz.
-\item[Resource] je urèitý sta¾ený zdroj.
+\item[Warcinfo] popisuje ostatní \texttt{warc} záznamy, které ho následují. Typicky je na zaèátku \texttt{WARC} souboru. Má tedy èistì informativní charakte. Lze v nìm najít informace o tom, jaký software daný soubor vytvoøil, \texttt{IP adresa} stroje na kterém byl vytvoøen atd.  Pøíklad v \texttt{pøíloze K na s. \pageref{pr:s}}.
+\item[Response] nese odpovìï na urèitý dotaz. Obsahuje informace o tom jak daný dotaz probíhal. Lze v nìm najít \texttt{http} hlavièky dotazu atd.
+\item[Resource] je urèitý sta¾ený zdroj, ale bez informací protokolu. Ty jsou, jak je zøejmé, neseny v jiném typu záznamu. Data jsou v nìm ulo¾eny v \texttt{Record block}. Záznam se bude li¹it podle toho, jestli bude obsahovat data z urèitého http zdroje, f
 \item[Request] je ¾ádost o webový zdroj. Pøíklad v \texttt{pøíloze J na s. \pageref{pr:j}}.
 \item[Metadata] nese metadata sklizených zdrojù. Pøíklad v \texttt{pøíloze I na s. \pageref{pr:i}}.
 \item[Revisit] nese instrukce pro znovuprohlédnutí zdroje.
