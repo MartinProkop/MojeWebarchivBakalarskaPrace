@@ -1,15 +1,19 @@
 Napiš:
-*Jak funguje deduplikace.  popsat, nedelat - ale podle všeho to nedělá warc?!!
-*ZAVER - na to si počkám ještě ta konzlutaci s vaškem.
+* heritrix a deduplikace
 
-dopis o analzye havarii
+* závěr BC
 
-dopis o druhe implementace jhove2
+* havarie
 
-dopis o warc standardu
+* dopis o warc standardu - o těch warc záznamech
+
+* dopis o implementaci JHOVE2 
+    - musis upravit text o první
+    - přílohy o první taky
+    - text o druhe
+    - prilohy k druhe
+    - dopis ze druhy test trvá 1.35min
 
 
-
-*UDELEJ TEST NEKOLIKA WARC z WAR pres jhove2 a z toho napis zavery - to cekam nez neco stáhnu
-
+* obe implementace jhove2 udelej nezavisle na prostredi - parametr jako cesta k JHOVE2 v arc2warc
 
