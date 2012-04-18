@@ -37,11 +37,11 @@ V poslední èásti práce se zabývám konkrétními nástroji slou¾ícími k migraci arch
 \end{ThesisAbstract}
 
 \begin{ThesisAbstracten}
-Bachelor thesis deals with the possibility of migration Web archive created by the project WebArchiv. At the beginning of the work I present project WebArchiv, then I give an overview of tools and work related with it.
+Bachelor thesis deals with migration Web archive created by the project WebArchiv. At the beginning of the work, I would like to introduce project WebArchiv, followed by an overview of tools and listing of related studies.
 
-After review and summarize information I continue to survey archive formats. I present the advantages and disadvantages of each format. I show why it is necessary to migrate an existing archive.
+After review and summary of information I continue with archive formats survey. I present the advantages and disadvantages of each format. I show why it is necessary to migrate the existing archive.
 
-The last part deals with instruments serving to migrate archives. The aim is to present the advantages and disadvantages of different instruments. And prepare a basis for further study possibilities of migration and its implementation.
+The last part deals with a real solution to archive migration. Goal is to present the advantages and disadvantages of different instruments, and prepare a base for further study possibilities of migration and, above all, its implementation.
 \end{ThesisAbstracten}
 
 \begin{ThesisKeyWords}
