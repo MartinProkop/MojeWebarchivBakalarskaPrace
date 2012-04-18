@@ -113,7 +113,9 @@ V \texttt{pøíloze W na s. \pageref{pr:w}} je k nalezení dokumentace nástroje. \t
 \item Pøi pøevodu \texttt{arc} souborù nepøibalí k souboru data. Je potøeba mu dávat na vstup \texttt{arc.gz} soubory.
 \item Po otestování na zku¹ebním vzorku je textový \texttt{warc} soubor, toto¾ný se souborem z \texttt{WARCTOOLS / kpk09}.
 \item Nástroj je v souèasné dobì vyvíjen.
-\item Nástroj nemá dokonèenou dokumentaci. V manuálu stojí, ¾e vytváøí \uv{crappy} \texttt{warc} soubory. Nástroj pro migraci je údajnì pøevzat z nástroje \texttt{WARCTOOLS}.\cite{Hanzo}
+\item Nástroj nemá dokonèenou dokumentaci. V manuálu stojí, ¾e vytváøí \uv{crappy} \texttt{warc} soubory. Nástroj pro migraci je údajnì pøevzat z nástroje \texttt{WARCTOOLS}.
+\item Zjistil jsem, ¾e nástroj havaruje pøi pøevodu archivu se specifickým záznamem. 
+\cite{Hanzo}
 \end{itemize}
 
 \subsection{\texttt{WARC-TOOLS / kpk09}}
@@ -131,7 +133,9 @@ V \texttt{pøíloze Z na s. \pageref{pr:z}} je k nalezení dokumentace nástroje. \t
 \item Pøi pøevodu \texttt{arc} souborù nepøibalí k souboru data. Je potøeba mu dávat na vstup \texttt{arc.gz} soubory.
 \item Po otestování na zku¹ebním vzorku je textový \texttt{warc} soubor, toto¾ný se souborem z \texttt{WARCTOOLS / hanzo}.
 \item Nástroj je v souèasné dobì vyvíjen.
-\item Nástroj nemá dokonèenou dokumentaci. V manuálu stojí, ¾e vytváøí \uv{crappy} \texttt{warc} soubory. Nástroj pro migraci je údajnì pøevzat z nástroje \texttt{WARCTOOLS}.\cite{Kpk09}
+\item Nástroj nemá dokonèenou dokumentaci. V manuálu stojí, ¾e vytváøí \uv{crappy} \texttt{warc} soubory. Nástroj pro migraci je údajnì pøevzat z nástroje \texttt{WARCTOOLS}.
+\item Zjistil jsem, ¾e nástroj havaruje, stejnì jako \texttt{WARCTOOLS / hanzo}, pøi pøevodu archivu se specifickým záznamem. 
+\cite{Kpk09}
 \end{itemize}
 
 \section{Podobnost \texttt{WARCTOOLS / hanzo s kpk09}}
@@ -182,6 +186,7 @@ V \texttt{pøíloze AP na s. \pageref{pr:ap}} nabízím \texttt{warc} soubor, který 
 
 Jak se dalo pøedem oèekávat migrace spojená s testováním obsahu archivu je èasovì velmi nároèná. Pøi testování standardních 100 MB souborù \texttt{arc.gz} se èas migrace dosahoval témìø dvou minut, pøièem¾ pøevod neupraveným nástrojem -- bez pou¾ití programu \texttt{JHOVE2} -- trvá do 25 sekund.
 
-Hlavním problémem je zde tedy èasová nároènost programu JHOVE2. Rovnì¾ manipulace s analýzou bude velmi nároèná, jeliko¾ výstupní soubor z analýzy dosahuje velikosti 42 MB. Velikost výstupního souboru i èas operace je samozøejmì pøímo úmìrný poètu souborù obsa¾ených v archivu. 
+Hlavním problémem je zde tedy èasová nároènost programu \texttt{JHOVE2}. Rovnì¾ manipulace s analýzou bude velmi nároèná, jeliko¾ výstupní soubor z analýzy dosahuje velikosti 42 MB. Velikost výstupního souboru i èas operace je samozøejmì pøímo úmìrný poètu souborù obsa¾ených v archivu. 
 
+Ke zefektivnìní nástroje by se pravdìpodobnì dalo dojít tak, ¾e by se v rámci nástroje \texttt{JHOVE2} implementovala tøída, která by umo¾nila pøímou charakterizaci souborù, bez nutnosti vytváøení doèasných souborù na disku. Taká zmìna v¹ak není vzhledem k rozsahu nástroj \texttt{JHOVE2} jednoduchá. Nástroj \texttt{JHOVE2} je vyvíjen týmem lidí,. který mìl zøejmì dùvod takouto u¾iteènou funkcionalitu neimplementovat.
 

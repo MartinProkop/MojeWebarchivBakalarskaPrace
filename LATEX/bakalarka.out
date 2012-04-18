@@ -31,9 +31,7 @@
 \BOOKMARK [2][-]{subsection.2.5.2}{ Identifikace a omezen\355 pr\355stupu k nevhodn\375m str\341nk\341m ve webov\351m archivu}{section.2.5}
 \BOOKMARK [2][-]{subsection.2.5.3}{ Rozpozn\341n\355 a archivace cesk\351ho webu mimo n\341rodn\355 dom\351nu}{section.2.5}
 \BOOKMARK [2][-]{subsection.2.5.4}{ Implementace OAI-PMH pro cesk\375 WebArchiv}{section.2.5}
-\BOOKMARK [2][-]{subsection.2.5.5}{ Bibliografick\375 popis elektronick\375ch online zdroju v zahranicn\355 a dom\341c\355 katalogizacn\355 praxi}{section.2.5}
-\BOOKMARK [2][-]{subsection.2.5.6}{ Zpr\355stupnen\355 archivu cesk\351ho webu}{section.2.5}
-\BOOKMARK [2][-]{subsection.2.5.7}{ Strategie archivace elektronick\375ch online zdroju a politika jejich v\375beru do digit\341ln\355ho archivu \(se zameren\355m na cesk\375 syst\351m WebArchiv\)}{section.2.5}
+\BOOKMARK [2][-]{subsection.2.5.5}{ Zpr\355stupnen\355 archivu cesk\351ho webu}{section.2.5}
 \BOOKMARK [1][-]{section.2.6}{ N\341stroje souvisej\355c\355 s projektem WebArchiv}{chapter.2}
 \BOOKMARK [2][-]{subsection.2.6.1}{ APACHE TOMCAT}{section.2.6}
 \BOOKMARK [2][-]{subsection.2.6.2}{ ARCRetriever}{section.2.6}
@@ -95,5 +93,6 @@
 \BOOKMARK [2][-]{subsection.4.6.2}{ \332prava JHOVE2}{section.4.6}
 \BOOKMARK [2][-]{subsection.4.6.3}{ \332prava WARCTOOLS / hanzo}{section.4.6}
 \BOOKMARK [1][-]{section.4.7}{ V\375stupy z anal\375zy obsahu prev\341den\375ch archivu}{chapter.4}
+\BOOKMARK [1][-]{section.4.8}{ Anal\375za hav\341ri\355 pri migraci archivu}{chapter.4}
 \BOOKMARK [0][-]{chapter.5}{Z\341ver}{}
 \BOOKMARK [0][-]{chapter.6}{Pr\355lohy}{}

@@ -8,7 +8,7 @@ doc == <<nl>><<URL-record>><<nl>><<network\_doc>>\\
 URL-record == See definition below\\
 network\_doc == whatever the protocol returned\\
 nl == Unix-newline-delimiter\\
-sp == \\ \indent (ascii space) comma is inappropriate because it can be \\ indent in an URL.}
+sp == \\ \indent (ascii space) comma is inappropriate because it can be \\ \indent in an URL.}
 \label{pr:b}
 \section*{B. \texttt{Arc version block} verze 2}
 \subsection*{Vysvìtlivky }
@@ -293,3 +293,6 @@ Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt
 \section*{AQ. Soubor obsahujcí analýzu obsahu migrovaného archivu. Pro vytvoøení jsem pou¾il mnou upranený nástroj \texttt{WARC-TOOLS / HANZO}.}
 \label{pr:aq}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{HANZO\_IAH-20110905093545-00000-kovar-laptop-8090\_sjhove\-.warc.gz\_jhove2output.xml}.
+\section*{AR. \texttt{WARCTOOLS / HANZO} -- úprava \texttt{arc2warc.py} pro testování havárií pøi migraci archivu}
+\label{pr:ar}
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{arc2warc\_debug.py}.
