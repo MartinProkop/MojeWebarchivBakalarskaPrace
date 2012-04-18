@@ -188,8 +188,10 @@ Hlavním problémem je zde tedy èasová nároènost programu \texttt{JHOVE2}. Rovnì¾ 
 
 Ke zefektivnìní nástroje by se pravdìpodobnì dalo dojít tak, ¾e by se v rámci nástroje \texttt{JHOVE2} implementovala tøída, která by umo¾nila pøímou charakterizaci souborù, bez nutnosti vytváøení doèasných souborù na disku. Taká zmìna v¹ak není vzhledem k rozsahu nástroj \texttt{JHOVE2} jednoduchá. Nástroj \texttt{JHOVE2} je vyvíjen týmem lidí,. který mìl zøejmì dùvod takouto u¾iteènou funkcionalitu neimplementovat.
 
-\section{Analýza havárií pøi pøevodu archivu}
+\section{Analýza havárií pøi migraci archivu}
 Jak jsem zjistil, nástroje \texttt{WARCTOOLS / hanzo} i \texttt{WARCTOOLS / kpk09} havarují pøi pøevodu nìkterých archivù. Mým cílem bylo zjistit, co pøespì pùsobí havárii. Pro tento úèel jsem implementoval jednoduchou variantu migraèního nástroje, kterou nabízím v pøíloze \texttt{AR na s. \pageref{pr:ar}}.
 
 Nástroj se pokusí o pøevod zadaného \texttt{arc.gz} souboru, pøièemz do souboru s názvem \texttt{arc2warc\_debug.log} ulo¾í informace o pøevodu. Pokud pøevod havaruje, dá se v logovacím souboru dohledat, který záznam byl pøed havárií naposledy úspì¹nì pøeveden. Podle toho pak lze jednodu¹e v indexu archivu dohledat, na kterém záznamu migrace havarovala.
+
+V \texttt{pøíloze AS na s. \pageref{pr:as}} je k dohledání øádek z \texttt{CDX indexu}, který odpovídá souboru, na kterém se pøevod zastavil. Zde se jedná o \texttt{text/html} soubor, ale v jiném testovaném archivu se zastavil na \texttt{image/jpeg} souboru -- viz \texttt{pøíloha AT na s. \pageref{pr:as}}.
 

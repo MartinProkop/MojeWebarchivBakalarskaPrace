@@ -296,3 +296,13 @@ Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt
 \section*{AR. \texttt{WARCTOOLS / HANZO} -- úprava \texttt{arc2warc.py} pro testování havárií pøi migraci archivu}
 \label{pr:ar}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{arc2warc\_debug.py}.
+\section*{AS. Testování havárií pøi migraci archivu -- øádek z \texttt{CDX indexu} pro soubor na kterém migrace havarovala}
+\label{pr:as}
+\texttt{polednik.cz/2012/04/program-letosniho-poledniku/effect.appear\\('slideshow 20120415010101 http://polednik.cz/2012/04/program\\-letosniho-poledniku/Effect.Appear('slideshow text/html 404 CV66JQAPDHM7FAJAG5JTEJ3XLEJV6EQ7 - - 605148\\ IAH-20120415005926-00000-kovar-laptop.arc.gz}
+\section*{AT. Testování havárií pøi migraci archivu -- øádek z \texttt{CDX indexu} pro soubor na kterém migrace havarovala}
+\label{pr:at}
+\texttt{zvelebil.cz/logo/kont02.jpg 20060826121815 http://www.zvelebil\\.cz/logo/kont02.jpg image/jpeg 200 UU4T6EI35P2XRJZET4WWWGCZWRCNPDXA - - 14273602 IAH-20060826121552-00002-har.arc.gz}
+
+
+
+

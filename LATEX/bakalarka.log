@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  18 APR 2012 18:30
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  18 APR 2012 19:02
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -895,6 +895,12 @@ Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 191.
 
+
+Overfull \hbox (11.08376pt too wide) in paragraph at lines 196--197
+\IL2/lmr/m/n/12 od-po-vídá sou-boru, na kte-rém se pøe-vod za-sta-vil. Zde se j
+edná o \IL2/lmtt/m/n/12 text/html
+ []
+
 ) [45]
 \openout2 = `5_zaver.aux'.
 
@@ -1412,8 +1418,36 @@ top-8090[]sjhove-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64])
-[65] (./bakalarka.aux (./1_uvod.aux) (./2_webarchiv.aux)
+ [64]
+Overfull \hbox (15.3252pt too wide) in paragraph at lines 301--302
+\IL2/lmtt/m/n/12 polednik.cz/2012/04/program-letosniho-poledniku/effect.appear 
+
+ []
+
+
+Overfull \hbox (15.3252pt too wide) in paragraph at lines 301--302
+\IL2/lmtt/m/n/12 ('slideshow 20120415010101 http://polednik.cz/2012/04/program 
+
+ []
+
+
+Overfull \hbox (2.97519pt too wide) in paragraph at lines 301--302
+\IL2/lmtt/m/n/12 -letosniho-poledniku/Effect.Appear('slideshow text/html 404
+ []
+
+
+Overfull \hbox (21.48619pt too wide) in paragraph at lines 304--305
+\IL2/lmtt/m/n/12 zvelebil.cz/logo/kont02.jpg 20060826121815 http://www.zvelebil
+ 
+ []
+
+
+Overfull \hbox (21.4932pt too wide) in paragraph at lines 304--305
+\IL2/lmtt/m/n/12 .cz/logo/kont02.jpg image/jpeg 200 UU4T6EI35P2XRJZET4WWWGCZWRC
+ 
+ []
+
+) [65] (./bakalarka.aux (./1_uvod.aux) (./2_webarchiv.aux)
 (./3_archivacniformaty.aux) (./4_migrace.aux) (./5_zaver.aux)
 (./bibliografie.aux) (./prilohy.aux))
 
@@ -1421,10 +1455,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4882 strings out of 495027
- 71485 string characters out of 1181419
- 143242 words of memory out of 3000000
- 7607 multiletter control sequences out of 15000+50000
+ 4886 strings out of 495027
+ 71521 string characters out of 1181419
+ 143508 words of memory out of 3000000
+ 7609 multiletter control sequences out of 15000+50000
  48501 words of font info for 48 fonts, out of 3000000 for 9000
  38 hyphenation exceptions out of 8191
  38i,8n,42p,998b,445s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1442,9 +1476,9 @@ f/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmtti10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtto10.
 pfb>
-Output written on bakalarka.pdf (71 pages, 669918 bytes).
+Output written on bakalarka.pdf (71 pages, 671392 bytes).
 PDF statistics:
- 1295 PDF objects out of 1440 (max. 8388607)
- 322 named destinations out of 1000 (max. 500000)
+ 1299 PDF objects out of 1440 (max. 8388607)
+ 324 named destinations out of 1000 (max. 500000)
  785 words of extra memory for PDF output out of 10000 (max. 10000000)
 
