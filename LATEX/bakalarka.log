@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  18 APR 2012 01:55
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  18 APR 2012 02:53
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -980,6 +980,12 @@ Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textring' on input line 178.
 
+
+Overfull \hbox (7.25644pt too wide) in paragraph at lines 185--186
+[]\IL2/lmr/m/n/12 Hlavním pro-blé-mem je zde tedy èa-sová ná-roè-nost pro-gramu
+ JHOVE2.
+ []
+
 ) [45]
 \openout2 = `5_zaver.aux'.
 
@@ -1468,20 +1474,15 @@ top-8090.warc.gz\IL2/lmr/m/n/12 .
 Underfull \vbox (badness 1132) has occurred while \output is active []
 
  [57]
-[58] [59]
-Underfull \vbox (badness 4144) has occurred while \output is active []
-
- [60]
+[58] [59] [60]
 Overfull \hbox (5.85579pt too wide) in paragraph at lines 215--217
 \IL2/lmr/m/n/12 bor je také do-stupný on-line na ad-rese \IL2/lmtt/m/n/12 http:
 //archive-access-.source-
  []
 
-[61]
 LaTeX Font Info:    Try loading font information for OMS+lmtt on input line 238
 .
 LaTeX Font Info:    No file OMSlmtt.fd. on input line 238.
-
 
 LaTeX Font Warning: Font shape `OMS/lmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
@@ -1508,7 +1509,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--240
 
  []
 
-
+[61]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [62]
@@ -1525,7 +1526,23 @@ To\IL2/lmr/m/n/12 , \IL2/lmtt/m/n/12 WARC-Target-URI\IL2/lmr/m/n/12 , \IL2/lmtt
 /m/n/12 WARC-Truncated\IL2/lmr/m/n/12 , 
  []
 
-[63]) [64] (./bakalarka.aux (./1_uvod.aux) (./2_webarchiv.aux)
+[63]
+Overfull \hbox (9.75066pt too wide) in paragraph at lines 292--293
+\IL2/lmr/m/n/12 zvem \IL2/lmtt/m/n/12 HANZO[]IAH-20110905093545-00000-kovar-lap
+top-8090[]sjhove-
+ []
+
+)
+Overfull \hbox (9.75066pt too wide) in paragraph at lines 295--68
+\IL2/lmr/m/n/12 zvem \IL2/lmtt/m/n/12 HANZO[]IAH-20110905093545-00000-kovar-lap
+top-8090[]sjhove-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64]
+[65] (./bakalarka.aux (./1_uvod.aux) (./2_webarchiv.aux)
 (./3_archivacniformaty.aux) (./4_migrace.aux) (./5_zaver.aux)
 (./bibliografie.aux) (./prilohy.aux))
 
@@ -1533,10 +1550,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4881 strings out of 495027
- 71530 string characters out of 1181419
- 143735 words of memory out of 3000000
- 7607 multiletter control sequences out of 15000+50000
+ 4886 strings out of 495027
+ 71573 string characters out of 1181419
+ 144196 words of memory out of 3000000
+ 7609 multiletter control sequences out of 15000+50000
  48501 words of font info for 48 fonts, out of 3000000 for 9000
  38 hyphenation exceptions out of 8191
  38i,8n,42p,998b,445s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1554,9 +1571,9 @@ f/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmtti10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtto10.
 pfb>
-Output written on bakalarka.pdf (70 pages, 667398 bytes).
+Output written on bakalarka.pdf (71 pages, 672169 bytes).
 PDF statistics:
- 1296 PDF objects out of 1440 (max. 8388607)
- 321 named destinations out of 1000 (max. 500000)
+ 1305 PDF objects out of 1440 (max. 8388607)
+ 324 named destinations out of 1000 (max. 500000)
  793 words of extra memory for PDF output out of 10000 (max. 10000000)
 

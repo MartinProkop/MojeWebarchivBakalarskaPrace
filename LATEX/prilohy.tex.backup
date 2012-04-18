@@ -82,7 +82,7 @@ Status: Well-Formed and valid \\
 MIMEtype: application/octet-stream}
 \label{pr:g}
 \section*{G. Výstup z programu JHOVE2 pro pøilo¾ený arc soubor}
-Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{IAH-20110905093545-00000-kovar-laptop-8090.arc.gz\_jhove2output.xml}.
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{IAH-20110905093545-00000-kovar-laptop-8090.arc.gz\_jhove2\-output.xml}.
 \label{pr:h}
 \section*{H. Ukázka CDX indexu pro arc soubor}
 Celý CDX soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{index.cdx}.
@@ -141,7 +141,7 @@ conformsTo: \\ \indent http://www.archive.org/documents/WarcFileFormat-0.18.html
 \label{pr:l}
 \section*{L. Warc soubor vytvoøený z pøilo¾eného arc souboru pomocí nástroje WARC-TOOLS}
 \label{pr:m}
-Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{WARCTOOLS\_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz}.
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{WARCTOOLS\_IAH-20110905093545-00000-kovar-laptop-8090.\-warc\-.gz}.
 \section*{M. Warc soubor vytvoøený z pøilo¾eného arc souboru pomocí nástroje WARC-TOOLS / hanzo}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{HANZO\_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz}.
 \label{pr:n}
@@ -149,7 +149,7 @@ Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{KPK09\_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz}.
 \label{pr:o}
 \section*{O. Výstup z programu JHOVE2 pro pøilo¾ený warc soubor}
-Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{WARCTOOLS\_IAH-20110905093545-00000-kovar-laptop-8090.warc.gz\_jhove2output.xml}. 
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{WARCTOOLS\_IAH-20110905093545-00000-kovar-laptop-8090.\-warc\-.gz\_jhove2output.xml}. 
 \label{pr:p}
 \section*{P. Popis standardu WARC}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{WARC\_Guidelines\_v1.pdf}.
@@ -170,7 +170,7 @@ Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{warc\_tools\_srs.pdf}.
 \label{pr:v}
 \section*{V. WARCTOOLS -- výstup z nástroje warcdump pro warc soubor}
-Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{WARCTOOLS\_IAH-20110905093545-00000-kovar-laptop-8090.warc\-.gz\_warcdump}.
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{WARCTOOLS\_IAH-20110905093545-00000-kovar-laptop-8090.\-warc\-.gz\_warcdump}.
 \label{pr:w}
 \section*{W. WARCTOOLS / hanzo -- README soubor}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{warctools\_hanzo\_README}.
@@ -287,3 +287,9 @@ WARC-Segment-Total-Length: 1902 \\
 WARC-Identified-Payload-Type: image/jpeg \\
 Content-Length: 302 \\
 <<last 302 bytes of image/jpeg binary data here>> }
+\section*{AP. Warc soubor vytvoøený z pøilo¾eného arc souboru pomocí mnou upraveného nástroje WARC-TOOLS / HANZO}
+\label{pr:m}
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{HANZO_IAH-20110905093545-00000-kovar-laptop-8090_sjhove.warc.gz}.
+\section*{L. Warc soubor vytvoøený z pøilo¾eného arc souboru pomocí nástroje WARC-TOOLS}
+\label{pr:m}
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{WARCTOOLS\_IAH-20110905093545-00000-kovar-laptop-8090.\-warc\-.gz}.

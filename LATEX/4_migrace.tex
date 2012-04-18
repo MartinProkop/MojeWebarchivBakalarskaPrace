@@ -176,4 +176,12 @@ Jako výstup z migrace, je kromì nového \texttt{warc} archivu i soubor ve formátu
 
 Ukázku upraveného programu \texttt{arc2warc.py} pod názvem \texttt{arc2warc\-\_jhove2.py} nabízím v \texttt{pøíloze AL na s. \pageref{pr:al}}, kde jsou i moje komentáøe k úpravám zdrojového kódu.
 \section{Výstupy z analýzy obsahu pøevádìných archivù}
-Na to je¹tì èekám ne¾ to postahuju a zkusím.
+Svùj program \texttt{arc2warc\_jhove2.py} jsem otestoval pøi pøevodu nìkolika souborù \texttt{arc.gz}, které jsem pomocí nástroje Heritrix sám sklidil.
+
+V \texttt{pøíloze AP na s. \pageref{pr:ap}} nabízím \texttt{warc} soubor, který vznil pøevodem testovacího \texttt{arc.gz} archivu z \texttt{pøílohy E na s. \pageref{pr:e}}. \texttt{Pøíloha AQ na s. \pageref{pr:aq}} obsahuje výstup z nástroje \texttt{JHOVE2} pro tuto testovací migraci.
+
+Jak se dalo pøedem oèekávat migrace spojená s testováním obsahu archivu je èasovì velmi nároèná. Pøi testování standardních 100 MB souborù \texttt{arc.gz} se èas migrace dosahoval témìø dvou minut, pøièem¾ pøevod neupraveným nástrojem -- bez pou¾ití programu \texttt{JHOVE2} -- trvá do 25 sekund.
+
+Hlavním problémem je zde tedy èasová nároènost programu JHOVE2. Rovnì¾ manipulace s analýzou bude velmi nároèná, jeliko¾ výstupní soubor z analýzy dosahuje velikosti 42 MB. Velikost výstupního souboru i èas operace je samozøejmì pøímo úmìrný poètu souborù obsa¾ených v archivu. 
+
+
