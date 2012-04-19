@@ -85,7 +85,7 @@ Seznam definovaných polí, která se mohou v záznamu zobrazovat lze nalézt v \text
 \item[Response] nese odpovìï na urèitý dotaz. Obsahuje informace o tom jak daný dotaz probíhal. Lze v nìm najít \texttt{http} hlavièky dotazu atd.
 \item[Resource] je urèitý sta¾ený zdroj, ale bez informací protokolu. Ty jsou, jak je zøejmé, neseny v jiném typu záznamu. Data jsou v nìm ulo¾eny v \texttt{Record block}. Záznam se bude li¹it podle toho, jestli bude obsahovat data z urèitého \texttt{http} zdroje, \texttt{ftp} zdroje atd.
 \item[Request] je ¾ádost o webový zdroj. Obsahuje detailní informace o provedeném dotazu a o ¾ádaném webovém zdroji. Pøíklad v \texttt{pøíloze J na s. \pageref{pr:j}}.
-\item[Metadata] nese metadata sklizených zdrojù. Pøesnìji øeèeno obsahuje informace o libovolném sta¾eném jiném záznamu. Slou¾í tak pro reprezentaci sta¾ených dat v repozitáøích. Pøíklad v \texttt{pøíloze I na s. \pageref{pr:i}}.
+\item[Metadata] nese metadata sklizených zdrojù. Pøíklad v \texttt{pøíloze I na s. \pageref{pr:i}}.
 \item[Revisit] nese instrukce pro znovuprohlédnutí zdroje.
 \item[Conversion] je záznam, který obsahuje alternativní verzi ulo¾eného záznamu.
 \item[Continuation] je pokraèování jiného záznama. Pøíklad v \texttt{pøíloze AO na s. \pageref{pr:ao}}.

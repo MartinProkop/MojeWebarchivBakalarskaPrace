@@ -1,0 +1,11 @@
+\noindent \texttt{Warc} záznamy jsouo několika různých typů, podle toho k čemu záznam slouží: \cite{Information and documentation -- The WARC File Format}
+\begin{description}
+\item[Warcinfo] popisuje ostatní \texttt{warc} záznamy, které ho následují. Typicky je na začátku \texttt{WARC} souboru. Má tedy čistě informativní charakte. Lze v něm najít informace o tom, jaký software daný soubor vytvořil, \texttt{IP adresa} stroje na kterém byl vytvořen atd.  Příklad v \texttt{příloze K na s. \pageref{pr:s}}.
+\item[Response] nese odpověď na určitý dotaz. Obsahuje informace o tom jak daný dotaz probíhal. Lze v něm najít \texttt{http} hlavičky dotazu atd.
+\item[Resource] je určitý stažený zdroj, ale bez informací protokolu. Ty jsou, jak je zřejmé, neseny v jiném typu záznamu. Data jsou v něm uloženy v \texttt{Record block}. Záznam se bude lišit podle toho, jestli bude obsahovat data z určitého \texttt{http} zdroje, \texttt{ftp} zdroje atd.
+\item[Request] je žádost o webový zdroj. Obsahuje detailní informace o provedeném dotazu a o žádaném webovém zdroji. Příklad v \texttt{příloze J na s. \pageref{pr:j}}.
+\item[Metadata] nese metadata sklizených zdrojů. Přesněji řečeno obsahuje informace o libovolném staženém jiném záznamu. Slouží tak pro reprezentaci stažených dat v repozitářích. Příklad v \texttt{příloze I na s. \pageref{pr:i}}.
+\item[Revisit] nese instrukce pro znovuprohlédnutí zdroje.
+\item[Conversion] je záznam, který obsahuje alternativní verzi uloženého záznamu.
+\item[Continuation] je pokračování jiného záznama. Příklad v \texttt{příloze AO na s. \pageref{pr:ao}}.
+\end{description}
