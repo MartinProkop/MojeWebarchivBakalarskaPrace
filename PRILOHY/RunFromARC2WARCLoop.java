@@ -56,7 +56,7 @@ public class RunFromARC2WARCLoop {
                         (Class) Class.forName(Displayer.DEFAULT_DISPLAYER_CLASS);
                 displayer =
                         (Displayer) SpringConfigInfo.getReportable(defaultDisplayerClass,
-                        "Text");
+                        "XML");
                 displayer = app.setDisplayer(displayer);
             }
             app.getDisplayer().setConfigInfo(factory);

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  20 APR 2012 11:49
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  20 APR 2012 12:16
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -845,14 +845,7 @@ Overfull \hbox (3.49454pt too wide) in paragraph at lines 175--176
 ¹tì pøed sa-mot-ným vy-ko-ná-vá-ním skrip-
  []
 
-
-Overfull \vbox (9.33334pt too high) has occurred while \output is active []
-
-
-[44]
-Underfull \vbox (badness 7540) has occurred while \output is active []
-
- [45]
+[44] [45]
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
@@ -1265,12 +1258,6 @@ LaTeX Font Warning: Font shape `OMS/lmtt/m/n' undefined
 (Font)              for symbol `textbraceleft' on input line 238.
 
 
-Overfull \hbox (1.02531pt too wide) in paragraph at lines 218--240
-\IL2/lmr/m/n/12 pod ná-zvem \IL2/lmtt/m/n/12 RunFromARC2WARC.java\IL2/lmr/m/n/1
-2 . V rámci pro-jektu ná-stroje \IL2/lmtt/m/n/12 JHOVE2
- []
-
-
 Overfull \hbox (9.15019pt too wide) in paragraph at lines 218--240
 \IL2/lmtt/m/n/12 public void runJHOVE2(String contents[], String path) throws
  []
@@ -1290,14 +1277,9 @@ Underfull \vbox (badness 1661) has occurred while \output is active []
 
  [63]
 [64] [65]
-Underfull \vbox (badness 2547) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [66]
-Overfull \hbox (0.3993pt too wide) in paragraph at lines 307--338
-\IL2/lmtt/m/n/12 JHOVE2 \IL2/lmr/m/n/12 musí být sou-èásti \IL2/lmtt/m/n/12 pac
-kage org.jhove2.app\IL2/lmr/m/n/12 . Zde uka-zuji pouze
- []
-
 [67]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1310,10 +1292,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4911 strings out of 495027
- 71819 string characters out of 1181419
- 143767 words of memory out of 3000000
- 7618 multiletter control sequences out of 15000+50000
+ 4913 strings out of 495027
+ 71837 string characters out of 1181419
+ 143911 words of memory out of 3000000
+ 7619 multiletter control sequences out of 15000+50000
  48501 words of font info for 48 fonts, out of 3000000 for 9000
  38 hyphenation exceptions out of 8191
  38i,8n,42p,982b,445s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1331,9 +1313,9 @@ f/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmtti10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtto10.
 pfb>
-Output written on bakalarka.pdf (75 pages, 686406 bytes).
+Output written on bakalarka.pdf (75 pages, 686950 bytes).
 PDF statistics:
- 1370 PDF objects out of 1440 (max. 8388607)
- 340 named destinations out of 1000 (max. 500000)
+ 1373 PDF objects out of 1440 (max. 8388607)
+ 341 named destinations out of 1000 (max. 500000)
  841 words of extra memory for PDF output out of 10000 (max. 10000000)
 

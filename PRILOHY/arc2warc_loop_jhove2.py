@@ -74,7 +74,7 @@ def main(argv):
             *Pole do ktereho se ukladaji soubory k otestovani programem JHOVE2
             *Spusteni JHOVE2 a nastaveni vystupu ve forme XML
         """ 
-
+        filesource = []
         i = 0
         JHOVE2 = jpype.JClass("org.jhove2.app.RunFromARC2WARCLoop")
         RUNJHOVE2 = JHOVE2()
@@ -104,6 +104,7 @@ def main(argv):
 
             a = open("./temp/"+str(i), "w")
             a.write(content2)
+            filesource.append(a.name)
             a.close()
             RUNJHOVE2.runJHOVE2Loop("./temp/"+str(i),"./temp/"+str(i)+"_out.xml")
             i = i+1
@@ -128,8 +129,8 @@ def main(argv):
     RUNJHOVE2.killEmAll()
     shutdownJVM()
     
-    """for x in range(0, len(filesource)):
-        os.remove(str(filesource[x]))"""
+    for x in range(0, len(filesource)):
+        os.remove(str(filesource[x]))
     """ Martin Prokop: konec """
     
     return 0

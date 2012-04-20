@@ -168,7 +168,7 @@ Program \texttt{JHOVE2} je implementován v programovacím jazyce \texttt{Java}. J
 
 Moje nová tøída je spu¹tìna pøímo z programu \texttt{arc2warc.py}\footnote{Souèást nástroje WARCTOOLS, která je urèena k migraci archivù. Do jiných programù v rámci WARCTOOLS jsem nemusel zasahovat.} a obstará inicializaci a pøedání instrukcí nástroji \texttt{JHOVE2}, který pak provede v¹echny operace a vytvoøí výstupní soubor s informacemi o analýze obsahu \texttt{arc} archivu. Mnou implementovaná tøída umo¾òuje, aby mohl \texttt{JHOVE2} zpracovat libovolné mno¾ství souborù najednou, a vrátit pro nì souhrnný soubor s informace o analýze.
 
-Ukázku této tøídy je mo¾no najít v \texttt{pøíloze AK a na s. \pageref{pr:ak}}. 
+Ukázku této tøídy je mo¾no najít v \texttt{pøíloze AK a na s. \pageref{pr:ak}}, kompletní implementovaný nástroj je k nalezení v \texttt{pøíloze AW na s. \pageref{pr:aw}}.
 \subsubsection{Úprava \texttt{WARCTOOLS / hanzo}}
 Pøi úpravì nástroje \texttt{WARCTOOLS} staèilo upravit pouze \texttt{arc2warc.py}, který je implementovám v programovacím jazyce \texttt{Python}. Bylo nutné provést takové zmìny, aby bylo mo¾no pøímo pøi bìhu programu spustit aplikaci v programovacím \texttt{Java}. A upravit program tak, aby bylo mo¾no pøistupovat k jednotlivým souborùm uvnitø \texttt{arc} archivu. Dal¹ím problémem bylo, ¾e program \texttt{JHOVE2} neumo¾òuje vícenásobné spu¹tìní. Opakovaná inicializace by v¹ak byla výpoèetnì velmi nároèná\footnote{Typický archiv je má velikost 100 MB a obsahuje stovky a¾ tisíce souborù.}.
 
@@ -184,7 +184,7 @@ V praxi bude tato varianta mého programu umo¾òovat provedení rozhodování o tom, 
 \subsubsection{Úprava \texttt{JHOVE2}}
 Postupoval jsem podobnì jako v pøípadì první úpravy. Moje nová tøída je spu¹tìna pøímo z programu \texttt{arc2warc.py}. Poté co inicializuje nástroj \texttt{JHOVE2} pøedává mu pomocí metody \texttt{runJHOVE2Loop} jednotlivé soubory k testování. Mnou implementovaná tøída tedy opìt umo¾òuje testování více souborù, pøièem¾ není nutné spou¹tì \texttt{JHOVE2} vícekrát.
 
-Ukázku této tøídy je mo¾no najít v \texttt{pøíloze AU a na s. \pageref{pr:au}}. 
+Ukázku této tøídy je mo¾no najít v \texttt{pøíloze AU a na s. \pageref{pr:au}}, kompletní implementovaný nástroj je k nalezení v \texttt{pøíloze AW na s. \pageref{pr:aw}}.
 \subsubsection{Úprava \texttt{WARCTOOLS / hanzo}}
 Opìt jsem pøi implementaci postupoval podobnì jako v první variantì implementace. Rozdíl spoèívá pouze v tom, ¾e volám nástroj \texttt{JHOVE2} z tìla skriptu \texttt{arc2warc} pøedtím, ne¾ je provedeno zaøazení souboru do nového archivu. 
 
