@@ -1,4 +1,4 @@
-\documentclass[12pt,final,oneside]{fithesis}
+\documentclass[12pt,draft,oneside]{fithesis}
 % draft dela: ctverecky na konci radku, opak je: final
 
 \usepackage[plainpages=false, pdfpagelabels]{hyperref}
@@ -10,7 +10,7 @@
 \thesissubtitle{Bakaláøská práce}
 \thesisstudent{Martin Prokop­}
 \thesiswoman{false}
-\thesisfaculty{phil}
+\thesisfaculty{fi}
 \thesisyear{jaro 2012}
 \thesislang{cs}
 \thesisadvisor{Mgr. Václav Rosecký­}
@@ -25,7 +25,7 @@
 \end{ThesisDeclaration}
 
 \begin{ThesisThanks}
-Na tomto místì chci podìkovat Mgr. Václavovi Roseckému a Ing. Petrovi ®abièkovi za pomoc pøi øe¹ení této bakaláøské práce.
+Na tomto místì chci podìkovat Mgr. Václavovi Roseckému za pomoc pøi øe¹ení této bakaláøské práce.
 \end{ThesisThanks}
 
 \begin{ThesisAbstract}

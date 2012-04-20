@@ -35,7 +35,7 @@ Tento typ souboru se ji¾ nevyu¾ívá a archivy v tomto formátu byli pøevedeny do f
 \subsection{Popis standardu \texttt{arc}}
 \texttt{Arc} je bezeztrátový kompresní formát pro ukládání dat. Byl vyvinut v 80. letech a od roku 1996 je u¾íván WebArchivem pro ukládání sta¾ených webových zdrojù. V souèasné dobì WebArchiv pøi sklízen webových zdrojù, pomocí nástroje \texttt{Heritrix}, pou¾ívá právì \texttt{arc} soubory komprimované do formátu \texttt{GZip}. Tuto komprimaci zaji¹»uje pøímo nástroj \texttt{Heritrix}. Archivy mají typicky velikost 100 MB, pouze pøi archivaci vìt¹ích souborù je tento limit pøekroèen.
 
-\texttt{Arc} soubory obsahují kromì samotných sta¾ených souborù je¹tì metadata, která nesou dal¹í informace o sta¾ených souborech. Jedná se napøíklad o kontrolní souèet souborù, jejich \texttt{URL}, datum sta¾ení, délku souboru. Kompletní popis u¾ívaných souborù je k dohledání na webové stránce projektu Internet Archive, popøípadì na stránkách IA Webteam JIRA\footnote{Webové stránky IA Webteam JIRA dostupné online na adrese \texttt{https://webarchive.jira.com/}.}.\cite{Arc File Format Reference} Pro dal¹í informace viz té¾ \texttt{pøílohy A, B, C, D, E a G na s. \pageref{pr:a}}.
+\texttt{Arc} soubory obsahují kromì samotných sta¾ených souborù je¹tì metadata, která nesou dal¹í informace o sta¾ených souborech. Jedná se napøíklad o kontrolní souèet souborù, jejich \texttt{URL}, datum sta¾ení, délku souboru. Kompletní popis u¾ívaných souborù je k dohledání na webové stránce projektu Internet Archive, popøípadì na stránkách IA Webteam JIRA\footnote{Webové stránky IA Webteam JIRA dostupné online na adrese \texttt{https://webarchive.jira.com/}.}. \cite{Arc File Format Reference} Pro dal¹í informace viz té¾ \texttt{pøílohy A, B, C, D, E a G na s. \pageref{pr:a}}.
 \subsection{Výhody \texttt{arc} pro WebArchiv}
 \begin{itemize}
 \item Na rozdíl od formátu \texttt{nedlib} je soubor dobøe èitelný -- soubory sta¾ených webových zdrojù jsou ukládány v archivech a èlenìny.
@@ -45,7 +45,7 @@ Tento typ souboru se ji¾ nevyu¾ívá a archivy v tomto formátu byli pøevedeny do f
 \begin{itemize}
 \item Neumo¾òuje na rozdíl od \texttt{warc} zabránit duplicitnímu ukládání dokumentù.
 \item Neobsahují samoopravný kód -- pokud se archiv poru¹í tak není mo¾né rekonstruovat jeho obsah. To v¹ak není dáno vlastnostmi arc archivù, ale tím, ¾e archivy se po vytvoøení je¹tì komprimují nástrojem \texttt{GZip}.
-\item Pøi naèítání libovolného souboru z archivu je potøeba rozbalit celý archiv -- pøi 100 MB archivech jde o velkou re¾ii. Pokud ov¹em není vytvoøen index souborù uvnitø archivu, pomocí kterého se dozvíme na jaké pozici v archivu se který soubor nachází. Pak není potøeba arc soubor sekvenènì procházet, ale staèí pouze otevøít archiv a posunout ukazatel na správné místo \cite{MATEJKA2006}.
+\item Pøi naèítání libovolného souboru z archivu je potøeba rozbalit celý archiv -- pøi 100 MB archivech jde o velkou re¾ii. Pokud ov¹em není vytvoøen index souborù uvnitø archivu, pomocí kterého se dozvíme na jaké pozici v archivu se který soubor nachází. Pak není potøeba soubor sekvenènì procházet, ale staèí pouze otevøít archiv a posunout ukazatel na správné místo. \cite{MATEJKA2006}
 \end{itemize}
 \subsection{U¾ití v praxi ve WebArchivu}
 Právì metadat pøipojených v archivu se vyu¾ívá pøi vyhledávání souborù v databázi WebArchivu. V praxi se vytvoøí \texttt{CDX index} souboru, který obsahuje seznam souborù ulo¾ených v archivech spoleènì s metadaty a cestou k danému archivu. Tento index se vytváøí pomocí aplikace \texttt{CDX-indexer}, který je souèásti nástroje \texttt{Wayback}. V \texttt{pøíloze H na s. \pageref{pr:h}} nabízím ukázku \texttt{CDX indexu}.
@@ -59,7 +59,7 @@ Pou¾ití formátu \texttt{warc} se v rámci projektu WebArchiv prozatím jen plánuje
 
 V následujících kapitolách pøedvedu základní vlastnosti formátu warc a uká¾u jeho výhody a nevýhody. Nevýhod související se zavedením formátu \texttt{warc}, neznamení, ¾e by se mìlo opustit od pøechodu na tento formát. Nevýhody spí¹e pøedstavují problémy, které doposud nebyly vyøe¹eny nebo se vùbec neøe¹ily. Pøed tím, ne¾ se pøistoupí k zavedení tohoto formátu, je potøeba se se v¹emi vyrovnat.
 
-V \texttt{pøílohách I, J a K na s. \pageref{pr:i}} nabízím vzorové soubory typu \texttt{warc}, vydané k definici standardu. Dále v \texttt{pøílohách L, M a N na s. \pageref{pr:l}} nabízím \texttt{warc} soubory vytvoøené pomocí nástrojù pro migraci \texttt{arc} souborù, které jsem testoval. Také pøikládám výstup z programu \texttt{JHOVE2} pro jeden z \texttt{warc} archivù v \texttt{pøíloze O na s. \pageref{pr:o}}. V \texttt{pøíloze P na s. \pageref{pr:p}} je dostupný dokument IIPC zabývající se formátem. Pro úplnost uvádím i ukázku \texttt{ISO standardu warc} v {pøíloze AJ na s. \pageref{pr:aj}}\footnote{Nejedná se o souèasný oficiální standard, ale o poslední dostupnou specifikaci z roku 2009.}.
+V \texttt{pøílohách I, J a K na s. \pageref{pr:i}} nabízím vzorové soubory typu \texttt{warc}, vydané k definici standardu. Dále v \texttt{pøílohách L, M a N na s. \pageref{pr:l}} nabízím \texttt{warc} soubory vytvoøené pomocí nástrojù pro migraci \texttt{arc} souborù, které jsem testoval. Také pøikládám výstup z programu \texttt{JHOVE2} pro jeden z \texttt{warc} archivù v \texttt{pøíloze O na s. \pageref{pr:o}}. V \texttt{pøíloze P na s. \pageref{pr:p}} je dostupný dokument IIPC zabývající se formátem. Pro úplnost uvádím i ukázku \texttt{ISO standardu warc} v \texttt{pøíloze AJ\footnote{Nejedná se o souèasný oficiální standard, ale o poslední dostupnou specifikaci z roku 2009.} na s. \pageref{pr:aj}}.
 \subsection{Popis standardu \texttt{warc}}
 \noindent Motivací pro definici standardu \texttt{warc} jsou tyto nároky na archivaèní formát: \cite{Information and documentation -- The WARC File Format}
 \begin{itemize}
@@ -76,7 +76,7 @@ Soubor formátu \texttt{warc} tvoøí jednoduché zøetìzení jednoho nebo více záznam
 
 Warc záznamy se skládají z hlavièky, kterou následuje blok s obsahem. Hlacièka se skládá z prvního øádku, který definuje, ¾e záznam je typu warc, dále verze souboru, a flexibilní mno¾ství øádkù oddìlených symbolem \texttt{CRLF}, poté následuje ji¾ zmínìný blok obsahu. Záznam splòuje \texttt{BNF}\footnote{Backusova-Naurova forma je jedno z mo¾ných vyjádøení bezkontextové gramatiky.}, ukázka k nalezení v \texttt{pøíloze AM na s. \pageref{pr:am}}. 
 
-Seznam definovaných polí, která se mohou v záznamu zobrazovat lze nalézt v \texttt{pøíloze AN na s. \pageref{pr:an}}. Samozøejmì nìkterá z polí jsou povinnì v ka¾dém záznamu, jako napøíklad \texttt{WARC-Record-ID, Con\-tent-Length, WARC-Type}. Jiné jsou nepovinné: \texttt{Content-Type, WA\-RC-Block-Digest, WARC-Payload-Digest}. Ka¾dé z polí má samozøejmì stanovená pravidla, která urèují jejich mo¾ný obsah. \cite{Information and documentation -- The WARC File Format}
+Seznam definovaných polí, která se mohou v záznamu zobrazovat lze nalézt v \texttt{pøíloze AN na s. \pageref{pr:an}}. Samozøejmì nìkterá z polí jsou povinnì\footnote{Povinné: \texttt{WARC-Record-ID, Con\-tent-Length, WARC-Type}} v ka¾dém záznamu a jiné jsou nepovinné\footnote{Nepovinné: \texttt{Content-Type, WA\-RC-Block-Digest, WARC-Payload-Digest}}. Ka¾dé z polí má samozøejmì stanovená pravidla, která urèují jejich mo¾ný obsah. \cite{Information and documentation -- The WARC File Format}
 
 
 \noindent \texttt{Warc} záznamy jsouo nìkolika rùzných typù, podle toho k èemu záznam slou¾í: \cite{Information and documentation -- The WARC File Format}
@@ -85,7 +85,7 @@ Seznam definovaných polí, která se mohou v záznamu zobrazovat lze nalézt v \text
 \item[Response] nese odpovìï na urèitý dotaz. Obsahuje informace o tom jak daný dotaz probíhal. Lze v nìm najít \texttt{http} hlavièky dotazu atd.
 \item[Resource] je urèitý sta¾ený zdroj, ale bez informací protokolu. Ty jsou, jak je zøejmé, neseny v jiném typu záznamu. Data jsou v nìm ulo¾eny v \texttt{Record block}. Záznam se bude li¹it podle toho, jestli bude obsahovat data z urèitého \texttt{http} zdroje, \texttt{ftp} zdroje atd.
 \item[Request] je ¾ádost o webový zdroj. Obsahuje detailní informace o provedeném dotazu a o ¾ádaném webovém zdroji. Pøíklad v \texttt{pøíloze J na s. \pageref{pr:j}}.
-\item[Metadata] nese metadata sklizených zdrojù. Pøíklad v \texttt{pøíloze I na s. \pageref{pr:i}}.
+\item[Metadata] nese metadata sklizených zdrojù. Pøesnìji øeèeno obsahuje informace o libovolném sta¾eném jiném záznamu. Slou¾í tak pro reprezentaci sta¾ených dat v repozitáøích. Pøíklad v \texttt{pøíloze I na s. \pageref{pr:i}}.
 \item[Revisit] nese instrukce pro znovuprohlédnutí zdroje.
 \item[Conversion] je záznam, který obsahuje alternativní verzi ulo¾eného záznamu.
 \item[Continuation] je pokraèování jiného záznama. Pøíklad v \texttt{pøíloze AO na s. \pageref{pr:ao}}.
