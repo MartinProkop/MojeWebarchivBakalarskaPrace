@@ -1,19 +1,16 @@
 #!/usr/bin/env python
 """ Martin Prokop:
     *Uprava nastroje arc2warc pro potrebu spusteni nastroje JHOVE2.
-    *Nastroj JHOVE2 provede po svem spusteni analyzu souboru
-    obsazenych v archivu. Na konce vypise informace do souboru
-    XML.
-    
+    *Nastroj provede prevod archivu a pro kazdy v nem obsazeny soubor
+    vlozi do adresare "./temp" vystup z nastroje JHOVE2 ve formatu XML.
+    Nazev vystupu bude ve forme: "poradovecislovarchivu_out.xml".
+
     *Cesta k adresari JHOVE2 (adresar ./lib v korenove slozce JHOVE2
     (musi v ni byt umisteny i slozky ./config a ./config/droid) se
     zadava prepinacem "-c". Zadava se ve forme: "x/".
     
     *Cesta k JVM se zadava prepinacem "-m".
-   
-    *Cesta k vystupnimu souboru z nastroje JHOVE se zada pomoci prepinace "-j",
-    pokud neni nastaven, ulozi vypis do souboru "./jhove2output.xml"
-   
+
     *V kodu jsem okomentoval svoje zasahy.
 """
 
@@ -43,16 +40,13 @@ parser.add_option("-Z", "--gzip", dest="gzip", action="store_true", help="compre
 parser.add_option("-L", "--log-level", dest="log_level")
 
 """ Martin Prokop:
-    *Pridani parametru "-j" pro output JHOVE2
     *Pridani parametru "-c" pro cestu k JHOVE2
     *Pridani parametru "-m" pro cestu k JVM
 """
-parser.add_option("-j", "--jhove", dest="jhove2output")
 parser.add_option("-c", "--config jhove", dest="jhove2config")
 parser.add_option("-m", "--JVM", dest="jvm")
 """ Martin Prokop: konec """
-
-parser.set_defaults(output_directory=None, limit=None, log_level="info", gzip=False, jhove2output="./jhove2output.xml", jvm="/usr/lib/jvm/default-java/jre/lib/i386/client/libjvm.so")
+parser.set_defaults(output_directory=None, limit=None, log_level="info", gzip=False, jvm="/usr/lib/jvm/default-java/jre/lib/i386/client/libjvm.so")
 
 def main(argv):
     (options, input_files) = parser.parse_args(args=argv[1:])
@@ -78,10 +72,13 @@ def main(argv):
 
         """ Martin Prokop:
             *Pole do ktereho se ukladaji soubory k otestovani programem JHOVE2
-            *Promena i nese poradi souboru v archivu
+            *Spusteni JHOVE2 a nastaveni vystupu ve forme XML
         """ 
-        filesource = []
+
         i = 0
+        JHOVE2 = jpype.JClass("org.jhove2.app.RunFromARC2WARCLoop")
+        RUNJHOVE2 = JHOVE2()
+
         """ Martin Prokop: konec """
 		
         for record in fh:
@@ -100,15 +97,15 @@ def main(argv):
                 *Pomoci regularniho vyrazu vyfiltruju z obsahu archivu
                 jednotlive soubory k testovani
                 *Ukladani vyfiltrovanych souboru
-                *Pridani souboru do seznamu pro JHOVE2
+                *Spusteni JHOVE2 pro kazdy soubor a nasteveni vystupu z JHOVE
                 
             """
             content2 = re.sub("^(\n?(.+\n)*(\n\n|\r\n)){1}", "", content[1])
 
             a = open("./temp/"+str(i), "w")
             a.write(content2)
-            filesource.append(a.name)
             a.close()
+            RUNJHOVE2.runJHOVE2Loop("./temp/"+str(i),"./temp/"+str(i)+"_out.xml")
             i = i+1
             """ Martin Prokop: konec """
             
@@ -123,18 +120,16 @@ def main(argv):
         fh.close()
         
     """ Martin Prokop:
-        *Spusteni JHOVE2 (jako parametry pole cest k souborum a cestu k vystupu)
+        *Vypnuti JHOVE2
         *Vypnuti JVM
         *Nakonec mazu soubory z "./temp"
     """
         
-    JHOVE2 = jpype.JClass("org.jhove2.app.RunFromARC2WARC")
-    RUNJHOVE2 = JHOVE2()
-    RUNJHOVE2.runJHOVE2(filesource, options.jhove2output)
+    RUNJHOVE2.killEmAll()
     shutdownJVM()
     
-    for x in range(0, len(filesource)):
-        os.remove(str(filesource[x]))
+    """for x in range(0, len(filesource)):
+        os.remove(str(filesource[x]))"""
     """ Martin Prokop: konec """
     
     return 0

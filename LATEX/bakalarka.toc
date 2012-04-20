@@ -1,99 +1,105 @@
 \select@language {czech}
-\contentsline {chapter}{\numberline {1}\bfseries \'Uvod}{4}{chapter.1}
-\contentsline {chapter}{\numberline {2}\bfseries WebArchiv}{6}{chapter.2}
-\contentsline {section}{\numberline {2.1}\slshape O WebArchivu}{6}{section.2.1}
-\contentsline {section}{\numberline {2.2}\slshape V\'yvoj projektu}{7}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}\rmfamily Rok 2000}{7}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}\rmfamily Rok 2001}{7}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}\rmfamily Rok 2002}{8}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}\rmfamily Rok 2003}{8}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}\rmfamily Rok 2004}{8}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}\rmfamily Rok 2005}{9}{subsection.2.2.6}
-\contentsline {subsection}{\numberline {2.2.7}\rmfamily Rok 2006}{9}{subsection.2.2.7}
-\contentsline {subsection}{\numberline {2.2.8}\rmfamily Rok 2007}{9}{subsection.2.2.8}
-\contentsline {subsection}{\numberline {2.2.9}\rmfamily Rok 2008}{10}{subsection.2.2.9}
-\contentsline {subsection}{\numberline {2.2.10}\rmfamily Rok 2009}{10}{subsection.2.2.10}
-\contentsline {subsection}{\numberline {2.2.11}\rmfamily Rok 2010}{11}{subsection.2.2.11}
-\contentsline {subsection}{\numberline {2.2.12}\rmfamily Rok 2011}{11}{subsection.2.2.12}
-\contentsline {section}{\numberline {2.3}\slshape Sou\v casn\'y obsah datab\'aze}{11}{section.2.3}
-\contentsline {section}{\numberline {2.4}\slshape Dal\v s\IeC {\'\i } informace o projektu}{12}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}\rmfamily \texttt {Creative Commons}}{12}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}\rmfamily Partne\v ri projektu}{13}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}\rmfamily Nasmlouvan\'e webov\'e zdroje}{13}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}\rmfamily Internet Archive}{14}{subsection.2.4.4}
-\contentsline {subsection}{\numberline {2.4.5}\rmfamily Dal\v s\IeC {\'\i } spolupr\'ace}{14}{subsection.2.4.5}
-\contentsline {subsection}{\numberline {2.4.6}\rmfamily Dostupnost informac\IeC {\'\i }}{15}{subsection.2.4.6}
-\contentsline {subsection}{\numberline {2.4.7}\rmfamily Krit\'eria v\'yb\v eru webov\'ych zdroj\r u}{15}{subsection.2.4.7}
-\contentsline {subsubsection}{ Plo\v sn\'a archivace -- harvesting}{16}{section*.7}
-\contentsline {subsubsection}{ V\'yb\v erov\'y p\v r\IeC {\'\i }stup -- konspekt}{16}{section*.8}
-\contentsline {subsubsection}{ Tematick\'e sb\IeC {\'\i }rky}{17}{section*.9}
-\contentsline {section}{\numberline {2.5}\slshape Star\v s\IeC {\'\i } pr\'ace na t\'ema WebArchiv}{17}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}\rmfamily Syst\'em pro spr\'avu procesu archivace webov\'ych informa\v cn\IeC {\'\i }ch zdroj\r u}{17}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}\rmfamily Identifikace a omezen\IeC {\'\i } p\v r\IeC {\'\i }stupu k \uv {nevhodn\'ym} str\'ank\'am ve\IeC {\nobreakspace }webov\'em archivu}{18}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}\rmfamily Rozpozn\'an\IeC {\'\i } a archivace \v cesk\'eho webu mimo n\'arodn\IeC {\'\i } dom\'enu}{18}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}\rmfamily Implementace \texttt {OAI-PMH} pro \v cesk\'y WebArchiv}{19}{subsection.2.5.4}
-\contentsline {subsection}{\numberline {2.5.5}\rmfamily Zp\v r\IeC {\'\i }stupn\v en\IeC {\'\i } archivu \v cesk\'eho webu}{19}{subsection.2.5.5}
-\contentsline {section}{\numberline {2.6}\slshape N\'astroje souvisej\IeC {\'\i }c\IeC {\'\i } s projektem WebArchiv}{19}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}\rmfamily \texttt {APACHE TOMCAT}}{19}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}\rmfamily \texttt {ARCRetriever}}{19}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}\rmfamily \texttt {DeDuplicator}}{20}{subsection.2.6.3}
-\contentsline {subsection}{\numberline {2.6.4}\rmfamily \texttt {Gener\'ator URN}}{20}{subsection.2.6.4}
-\contentsline {subsection}{\numberline {2.6.5}\rmfamily \texttt {HERITRIX}}{20}{subsection.2.6.5}
-\contentsline {subsection}{\numberline {2.6.6}\rmfamily \texttt {ImpEval}}{21}{subsection.2.6.6}
-\contentsline {subsection}{\numberline {2.6.7}\rmfamily \texttt {NutchWAX}}{21}{subsection.2.6.7}
-\contentsline {subsection}{\numberline {2.6.8}\rmfamily \texttt {WA ADMIN}}{21}{subsection.2.6.8}
-\contentsline {subsection}{\numberline {2.6.9}\rmfamily \texttt {WA-CZ}}{21}{subsection.2.6.9}
-\contentsline {subsection}{\numberline {2.6.10}\rmfamily \texttt {Wayback}}{22}{subsection.2.6.10}
-\contentsline {subsection}{\numberline {2.6.11}\rmfamily \texttt {WebAnalyzer}}{22}{subsection.2.6.11}
-\contentsline {subsection}{\numberline {2.6.12}\rmfamily \texttt {Web Curator Tool}}{22}{subsection.2.6.12}
-\contentsline {chapter}{\numberline {3}\bfseries Archiva\v cn\IeC {\'\i } form\'aty}{23}{chapter.3}
-\contentsline {section}{\numberline {3.1}\slshape \'Uvod}{23}{section.3.1}
-\contentsline {section}{\numberline {3.2}\slshape Form\'at \texttt {nedlib}}{24}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}\rmfamily Popis standardu \texttt {nedlib}}{24}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}\rmfamily V\'yhody \texttt {nedlib} pro WebArchiv}{24}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}\rmfamily Nev\'yhody \texttt {nedlib} pro WebArchiv}{24}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}\rmfamily U\v zit\IeC {\'\i } v praxi ve WebArchivu}{24}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}\slshape Form\'at \texttt {arc}}{25}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}\rmfamily Popis standardu \texttt {arc}}{25}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}\rmfamily V\'yhody \texttt {arc} pro WebArchiv}{25}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}\rmfamily Nev\'yhody \texttt {arc} pro WebArchiv}{25}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}\rmfamily U\v zit\IeC {\'\i } v praxi ve WebArchivu}{26}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}\slshape Form\'at \texttt {warc}}{26}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}\rmfamily \'Uvod}{26}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}\rmfamily Popis standardu \texttt {warc}}{27}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}\rmfamily V\'yhody \texttt {warc} pro WebArchiv}{29}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}\rmfamily Nev\'yhody \texttt {warc} pro WebArchiv}{30}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}\rmfamily Pl\'anovan\'e vyu\v zit\IeC {\'\i }}{31}{subsection.3.4.5}
-\contentsline {subsection}{\numberline {3.4.6}\rmfamily Deduplikace soubor\r u}{31}{subsection.3.4.6}
-\contentsline {chapter}{\numberline {4}\bfseries Migrace archivu z form\'atu \texttt {arc} do form\'atu \texttt {warc}}{32}{chapter.4}
-\contentsline {section}{\numberline {4.1}\slshape O migraci}{32}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}\rmfamily \'Uvod}{32}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}\rmfamily Britsk\'a knihovna}{33}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}\slshape Pou\v zit\'e n\'astroje}{33}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}\rmfamily \texttt {JHOVE}}{33}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}\rmfamily \texttt {JHOVE2}}{34}{subsection.4.2.2}
-\contentsline {subsubsection}{ \'Uvod}{34}{section*.10}
-\contentsline {subsubsection}{ Podrobn\v ej\v s\IeC {\'\i } informace JHOVE2}{35}{section*.11}
-\contentsline {subsection}{\numberline {4.2.3}\rmfamily \texttt {Jpype}}{37}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}\slshape Testov\'an\IeC {\'\i } migra\v cn\IeC {\'\i }ch n\'astroj\r u}{37}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}\rmfamily \texttt {WARC-TOOLS}}{37}{subsection.4.3.1}
-\contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{38}{section*.12}
-\contentsline {subsubsection}{ Dal\v s\IeC {\'\i } parametry}{38}{section*.13}
-\contentsline {subsection}{\numberline {4.3.2}\rmfamily \texttt {WARC-TOOLS / hanzo}}{39}{subsection.4.3.2}
-\contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{39}{section*.14}
-\contentsline {subsubsection}{ Dal\v s\IeC {\'\i } parametry}{39}{section*.15}
-\contentsline {subsection}{\numberline {4.3.3}\rmfamily \texttt {WARC-TOOLS / kpk09}}{40}{subsection.4.3.3}
-\contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{40}{section*.16}
-\contentsline {subsubsection}{ Dal\v s\IeC {\'\i } parametry}{40}{section*.17}
-\contentsline {section}{\numberline {4.4}\slshape Podobnost \texttt {WARCTOOLS / hanzo s kpk09}}{41}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}\rmfamily Porovn\'an\IeC {\'\i } v\'ystup\r u pro stejn\'e vstupy}{41}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}\rmfamily Porovn\'an\IeC {\'\i } zdrojov\'eho k\'odu}{41}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}\slshape Z\'av\v ery z porovn\'av\'an\IeC {\'\i } n\'astroj\r u}{42}{section.4.5}
-\contentsline {section}{\numberline {4.6}\slshape Implementace \'uprav v migra\v cn\IeC {\'\i }ch n\'astroj\IeC {\'\i }ch}{42}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}\rmfamily \'Uvod}{42}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}\rmfamily \'Uprava \texttt {JHOVE2}}{42}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}\rmfamily \'Uprava \texttt {WARCTOOLS / hanzo}}{43}{subsection.4.6.3}
-\contentsline {section}{\numberline {4.7}\slshape V\'ystupy z anal\'yzy obsahu p\v rev\'ad\v en\'ych archiv\r u}{44}{section.4.7}
-\contentsline {section}{\numberline {4.8}\slshape Anal\'yza hav\'ari\IeC {\'\i } p\v ri migraci archivu}{45}{section.4.8}
-\contentsline {chapter}{\numberline {5}\bfseries Z\'av\v er}{46}{chapter.5}
-\contentsline {chapter}{\numberline {6}\bfseries P\v r\IeC {\'\i }lohy}{52}{chapter.6}
+\contentsline {chapter}{\numberline {1}\bfseries \'Uvod}{5}{chapter.1}
+\contentsline {chapter}{\numberline {2}\bfseries WebArchiv}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}\slshape O WebArchivu}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}\slshape V\'yvoj projektu}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}\rmfamily Rok 2000}{8}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}\rmfamily Rok 2001}{8}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}\rmfamily Rok 2002}{9}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}\rmfamily Rok 2003}{9}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}\rmfamily Rok 2004}{9}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}\rmfamily Rok 2005}{10}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}\rmfamily Rok 2006}{10}{subsection.2.2.7}
+\contentsline {subsection}{\numberline {2.2.8}\rmfamily Rok 2007}{10}{subsection.2.2.8}
+\contentsline {subsection}{\numberline {2.2.9}\rmfamily Rok 2008}{11}{subsection.2.2.9}
+\contentsline {subsection}{\numberline {2.2.10}\rmfamily Rok 2009}{11}{subsection.2.2.10}
+\contentsline {subsection}{\numberline {2.2.11}\rmfamily Rok 2010}{12}{subsection.2.2.11}
+\contentsline {subsection}{\numberline {2.2.12}\rmfamily Rok 2011}{12}{subsection.2.2.12}
+\contentsline {section}{\numberline {2.3}\slshape Sou\v casn\'y obsah datab\'aze}{12}{section.2.3}
+\contentsline {section}{\numberline {2.4}\slshape Dal\v s\IeC {\'\i } informace o projektu}{13}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}\rmfamily \texttt {Creative Commons}}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}\rmfamily Partne\v ri projektu}{14}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}\rmfamily Nasmlouvan\'e webov\'e zdroje}{14}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}\rmfamily Internet Archive}{15}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}\rmfamily Dal\v s\IeC {\'\i } spolupr\'ace}{15}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.6}\rmfamily Dostupnost informac\IeC {\'\i }}{16}{subsection.2.4.6}
+\contentsline {subsection}{\numberline {2.4.7}\rmfamily Krit\'eria v\'yb\v eru webov\'ych zdroj\r u}{16}{subsection.2.4.7}
+\contentsline {subsubsection}{ Plo\v sn\'a archivace -- harvesting}{17}{section*.7}
+\contentsline {subsubsection}{ V\'yb\v erov\'y p\v r\IeC {\'\i }stup -- konspekt}{17}{section*.8}
+\contentsline {subsubsection}{ Tematick\'e sb\IeC {\'\i }rky}{18}{section*.9}
+\contentsline {section}{\numberline {2.5}\slshape Star\v s\IeC {\'\i } pr\'ace na t\'ema WebArchiv}{18}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}\rmfamily Syst\'em pro spr\'avu procesu archivace webov\'ych informa\v cn\IeC {\'\i }ch zdroj\r u}{18}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}\rmfamily Identifikace a omezen\IeC {\'\i } p\v r\IeC {\'\i }stupu k \uv {nevhodn\'ym} str\'ank\'am ve\IeC {\nobreakspace }webov\'em archivu}{19}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}\rmfamily Rozpozn\'an\IeC {\'\i } a archivace \v cesk\'eho webu mimo n\'arodn\IeC {\'\i } dom\'enu}{19}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}\rmfamily Implementace \texttt {OAI-PMH} pro \v cesk\'y WebArchiv}{20}{subsection.2.5.4}
+\contentsline {subsection}{\numberline {2.5.5}\rmfamily Zp\v r\IeC {\'\i }stupn\v en\IeC {\'\i } archivu \v cesk\'eho webu}{20}{subsection.2.5.5}
+\contentsline {section}{\numberline {2.6}\slshape N\'astroje souvisej\IeC {\'\i }c\IeC {\'\i } s projektem WebArchiv}{20}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}\rmfamily \texttt {APACHE TOMCAT}}{20}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}\rmfamily \texttt {ARCRetriever}}{20}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}\rmfamily \texttt {DeDuplicator}}{21}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.4}\rmfamily \texttt {Gener\'ator URN}}{21}{subsection.2.6.4}
+\contentsline {subsection}{\numberline {2.6.5}\rmfamily \texttt {HERITRIX}}{21}{subsection.2.6.5}
+\contentsline {subsection}{\numberline {2.6.6}\rmfamily \texttt {ImpEval}}{22}{subsection.2.6.6}
+\contentsline {subsection}{\numberline {2.6.7}\rmfamily \texttt {NutchWAX}}{22}{subsection.2.6.7}
+\contentsline {subsection}{\numberline {2.6.8}\rmfamily \texttt {WA ADMIN}}{22}{subsection.2.6.8}
+\contentsline {subsection}{\numberline {2.6.9}\rmfamily \texttt {WA-CZ}}{22}{subsection.2.6.9}
+\contentsline {subsection}{\numberline {2.6.10}\rmfamily \texttt {Wayback}}{23}{subsection.2.6.10}
+\contentsline {subsection}{\numberline {2.6.11}\rmfamily \texttt {WebAnalyzer}}{23}{subsection.2.6.11}
+\contentsline {subsection}{\numberline {2.6.12}\rmfamily \texttt {Web Curator Tool}}{23}{subsection.2.6.12}
+\contentsline {chapter}{\numberline {3}\bfseries Archiva\v cn\IeC {\'\i } form\'aty}{24}{chapter.3}
+\contentsline {section}{\numberline {3.1}\slshape \'Uvod}{24}{section.3.1}
+\contentsline {section}{\numberline {3.2}\slshape Form\'at \texttt {nedlib}}{25}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}\rmfamily Popis standardu \texttt {nedlib}}{25}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}\rmfamily V\'yhody \texttt {nedlib} pro WebArchiv}{25}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}\rmfamily Nev\'yhody \texttt {nedlib} pro WebArchiv}{25}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}\rmfamily U\v zit\IeC {\'\i } v praxi ve WebArchivu}{25}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}\slshape Form\'at \texttt {arc}}{26}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}\rmfamily Popis standardu \texttt {arc}}{26}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}\rmfamily V\'yhody \texttt {arc} pro WebArchiv}{26}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}\rmfamily Nev\'yhody \texttt {arc} pro WebArchiv}{26}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}\rmfamily U\v zit\IeC {\'\i } v praxi ve WebArchivu}{27}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}\slshape Form\'at \texttt {warc}}{27}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}\rmfamily \'Uvod}{27}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}\rmfamily Popis standardu \texttt {warc}}{28}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}\rmfamily V\'yhody \texttt {warc} pro WebArchiv}{30}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}\rmfamily Nev\'yhody \texttt {warc} pro WebArchiv}{31}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}\rmfamily Pl\'anovan\'e vyu\v zit\IeC {\'\i }}{32}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.6}\rmfamily Deduplikace soubor\r u}{32}{subsection.3.4.6}
+\contentsline {chapter}{\numberline {4}\bfseries Migrace archivu z form\'atu \texttt {arc} do form\'atu \texttt {warc}}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}\slshape O migraci}{33}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}\rmfamily \'Uvod}{33}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}\rmfamily Britsk\'a knihovna}{34}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}\slshape Pou\v zit\'e n\'astroje}{34}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}\rmfamily \texttt {JHOVE}}{34}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}\rmfamily \texttt {JHOVE2}}{35}{subsection.4.2.2}
+\contentsline {subsubsection}{ \'Uvod}{35}{section*.10}
+\contentsline {subsubsection}{ Podrobn\v ej\v s\IeC {\'\i } informace JHOVE2}{36}{section*.11}
+\contentsline {subsection}{\numberline {4.2.3}\rmfamily \texttt {Jpype}}{38}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}\slshape Testov\'an\IeC {\'\i } migra\v cn\IeC {\'\i }ch n\'astroj\r u}{38}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}\rmfamily \texttt {WARC-TOOLS}}{38}{subsection.4.3.1}
+\contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{39}{section*.12}
+\contentsline {subsubsection}{ Dal\v s\IeC {\'\i } parametry}{39}{section*.13}
+\contentsline {subsection}{\numberline {4.3.2}\rmfamily \texttt {WARC-TOOLS / hanzo}}{40}{subsection.4.3.2}
+\contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{40}{section*.14}
+\contentsline {subsubsection}{ Dal\v s\IeC {\'\i } parametry}{40}{section*.15}
+\contentsline {subsection}{\numberline {4.3.3}\rmfamily \texttt {WARC-TOOLS / kpk09}}{41}{subsection.4.3.3}
+\contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{41}{section*.16}
+\contentsline {subsubsection}{ Dal\v s\IeC {\'\i } parametry}{41}{section*.17}
+\contentsline {section}{\numberline {4.4}\slshape Podobnost \texttt {WARCTOOLS / hanzo s kpk09}}{42}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}\rmfamily Porovn\'an\IeC {\'\i } v\'ystup\r u pro stejn\'e vstupy}{42}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}\rmfamily Porovn\'an\IeC {\'\i } zdrojov\'eho k\'odu}{42}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}\slshape Z\'av\v ery z porovn\'av\'an\IeC {\'\i } n\'astroj\r u}{43}{section.4.5}
+\contentsline {section}{\numberline {4.6}\slshape Implementace \'uprav v migra\v cn\IeC {\'\i }ch n\'astroj\IeC {\'\i }ch}{43}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}\rmfamily \'Uvod}{43}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}\rmfamily \'Uprava pro testov\'an\IeC {\'\i } cel\'eho archivu}{43}{subsection.4.6.2}
+\contentsline {subsubsection}{ \'Uprava \texttt {JHOVE2}}{44}{section*.18}
+\contentsline {subsubsection}{ \'Uprava \texttt {WARCTOOLS / hanzo}}{44}{section*.19}
+\contentsline {subsection}{\numberline {4.6.3}\rmfamily \'Uprava pro krokov\'e testov\'an\IeC {\'\i } ka\v zd\'eho souboru v archivu}{45}{subsection.4.6.3}
+\contentsline {subsubsection}{ \'Uprava \texttt {JHOVE2}}{45}{section*.20}
+\contentsline {subsubsection}{ \'Uprava \texttt {WARCTOOLS / hanzo}}{46}{section*.21}
+\contentsline {section}{\numberline {4.7}\slshape V\'ystupy z anal\'yzy obsahu p\v rev\'ad\v en\'ych archiv\r u}{46}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}\rmfamily \'Uprava pro testov\'an\IeC {\'\i } cel\'eho archivu}{46}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}\rmfamily \'Uprava pro krokov\'e testov\'an\IeC {\'\i } ka\v zd\'eho souboru v archivu}{47}{subsection.4.7.2}
+\contentsline {section}{\numberline {4.8}\slshape Anal\'yza hav\'ari\IeC {\'\i } p\v ri migraci archivu}{47}{section.4.8}
+\contentsline {chapter}{\numberline {5}\bfseries Z\'av\v er}{48}{chapter.5}
+\contentsline {chapter}{\numberline {6}\bfseries P\v r\IeC {\'\i }lohy}{54}{chapter.6}

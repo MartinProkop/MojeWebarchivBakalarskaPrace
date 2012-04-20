@@ -214,8 +214,8 @@ Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt
 \section*{AJ. \texttt{Warc} -- \texttt{ISO} specifikace}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{WARC\_ISO\_28500\_final\_draft v018 Zentveld 08061.doc}. Soubor je také dostupný online na adrese \texttt{http://archive-access\-.source\-forge.net/warc}.
 \label{pr:ak}
-\section*{AK. \texttt{JHOVE2} -- vlastní implementace nástroje}
-Celý soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{RunFromARC2WARC.java}. V rámci projektu nástroje JHOVE2 musí být souèásti package org.jhove2.app. Zde ukazuji pouze metodu tøídy (runJHOVE2), která obstarává pøímo spu¹tìní. \\
+\section*{AK. \texttt{JHOVE2} -- vlastní implementace nástroje -- varianta pro testování celého archivu}
+Celý soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{RunFromARC2WARC.java}. V rámci projektu nástroje \texttt{JHOVE2} musí být souèásti \texttt{package org.jhove2.app}. Zde ukazuji pouze metodu tøídy (\texttt{runJHOVE2}), která obstarává spu¹tìní \texttt{JHOVE2}. \\
 \texttt{/**\\
 ** Metoda dostane na vstup seznam souborù, které \\ \indent pøedá ke zpracování\\
 ** aplikaci JHOVE2 a nakonec na vypí¹e do zadaného souboru \\ \indent výstup z JHOVE2.\\
@@ -237,7 +237,7 @@ public void runJHOVE2(String contents[], String path) throws IOException, JHOVE2
 JHOVE2CommandLine.main(seznam);\\
 \} }
 \label{pr:al}
-\section*{AL. \texttt{WARCTOOLS / hanzo} -- vlastní implementace nástroje}
+\section*{AL. \texttt{WARCTOOLS / hanzo} -- vlastní implementace nástroje -- varianta pro testování celého archivu}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{arc2warc\_jhove2.py}. Aby správnì fungoval, je potøeba mít nainstalován nástroj Jpype (\texttt{pøíloha AI na s. \pageref{pr:ai}}) a umístit soubor do koøenové slo¾ky WARCTOOLS / hanzo (\texttt{pøíloha AD na s. \pageref{pr:ad}}).
 \label{pr:am}
 \section*{AM. \texttt{Warc} -- gramatika}
@@ -287,22 +287,53 @@ WARC-Segment-Total-Length: 1902 \\
 WARC-Identified-Payload-Type: image/jpeg \\
 Content-Length: 302 \\
 <<last 302 bytes of image/jpeg binary data here>> }
-\section*{AP. \texttt{Warc} soubor vytvoøený z pøilo¾eného \texttt{arc} souboru pomocí mnou upraveného nástroje \texttt{WARC-TOOLS / HANZO}}
 \label{pr:ap}
+\section*{AP. \texttt{Warc} soubor vytvoøený z pøilo¾eného \texttt{arc} souboru pomocí mnou upraveného nástroje \texttt{WARC-TOOLS / HANZO}}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{HANZO\_IAH-20110905093545-00000-kovar-laptop-8090\_sjhove\-.warc.gz}.
-\section*{AQ. Soubor obsahujcí analýzu obsahu migrovaného archivu. Pro vytvoøení jsem pou¾il mnou upranený nástroj \texttt{WARC-TOOLS / HANZO}.}
 \label{pr:aq}
+\section*{AQ. Soubor obsahujcí analýzu obsahu migrovaného archivu. Pro vytvoøení jsem pou¾il mnou upranený nástroj \texttt{WARC-TOOLS / HANZO}.}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{HANZO\_IAH-20110905093545-00000-kovar-laptop-8090\_sjhove\-.warc.gz\_jhove2output.xml}.
-\section*{AR. \texttt{WARCTOOLS / HANZO} -- úprava \texttt{arc2warc.py} pro testování havárií pøi migraci archivu}
 \label{pr:ar}
+\section*{AR. \texttt{WARCTOOLS / HANZO} -- úprava \texttt{arc2warc.py} pro testování havárií pøi migraci archivu}
 Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{arc2warc\_debug.py}.
-\section*{AS. Testování havárií pøi migraci archivu -- øádek z \texttt{CDX indexu} pro soubor na kterém migrace havarovala}
 \label{pr:as}
+\section*{AS. Testování havárií pøi migraci archivu -- øádek z \texttt{CDX indexu} pro soubor na kterém migrace havarovala}
 \texttt{polednik.cz/2012/04/program-letosniho-poledniku/effect.appear\\('slideshow 20120415010101 http://polednik.cz/2012/04/program\\-letosniho-poledniku/Effect.Appear('slideshow text/html 404 CV66JQAPDHM7FAJAG5JTEJ3XLEJV6EQ7 - - 605148\\ IAH-20120415005926-00000-kovar-laptop.arc.gz}
-\section*{AT. Testování havárií pøi migraci archivu -- øádek z \texttt{CDX indexu} pro soubor na kterém migrace havarovala}
 \label{pr:at}
+\section*{AT. Testování havárií pøi migraci archivu -- øádek z \texttt{CDX indexu} pro soubor na kterém migrace havarovala}
+
 \texttt{zvelebil.cz/logo/kont02.jpg 20060826121815 http://www.zvelebil\\.cz/logo/kont02.jpg image/jpeg 200 UU4T6EI35P2XRJZET4WWWGCZWRC\\NPDXA - - 14273602 IAH-20060826121552-00002-har.arc.gz}
-
-
-
-
+\section*{AU. \texttt{JHOVE2} -- vlastní implementace nástroje -- varianta pro krokové testování ka¾dého souboru v archivu}
+Celý soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{RunFromARC2WARCLoop.java}. V rámci projektu nástroje \texttt{JHOVE2} musí být souèásti \texttt{package org.jhove2.app}. Zde ukazuji pouze metodu tøídy (runJHOVE2Loop), která obstarává pøedávání jednotlivých souborù k testování. \\
+\label{pr:au}
+\texttt{/** \\
+** Metoda dá JHOVE2 na vstup cestu k souboru a cestu kam má \\
+** ulo¾it výstup z analýzy.\\
+** @param sourcePath Cesta k vstupnímu souboru \\
+** @param outputPath Cesta kam se má ulo¾it analýza \\
+** @throws JHOVE2Exception \\
+** @throws IOException \\
+**/
+\\
+public void runJHOVE2Loop(String sourcePath, String outputPath) throws JHOVE2Exception, IOException\\
+\{\\
+\indent // vytvoreni source z vstupního souboru\\
+\indent Source source = (FileSource) jhove2.getSourceFactory().\\ \indent \indent getSource(jhove2, sourcePath); \\
+\indent //charakterizace\\
+\indent jhove2 = (JHOVE2) jhove2.getModuleAccessor().\\ \indent \indent startTimerInfo(jhove2); \\
+\indent Input input = source.getInput(jhove2); \\
+\indent try \{\\
+\indent \indent source = jhove2.characterize(source, input);\\
+\indent\} finally \{\\
+\indent \indent if (input != null) \{\\
+\indent \indent \indent input.close();\\
+\indent \indent \}\\
+\indent \}\\
+\indent jhove2 = (JHOVE2) jhove2.getModuleAccessor().\\ \indent \indent endTimerInfo(jhove2);\\
+\indent //vystup výstup\\
+\indent displayer.display(source, outputPath);\\
+\}
+}
+\label{pr:av}
+\section*{AV. \texttt{WARCTOOLS / hanzo} -- vlastní implementace nástroje -- varianta pro krokové testování ka¾dého souboru v archivu}
+Soubor je dostupný jako elektronická pøíloha bakaláøské práce pod názvem \texttt{arc2warc\_loop\_jhove2.py}. Aby správnì fungoval, je potøeba mít nainstalován nástroj Jpype (\texttt{pøíloha AI na s. \pageref{pr:ai}}) a umístit soubor do koøenové slo¾ky WARCTOOLS / hanzo (\texttt{pøíloha AD na s. \pageref{pr:ad}}).

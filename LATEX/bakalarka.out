@@ -90,9 +90,15 @@
 \BOOKMARK [1][-]{section.4.5}{ Z\341very z porovn\341v\341n\355 n\341stroju}{chapter.4}
 \BOOKMARK [1][-]{section.4.6}{ Implementace \372prav v migracn\355ch n\341stroj\355ch}{chapter.4}
 \BOOKMARK [2][-]{subsection.4.6.1}{ \332vod}{section.4.6}
-\BOOKMARK [2][-]{subsection.4.6.2}{ \332prava JHOVE2}{section.4.6}
-\BOOKMARK [2][-]{subsection.4.6.3}{ \332prava WARCTOOLS / hanzo}{section.4.6}
+\BOOKMARK [2][-]{subsection.4.6.2}{ \332prava pro testov\341n\355 cel\351ho archivu}{section.4.6}
+\BOOKMARK [3][-]{section*.18}{ \332prava JHOVE2}{subsection.4.6.2}
+\BOOKMARK [3][-]{section*.19}{ \332prava WARCTOOLS / hanzo}{subsection.4.6.2}
+\BOOKMARK [2][-]{subsection.4.6.3}{ \332prava pro krokov\351 testov\341n\355 ka\236d\351ho souboru v archivu}{section.4.6}
+\BOOKMARK [3][-]{section*.20}{ \332prava JHOVE2}{subsection.4.6.3}
+\BOOKMARK [3][-]{section*.21}{ \332prava WARCTOOLS / hanzo}{subsection.4.6.3}
 \BOOKMARK [1][-]{section.4.7}{ V\375stupy z anal\375zy obsahu prev\341den\375ch archivu}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.7.1}{ \332prava pro testov\341n\355 cel\351ho archivu}{section.4.7}
+\BOOKMARK [2][-]{subsection.4.7.2}{ \332prava pro krokov\351 testov\341n\355 ka\236d\351ho souboru v archivu}{section.4.7}
 \BOOKMARK [1][-]{section.4.8}{ Anal\375za hav\341ri\355 pri migraci archivu}{chapter.4}
 \BOOKMARK [0][-]{chapter.5}{Z\341ver}{}
 \BOOKMARK [0][-]{chapter.6}{Pr\355lohy}{}

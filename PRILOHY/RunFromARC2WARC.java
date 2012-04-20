@@ -12,9 +12,12 @@ import org.jhove2.core.JHOVE2Exception;
 
 /**
  * Vlastní třída přidaná k progragramu JHOVE2. Slouží ke spouštění
- * JHOVE2 z nástroje pro migraci arc souborů (warctools: arc2warc).
- * Nástroj arc2warc je implementován v Pythonu. Pomocí nástroje Jpype
+ * JHOVE2 z nástroje pro migraci arc souborů (warctools: arc2warc_jhove2.py).
+ * Nástroj warctools je implementován v Pythonu. Pomocí nástroje Jpype
  * (slouží ke spuštění JVM nad programem v Pythonu) mohu spouštět tuto třídu.
+ * 
+ * Třída dostane na vstup set souborů ke zpracování a do zadeného souboru
+ * vypíše jejich analýzu.
  * 
  * @author Martin Prokop
  */
@@ -29,7 +32,6 @@ public class RunFromARC2WARC {
      * @throws JHOVE2Exception 
      */
     public void runJHOVE2(String contents[], String path) throws IOException, JHOVE2Exception {
-
         // Presmerovani vystupu z JHOVE2 do /dev/null
         OutputStream output = new FileOutputStream("/dev/null");
         PrintStream nullOut = new PrintStream(output);
@@ -68,3 +70,4 @@ public class RunFromARC2WARC {
         return (T[]) mergedArray;
     }
 }
+
