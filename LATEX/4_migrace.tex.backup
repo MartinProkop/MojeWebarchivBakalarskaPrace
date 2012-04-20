@@ -188,19 +188,20 @@ Ukázku této tøídy je mo¾no najít v \texttt{pøíloze AU a na s. \pageref{pr:au}}.
 \subsubsection{Úprava \texttt{WARCTOOLS / hanzo}}
 Opìt jsem pøi implementaci postupoval podobnì jako v první variantì implementace. Rozdíl spoèívá pouze v tom, ¾e volám nástroj \texttt{JHOVE2} z tìla skriptu \texttt{arc2warc} pøedtím, ne¾ je provedeno zaøazení souboru do nového archivu. 
 
-Ukázku upraveného programu \texttt{arc2warc.py} pod názvem \texttt{arc2warc\_loop\_jhove2.py} nabízím v \texttt{pøíloze AV na s. \pageref{pr:av}}, kde jsou i moje komentáøe k úpravám zdrojového kódu.
+Ukázku upraveného programu pod názvem \texttt{arc2warc\_loop\_jhove2.py} nabízím v \texttt{pøíloze AV na s. \pageref{pr:av}}, kde jsou i moje komentáøe k úpravám zdrojového kódu.
 \section{Výstupy z analýzy obsahu pøevádìných archivù}
+Své programy \texttt{arc2warc\_jhove2.py} jsem otestoval pøi pøevodu nìkolika souborù \texttt{arc.gz}, které jsem pomocí nástroje \tecxttt{Heritrix} sám sklidil.
 \subsection{Úprava pro testování celého archivu}
-Svùj program \texttt{arc2warc\_jhove2.py} jsem otestoval pøi pøevodu nìkolika souborù \texttt{arc.gz}, které jsem pomocí nástroje Heritrix sám sklidil.
-
 V \texttt{pøíloze AP na s. \pageref{pr:ap}} nabízím \texttt{warc} soubor, který vznil pøevodem testovacího \texttt{arc.gz} archivu z \texttt{pøílohy E na s. \pageref{pr:e}}. \texttt{Pøíloha AQ na s. \pageref{pr:aq}} obsahuje výstup z nástroje \texttt{JHOVE2} pro tuto testovací migraci.
 
 Jak se dalo pøedem oèekávat migrace spojená s testováním obsahu archivu je èasovì velmi nároèná. Pøi testování standardních 100 MB souborù \texttt{arc.gz} se èas migrace dosahoval témìø dvou minut, pøièem¾ pøevod neupraveným nástrojem -- bez pou¾ití programu \texttt{JHOVE2} -- trvá do 25 sekund.
 
 Hlavním problémem je zde tedy èasová nároènost programu \texttt{JHOVE2}. Rovnì¾ manipulace s analýzou bude velmi nároèná, jeliko¾ výstupní soubor z analýzy dosahuje velikosti 42 MB. Velikost výstupního souboru i èas operace je samozøejmì pøímo úmìrný poètu souborù obsa¾ených v archivu. 
-
-Ke zefektivnìní nástroje by se pravdìpodobnì dalo dojít tak, ¾e by se v rámci nástroje \texttt{JHOVE2} implementovala tøída, která by umo¾nila pøímou charakterizaci souborù, bez nutnosti vytváøení doèasných souborù na disku. Taká zmìna v¹ak není vzhledem k rozsahu nástroj \texttt{JHOVE2} jednoduchá. Nástroj \texttt{JHOVE2} je vyvíjen týmem lidí,. který mìl zøejmì dùvod takouto u¾iteènou funkcionalitu neimplementovat.
 \subsection{Úprava pro krokové testování ka¾dého souboru v archivu}
+Pro druhou variantu nástroje trvá pøevod vèetnì analýzy cca necelé dvì minuty.
+\subsection{Závìr}
+Ke zefektivnìní nástroje by se pravdìpodobnì dalo dojít tak, ¾e by se v rámci nástroje \texttt{JHOVE2} implementovala tøída, která by umo¾nila pøímou charakterizaci souborù, bez nutnosti vytváøení doèasných souborù na disku. Taková zmìna v¹ak není vzhledem k rozsahu nástroj \texttt{JHOVE2} jednoduchá. V souèasné implementace funguje nástroj tak, ¾e i kdy¾ dostane na vstup \texttt{bytestream}, vytvoøí z nìj doèasný soubor. Nástroj \texttt{JHOVE2} je vyvíjen týmem lidí, který mìl zøejmì dùvod takouto u¾iteènou funkcionalitu neimplementovat.
+
 \section{Analýza havárií pøi migraci archivu}
 Jak jsem zjistil, nástroje \texttt{WARCTOOLS / hanzo} i \texttt{WARCTOOLS / kpk09} havarují pøi pøevodu nìkterých archivù. Mým cílem bylo zjistit, co pøespì pùsobí havárii. Pro tento úèel jsem implementoval jednoduchou variantu migraèního nástroje, kterou nabízím v pøíloze \texttt{AR na s. \pageref{pr:ar}}.
 

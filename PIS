@@ -3,17 +3,8 @@ Napiš:
 
 * závěr BC
 
-* havarie
+* havarie - coeste?
 
 * dopis o warc standardu - o těch warc záznamech - STAHNES
 
-* dopis o implementaci JHOVE2 
-    - musis upravit text o první
-    - přílohy o první taky
-    - text o druhe
-    - prilohy k druhe
-    - dopis ze druhy test trvá 1.35min
-
-
-* obe implementace jhove2 udelej nezavisle na prostredi - parametr jako cesta k JHOVE2 v arc2warc
 
