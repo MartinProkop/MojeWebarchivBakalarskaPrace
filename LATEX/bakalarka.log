@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  22 APR 2012 16:43
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  22 APR 2012 17:31
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -776,14 +776,14 @@ ní \IL2/lmtt/m/n/12 WARC-TOOLS[][][]\IL2/lmr/m/n/12 .
 
 
 Overfull \hbox (5.6612pt too wide) in paragraph at lines 104--105
-[]\IL2/lmr/m/n/12 V \IL2/lmtt/m/n/12 pøíloze W na s. []63[] \IL2/lmr/m/n/12 je 
+[]\IL2/lmr/m/n/12 V \IL2/lmtt/m/n/12 pøíloze W na s. []65[] \IL2/lmr/m/n/12 je 
 k na-le-zení do-ku-men-tace ná-stroje. \IL2/lmtt/m/n/12 Pøíloha
  []
 
 [42]
-Overfull \hbox (0.30045pt too wide) in paragraph at lines 123--125
+Overfull \hbox (0.29344pt too wide) in paragraph at lines 123--125
 \IL2/lmtt/m/n/12 / hanzo[][][]\IL2/lmr/m/n/12 . V \IL2/lmtt/m/n/12 pøíloze Z na
- s. []64[] \IL2/lmr/m/n/12 je k na-le-zení do-ku-men-tace ná-stroje.
+ s. []66[] \IL2/lmr/m/n/12 je k na-le-zení do-ku-men-tace ná-stroje.
  []
 
 [43]
@@ -913,11 +913,11 @@ Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 1.
 
-) [51
+[51
 
 
 
-]
+]) [52]
 \openout2 = `bibliografie.aux'.
 
  (./bibliografie.tex
@@ -972,7 +972,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 Do-stupné z:
  []
 
-[52
+[53
 
 
 
@@ -1073,7 +1073,7 @@ Overfull \hbox (2.42807pt too wide) in paragraph at lines 17--18
 \IL2/lmtt/m/n/12 https://docs.google.com/Doc?docid=0AbRV47jJIQggZG5qOHJt 
  []
 
-[53]
+[54]
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 []\IL2/lmr/m/n/12 WEBARCHIV. \IL2/lmr/m/it/12 Zpráva WebAr-chiv --
  []
@@ -1125,7 +1125,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 \IL2/lmr/m/n/12 line]. 21.3.2012 [cit. 2012-03-21]. Do-stupné z:
  []
 
-[54]
+[55]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 []\IL2/lmr/m/n/12 BROKE©, Adam. \IL2/lmr/m/it/12 Sys-tém pro správu pro-cesu ar
 -chi-vace
@@ -1189,7 +1189,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 \IL2/lmr/m/n/12 a-land: ISO, 2008. [cit. 2012-04-14]. Do-stupné z:
  []
 
-[55]
+[56]
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 []\IL2/lmr/m/n/12 Hanzo / warc-tools / over-view. BIT-BUCKET. \IL2/lmr/m/it/12 
 Bit-
@@ -1261,10 +1261,10 @@ Overfull \hbox (5.1451pt too wide) in paragraph at lines 42--43
 \IL2/lmtt/m/n/12 zk2QT[][]jNcPitQbSq-ihBA&usg=AFQjCNGbvOMqJiLAu5H4GbpZNYjGf 
  []
 
-) [56]
+) [57]
 \openout2 = `prilohy.aux'.
 
- (./prilohy.tex [57
+ (./prilohy.tex [58
 
 
 
@@ -1291,18 +1291,18 @@ Overfull \hbox (2.0259pt too wide) in paragraph at lines 66--68
 
 Underfull \vbox (badness 1881) has occurred while \output is active []
 
- [58]
+ [59]
 Overfull \hbox (7.84537pt too wide) in paragraph at lines 72--73
 \IL2/lmr/m/n/12 pod ná-zvem \IL2/lmtt/m/n/12 IAH-20110905093545-00000-kovar-lap
 top-8090.arc.gz\IL2/lmr/m/n/12 . 
  []
 
-[59]
+[60]
 Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
-[60]
+[61]
 Overfull \hbox (2.07492pt too wide) in paragraph at lines 140--142
 []\IL2/lmtt/m/n/12 (compatible; heritrix/1.4.0 +http://crawler.archive.org) 
  []
@@ -1315,11 +1315,11 @@ Overfull \hbox (8.24992pt too wide) in paragraph at lines 140--142
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
+ [62]
 Underfull \vbox (badness 1132) has occurred while \output is active []
 
- [62]
-[63] [64] [65]
+ [63]
+[64] [65] [66]
 LaTeX Font Info:    Try loading font information for OMS+lmtt on input line 238
 .
 LaTeX Font Info:    No file OMSlmtt.fd. on input line 238.
@@ -1347,28 +1347,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--240
 
 Underfull \vbox (badness 1661) has occurred while \output is active []
 
- [66]
-[67] [68]
+ [67]
+[68] [69]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69]
-[70]
+ [70]
+[71]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71])
-[72] (./bakalarka.aux (./1_uvod.aux) (./2_webarchiv.aux)
+ [72])
+[73] (./bakalarka.aux (./1_uvod.aux) (./2_webarchiv.aux)
 (./3_archivacniformaty.aux) (./4_migrace.aux) (./5_zaver.aux)
 (./bibliografie.aux) (./prilohy.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 4928 strings out of 495027
- 72040 string characters out of 1181419
+ 4929 strings out of 495027
+ 72047 string characters out of 1181419
  144201 words of memory out of 3000000
  7625 multiletter control sequences out of 15000+50000
  48501 words of font info for 48 fonts, out of 3000000 for 9000
@@ -1388,9 +1385,9 @@ f/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmtti10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtto10.
 pfb>
-Output written on bakalarka.pdf (78 pages, 697935 bytes).
+Output written on bakalarka.pdf (79 pages, 701316 bytes).
 PDF statistics:
- 1402 PDF objects out of 1440 (max. 8388607)
- 350 named destinations out of 1000 (max. 500000)
+ 1407 PDF objects out of 1440 (max. 8388607)
+ 351 named destinations out of 1000 (max. 500000)
  833 words of extra memory for PDF output out of 10000 (max. 10000000)
 
