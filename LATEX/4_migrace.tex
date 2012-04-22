@@ -95,6 +95,7 @@ Nástroj tedy není pøímo kompatibilní s ostatními mnou testovanými nástroji.
 \item Zvládá pøevádìt soubory \texttt{arc} i soubory \texttt{arc.gz}.
 \item Pøi pøevodu \texttt{arc} souboru do \texttt{warc} archivu pøibalí i archivované soubory. Na rozdíl od ostatních nástrojù -- ostatní nástroje pøibalí archivované soubory pouze pokud dostanou na vstup \texttt{arc} archivy, které jsou zabalené nástrojem \texttt{GZip}. 
 \item Nástroj není v souèasné dobì dále vyvíjen. Z toho se dá odvodit, ¾e pravdìpodobnì nebude mo¾no pou¾ívat ho dlouhodobì -- ostatní nástroje budou obohacovány o dal¹í funkcionalitu a tím reagovat na nové po¾adované parametry k pøevodu \texttt{arc} souborù.
+\item Vývojáøi ve specifikaci uvedli, ¾e chtìjí implemntovat mo¾nost \texttt{deduplikace} souborù v archivu v prùbìhu migrace. \cite{warctoolsfrs} Bohu¾el tato funkcionalita není implementována.
 \end{itemize}
 
 \subsection{\texttt{WARC-TOOLS / hanzo}}
@@ -112,6 +113,7 @@ V \texttt{pøíloze W na s. \pageref{pr:w}} je k nalezení dokumentace nástroje. \t
 \item Nemá napsané skripty pro hromadnou migraci.
 \item Pøi pøevodu \texttt{arc} souborù nepøibalí k souboru data. Je potøeba mu dávat na vstup \texttt{arc.gz} soubory.
 \item Po otestování na zku¹ebním vzorku je textový \texttt{warc} soubor, toto¾ný se souborem z \texttt{WARCTOOLS / kpk09}.
+\item Nástroj není schopen provést pøi migraci i \texttt{deduplikaci} souborù obsa¾ených v archivu.
 \item Nástroj je v souèasné dobì vyvíjen.
 \item Nástroj nemá dokonèenou dokumentaci. V manuálu stojí, ¾e vytváøí \uv{crappy} \texttt{warc} soubory. Nástroj pro migraci je údajnì pøevzat z nástroje \texttt{WARCTOOLS}. \cite{Hanzo}
 \item Zjistil jsem, ¾e nástroj havaruje pøi pøevodu archivu se specifickým záznamem. 
@@ -131,6 +133,7 @@ V \texttt{pøíloze Z na s. \pageref{pr:z}} je k nalezení dokumentace nástroje. \t
 \item Nemá napsané skripty pro hromadnou migraci.
 \item Pøi pøevodu \texttt{arc} souborù nepøibalí k souboru data. Je potøeba mu dávat na vstup \texttt{arc.gz} soubory.
 \item Po otestování na zku¹ebním vzorku je textový \texttt{warc} soubor, toto¾ný se souborem z \texttt{WARCTOOLS / hanzo}.
+\item Nástroj není schopen provést pøi migraci i \texttt{deduplikaci} souborù obsa¾ených v archivu.
 \item Nástroj je v souèasné dobì vyvíjen.
 \item Nástroj nemá dokonèenou dokumentaci. V manuálu stojí, ¾e vytváøí \uv{crappy} \texttt{warc} soubory. Nástroj pro migraci je údajnì pøevzat z nástroje \texttt{WARCTOOLS}. \cite{Kpk09}
 \item Zjistil jsem, ¾e nástroj havaruje, stejnì jako \texttt{WARCTOOLS / hanzo}, pøi pøevodu archivu se specifickým záznamem. 
