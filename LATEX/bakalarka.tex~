@@ -1,4 +1,4 @@
-\documentclass[12pt,draft,oneside]{fithesis}
+\documentclass[12pt,final,oneside]{fithesis}
 % draft dela: ctverecky na konci radku, opak je: final
 
 \usepackage[plainpages=false, pdfpagelabels]{hyperref}

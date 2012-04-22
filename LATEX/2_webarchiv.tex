@@ -176,10 +176,15 @@ V této kapitolo pøedstavuji základní nástroje, které jsou pou¾ívané v rámci WebA
 Jedná se o modul programu \texttt{Heritrix}, který má na starost zachytávání duplicitních souborù v rámci série sklizní. Modul vyvíjí National and University Library of Iceland a je volnì dostupný\footnote{Webové stránky nástroje \texttt{DeDuplicator} dostupné online na adrese \texttt{http://deduplicator.sourceforge.net/}.} ke sta¾ení. Nástroj byl poprvé nasazen pøi sklizni v roce 2010, funguje tak, ¾e kontroluje duplicitu archivovaných souborù, které mají jiný \texttt{mimetype} ne¾ \texttt{html/text}.
 \subsection{\texttt{Generátor URN}}
 Nástroj dostupný na stránkách projektu WebArchivu\footnote{Nástroj \texttt{Generátor URN} dostupný onlina na adrese \texttt{http://www.webarchiv.cz/generator/dc\_generator.php}.}. Slou¾í ke generování \texttt{Dublin Core Metadata Element Set} k zadané \texttt{URL} adrese. Nástroj byl vytvoøen pracovníky WebArchivu.
+\label{nastroje:heritrix}
 \subsection{\texttt{HERITRIX}}
 Nástroj \texttt{Heritrix} vyu¾ívá WebArchiv pøímo v provozu na skliznì webových zdrojù. Pou¾íval jsem ho pøi cvièných sklizních. Nástroj umo¾òuje ¹iroké mno¾ství mo¾ností pro konfiguraci parametrù skliznì. Jedná se napøíklad o maximální objem sta¾ených dat, ale i o nastavení procházení webové stránky pøi jejím stahování. Jsou pro nìj vytváøeny i moduly, které doplòují jeho funkcionalitu. Nástroj je volnì dostupný ke sta¾ení\footnote{Webové stránky projektu \texttt{Heritrix} dostupné online na adrese \texttt{http://crawler.archive.org/}.}. Je to jeden z nejpou¾ívanìj¹ích crawlerù.
 
 Po spu¹tìní nástroj prohledává urèitou webovou adresu a stahuje dokumenty, které na ní nalezne. V¹e ukládá do formátu arc (a novì i do formátu warc) a následnì komprimuje nástrojem \texttt{GZip}\footnote{Podrobné informace o formátu \texttt{GZip} dostupné online na adrese \texttt{http://www.gzip.org/zlib/rfc-gzip.html}.}. WebArchiv preferuje soubory s velikostí 100 MB. U¾ivatel mù¾e bìhem probíhající skliznì sledovat jejich prùbìh, \texttt{Heritrix} nabízí ¹irokou paletu mo¾ností jak lze procházet sklizené soubory a filtrovat si v jejich seznamech. Samozøejmì podává i statistiku sklizeného zdroje.
+
+Nástroj \texttt{Heritrix} novì od verze 1.12 dovede ukládat data do \texttt{warc} archivu a pøitom provádìt \texttt{deduplikaci} souborù. Nástroj pøi sklízení dat zji¹»uje, zda se soubory od poslední skliznì zmìnily, pokud se tak nestalo, vytvoøí zkrácený záznam, který slou¾í jako ukazatel na daný soubor - u¾ívá pøi jednoznaèné identifikaci \texttt{SHA-1 algoritmus} \footnote{Popis \texttt{RFC standardu SHA-1} dostupný online na adrese \texttt{http://tools.ietf.org/html/rfc3174}.}. S takovými \texttt{warc} záznamy dále pracuje interpret sta¾eného zdroje. Funkcionalitu implementuje add-on modul \texttt{DeDuplicator}. \cite{wayback} \cite{deduplicator}
+
+Deduplikací se podrobnìji zabývám v èásti práce vìnované formátu \texttt{warc} na s. \pageref{warc:deduplikace}.
 \subsection{\texttt{ImpEval}}
 Nástroj vytvoøený v rámci bakaláøské práce vypracované Filipem Kusalíkem v roce 2009 s názvem Identifikace a omezení pøístupu k \uv{nevhodným} stránkám ve webovém archivu. Nástroj identifikuje webové zdroje v archivu, které podle zákona není mo¾no uchovávat. Nástroj je v souèasné dobì pou¾íván v bì¾ném provozu WebArchivu. \cite{KUSALIK2009}
 \subsection{\texttt{NutchWAX}}
@@ -188,11 +193,16 @@ Nástroj pou¾ívá WebArchiv pro fulltextové vyhledávání ve svém archivu. Je napoje
 V roce 2009 realizoval Adam Broke¹ \texttt{WA Admin v2} v rámci své bakaláøské práce s názvem Systém pro správu procesu archivace webových informaèních zdrojù. \texttt{WA Admin v2} nahradil nástroj vytvoøený Luká¹em Matìjkou a stejnì jako WA Admin slou¾il pro správu zdrojù, vydavatelù a smluv WebArchivu. \cite{BROKES2009}
 \subsection{\texttt{WA-CZ}}
 Tento nástroj vytvoøil jako v roce 2006 Luká¹ Matìjka v rámci své diplomové práce s názvem Zpøístupnìní archivu èeského webu. Nástroj slou¾il pro prùbì¾nou sklizeò a indexaci sta¾ených webových zdrojù. Podrobnìji se nástrojem zabývám v kapitole, která se týká star¹ích prací. \cite{MATEJKA2006}
+\label{nastroje:wayback}
 \subsection{\texttt{Wayback}}
 Wayback je nástroj pro vyhledávání dokumentù v archivech. WebArchiv jej pou¾ívá v bì¾ném provozu. Je volnì dostupný\footnote{Webové stránky projektu \texttt{Waybak} dostupné online na adrese \texttt{http://archive-access.sourceforge.net/projects/wayback/>
 }.} na internetu.  Pou¾íval jsem ho pro prohlí¾ení mnou sta¾ených webových zdrojù pomocí virtuálního serveru \texttt{Apache Tomcat}. Pro vyhledávání v archivu je potøeba vytvoøit \texttt{CDX index}\footnote{Jedná se standardní textový soubor, který obsahuje základní informace o souborech obsa¾ených v internetovém archivu. Jednotlivé záznamy jsou v nìm oddìleny pouhým odøádkováním. Pøíklad \texttt{CDX indexu} je k nalezení v \texttt{pøíloze H na s. \pageref{pr:a}}.} v¹ech souborù, které jsou archivované. To se provádí nástrojem, který je k WayBacku pøidru¾ený. \texttt{WayBack} obsahuje vìt¹í sadu nástrojù pro práci s \texttt{CDX indexy}.
 
-Po nakonfigurování \texttt{WayBack} zobrazuje v¹echny archivované webové zdroje nalezené podle specifické \texttt{URI} adrese. Umo¾òuje jejich zobrazení podle data jejich archivace. Nabízí procházení jednotlivých verzí.
+Po nakonfigurování \texttt{WayBack} zobrazuje v¹echny archivované webové zdroje nalezené podle specifické \texttt{URI} adrese. Umo¾òuje jejich zobrazení podle data jejich archivace a nabízí procházení jednotlivých sklizených verzí.
+
+Nástroj umo¾òuje té¾ interpteraci sta¾ených webových zdorojù formátu \texttt{warc}, které u¾ívají deduplikaci. Doká¾e tedy interpretovat \texttt{warc} záznamy, které slou¾í jako ukazatele na existující \texttt{warc} záznamy. \cite{wayback}
+
+Deduplikací se podrobnìji zabývám v èásti práce vìnované formátu \texttt{warc} na s. \pageref{warc:deduplikace}.
 \subsection{\texttt{WebAnalyzer}}
 Nástroj, který pro WebArchiv vytvoøil Ivan Vlèek v rámci své bakaláøské práce s názvem Rozpoznání a archivace èeského webu mimo národní doménu v roce 2008. Nástroj se v souèasné dobì pou¾ívá. \cite{VLCEK2008}
 \subsection{\texttt{Web Curator Tool}}

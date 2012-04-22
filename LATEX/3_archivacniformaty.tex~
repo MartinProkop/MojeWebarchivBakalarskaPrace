@@ -50,7 +50,7 @@ Tento typ souboru se ji¾ nevyu¾ívá a archivy v tomto formátu byli pøevedeny do f
 \subsection{U¾ití v praxi ve WebArchivu}
 Právì metadat pøipojených v archivu se vyu¾ívá pøi vyhledávání souborù v databázi WebArchivu. V praxi se vytvoøí \texttt{CDX index} souboru, který obsahuje seznam souborù ulo¾ených v archivech spoleènì s metadaty a cestou k danému archivu. Tento index se vytváøí pomocí aplikace \texttt{CDX-indexer}, který je souèásti nástroje \texttt{Wayback}. V \texttt{pøíloze H na s. \pageref{pr:h}} nabízím ukázku \texttt{CDX indexu}.
 
-Pøi vyhledávání zdrojù v archivu se Wayback prochází \texttt{CDX index}, který ho odká¾e k archivu s po¾adovaným souborem. Velmi pøesný popis u¾ití \texttt{arc} souborù v praxi vytvoøil Adam Broke¹ ve své diplomové práci: Integrace a automatizace systému v pracovních procesech projektu WebArchiv.\cite{KUSALIK2009}
+Pøi vyhledávání zdrojù v archivu se Wayback prochází \texttt{CDX index}, který ho odká¾e k archivu s po¾adovaným souborem. Velmi pøesný popis u¾ití \texttt{arc} souborù v praxi vytvoøil Adam Broke¹ ve své diplomové práci: Integrace a automatizace systému v pracovních procesech projektu WebArchiv. \cite{KUSALIK2009}
 \section{Formát \texttt{warc}}
 \subsection{Úvod}
 Pøesto¾e je formát \texttt{warc} ji¾ popsán jako \texttt{ISO standard 28500:2009}\footnote{\texttt{ISO standard} za poplatek dostupný online na adrese \texttt{http://www.iso.org/iso/iso\_catalogue/catalogue\_tc/catalogue\_de\-tail.htm?csnumber=44717}.}, je ve vìt¹inì projektù jeho pou¾ití zatím pouze testováno. Pøed tím, ne¾ se jeho pou¾ití realizuje je potøeba podrobná analýza. Pøesto tento formát ji¾ nìkteré standardizované nástroje podporují. Napøíklad crawler \texttt{Heritrix} ji¾ umo¾òuje ukládání dat v tomto formátu.
@@ -81,16 +81,16 @@ Seznam definovaných polí, která se mohou v záznamu zobrazovat lze nalézt v \text
 
 \noindent \texttt{Warc} záznamy jsouo nìkolika rùzných typù, podle toho k èemu záznam slou¾í: \cite{Information and documentation -- The WARC File Format}
 \begin{description}
-\item[Warcinfo] popisuje ostatní \texttt{warc} záznamy, které ho následují. Typicky je na zaèátku \texttt{WARC} souboru. Má tedy èistì informativní charakte. Lze v nìm najít informace o tom, jaký software daný soubor vytvoøil, \texttt{IP adresa} stroje na kterém byl vytvoøen atd.  Pøíklad v \texttt{pøíloze K na s. \pageref{pr:s}}.
+\item[Warcinfo] popisuje ostatní \texttt{warc} záznamy, které ho následují. Typicky je na zaèátku \texttt{WARC} souboru. Má tedy èistì informativní charakte. Lze v nìm najít informace o tom, jaký software daný soubor vytvoøil, \texttt{IP adresa} stroje na kterém byl vytvoøen atd.  Pøíklad záznamu v \texttt{pøíloze K na s. \pageref{pr:s}}.
 \item[Response] nese odpovìï na urèitý dotaz. Obsahuje informace o tom jak daný dotaz probíhal. Lze v nìm najít \texttt{http} hlavièky dotazu atd.
 \item[Resource] je urèitý sta¾ený zdroj, ale bez informací protokolu. Ty jsou, jak je zøejmé, neseny v jiném typu záznamu. Data jsou v nìm ulo¾eny v \texttt{Record block}. Záznam se bude li¹it podle toho, jestli bude obsahovat data z urèitého \texttt{http} zdroje, \texttt{ftp} zdroje atd.
-\item[Request] je ¾ádost o webový zdroj. Obsahuje detailní informace o provedeném dotazu a o ¾ádaném webovém zdroji. Pøíklad v \texttt{pøíloze J na s. \pageref{pr:j}}.
-\item[Metadata] nese metadata sklizených zdrojù. Pøesnìji øeèeno obsahuje informace o libovolném sta¾eném jiném záznamu. Slou¾í tak pro reprezentaci sta¾ených dat v repozitáøích. Pøíklad v \texttt{pøíloze I na s. \pageref{pr:i}}.
-\item[Revisit] nese instrukce pro znovuprohlédnutí zdroje.
-\item[Conversion] je záznam, který obsahuje alternativní verzi ulo¾eného záznamu.
-\item[Continuation] je pokraèování jiného záznama. Pøíklad v \texttt{pøíloze AO na s. \pageref{pr:ao}}.
+\item[Request] je ¾ádost o webový zdroj. Obsahuje detailní informace o provedeném dotazu a o ¾ádaném webovém zdroji. Pøíklad záznamu v \texttt{pøíloze J na s. \pageref{pr:j}}.
+\item[Metadata] nese metadata sklizených zdrojù. Pøesnìji øeèeno obsahuje informace o libovolném sta¾eném jiném záznamu. Slou¾í tak pro reprezentaci sta¾ených dat v repozitáøích. Pøíklad záznamu lze nalézt v \texttt{pøíloze I na s. \pageref{pr:i}}.
+\item[Revisit] slou¾í k znovunaètení urèitého zdroje. Dùvod proè znovunaèít urèitý zdroj mù¾e být napøíklad porovnání ulo¾ených dat se vzdálenými daty. Pomocí tohoto typu záznamu se tedy dá napøíklad o¹etøit ukládání redundantních dat.
+\item[Conversion] je záznam, který obsahuje alternativní verzi ulo¾eného záznamu. Slou¾í tedy k udr¾ení informací o rozdílech mezi urèitými záznamy. Tento typ záznamu tedy podává dùle¾ité informace o verzích èi variantách ji¾ ulo¾ených záznamù.
+\item[Continuation] je pokraèování jiného záznama. Tento typ záznamu se pou¾ává pokud je urèitý záznam tøeba segmentovat do více záznamù. Pøíklad záznamu typu \texttt{Continuation} v \texttt{pøíloze AO na s. \pageref{pr:ao}}.
 \end{description}
-Záznam typu \texttt{Continuation} tedy umo¾òuje segmentaci \texttt{warc} souborù. Pokud by nìjaký \texttt{warc} soubor mìl pøekroèit stanovenou maximální velikost, je mo¾né ho rozdìlit do více souborù. Informaci o segmentaci nese pole \texttt{WARC-Segment-Number}, ale k øízení a zaji¹tìní segmentace slou¾í i dal¹í pole.\cite{Information and documentation -- The WARC File Format}
+Záznam typu \texttt{Continuation} tedy umo¾òuje segmentaci \texttt{warc} souborù. Pokud by nìjaký \texttt{warc} soubor mìl pøekroèit stanovenou maximální velikost, je mo¾né ho rozdìlit do více souborù. Informaci o segmentaci nese pole \texttt{WARC-Segment-Number}, ale k øízení a zaji¹tìní segmentace slou¾í i dal¹í pole. \cite{Information and documentation -- The WARC File Format}
 
 
 \noindent Standard dále doporuèuje, jak nakládat s archivy typu \texttt{warc}: \cite{Information and documentation -- The WARC File Format}
@@ -107,7 +107,8 @@ Záznam typu \texttt{Continuation} tedy umo¾òuje segmentaci \texttt{warc} souborù
 \item Na rozdíl od \texttt{arc} archivù umo¾òují \texttt{warc} archivy ukládat nejen http odezvy, ale také pùvodní po¾adavky.
 \item Warc umí pracovat s více protokoly: \texttt{HTTP, FTP, NNTP a SMTP}.
 \item Warc umo¾òují ukládat vìt¹í ¹kálu metadat. Je mo¾né pøidávat metadata podle vlastních potøeby, co¾ se mù¾e vyu¾ít pøi speciálních po¾adavcích urèených vnitøní politikou ukládání souborù.
-\item Na rozdíl od \texttt{arc} formátu je mo¾né ukládat více druhù kontrolních souètù pro archivované soubory. To se dá jednodu¹e realizovat pomocí ¹kálovatelných polí pro metadata. \texttt{Arc} archivy, které pou¾ívá WebArchiv, provádí pouze \texttt{MD5} kontrolní souèty souborù. Na rozdíl \texttt{arc} archivù, je u \texttt{warc} archivu pou¾ít napøíklad i s \texttt{SHA-1}\footnote{Popis \texttt{RFC standardu SHA-1} dostupný online na adrese \texttt{http://tools.ietf.org/html/rfc3174}.} hashovací funkcí pro jednoznaèné urèení sta¾ených dokumentù.
+\item Na rozdíl od \texttt{arc} formátu je mo¾né ukládat více druhù kontrolních souètù pro archivované soubory. To se dá jednodu¹e realizovat pomocí ¹kálovatelných polí pro metadata. \texttt{Arc} archivy, které pou¾ívá WebArchiv, provádí pouze \texttt{MD5} kontrolní souèty souborù. Na rozdíl \texttt{arc} archivù, je u \texttt{warc} archivu pou¾ít napøíklad i s \texttt{SHA-1} hashovací funkcí pro jednoznaèné urèení sta¾ených dokumentù.
+\item Pøi naèítání libovolného souboru z archivu není potøeba rozbalovat celý archiv -- pøi 100 MB archivech jde o velkou re¾ii. Ka¾dý \texttt{warc} záznam má svùj vlastní \texttt{offset}, pøes který se dá k libovolnému souboru v archivu. Pak není potøeba soubor sekvenènì procházet, ale staèí pouze otevøít archiv a posunout ukazatel na správné místo. \{MASANES2006}
 \end{itemize}
 \subsection{Nevýhody \texttt{warc} pro WebArchiv}
 \begin{itemize}
@@ -121,4 +122,18 @@ Záznam typu \texttt{Continuation} tedy umo¾òuje segmentaci \texttt{warc} souborù
 Jak jsem ji¾ zmínil vý¹e, s vyu¾itím formátu \texttt{warc} se v rámci projektu WebArchive poèítá, ale prozatím není provedeno dostatek analýz. Nejdøíve bude potøeba poèkat na vyvinutí v¹ech potøebných nástrojù.
 
 Samotný pøevod celého stávajícího archivu bude pravdìpodobnì proveden a¾ v poslední fázi pøechodu k formátu \texttt{warc}. To plyne z citlivosti problému a nutnosti zajistit, aby nedo¹lo ke ztrátì dat.
+\label{warc:deduplikace}
 \subsection{Deduplikace souborù}
+Dùle¾itým aspektem standardu \texttt{warc} je mo¾nost \texttt{deduplikace} souborù. Jedná se o mo¾nost odstranìní tìch souborù, které se v repozitáøi objevují vícekrát.
+
+Pokud se napøíklad v rùzných verzích urèitého sta¾eného zdroje nachází stejný soubor, je výhodné ho z dùvodu ¾etøení datové kapacity úlo¾i¾tì ponechat v archivu pouze jednou. \texttt{Deduplikace} souboru v¾ak není jednoduchá operace. Nese s sebou spoustu problémù, které je tøeba vyøe¾it.
+
+
+Hlavním problém je, ¾e takové duplicitní soubory se budou typicky nacházet v rùzných archivech. Proto je problematické pøi interpretaci urèité verze webového zdroje implementovat paralelní naèítání souboru z jiných archivù. Dále je problematické uchovávání konzistentních dat v jednotlivých verzích webových zdrojù -- ztráta jednoho archivu by mohla znamenat ztrátu dat pro více verzí webového zdroje.
+
+Samostatným problémem je pøevedení starých archivù ve formátu \texttt{arc} do formátu \texttt{warc} a pøitom zajistit bezpeènou deduplikaci ulo¾ených dat. Napøíklad v British Library mo¾nost deduplikace pøi migraci svého archivu ani nevyu¾ili. \cite{PROKOP2012} Øe¾itelé projektu WebArchiv by v¾ak rádi této mo¾nosti vyu¾ili rádi.
+
+Mnou testované nástroje deduplikaci pøi migraci neumo¾òují, funkcionalita by se v¾ak dala implementovat. Nepodaøilo se mi najít zmínku o tom, ¾e by nìjaký volnì dostupný migraèní nástroj tuto mo¾nost vyu¾íval. Hlavním problémem pøi nasazení takového migraèního nástroje by bylo to, ¾e by takový migraèní nástroj nemusel splòovat v¾echny po¾adavky, které by na nì WebArchiv kladl. \footnote{O rozdílnosti pou¾ívaných nástrojù v rùzných projektech zabývajících se archivací se zabývám v jiné èásti této práce.} Bylo by proto pravdìpodobnì nutné, aby øe¾itelé takový nástroj sami implementovali nebo minimálnì upravili jiné øe¹ení.
+
+Samotný formát \texttt{warc} nenabízí mo¾nost \texttt{deduplikace}, ale díky ¾iroké ¾kále metadat, které uchovává, je realizace deduplikace umo¾nìna mnohem lépe, ne¾ u star¾ího formátu \texttt{warc}. \cite{Information and documentation -- The WARC File Format} \texttt{Deduplikace} je tedy øe¾ena na úrovni nástrojù, které \texttt{warc} soubory vytváøejí. Typickým pøíkladem nástroje, který deduplikuje sta¾ená data je nástroj \texttt{Heritrix}. Ale existují i jiné nástroje, které tuto funkcionalitu implementují\footnote{Napøíklad nástroj \texttt{ArchiveIt}. Webové stránky nástroje \texttt{ArchiveIt} dostupné onlina na adrese \texttt{https://webarchive.jira.com/wiki/display/ARIH/Archive-It+Feature+Rele\\ase+3.0}}. Právì \texttt{Heritrix} je pou¾íván i ve WebArchivu. Problematikou deduplikace se zabývám v èásti vìnované danému nástoji \texttt{Heritrix na s. \pageref{nastroje:heritrix}} a v èásti, kde se vìnuji nástroji \texttt{Wayback na s. \pageref{nastroje:wayback}}.
+
