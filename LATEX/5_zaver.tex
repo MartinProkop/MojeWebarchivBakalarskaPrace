@@ -3,14 +3,14 @@ Ve své bakaláøské práci jsem se zabýval migraèními nástroji pro pøevod webových 
 
 V první kapitole práce podávám základní informace o projektu Web\-Archiv, vìnuji se star¹ím pracím týkajících se projektu a nakonec pøedstavuji software, který je pøi realizaci projektu u¾ívaný.
 
-V druhé kapitole práce pøedstavuji nìkteré mo¾né archivaèní formáty. První formát je ji¾ zastaralý a v projektu se nevyu¾ívá. Druhý formát, formát \texttt{arc}, je stále pou¾íván. Ukazuji tedy jeho výhody a nevýhody pro projekt. Poslední èást kapitoly vìnuji formátu nejnovìj¹ímu formátu, formátu \texttt{warc}.
+Ve druhé kapitole práce pøedstavuji nìkteré mo¾né archivaèní formáty. První formát je ji¾ zastaralý a v projektu se nevyu¾ívá. Druhý formát, formát \texttt{arc}, je stále pou¾íván. Ukazuji tedy jeho výhody a nevýhody pro projekt. Poslední èást kapitoly vìnuji formátu nejnovìj¹ímu formátu, formátu \texttt{warc}.
 
 Tento formát je v rámci projektu u¾íván k ukládání nových sklizených dat. V minulosti sklizená data jsou v¹ak v repozitáøi ulo¾ena ve formátu pøedcházejícím. Stejnì jako u pøedchozích formátù ukazuji jeho výhody a nevýhody. Z kapitoly by mìlo být zøejmé, ¾e pøechod na nový formát je potøeba realizovat -- jednotlivé argumenty jsou k dohlednání v pøíslu¹né èásti práce. 
 
 Poslední kapitola je vìnována migraèním nástrojùm. Mým cílem bylo najít a otestovat nástroje, pomocí kterých by bylo mo¾no pøevést star¹í archivy do nového formátu. V kapitole ukazuji jaké dal¹í nástroje bude nutné pou¾ít, aby byla realizace migrace mo¾ná. Dùle¾itý je zejména nástroj \texttt{JHOVE2}, který slou¾í k testování obsahu archivù. Pøi pøevodu bude toti¾ tøeba odhalit mo¾né chyby v ulo¾ených souborech a odstranit je. Dále je tedy v této kapitole obsa¾en i popis mé implementace testování obsahu archivù.
 
-Pro samotnou migraci jsem si vybral tøi volnì dostupné nástroje a otestoval je na vzorku ulo¾ených dat. Z testování mi vy¹el jako nejvhodnìj¹í nástroj \texttt{WARCTOOLS / hanzo}. Jeden nástroj jsem vylouèil proto¾e jej ji¾ zastaralý a není dále vyvíjen. Druhý proto¾e vychází z prvního a za jeho vývojem nestojí tak silná autorita jako v pøípadì mnou zvoleného nástroje. I pøesto, ¾e jsem nástroj \texttt{WARCTOOLS / hanzo} zvolil jako nejvhodnìj¹í, jsem v nástroji odhalil chybu: nástroj havaruje pøi pøevodu specifických souborù v archivu. V kapitole té¾ ukazuji o jaké soubory se mù¾e jednat.
+Pro samotnou migraci jsem si vybral tøi volnì dostupné nástroje a otestoval je na vzorku ulo¾ených dat. Z testování mi vy¹el jako nejvhodnìj¹í nástroj \texttt{WARCTOOLS / hanzo}. Jeden nástroj jsem vylouèil proto¾e je ji¾ zastaralý a není dále vyvíjen. Druhý proto¾e vychází z prvního a za jeho vývojem nestojí tak silná autorita jako v pøípadì mnou zvoleného nástroje. I pøesto, ¾e jsem nástroj \texttt{WARCTOOLS / hanzo} zvolil jako nejvhodnìj¹í, jsem v nástroji odhalil chybu: nástroj havaruje pøi pøevodu specifických souborù v archivu. V kapitole té¾ ukazuji o jaké soubory se mù¾e jednat.
 
 Výstup práce tedy tvoøí doporuèení nástroje \texttt{WARCTOOLS / hanzo} k migraci dat, analýza jeho rozdílnosti a výhod oproti jiným testovaným nástrojù a analýza pøípadù, kdy dochází k jeho haváriím.
 
-Informace z mé bakaláøské práce pou¾ije Národní Knihovna ÈR (zøizovatel projektu WebArchiv) jako podklady k realizaci migrace webového archivu.
+Informace z mé bakaláøské práce pou¾ije Národní knihovna ÈR (zøizovatel projektu WebArchiv) jako podklady k realizaci migrace webového archivu.
