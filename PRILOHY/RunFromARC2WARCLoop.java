@@ -3,7 +3,12 @@
  */
 package org.jhove2.app;
 
+import java.io.Closeable;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
+import java.io.PrintStream;
 import java.util.Date;
 import org.jhove2.config.spring.SpringConfigInfo;
 import org.jhove2.core.Invocation;
@@ -22,12 +27,14 @@ import org.jhove2.persist.PersistenceManagerUtil;
  * Nástroj warctools je implementován v Pythonu. Pomocí nástroje Jpype
  * (slouží ke spuštění JVM nad programem v Pythonu) mohu spouštět tuto třídu.
  * 
+ * Výpis chyb je přesměrován do souboru "./arc2warc.py_loop_jhove2_errorlog"
+ * 
  * třída obstará spuštění nastroje JHOVE2. Pomocí metody run pak zpracuje
  * analýzu pro zadaný soubor. Tato akce se dá opakovat.
  * 
  * @author Martin Prokop
  */
-public class RunFromARC2WARCLoop {
+public class RunFromARC2WARCLoop implements Closeable {
     //privátní atributy
 
     private int EEXCEPTION;
@@ -39,7 +46,13 @@ public class RunFromARC2WARCLoop {
     /**
      * Konstruktor. Vytvoří funkční JHOVE2.
      */
-    public RunFromARC2WARCLoop() {
+    public RunFromARC2WARCLoop() throws FileNotFoundException {
+        // Presmerovani vystupu z JHOVE2 do souboru "./arc2warc.py_loop_jhove2_errorlog"
+        OutputStream output = new FileOutputStream("./arc2warc.py_loop_jhove2_errorlog");
+        PrintStream nullOut = new PrintStream(output);
+        System.setErr(nullOut);
+        System.setOut(nullOut);
+        
         persistenceManager = null;
         try {
             SpringConfigInfo factory = new SpringConfigInfo();
@@ -106,7 +119,8 @@ public class RunFromARC2WARCLoop {
     /**
      * Metoda, která vypne JHOVE2 a databázy
      */
-    public void killEmAll() {
+    @Override
+    public void close() {
         if (persistenceManager != null) {
             try {
                 persistenceManager.close();

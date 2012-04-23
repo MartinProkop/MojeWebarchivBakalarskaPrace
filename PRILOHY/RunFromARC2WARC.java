@@ -26,14 +26,17 @@ public class RunFromARC2WARC {
     /**
      * Metoda dostane na vstup seznam souborů, které předá ke zpracování
      * aplikaci JHOVE2 a nakonec na vypíše do zadaného souboru výstup z JHOVE2.
+     * 
+     * Výpis chyb je přesměrován do souboru "./arc2warc.py_jhove2_errorlog"
+     * 
      * @param contents Pole cest k souborům
      * @param path Cesta k souboru, do kterého se mají vypsat informace
      * @throws IOException
      * @throws JHOVE2Exception 
      */
     public void runJHOVE2(String contents[], String path) throws IOException, JHOVE2Exception {
-        // Presmerovani vystupu z JHOVE2 do /dev/null
-        OutputStream output = new FileOutputStream("/dev/null");
+        // Presmerovani vystupu z JHOVE2 do souboru "./arc2warc.py_jhove2_errorlog"
+        OutputStream output = new FileOutputStream("./arc2warc.py_jhove2_errorlog");
         PrintStream nullOut = new PrintStream(output);
         System.setErr(nullOut);
         System.setOut(nullOut);

@@ -126,7 +126,7 @@ def main(argv):
         *Nakonec mazu soubory z "./temp"
     """
         
-    RUNJHOVE2.killEmAll()
+    RUNJHOVE2.close()
     shutdownJVM()
     
     for x in range(0, len(filesource)):
