@@ -3,6 +3,7 @@
  */
 package org.jhove2.app;
 
+import java.io.Closeable;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
@@ -21,7 +22,7 @@ import org.jhove2.core.JHOVE2Exception;
  * 
  * @author Martin Prokop
  */
-public class RunFromARC2WARC {
+public class RunFromARC2WARC implements Closeable{
 
     /**
      * Metoda dostane na vstup seznam souborů, které předá ke zpracování
@@ -46,6 +47,11 @@ public class RunFromARC2WARC {
         String[] seznam = arrayMerge(data, contents);
 
         JHOVE2CommandLine.main(seznam);
+    }
+    
+    @Override
+    public void close()
+    {
     }
 
     public static void main(String[] args) throws IOException, JHOVE2Exception {

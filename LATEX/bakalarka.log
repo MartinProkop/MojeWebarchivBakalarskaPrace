@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  24 APR 2012 02:13
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  24 APR 2012 11:23
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -851,56 +851,47 @@ Package hyperref Warning: Composite letter `\textasciicaron+c'
 Overfull \vbox (8.35pt too high) has occurred while \output is active []
 
  [44]
+Overfull \vbox (2.33328pt too high) has occurred while \output is active []
+
+
 [45]
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 JYTHON \IL2/l
 mr/m/n/10 do-stupné on-line na ad-rese
  []
 
 
-Overfull \hbox (3.49454pt too wide) in paragraph at lines 178--179
+Overfull \hbox (3.49454pt too wide) in paragraph at lines 180--181
 \IL2/lmr/m/n/12 spustí \IL2/lmtt/m/n/12 Java Virtual Machine \IL2/lmr/m/n/12 je
 ¹tì pøed sa-mot-ným vy-ko-ná-vá-ním skrip-
  []
-
-
-Overfull \vbox (4.99161pt too high) has occurred while \output is active []
-
 
 [46]
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 195.
+(hyperref)                removing `\textasciicaron' on input line 197.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 195.
+(hyperref)                removing `\textasciicaron' on input line 197.
 
 
 Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 195.
-
-
-Overfull \vbox (3.01932pt too high) has occurred while \output is active []
-
+(hyperref)                removing `\textring' on input line 197.
 
 [47]
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 205.
+(hyperref)                removing `\textasciicaron' on input line 207.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 208.
-
-
-Overfull \vbox (7.93332pt too high) has occurred while \output is active []
-
+(hyperref)                removing `\textasciicaron' on input line 210.
 
 [48]) [49]
 \openout2 = `5_zaver.aux'.
@@ -1384,7 +1375,7 @@ f/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmtti10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtto10.
 pfb>
-Output written on bakalarka.pdf (78 pages, 699055 bytes).
+Output written on bakalarka.pdf (78 pages, 699534 bytes).
 PDF statistics:
  1402 PDF objects out of 1440 (max. 8388607)
  350 named destinations out of 1000 (max. 500000)
