@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  23 APR 2012 11:26
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  24 APR 2012 02:05
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -458,15 +458,15 @@ Package hyperref Warning: Composite letter `\textring+u'
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 140.
+(hyperref)                removing `\textasciicaron' on input line 139.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 140.
+(hyperref)                removing `\textasciicaron' on input line 139.
 
 [17]
-Overfull \hbox (0.64607pt too wide) in paragraph at lines 148--149
+Overfull \hbox (0.64607pt too wide) in paragraph at lines 146--147
 \IL2/lmr/m/n/12 Poslední pøístup, který je vy-u-¾í-ván se ori-en-tuje na mo-no-
 te-ma-tické webo-
  []
@@ -474,15 +474,15 @@ te-ma-tické webo-
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 152.
+(hyperref)                removing `\textasciicaron' on input line 150.
 
 
 Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 152.
+(hyperref)                removing `\textring' on input line 150.
 
 
-Overfull \hbox (0.17404pt too wide) in paragraph at lines 155--156
+Overfull \hbox (0.17404pt too wide) in paragraph at lines 153--154
 \IL2/lmr/m/n/12 Pro-to¾e ná-stroj \IL2/lmtt/m/n/12 WA Admin \IL2/lmr/m/n/12 shl
 edá ne-do-sta-teè-ným pro da-l¹í u¾í-vání, hledá
  []
@@ -491,107 +491,105 @@ edá ne-do-sta-teè-ným pro da-l¹í u¾í-vání, hledá
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 156.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\clqq' on input line 156.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\crqq' on input line 156.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 158.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\clqq' on input line 158.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\crqq' on input line 158.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 160.
 
-
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 162.
-
-
-Underfull \vbox (badness 2856) has occurred while \output is active []
-
- [19]
+[19]
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 166.
+(hyperref)                removing `\textasciicaron' on input line 164.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 166.
+(hyperref)                removing `\textasciicaron' on input line 164.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 166.
+(hyperref)                removing `\textasciicaron' on input line 164.
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 172--172
+Underfull \hbox (badness 4621) in paragraph at lines 170--170
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 Apache Tomcat
  \IL2/lmr/m/n/10 do-stupné on-line na ad-rese
  []
 
 
-Overfull \vbox (7.69168pt too high) has occurred while \output is active []
-
-
-[20]
-Underfull \hbox (badness 7433) in paragraph at lines 176--176
+Underfull \hbox (badness 7433) in paragraph at lines 174--174
 [][][][]\IL2/lmr/m/n/10 Webové stránky ná-stroje \IL2/lmtt/m/n/10 DeDuplicator 
 \IL2/lmr/m/n/10 do-stupné on-line na ad-rese
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Overfull \vbox (3.95007pt too high) has occurred while \output is active []
+
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
 [][][][]\IL2/lmr/m/n/10 Nástroj \IL2/lmtt/m/n/10 Generátor URN \IL2/lmr/m/n/10 
 do-stupný on-lina na ad-rese
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 Heritrix \IL2
 /lmr/m/n/10 do-stupné on-line na ad-rese
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 [][][][]\IL2/lmr/m/n/10 Podrobné in-for-mace o for-mátu \IL2/lmtt/m/n/10 GZip \
 IL2/lmr/m/n/10 do-stupné on-line na ad-rese
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
 [][][][]\IL2/lmr/m/n/10 Popis \IL2/lmtt/m/n/10 RFC standardu SHA-1 \IL2/lmr/m/n
 /10 do-stupný on-line na ad-rese
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
+Overfull \vbox (1.83337pt too high) has occurred while \output is active []
+
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 NutchWAX \IL2
 /lmr/m/n/10 do-stupné on-line na ad-rese
  []
 
-
-Underfull \vbox (badness 1728) has occurred while \output is active []
-
- [22]
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 Waybak \IL2/l
 mr/m/n/10 do-stupné on-line na ad-rese
  []
 
-[23]
-Underfull \hbox (badness 1122) in paragraph at lines 209--209
+
+Underfull \hbox (badness 1122) in paragraph at lines 207--207
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 Web Curator T
 ool \IL2/lmr/m/n/10 do-stupné on-line na ad-rese
  []
 
-) [24]
+) [23] [24]
 \openout2 = `3_archivacniformaty.aux'.
 
  (./3_archivacniformaty.tex
@@ -1385,7 +1383,7 @@ f/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmtti10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtto10.
 pfb>
-Output written on bakalarka.pdf (79 pages, 701303 bytes).
+Output written on bakalarka.pdf (79 pages, 700597 bytes).
 PDF statistics:
  1407 PDF objects out of 1440 (max. 8388607)
  351 named destinations out of 1000 (max. 500000)

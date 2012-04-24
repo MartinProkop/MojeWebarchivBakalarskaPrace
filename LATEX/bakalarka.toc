@@ -31,21 +31,21 @@
 \contentsline {subsection}{\numberline {2.5.1}\rmfamily Syst\'em pro spr\'avu procesu archivace webov\'ych informa\v cn\IeC {\'\i }ch zdroj\r u}{18}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}\rmfamily Identifikace a omezen\IeC {\'\i } p\v r\IeC {\'\i }stupu k \uv {nevhodn\'ym} str\'ank\'am ve\IeC {\nobreakspace }webov\'em archivu}{19}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}\rmfamily Rozpozn\'an\IeC {\'\i } a archivace \v cesk\'eho webu mimo n\'arodn\IeC {\'\i } dom\'enu}{19}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}\rmfamily Implementace \texttt {OAI-PMH} pro \v cesk\'y WebArchiv}{20}{subsection.2.5.4}
+\contentsline {subsection}{\numberline {2.5.4}\rmfamily Implementace \texttt {OAI-PMH} pro \v cesk\'y WebArchiv}{19}{subsection.2.5.4}
 \contentsline {subsection}{\numberline {2.5.5}\rmfamily Zp\v r\IeC {\'\i }stupn\v en\IeC {\'\i } archivu \v cesk\'eho webu}{20}{subsection.2.5.5}
 \contentsline {section}{\numberline {2.6}\slshape N\'astroje souvisej\IeC {\'\i }c\IeC {\'\i } s projektem WebArchiv}{20}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}\rmfamily \texttt {APACHE TOMCAT}}{20}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2}\rmfamily \texttt {ARCRetriever}}{20}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}\rmfamily \texttt {DeDuplicator}}{21}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.3}\rmfamily \texttt {DeDuplicator}}{20}{subsection.2.6.3}
 \contentsline {subsection}{\numberline {2.6.4}\rmfamily \texttt {Gener\'ator URN}}{21}{subsection.2.6.4}
 \contentsline {subsection}{\numberline {2.6.5}\rmfamily \texttt {HERITRIX}}{21}{subsection.2.6.5}
 \contentsline {subsection}{\numberline {2.6.6}\rmfamily \texttt {ImpEval}}{22}{subsection.2.6.6}
 \contentsline {subsection}{\numberline {2.6.7}\rmfamily \texttt {NutchWAX}}{22}{subsection.2.6.7}
-\contentsline {subsection}{\numberline {2.6.8}\rmfamily \texttt {WA ADMIN}}{23}{subsection.2.6.8}
-\contentsline {subsection}{\numberline {2.6.9}\rmfamily \texttt {WA-CZ}}{23}{subsection.2.6.9}
+\contentsline {subsection}{\numberline {2.6.8}\rmfamily \texttt {WA ADMIN}}{22}{subsection.2.6.8}
+\contentsline {subsection}{\numberline {2.6.9}\rmfamily \texttt {WA-CZ}}{22}{subsection.2.6.9}
 \contentsline {subsection}{\numberline {2.6.10}\rmfamily \texttt {Wayback}}{23}{subsection.2.6.10}
-\contentsline {subsection}{\numberline {2.6.11}\rmfamily \texttt {WebAnalyzer}}{24}{subsection.2.6.11}
-\contentsline {subsection}{\numberline {2.6.12}\rmfamily \texttt {Web Curator Tool}}{24}{subsection.2.6.12}
+\contentsline {subsection}{\numberline {2.6.11}\rmfamily \texttt {WebAnalyzer}}{23}{subsection.2.6.11}
+\contentsline {subsection}{\numberline {2.6.12}\rmfamily \texttt {Web Curator Tool}}{23}{subsection.2.6.12}
 \contentsline {chapter}{\numberline {3}\bfseries Archiva\v cn\IeC {\'\i } form\'aty}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}\slshape \'Uvod}{25}{section.3.1}
 \contentsline {section}{\numberline {3.2}\slshape Form\'at \texttt {nedlib}}{26}{section.3.2}
