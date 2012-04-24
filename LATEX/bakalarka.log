@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  24 APR 2012 02:11
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  24 APR 2012 02:13
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -477,19 +477,22 @@ Overfull \hbox (0.64607pt too wide) in paragraph at lines 146--147
 te-ma-tické webo-
  []
 
-[17]
+
+Underfull \vbox (badness 7397) has occurred while \output is active []
+
+ [17]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 150.
+(hyperref)                removing `\textasciicaron' on input line 149.
 
 
 Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 150.
+(hyperref)                removing `\textring' on input line 149.
 
 
-Overfull \hbox (0.17404pt too wide) in paragraph at lines 153--154
+Overfull \hbox (0.17404pt too wide) in paragraph at lines 152--153
 \IL2/lmr/m/n/12 Pro-to¾e ná-stroj \IL2/lmtt/m/n/12 WA Admin \IL2/lmr/m/n/12 shl
 edá ne-do-sta-teè-ným pro da-l¹í u¾í-vání, hledá
  []
@@ -497,92 +500,92 @@ edá ne-do-sta-teè-ným pro da-l¹í u¾í-vání, hledá
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 156.
+(hyperref)                removing `\textasciicaron' on input line 155.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\clqq' on input line 156.
+(hyperref)                removing `\clqq' on input line 155.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\crqq' on input line 156.
+(hyperref)                removing `\crqq' on input line 155.
 
 [18]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 158.
+(hyperref)                removing `\textasciicaron' on input line 157.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 160.
+(hyperref)                removing `\textasciicaron' on input line 159.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 164.
+(hyperref)                removing `\textasciicaron' on input line 163.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 164.
+(hyperref)                removing `\textasciicaron' on input line 163.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 164.
+(hyperref)                removing `\textasciicaron' on input line 163.
 
 [19]
-Underfull \hbox (badness 4621) in paragraph at lines 170--170
+Underfull \hbox (badness 4621) in paragraph at lines 169--169
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 Apache Tomcat
  \IL2/lmr/m/n/10 do-stupné on-line na ad-rese
  []
 
 
-Underfull \hbox (badness 7433) in paragraph at lines 174--174
+Underfull \hbox (badness 7433) in paragraph at lines 173--173
 [][][][]\IL2/lmr/m/n/10 Webové stránky ná-stroje \IL2/lmtt/m/n/10 DeDuplicator 
 \IL2/lmr/m/n/10 do-stupné on-line na ad-rese
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
 [][][][]\IL2/lmr/m/n/10 Nástroj \IL2/lmtt/m/n/10 Generátor URN \IL2/lmr/m/n/10 
 do-stupný on-lina na ad-rese
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 Heritrix \IL2
 /lmr/m/n/10 do-stupné on-line na ad-rese
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 [][][][]\IL2/lmr/m/n/10 Podrobné in-for-mace o for-mátu \IL2/lmtt/m/n/10 GZip \
 IL2/lmr/m/n/10 do-stupné on-line na ad-rese
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 [][][][]\IL2/lmr/m/n/10 Popis \IL2/lmtt/m/n/10 RFC standardu SHA-1 \IL2/lmr/m/n
 /10 do-stupný on-line na ad-rese
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 NutchWAX \IL2
 /lmr/m/n/10 do-stupné on-line na ad-rese
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 Waybak \IL2/l
 mr/m/n/10 do-stupné on-line na ad-rese
  []
 
 [22]
-Underfull \hbox (badness 1122) in paragraph at lines 207--207
+Underfull \hbox (badness 1122) in paragraph at lines 206--206
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 Web Curator T
 ool \IL2/lmr/m/n/10 do-stupné on-line na ad-rese
  []
@@ -1381,7 +1384,7 @@ f/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmtti10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtto10.
 pfb>
-Output written on bakalarka.pdf (78 pages, 699125 bytes).
+Output written on bakalarka.pdf (78 pages, 699055 bytes).
 PDF statistics:
  1402 PDF objects out of 1440 (max. 8388607)
  350 named destinations out of 1000 (max. 500000)
