@@ -11,7 +11,7 @@ Proto napøíklad informace získané z Britské knihovny jsou pro Web\-Archiv hodnot
 \subsection{Britská knihovna}
 Øe¹itelé projektu WebArhiv se migrací prozatím pøíli¹ nezabývali. Nic\-ménì ve svìtì se tím ji¾ lidé zabývají. Proto jsem se pokusil zjistit informace o migraci u pracovníkù z Britské knihovny. Mojí mailovou korespondenci uvádím v \texttt{pøíloze Q na s. \pageref{pr:q}}. V Britské knihovnì vyzkou¹el vývojový tým skript pro pøevod do archivního formátu warc u¾ v roce 2009. Celkovì bylo pøevedeno cca 4,4 TB dat.
 
-O pøevodu, který provedli, zatím není dostatek informací. Pracovníci Britské knihovny v¹ak pou¾ili pro migraci nástroje, které nejsou pøímo pou¾itelné ve WebArchivu. Pou¾ívali toti¾ jiné nástroje pro ukládání dat a práci s archivy -- \texttt{Web Curator Tool} a \texttt{PANDAS}. Pøekvapilo mì, ¾e nevyu¾ili ani mo¾nosti deduplikace souborù.\cite{PROKOP2012}
+O pøevodu, který provedli, zatím není dostatek informací. Pracovníci Britské knihovny v¹ak pou¾ili pro migraci nástroje, které nejsou pøímo pou¾itelné ve WebArchivu. Pou¾ívali toti¾ jiné nástroje pro ukládání dat a práci s archivy -- \texttt{Web Curator Tool} a \texttt{PANDAS}. Pøekvapilo mì, ¾e nevyu¾ili ani mo¾nosti deduplikace souborù. \cite{PROKOP2012}
 
 
 \section{Pou¾ité nástroje}
@@ -40,7 +40,7 @@ Implementací a analýzou nìkolika archivù z depozitáøe WebArchivu se zabývám v ji
 \subsubsection{Podrobnìj¹í informace JHOVE2}
 Detailní informace o programu jsou obsa¾eny v u¾ivatelské pøíruèce \footnote{V celé kapitole pou¾ívám pøi popisu funkcí a vlastností nástroje vlastní pøeklady z této pøíruèky.}, která je k nahlédnutí v \texttt{pøíloze AF na s. \pageref{pr:af}}. Dal¹í podstatné informace lze nalézt v dokumentu z roku 2010, který se vìnuje aktualizaci nástroje, je pøilo¾en k bakaláøské práci v \texttt{pøíloze AG na s. \pageref{pr:ag}}. Nástroj je napsán v programovacím jazyce Java a ke svému správnému bìhu vy¾aduje \texttt{The OpenSP SGML parser}\footnote{Webová stránka \texttt{The OpenSP SGML parser} dostupná online na adrese \texttt{http://search.cpan.org/dist/SGML-Parser-OpenSP/}}.
 
-Jak jsem zmínil vý¹e, program \texttt{JHOVE2} je novìj¹í verzí programu \texttt{JHOVE} a jako takový pøiná¹í nové mo¾nosti a funkcionality. Hlavní zmìnou je to, ¾e u objektù provádí charakterizaci, která je oproti pùvodním partikulárním testovacím procesùm u JHOVE komplexnìj¹í. \uv{\textit{Characterization is the process of examining a formatted digital source unit and automatically extracting or deriving representation information about that source unit that is indicative of its significant nature and useful for purposes of classification, analysis, and use.}}\cite{JHOVE2}\\ \\
+Jak jsem zmínil vý¹e, program \texttt{JHOVE2} je novìj¹í verzí programu \texttt{JHOVE} a jako takový pøiná¹í nové mo¾nosti a funkcionality. Hlavní zmìnou je to, ¾e u objektù provádí charakterizaci, která je oproti pùvodním partikulárním testovacím procesùm u JHOVE komplexnìj¹í. \uv{\textit{Characterization is the process of examining a formatted digital source unit and automatically extracting or deriving representation information about that source unit that is indicative of its significant nature and useful for purposes of classification, analysis, and use.}} \cite{JHOVE2}\\ \\
 \noindent Charakterizace se skládá ze ètyø procedur \cite{JHOVE2}: 
 \begin{description}
 \item[Identifikace] urèení formátu objektu.
@@ -58,15 +58,25 @@ Jak jsem zmínil vý¹e, program \texttt{JHOVE2} je novìj¹í verzí programu \texttt{
 \item Kompletní dokumentace nástroje
 \item ©iroká ¹kála rozpoznatelných objektù\footnote{V následujícím odstavci podávám pouze neúplný výèet podporovaných objektù, podrobný výèet lze nalézt v \texttt{pøíloze AG na s. \pageref{pr:ag}}.}
 \end{itemize}
-Hlavní pøedností nástroje je samozøejmì ¹iroká ¹kála typù souborù, které doká¾e identifikovat a validovat. Identifikovat doká¾e \texttt{JHOVE2} v¹ech\-ny objekty obsa¾ené v databázi \texttt{PRONOM}\footnote{Organizace zabývající se problematikou souborových formátù a softwarových produkù s nimi souvisejících. Webové stránky databáze \texttt{PRONOM} dostupné online na adrese \texttt{http://www.nationalarchives.gov.uk/PRONOM}.}, respektive objekty, které definují \texttt{DROID signature files}\footnote{\texttt{DROID} (Digital Record Object Identificatio), je nástroj pro automatickou identifikaci formátu souborù. Webové stránky nástroje \texttt{DROID} dostupné online na adrese \texttt{http://droid.sourceforge.net}.} -- jedná se o více ne¾ 550 formátù. Výèet typù objektù, které dovede \texttt{JHOVE2} validovat obsahuje formáty èi standardy jako: \texttt{ICC color profile, JPEG 2000, PDF, SGML, Shape\-file, TIFF, UTF-8, WAVE, XML, Zip}.
+Hlavní pøedností nástroje je samozøejmì ¹iroká ¹kála typù souborù, které doká¾e identifikovat a validovat. Identifikovat doká¾e \texttt{JHOVE2} v¹ech\-ny objekty obsa¾ené v databázi \texttt{PRONOM}\footnote{Organizace zabývající se problematikou souborových formátù a softwarových produkù s nimi souvisejících. Webové stránky databáze \texttt{PRONOM} dostupné online na adrese \texttt{http://www.nationalarchives.gov.uk/PRONOM}.}, respektive objekty, které definují \texttt{DROID signature files}\footnote{\texttt{DROID} (Digital Record Object Identificatio), je nástroj pro automatickou identifikaci formátu souborù. Webové stránky nástroje \texttt{DROID} dostupné online na adrese \texttt{http://droid.sourceforge.net}.} -- jedná se o více ne¾ 550 formátù. Výèet typù objektù, které dovede \texttt{JHOVE2} validovat obsahuje napøíklad: \texttt{ICC color profile, JPEG 2000, PDF, SGML, Shapefile, TIFF,\\ UTF-8, WAVE, XML, Zip}.
 
 Nástroj tedy poskytuje velký potenciál pro vyu¾ití v pøi øe¹ení problému s archivací webových zdrojù. Je podporován a u¾íván velkým mno¾stvím organizací a dá se øíci, ¾e patøí mezi uznávaný a standardní nástroj.
  \cite{JHOVE2}
 
 \subsection{\texttt{Jpype}}
-Nástroj umo¾òující spu¹tìní programù napsaných v programovacím jazyce \texttt{Java} v rámci programu napsaného v programovacím jazyce \texttt{Python}. Pou¾ití tohoto nástroje bylo nutné kvùli tomu, ¾e nástroje pro migraci arc archivù jsou psány v programovacím jazyce \texttt{Python}, ale \texttt{JHOVE2} je programován jazyce \texttt{Java}.
+Nástroj umo¾òující spu¹tìní programù napsaných v programovacím jazyce \texttt{Java} v rámci programu napsaného v programovacím jazyce \texttt{Python}. 
 
-Nástroj v podstatì umo¾ní spu¹tìní \texttt{Java Virtual Machine}\footnote{Webové stránky \texttt{Java} dostupné online na adrese \texttt{http://www.java.com}.} uvnitø \texttt{Python} skriptu a následnì práci s Java aplikací. Nástroj je dostupný volnì ke sta¾ení na webových stránkách\footnote{Webové stránky projektu \texttt{Jpype} dostupná online na adrese \texttt{http://jpype.sourceforge.net}.} jeho vývojáøù. Jeho vyu¾ití bylo zásadní pro mo¾nost testování pøevádìných \texttt{arc} archivù. V \texttt{pøíloze AI na s. \pageref{pr:ai}} je archiv s nástrojem \texttt{Jpype}.
+Pou¾ití tohoto nástroje bylo nutné kvùli tomu, ¾e nástroje pro migraci \texttt{arc} archivù jsou psány v programovacím jazyce \texttt{Python}, ale \texttt{JHOVE2} je programován v jazyce \texttt{Java}.
+
+Nástroj v podstatì umo¾ní spu¹tìní \texttt{Java Virtual Machine}\footnote{Webové stránky \texttt{Java} dostupné online na adrese \texttt{http://www.java.com}.} uvnitø \texttt{Python} skriptu a následnì práci s Java aplikací.
+
+Je samozøejmé, ¾e implementace takového programu, který musí vyu¾ívat více programovacích jazykù najednou, je problematické z hlediska efektivity. Efektinìj¹í a elegantnìj¹í by samozøejmì byl nástroj, který je implementován jedním programovacím jazykem\footnote{Toto tvrzení není nutnì pravdivé. Samozøejmì existují softwarová øe¹ení, která dosahují vy¹¹í efektivity právì tím, ¾e kombinují rùzné programovací jazyky. To v¹ak není pøípad nástroje, který je potøeba implementovat pro potøeby WebArchivu}.
+
+Ale vzhledem k tomu, ¾e je vìt¹ina vývojáøù projektù, které pracují na archivaci webu, rozsáhlá a nestejnorodá, není mo¾né tento po¾adavek splnit. Zpravdila si ka¾dý øe¹itelský tým jednodu¹e implementuje své nástroje. Pokud je pak chce jiný tým pøejmout a u¾ívat, musí se s z toho plynoucímy problémy vypoøádat.
+ 
+Celkovì jde ale øíci, ¾e pou¾itím nástroje \texttt{Jpype} pro spojení nástrojù \texttt{warctools} a \texttt{Jhove2} nevede k nìjakému razatnímu zeslo¾itìní techniky migrace archivu, jeliko¾ je nástroj je implementován efektivnì. Navíc v podstatì neexistuje jiná varianta, tedy mimo implementace vlastních nástrojù, co¾ by ale bylo velmi nároèné.
+
+Nástroj je dostupný volnì ke sta¾ení na webových stránkách\footnote{Webové stránky projektu \texttt{Jpype} dostupná online na adrese \texttt{http://jpype.sourceforge.net}.} jeho vývojáøù. Jeho vyu¾ití bylo zásadní pro implementaci analýzy obsahu pøevádìných \texttt{arc} archivù. V \texttt{pøíloze AI na s. \pageref{pr:ai}} je archiv s nástrojem \texttt{Jpype}.
 
 \section{Testování migraèních nástrojù}
 Migraci realizuji pomocí nìkolika variant nastrojù \texttt{WARC-TOOLS}. Pokusím se pøevést vzorek arc archivù a porovnat výsledky. Z informací, které získám pokusím poukázat na výhody a nevýhody jednotlivých nástrojù.
@@ -95,6 +105,7 @@ Nástroj tedy není pøímo kompatibilní s ostatními mnou testovanými nástroji.
 \item Zvládá pøevádìt soubory \texttt{arc} i soubory \texttt{arc.gz}.
 \item Pøi pøevodu \texttt{arc} souboru do \texttt{warc} archivu pøibalí i archivované soubory. Na rozdíl od ostatních nástrojù -- ostatní nástroje pøibalí archivované soubory pouze pokud dostanou na vstup \texttt{arc} archivy, které jsou zabalené nástrojem \texttt{GZip}. 
 \item Nástroj není v souèasné dobì dále vyvíjen. Z toho se dá odvodit, ¾e pravdìpodobnì nebude mo¾no pou¾ívat ho dlouhodobì -- ostatní nástroje budou obohacovány o dal¹í funkcionalitu a tím reagovat na nové po¾adované parametry k pøevodu \texttt{arc} souborù.
+\item Vývojáøi ve specifikaci uvedli, ¾e chtìjí implemntovat mo¾nost \texttt{deduplikace} souborù v archivu v prùbìhu migrace. \cite{warctoolsfrs} Bohu¾el tato funkcionalita není implementována.
 \end{itemize}
 
 \subsection{\texttt{WARC-TOOLS / hanzo}}
@@ -112,8 +123,9 @@ V \texttt{pøíloze W na s. \pageref{pr:w}} je k nalezení dokumentace nástroje. \t
 \item Nemá napsané skripty pro hromadnou migraci.
 \item Pøi pøevodu \texttt{arc} souborù nepøibalí k souboru data. Je potøeba mu dávat na vstup \texttt{arc.gz} soubory.
 \item Po otestování na zku¹ebním vzorku je textový \texttt{warc} soubor, toto¾ný se souborem z \texttt{WARCTOOLS / kpk09}.
+\item Nástroj není schopen provést pøi migraci i \texttt{deduplikaci} souborù obsa¾ených v archivu.
 \item Nástroj je v souèasné dobì vyvíjen.
-\item Nástroj nemá dokonèenou dokumentaci. V manuálu stojí, ¾e vytváøí \uv{crappy} \texttt{warc} soubory. Nástroj pro migraci je údajnì pøevzat z nástroje \texttt{WARCTOOLS}.\cite{Hanzo}
+\item Nástroj nemá dokonèenou dokumentaci. V manuálu stojí, ¾e vytváøí \uv{crappy} \texttt{warc} soubory. Nástroj pro migraci je údajnì pøevzat z nástroje \texttt{WARCTOOLS}. \cite{Hanzo}
 \item Zjistil jsem, ¾e nástroj havaruje pøi pøevodu archivu se specifickým záznamem. 
 \end{itemize}
 
@@ -131,8 +143,9 @@ V \texttt{pøíloze Z na s. \pageref{pr:z}} je k nalezení dokumentace nástroje. \t
 \item Nemá napsané skripty pro hromadnou migraci.
 \item Pøi pøevodu \texttt{arc} souborù nepøibalí k souboru data. Je potøeba mu dávat na vstup \texttt{arc.gz} soubory.
 \item Po otestování na zku¹ebním vzorku je textový \texttt{warc} soubor, toto¾ný se souborem z \texttt{WARCTOOLS / hanzo}.
+\item Nástroj není schopen provést pøi migraci i \texttt{deduplikaci} souborù obsa¾ených v archivu.
 \item Nástroj je v souèasné dobì vyvíjen.
-\item Nástroj nemá dokonèenou dokumentaci. V manuálu stojí, ¾e vytváøí \uv{crappy} \texttt{warc} soubory. Nástroj pro migraci je údajnì pøevzat z nástroje \texttt{WARCTOOLS}.\cite{Kpk09}
+\item Nástroj nemá dokonèenou dokumentaci. V manuálu stojí, ¾e vytváøí \uv{crappy} \texttt{warc} soubory. Nástroj pro migraci je údajnì pøevzat z nástroje \texttt{WARCTOOLS}. \cite{Kpk09}
 \item Zjistil jsem, ¾e nástroj havaruje, stejnì jako \texttt{WARCTOOLS / hanzo}, pøi pøevodu archivu se specifickým záznamem. 
 \end{itemize}
 
@@ -168,15 +181,17 @@ Program \texttt{JHOVE2} je implementován v programovacím jazyce \texttt{Java}. J
 
 Moje nová tøída je spu¹tìna pøímo z programu \texttt{arc2warc.py}\footnote{Souèást nástroje WARCTOOLS, která je urèena k migraci archivù. Do jiných programù v rámci WARCTOOLS jsem nemusel zasahovat.} a obstará inicializaci a pøedání instrukcí nástroji \texttt{JHOVE2}, který pak provede v¹echny operace a vytvoøí výstupní soubor s informacemi o analýze obsahu \texttt{arc} archivu. Mnou implementovaná tøída umo¾òuje, aby mohl \texttt{JHOVE2} zpracovat libovolné mno¾ství souborù najednou, a vrátit pro nì souhrnný soubor s informace o analýze.
 
-Ukázku této tøídy je mo¾no najít v \texttt{pøíloze AK a na s. \pageref{pr:ak}}. 
+Pøi implementaci jsem objevil ne pøíli¹ vá¾nou chybu v nástroji: nástroj vypisuje nìkteré chybové hlá¹ky standardní výstup. Chyba by byla záva¾ná, pokud by se na ní nepøi¹lo a bìhem provádìní migraèního nástroje by se chybové hlá¹ky vypisovali do tìla \texttt{warc} archivu. V takovém pøípadì by mohlo dojít ke zbyteènému po¹kození archivu. Tuto chybu jsem tedy jednodu¹e odstranil pøejmìrováním výstupù do souboru.
+
+Ukázku této tøídy je mo¾no najít v \texttt{pøíloze AK a na s. \pageref{pr:ak}}, kompletní implementovaný nástroj je k nalezení v \texttt{pøíloze AW na s. \pageref{pr:aw}}.
 \subsubsection{Úprava \texttt{WARCTOOLS / hanzo}}
-Pøi úpravì nástroje \texttt{WARCTOOLS} staèilo upravit pouze program \texttt{arc2warc\-.py}, který je implementovám v programovacím jazyce \texttt{Python}. Bylo nutné provést takové zmìny, aby bylo mo¾no pøímo pøi bìhu programu spustit aplikaci v programovacím \texttt{Java}. A upravit program tak, aby bylo mo¾no pøistupovat k jednotlivým souborùm uvnitø \texttt{arc} archivu. Dal¹ím problémem bylo, ¾e program \texttt{JHOVE2} neumo¾òuje vícenásobné spu¹tìní. Opakovaná inicializace by v¹ak byla výpoèetnì velmi nároèná\footnote{Typický archiv je má velikost 100 MB a obsahuje stovky a¾ tisíce souborù.}.
+Pøi úpravì nástroje \texttt{WARCTOOLS} staèilo upravit pouze \texttt{arc2warc.py}, který je implementovám v programovacím jazyce \texttt{Python}. Bylo nutné provést takové zmìny, aby bylo mo¾no pøímo pøi bìhu programu spustit aplikaci v programovacím \texttt{Java}. A upravit program tak, aby bylo mo¾no pøistupovat k jednotlivým souborùm uvnitø \texttt{arc} archivu. Dal¹ím problémem bylo, ¾e program \texttt{JHOVE2} neumo¾òuje vícenásobné spu¹tìní. Opakovaná inicializace by v¹ak byla výpoèetnì velmi nároèná\footnote{Typický archiv je má velikost 100 MB a obsahuje stovky a¾ tisíce souborù.}.
 
 Pro úèely spou¹tìní \texttt{Java} aplikace v rámci rámci skriptu v jazyce \texttt{Python} bylo tøeba vybrat vhodný nástroj. Vybíral jsem mezi nástroji \texttt{Jpype} a \texttt{Jython}\footnote{Webové stránky projektu \texttt{JYTHON} dostupné online na adrese \texttt{http://www.jython.org}.}. Nástroj Jpype umo¾òuje spu¹tìní \texttt{Java Virtual Machine} uvnitø skriptu v jazyce \texttt{Python}, oproti tomu nástroj \texttt{Jython} spustí \texttt{Java Virtual Machine} je¹tì pøed samotným vykonáváním skrip\-tu. Nakonec jsem zvolil nástroj \texttt{Jpype}, který mi pøi¹el vhodnìj¹í. Hlavnì proto¾e v dobì volby nástroje jsem se domníval, ¾e budu potøebovat spou¹tìt \texttt{Java Virtual Machine} vícekrát bìhem prùbìhu skriptu.
 
 Pùvodní program pøevádí \texttt{arc} archiv tak, ¾e pøedìlá metadata uvnitø archivu a jeho obsah -- soubory v nìm obsa¾ené -- jako \texttt{bytestream} pøevede do nového \texttt{warc} archivu. Mùj výsledný upravený program pracuje tak, ¾e bìhem pøevodu archivu provede pomocí regulárního výrazu filtrování jednotlivých souborù uvnitø archivu. Ty ulo¾í do doèasného adresáøe. Potom, co je \texttt{warc} archiv vytvoøený, spustí se \texttt{JHOVE2}, který provede analýzu v¹ech doèasnì souborù -- kopií souboru uvnitø archivu. Nakonec jsou soubory z doèasného adresáøe odstranìny.
 
-Ukázku upraveného programu \texttt{arc2warc.py} pod názvem \texttt{arc2warc\-\_jhove2.py} nabízím v \texttt{pøíloze AL na s. \pageref{pr:al}}, kde jsou i moje komentáøe k úpravám zdrojového kódu.
+Upravený program \texttt{arc2warc.py} pod názvem \texttt{arc2warc\-\_jhove2.py} nabízím v \texttt{pøíloze AL na s. \pageref{pr:al}}, kde jsou i moje komentáøe k úpravám zdrojového kódu.
 \subsection{Úprava pro krokové testování ka¾dého souboru v archivu}
 Tato varianta umo¾òuje bìhem testování obsahu archivu provádìt dal¹í operace. Pøi migraci archivu dochází k tomu, ¾e pøed tím, ne¾ nástroj \texttt{arc2warc} vlo¾í do nového \texttt{warc} archivu soubor z pùvodního archivu, provede se analýza daného souboru pomocí nástroje \texttt{JHOVE2}.
 
@@ -184,17 +199,17 @@ V praxi bude tato varianta mého programu umo¾òovat provedení rozhodování o tom, 
 \subsubsection{Úprava \texttt{JHOVE2}}
 Postupoval jsem podobnì jako v pøípadì první úpravy. Moje nová tøída je spu¹tìna pøímo z programu \texttt{arc2warc.py}. Poté co inicializuje nástroj \texttt{JHOVE2} pøedává mu pomocí metody \texttt{runJHOVE2Loop} jednotlivé soubory k testování. Mnou implementovaná tøída tedy opìt umo¾òuje testování více souborù, pøièem¾ není nutné spou¹tì \texttt{JHOVE2} vícekrát.
 
-Ukázku této tøídy je mo¾no najít v \texttt{pøíloze AU a na s. \pageref{pr:au}}. 
+Ukázku této tøídy je mo¾no najít v \texttt{pøíloze AU a na s. \pageref{pr:au}}, kompletní implementovaný nástroj je k nalezení v \texttt{pøíloze AW na s. \pageref{pr:aw}}.
 \subsubsection{Úprava \texttt{WARCTOOLS / hanzo}}
 Opìt jsem pøi implementaci postupoval podobnì jako v první variantì implementace. Rozdíl spoèívá pouze v tom, ¾e volám nástroj \texttt{JHOVE2} z tìla skriptu \texttt{arc2warc} pøedtím, ne¾ je provedeno zaøazení souboru do nového archivu. 
 
-Ukázku upraveného programu pod názvem \texttt{arc2warc\_loop\_jhove2.py} nabízím v \texttt{pøíloze AV na s. \pageref{pr:av}}, kde jsou i moje komentáøe k úpravám zdrojového kódu.
+Upravený program pod názvem \texttt{arc2warc\_loop\_jhove2.py} nabízím v \texttt{pøíloze AV na s. \pageref{pr:av}}, kde jsou i moje komentáøe k úpravám zdrojového kódu.
 \section{Výstupy z analýzy obsahu pøevádìných archivù}
-Své programy \texttt{arc2warc\_jhove2.py} jsem otestoval pøi pøevodu nìkolika souborù \texttt{arc.gz}, které jsem pomocí nástroje \tecxttt{Heritrix} sám sklidil.
+Své programy \texttt{arc2warc\_jhove2.py} jsem otestoval pøi pøevodu nìkolika souborù \texttt{arc.gz}, které jsem pomocí nástroje \texttt{Heritrix} sám sklidil.
 \subsection{Úprava pro testování celého archivu}
 V \texttt{pøíloze AP na s. \pageref{pr:ap}} nabízím \texttt{warc} soubor, který vznil pøevodem testovacího \texttt{arc.gz} archivu z \texttt{pøílohy E na s. \pageref{pr:e}}. \texttt{Pøíloha AQ na s. \pageref{pr:aq}} obsahuje výstup z nástroje \texttt{JHOVE2} pro tuto testovací migraci.
 
-Jak se dalo pøedem oèekávat migrace spojená s testováním obsahu archivu je èasovì velmi nároèná. Pøi testování standardních 100 MB souborù \texttt{arc.gz} se èas migrace dosahoval témìø dvou minut, pøièem¾ pøevod neupraveným nástrojem -- bez pou¾ití programu \texttt{JHOVE2} -- trvá do 25 sekund.
+Jak se dalo pøedem oèekávat migrace spojená s testováním obsahu archivu je èasovì velmi nároèná. Pøi testování standardních 100 MB souborù \texttt{arc.gz} se èas migrace dosahoval témìø dvou minut, pøièem¾ pøevod neupraveným nástrojem -- bez pou¾ití programu \texttt{JHOVE2} -- trvá do 25 sekundy\footnote{Musím zdùraznit, ¾e jsem testování provádìl na svém osobním poèítaèi. Reálná èísla pøi pou¾ití nástroje na strojích WebArchivu by byla jistì rozdílná. Dùle¾itý je zde pouze pomìr èasu s u¾itím nástroje \texttt{JHOVE2} a bez nìj.}.
 
 Hlavním problémem je zde tedy èasová nároènost programu \texttt{JHOVE2}. Rovnì¾ manipulace s analýzou bude velmi nároèná, jeliko¾ výstupní soubor z analýzy dosahuje velikosti 42 MB. Velikost výstupního souboru i èas operace je samozøejmì pøímo úmìrný poètu souborù obsa¾ených v archivu. 
 \subsection{Úprava pro krokové testování ka¾dého souboru v archivu}
@@ -207,5 +222,5 @@ Jak jsem zjistil, nástroje \texttt{WARCTOOLS / hanzo} i \texttt{WARCTOOLS / kpk0
 
 Nástroj se pokusí o pøevod zadaného \texttt{arc.gz} souboru, pøièemz do souboru s názvem \texttt{arc2warc\_debug.log} ulo¾í informace o pøevodu. Pokud pøevod havaruje, dá se v logovacím souboru dohledat, který záznam byl pøed havárií naposledy úspì¹nì pøeveden. Podle toho pak lze jednodu¹e v indexu archivu dohledat, na kterém záznamu migrace havarovala.
 
-V \texttt{pøíloze AS na s. \pageref{pr:as}} je k dohledání øádek z \texttt{CDX indexu}, který odpovídá souboru, na kterém se pøevod zastavil. Zde se jedná o \texttt{text/html} soubor, ale v jiném testovaném archivu se zastavil na \texttt{image/jpeg} souboru -- viz \texttt{pøíloha AT na s. \pageref{pr:at}}.
+V \texttt{pøíloze AS na s. \pageref{pr:as}} je k dohledání øádek z \texttt{CDX indexu}, který odpovídá souboru, na kterém se pøevod zastavil. Zde jde o \texttt{text/html} soubor, ale v jiném testovaném archivu se zastavil na \texttt{image/jpeg} souboru -- viz \texttt{pøíloha AT na s. \pageref{pr:at}}.
 

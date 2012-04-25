@@ -64,9 +64,19 @@ Nástroj tedy poskytuje velký potenciál pro vyu¾ití v pøi øe¹ení problému s archi
  \cite{JHOVE2}
 
 \subsection{\texttt{Jpype}}
-Nástroj umo¾òující spu¹tìní programù napsaných v programovacím jazyce \texttt{Java} v rámci programu napsaného v programovacím jazyce \texttt{Python}. Pou¾ití tohoto nástroje bylo nutné kvùli tomu, ¾e nástroje pro migraci arc archivù jsou psány v programovacím jazyce \texttt{Python}, ale \texttt{JHOVE2} je programován jazyce \texttt{Java}.
+Nástroj umo¾òující spu¹tìní programù napsaných v programovacím jazyce \texttt{Java} v rámci programu napsaného v programovacím jazyce \texttt{Python}. 
 
-Nástroj v podstatì umo¾ní spu¹tìní \texttt{Java Virtual Machine}\footnote{Webové stránky \texttt{Java} dostupné online na adrese \texttt{http://www.java.com}.} uvnitø \texttt{Python} skriptu a následnì práci s Java aplikací. Nástroj je dostupný volnì ke sta¾ení na webových stránkách\footnote{Webové stránky projektu \texttt{Jpype} dostupná online na adrese \texttt{http://jpype.sourceforge.net}.} jeho vývojáøù. Jeho vyu¾ití bylo zásadní pro mo¾nost testování pøevádìných \texttt{arc} archivù. V \texttt{pøíloze AI na s. \pageref{pr:ai}} je archiv s nástrojem \texttt{Jpype}.
+Pou¾ití tohoto nástroje bylo nutné kvùli tomu, ¾e nástroje pro migraci \texttt{arc} archivù jsou psány v programovacím jazyce \texttt{Python}, ale \texttt{JHOVE2} je programován v jazyce \texttt{Java}.
+
+Nástroj v podstatì umo¾ní spu¹tìní \texttt{Java Virtual Machine}\footnote{Webové stránky \texttt{Java} dostupné online na adrese \texttt{http://www.java.com}.} uvnitø \texttt{Python} skriptu a následnì práci s Java aplikací.
+
+Je samozøejmé, ¾e implementace takového programu, který musí vyu¾ívat více programovacích jazykù najednou, je problematické z hlediska efektivity. Efektinìj¹í a elegantnìj¹í by samozøejmì byl nástroj, který je implementován jedním programovacím jazykem\footnote{Toto tvrzení není nutnì pravdivé. Samozøejmì existují softwarová øe¹ení, která dosahují vy¹¹í efektivity právì tím, ¾e kombinují rùzné programovací jazyky. To v¹ak není pøípad nástroje, který je potøeba implementovat pro potøeby WebArchivu}.
+
+Ale vzhledem k tomu, ¾e je vìt¹ina vývojáøù projektù, které pracují na archivaci webu, rozsáhlá a nestejnorodá, není mo¾né tento po¾adavek splnit. Zpravdila si ka¾dý øe¹itelský tým jednodu¹e implementuje své nástroje. Pokud je pak chce jiný tým pøejmout a u¾ívat, musí se s z toho plynoucímy problémy vypoøádat.
+ 
+Celkovì jde ale øíci, ¾e pou¾itím nástroje \texttt{Jpype} pro spojení nástrojù \texttt{warctools} a \texttt{JHOVE2} nevede k nìjakému razatnímu zeslo¾itìní techniky migrace archivu, jeliko¾ je nástroj je implementován efektivnì. Navíc v podstatì neexistuje jiná varianta, tedy mimo implementace vlastních nástrojù, co¾ by ale bylo velmi nároèné, a snad i zbyteèné, jeliko¾ napøíklad nástroj \texttt{JHOVE2} je standardní, efektivní a velmi robusní nástroj.
+
+Nástroj je dostupný volnì ke sta¾ení na webových stránkách\footnote{Webové stránky projektu \texttt{Jpype} dostupná online na adrese \texttt{http://jpype.sourceforge.net}.} jeho vývojáøù. Jeho vyu¾ití bylo zásadní pro implementaci analýzy obsahu pøevádìných \texttt{arc} archivù. V \texttt{pøíloze AI na s. \pageref{pr:ai}} je archiv s nástrojem \texttt{Jpype}.
 
 \section{Testování migraèních nástrojù}
 Migraci realizuji pomocí nìkolika variant nastrojù \texttt{WARC-TOOLS}. Pokusím se pøevést vzorek arc archivù a porovnat výsledky. Z informací, které získám pokusím poukázat na výhody a nevýhody jednotlivých nástrojù.
@@ -155,7 +165,7 @@ Server, na kterém jsou oba nástroje umístìny, umo¾òuje pøímé porovnávání pomocí 
 \end{itemize}
 
 \section{Závìry z porovnávání nástrojù}
-Na základì porovnání jednotlivých nástrojù, které rozvádím v pøedcházející kapitole, jsem po poradì se svým vedoucím, Mgr. Václevem Roseckým, do¹el k závìru, ¾e nejlep¹ím nástrojem pro pøípadný pøevod webového archivu bude nástroj \texttt{WARCTOOLS / hanzo}.
+Na základì porovnání jednotlivých nástrojù, které rozvádím v pøedcházející kapitole, jsem po poradì se svým vedoucím, Mgr. Václavem Roseckým, do¹el k závìru, ¾e nejlep¹ím nástrojem pro pøípadný pøevod webového archivu bude nástroj \texttt{WARCTOOLS / hanzo}.
 
 Hlavní výhoda tohoto nástroje je to, ¾e je neustále vyvíjen a za jeho vývojem stojí organizace Hanzo Archives.
 
