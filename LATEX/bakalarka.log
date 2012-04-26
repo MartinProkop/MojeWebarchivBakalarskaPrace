@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  26 APR 2012 22:12
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  26 APR 2012 22:30
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -788,14 +788,14 @@ ní \IL2/lmtt/m/n/12 WARC-TOOLS[][][]\IL2/lmr/m/n/12 .
 
 
 Overfull \hbox (5.6612pt too wide) in paragraph at lines 114--115
-[]\IL2/lmr/m/n/12 V \IL2/lmtt/m/n/12 pøíloze W na s. []63[] \IL2/lmr/m/n/12 je 
+[]\IL2/lmr/m/n/12 V \IL2/lmtt/m/n/12 pøíloze W na s. []64[] \IL2/lmr/m/n/12 je 
 k na-le-zení do-ku-men-tace ná-stroje. \IL2/lmtt/m/n/12 Pøíloha
  []
 
 [40]
 Overfull \hbox (0.30045pt too wide) in paragraph at lines 133--135
 \IL2/lmtt/m/n/12 / hanzo[][][]\IL2/lmr/m/n/12 . V \IL2/lmtt/m/n/12 pøíloze Z na
- s. []64[] \IL2/lmr/m/n/12 je k na-le-zení do-ku-men-tace ná-stroje.
+ s. []65[] \IL2/lmr/m/n/12 je k na-le-zení do-ku-men-tace ná-stroje.
  []
 
 [41]
@@ -918,7 +918,7 @@ Overfull \vbox (2.91663pt too high) has occurred while \output is active []
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 65.
+(hyperref)                removing `\textasciicaron' on input line 68.
 
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1370,10 +1370,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4925 strings out of 495027
- 71994 string characters out of 1181419
- 143974 words of memory out of 3000000
- 7619 multiletter control sequences out of 15000+50000
+ 4928 strings out of 495027
+ 72036 string characters out of 1181419
+ 143971 words of memory out of 3000000
+ 7621 multiletter control sequences out of 15000+50000
  47874 words of font info for 46 fonts, out of 3000000 for 9000
  38 hyphenation exceptions out of 8191
  38i,8n,42p,1079b,445s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1390,9 +1390,9 @@ msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtto10.pfb>
-Output written on bakalarka.pdf (76 pages, 674383 bytes).
+Output written on bakalarka.pdf (76 pages, 675726 bytes).
 PDF statistics:
- 1362 PDF objects out of 1440 (max. 8388607)
- 347 named destinations out of 1000 (max. 500000)
- 801 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1371 PDF objects out of 1440 (max. 8388607)
+ 348 named destinations out of 1000 (max. 500000)
+ 817 words of extra memory for PDF output out of 10000 (max. 10000000)
 
