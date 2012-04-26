@@ -1,0 +1,65 @@
+\chapter{Implementace úprav v migraèních nástrojích}
+\section{Úvod}
+Mým úkolem bylo najít zpùsob, jak pøi procesu migrace na \texttt{warc} archiv zjistit obsah pùvodního archivu. To znamená, ¾e jsem mìl v prùbìhu migrace provést analýzu obsahu archivu. V prùbìhu pøevodu znamená taková analýza nejmen¹í re¾ii, oproti dodateènému provádìní takové analýzy. Navíc by analýza mohla potencionálnì ovlivnit samotný pøevod, jeliko¾ by v pøípadì nutnosti bylo mo¾no zmìnit obsah pøevádìného archivu, pøed tím ne¾ bude ulo¾en do \texttt{warc} archovu.
+
+Z toho dùvodu jsem musel provést nìkolik zmìn v programu \texttt{JHOVE2} i nástroji \texttt{WARCTOOLS}, respektive jsem zmìnu provedl jen v nástroji \texttt{WARCTOOLS / hanzo}. Zmìna v ostatních nástrojích \texttt{WARCTOOLS} by znamenala obdobné zásahy do zdrojového kódu, a pravdìpodobnì by vedla je stejným výsledkùm, jak vyplývá z mého porovnání nástrojù.
+
+Úprava umo¾òuje bìhem testování obsahu archivu provádìt dal¹í operace. Pøi migraci archivu dochází k tomu, ¾e pøed tím, ne¾ nástroj \texttt{arc2warc} vlo¾í do nového \texttt{warc} archivu soubor z pùvodního archivu, provede se analýza daného souboru pomocí nástroje \texttt{JHOVE2}.
+
+V praxi bude tato varianta mého programu umo¾òovat provedení rozhodování o tom, zda daný soubor pøidat do nového \texttt{warc} archivu, nebo ho vylouèit, nebo s ním umo¾ní provádìt dal¹í operace. Výstup migrace tak tvoøí nový \texttt{warc} archiv a jednotlivé analýzy v¹ech souborù obsa¾ených v archivu.
+\section{Úprava \texttt{JHOVE2}}
+Program \texttt{JHOVE2} je implementován v programovacím jazyce \texttt{Java}. Jeliko¾ je napsán tak, aby ho bylo mo¾né spou¹tìt z pøíkazového øádku, musel jsem provést zmìny, který by mi umo¾nili spou¹tìt jej pøímo z tìla programu \texttt{WARCTOOLS}. Bylo tedy nutno implementovat v rámci programu \texttt{JHOVE2} dal¹í tøídu.
+
+Moje nová tøída je spu¹tìna pøímo z programu \texttt{arc2warc.py}\footnote{Souèást nástroje WARCTOOLS, která je urèena k migraci archivù. Do jiných programù v rámci WARCTOOLS jsem nemusel zasahovat.}. Poté co inicializuje nástroj \texttt{JHOVE2} pøedává mu pomocí metody \texttt{runJHOVE2Loop} jednotlivé soubory k testování. Mnou implementovaná tøída tedy opìt umo¾òuje testování více souborù, pøièem¾ není nutné spou¹tì \texttt{JHOVE2} vícekrát.
+
+Pøi implementaci jsem objevil ne pøíli¹ vá¾nou chybu v nástroji: nástroj vypisuje nìkteré chybové hlá¹ky standardní výstup. Chyba by byla záva¾ná, pokud by se na ní nepøi¹lo a bìhem provádìní migraèního nástroje by se chybové hlá¹ky vypisovali do tìla \texttt{warc} archivu. V takovém pøípadì by mohlo dojít ke zbyteènému po¹kození archivu. Tuto chybu jsem tedy jednodu¹e odstranil pøejmìrováním výstupù do souboru.
+
+Dále jsem zjistil, ¾e nástroj pøi pou¾ívání modulu \texttt{XmlFormat} zpracovává nìteré soubory neúmìrnì dlouho. Jednalo se o soubory, které obsahovali napøíklad data ve formì \texttt{CDATA}. Proto mi vedoucí práce, mgr. Václav Rosecký, doporuèil daný modul odstranit. jeho absence nebude mít výrazný vliv na validování obsahu souborù.
+
+Poslední problém, který jsem objevil u nástroje \texttt{JHOVE2} je to, ¾e v nìm vzniká výjimka pøi testování archivù. Bylo kvùli tomu nutné upravit nástroj \texttt{arc2warc.py}, tak aby výjimky neohrozili bìh migrace.
+
+Ukázku této tøídy je mo¾no najít v \texttt{pøíloze AU a na s. \pageref{pr:au}}, kompletní implementovaný nástroj je k nalezení v \texttt{pøíloze AW na s. \pageref{pr:aw}}.
+
+\section{Úprava \texttt{WARCTOOLS / hanzo}}
+Pøi úpravì nástroje \texttt{WARCTOOLS} staèilo upravit pouze \texttt{arc2warc.py}, který je implementovám v programovacím jazyce \texttt{Python}. Bylo nutné provést takové zmìny, aby bylo mo¾no pøímo pøi bìhu programu spustit aplikaci v programovacím \texttt{Java}. A upravit program tak, aby bylo mo¾no pøistupovat k jednotlivým souborùm uvnitø \texttt{arc} archivu. Dal¹ím problémem bylo, ¾e program \texttt{JHOVE2} neumo¾òuje vícenásobné spu¹tìní. Opakovaná inicializace by v¹ak byla výpoèetnì velmi nároèná\footnote{Typický archiv je má velikost 100 MB a obsahuje stovky a¾ tisíce souborù.}.
+
+Pro úèely spou¹tìní \texttt{Java} aplikace v rámci rámci skriptu v jazyce \texttt{Python} bylo tøeba vybrat vhodný nástroj. Vybíral jsem mezi nástroji \texttt{Jpype} a \texttt{Jython}\footnote{Webové stránky projektu \texttt{JYTHON} dostupné online na adrese \texttt{http://www.jython.org}.}. Nástroj Jpype umo¾òuje spu¹tìní \texttt{Java Virtual Machine} uvnitø skriptu v jazyce \texttt{Python}, oproti tomu nástroj \texttt{Jython} spustí \texttt{Java Virtual Machine} je¹tì pøed samotným vykonáváním skrip\-tu. Nakonec jsem zvolil nástroj \texttt{Jpype}, který mi pøi¹el vhodnìj¹í. Hlavnì proto¾e v dobì volby nástroje jsem se domníval, ¾e budu potøebovat spou¹tìt \texttt{Java Virtual Machine} vícekrát bìhem prùbìhu skriptu.
+
+Pùvodní program pøevádí \texttt{arc} archiv tak, ¾e pøedìlá metadata uvnitø archivu a jeho obsah -- soubory v nìm obsa¾ené -- jako \texttt{bytestream} pøevede do nového \texttt{warc} archivu. Mùj výsledný upravený program pracuje tak, ¾e bìhem pøevodu archivu provede pomocí regulárního výrazu filtrování jednotlivých souborù uvnitø archivu. Ty ulo¾í do doèasného adresáøe a volá na nì nástroj \texttt{JHOVE2} z tìla skriptu \texttt{arc2warc} pøedtím, ne¾ je provedeno zaøazení souboru do nového archivu. Nakonec jsou soubory z doèasného adresáøe odstranìny.
+
+Upravený program pod názvem \texttt{arc2warc\_loop\_jhove2.py} nabízím v \texttt{pøíloze AV na s. \pageref{pr:av}}, kde jsou i moje komentáøe k úpravám zdrojového kódu.
+\section{Výstupy z analýzy obsahu pøevádìných archivù}
+Své programy \texttt{arc2warc\_jhove2.py} jsem otestoval pøi pøevodu nìkolika souborù \texttt{arc.gz}, které jsem pomocí nástroje \texttt{Heritrix} sám sklidil. V \texttt{pøíloze AP na s. \pageref{pr:ap}} nabízím \texttt{warc} soubor, který vznil pøevodem testovacího \texttt{arc.gz} archivu z \texttt{pøílohy E na s. \pageref{pr:e}}. 
+
+Jak se dalo pøedem oèekávat migrace spojená s testováním obsahu archivu je èasovì velmi nároèná. V následující tabulce podávám pøehled výsledkù testování. Je evidentní, ¾e migrace bez analýzy archivu pomocí nástroje \texttt{JHOVE2} bude mnohem rychlej¹í.\footnote{Musím zdùraznit, ¾e jsem testování provádìl na svém osobním poèítaèi s parametry: \texttt{Intel Core 2 Duo CPU T7100 @ 1.80GHz * 2, 2 GB RAM, Linux 3.0.0-19-generic 32-bit}. Reálná èísla pøi pou¾ití nástroje na strojích WebArchivu by byla jistì rozdílná. Dùle¾itý je zde pouze pomìr èasu s u¾itím nástroje \texttt{JHOVE2} a bez nìj.}.
+
+Ke zefektivnìní nástroje by se pravdìpodobnì dalo dojít tak, ¾e by se v rámci nástroje \texttt{JHOVE2} implementovala tøída, která by umo¾nila pøímou charakterizaci souborù, bez nutnosti vytváøení doèasných souborù na disku. Taková zmìna v¹ak není vzhledem k rozsahu nástroj \texttt{JHOVE2} jednoduchá. V souèasné implementace funguje nástroj tak, ¾e i kdy¾ dostane na vstup \texttt{bytestream}, vytvoøí z nìj doèasný soubor. Nástroj \texttt{JHOVE2} je vyvíjen týmem lidí, který mìl zøejmì dùvod takouto u¾iteènou funkcionalitu neimplementovat.
+
+V následující tabulce uvádím èasy na zpracování zpracování archivù a poznámky z testovaných archivù. Pou¾il jsem rùzné archivy z repozitáøe WebArchivu. V¹echny mìli 100 MB. U nìkterých neuvádím èas validace vzniklého \texttt{warc} archivu. Jedná se o ty, které migraèní nástroj nepøevedl správnì -- haváriím pøevodu se vìnuji v následující kapitole.
+\begin{table}[htbp!]
+\caption{Analýza migrace souborù}
+\label{tabulka_obsahu_webarchivu}
+\begin{center}
+\begin{tabular}{|l||c|c|c|c|c|}
+\hline
+\textbf{Pokus}&\textbf{Souborù}&\textbf{\texttt{WARCTOOLS}}&\textbf{\texttt{JHOVE2}}&\textbf{validace}\\
+\hline
+1	&	3 682&	31 s&	2 m 50 s&	10 s\\
+2	&	4 045&	32 s&	2 m 25 s&	12 s\\
+3	&	6 382&	31 s&	2 m 10 s&	x\\
+\hline
+Prùmìr	&	&	&	&	\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\section{Havárie nástroje}
+
+\section{Dal¹í nástroje sady \texttt{WARCTOOLS / hanzo}}
+\subsection{\texttt{warcindex.py}}
+
+\subsection{\texttt{warcvalid.py}}
+
+
+\section{Doporuèení pro implementaci}
