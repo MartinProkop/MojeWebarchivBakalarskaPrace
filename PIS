@@ -1,33 +1,18 @@
 
-
-havarie !!! - neni i havarie o CRLF?  - to bude kvuli tomu ze se neuzije prepinac -o ale >
-
-
-POUZIVEJ > je to v tom podle toho jestli uziju prepinac -o nebo > se meni chyby...tedy je tam ruzny obsah v archivech a jak ja davam vystup tak se tam hazou clrf asi
+HAVARII pusobi CRLF. Pisu o tom mail - chyba je v tom, ze pres ruzne vystupy haze ruzne chyby "-o" nebo ">"
 
 
-NECO S NEWLINE, ALE CO?
+Testovani castu prevodu+warcvalid do tabulky - do tabulky
 
-
-
-Pak jeste havarie na ZIPU uvnitř safra - jen napiš že vyhazuje exception pry zipy
-
-
-
-
-Testovani castu prevodu do tabulky - do tabulky
-
-Otestuj warcvalid - rychlost: pro archivy
 
 Napis mail.
 
-exception u zipu
 
-UPRAV PAK ZPETNE ARC2warc, warcvalid
+
 
 
 PRILOHY:
-
+UPRAV PAK ZPETNE ARC2warc, warcvalid : ./../temp
 NAKPIRUJ PAK NOVY WARCTOOLS/HANZO - ARCHIV
 HLAVNI SOUBOR - i arc2warc_jhove, arc2warc
 
@@ -36,4 +21,6 @@ porovnej novy a stary hanzo
 porovnani cdxindex a warcindex jakoze jsou totozne napis
 PRAZDNA AK, AL, AR,AS,AT,AQ! priloha
 ABSTRACT!
-doporuš WARCVALID
+doporuš WARCVALID!
+UPRAV ZAVER
+doporučení

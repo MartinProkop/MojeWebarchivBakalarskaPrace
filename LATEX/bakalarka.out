@@ -64,7 +64,7 @@
 \BOOKMARK [2][-]{subsection.3.4.4}{ Nev\375hody warc pro WebArchiv}{section.3.4}
 \BOOKMARK [2][-]{subsection.3.4.5}{ Pl\341novan\351 vyu\236it\355}{section.3.4}
 \BOOKMARK [2][-]{subsection.3.4.6}{ Deduplikace souboru}{section.3.4}
-\BOOKMARK [0][-]{chapter.4}{Migrace archivu z form\341tu arc do form\341tu warc}{}
+\BOOKMARK [0][-]{chapter.4}{Migracn\355 n\341stroje}{}
 \BOOKMARK [1][-]{section.4.1}{ O migraci}{chapter.4}
 \BOOKMARK [2][-]{subsection.4.1.1}{ \332vod}{section.4.1}
 \BOOKMARK [2][-]{subsection.4.1.2}{ Britsk\341 knihovna}{section.4.1}
@@ -88,14 +88,14 @@
 \BOOKMARK [2][-]{subsection.4.4.1}{ Porovn\341n\355 v\375stupu pro stejn\351 vstupy}{section.4.4}
 \BOOKMARK [2][-]{subsection.4.4.2}{ Porovn\341n\355 zdrojov\351ho k\363du}{section.4.4}
 \BOOKMARK [1][-]{section.4.5}{ Z\341very z porovn\341v\341n\355 n\341stroju}{chapter.4}
-\BOOKMARK [1][-]{section.4.6}{ Implementace \372prav v migracn\355ch n\341stroj\355ch}{chapter.4}
-\BOOKMARK [2][-]{subsection.4.6.1}{ \332vod}{section.4.6}
-\BOOKMARK [2][-]{subsection.4.6.2}{ \332prava pro krokov\351 testov\341n\355 ka\236d\351ho souboru v archivu}{section.4.6}
-\BOOKMARK [3][-]{section*.18}{ \332prava JHOVE2}{subsection.4.6.2}
-\BOOKMARK [3][-]{section*.19}{ \332prava WARCTOOLS / hanzo}{subsection.4.6.2}
-\BOOKMARK [1][-]{section.4.7}{ V\375stupy z anal\375zy obsahu prev\341den\375ch archivu}{chapter.4}
-\BOOKMARK [2][-]{subsection.4.7.1}{ \332vod}{section.4.7}
-\BOOKMARK [2][-]{subsection.4.7.2}{ Anal\375za hav\341ri\355 pri migraci archivu}{section.4.7}
-\BOOKMARK [2][-]{subsection.4.7.3}{ Efektivita}{section.4.7}
-\BOOKMARK [2][-]{subsection.4.7.4}{ Z\341ver}{section.4.7}
-\BOOKMARK [0][-]{chapter.5}{Z\341ver}{}
+\BOOKMARK [0][-]{chapter.5}{Implementace \372prav v migracn\355ch n\341stroj\355ch}{}
+\BOOKMARK [1][-]{section.5.1}{ \332vod}{chapter.5}
+\BOOKMARK [1][-]{section.5.2}{ \332prava JHOVE2}{chapter.5}
+\BOOKMARK [1][-]{section.5.3}{ \332prava WARCTOOLS / hanzo}{chapter.5}
+\BOOKMARK [1][-]{section.5.4}{ V\375stupy z anal\375zy obsahu prev\341den\375ch archivu}{chapter.5}
+\BOOKMARK [1][-]{section.5.5}{ Hav\341rie n\341stroje}{chapter.5}
+\BOOKMARK [1][-]{section.5.6}{ Dal\235\355 n\341stroje sady WARCTOOLS / hanzo}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.6.1}{ warcindex.py}{section.5.6}
+\BOOKMARK [2][-]{subsection.5.6.2}{ warcvalid.py}{section.5.6}
+\BOOKMARK [1][-]{section.5.7}{ Doporucen\355 pro implementaci}{chapter.5}
+\BOOKMARK [0][-]{chapter.6}{Z\341ver}{}

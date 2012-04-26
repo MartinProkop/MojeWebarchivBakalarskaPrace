@@ -65,38 +65,38 @@
 \contentsline {subsection}{\numberline {3.4.4}\rmfamily Nev\'yhody \texttt {warc} pro WebArchiv}{31}{subsection.3.4.4}
 \contentsline {subsection}{\numberline {3.4.5}\rmfamily Pl\'anovan\'e vyu\v zit\IeC {\'\i }}{31}{subsection.3.4.5}
 \contentsline {subsection}{\numberline {3.4.6}\rmfamily Deduplikace soubor\r u}{31}{subsection.3.4.6}
-\contentsline {chapter}{\numberline {4}\bfseries Migrace archivu z form\'atu \texttt {arc} do form\'atu \texttt {warc}}{33}{chapter.4}
+\contentsline {chapter}{\numberline {4}\bfseries Migra\v cn\IeC {\'\i } n\'astroje}{33}{chapter.4}
 \contentsline {section}{\numberline {4.1}\slshape O migraci}{33}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}\rmfamily \'Uvod}{33}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}\rmfamily Britsk\'a knihovna}{34}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.2}\rmfamily Britsk\'a knihovna}{33}{subsection.4.1.2}
 \contentsline {section}{\numberline {4.2}\slshape Pou\v zit\'e n\'astroje}{34}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}\rmfamily \texttt {JHOVE}}{34}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}\rmfamily \texttt {JHOVE2}}{35}{subsection.4.2.2}
 \contentsline {subsubsection}{ \'Uvod}{35}{section*.10}
 \contentsline {subsubsection}{ Podrobn\v ej\v s\IeC {\'\i } informace JHOVE2}{36}{section*.11}
-\contentsline {subsection}{\numberline {4.2.3}\rmfamily \texttt {Jpype}}{38}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}\slshape Testov\'an\IeC {\'\i } migra\v cn\IeC {\'\i }ch n\'astroj\r u}{39}{section.4.3}
+\contentsline {subsection}{\numberline {4.2.3}\rmfamily \texttt {Jpype}}{37}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}\slshape Testov\'an\IeC {\'\i } migra\v cn\IeC {\'\i }ch n\'astroj\r u}{38}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}\rmfamily \texttt {WARC-TOOLS}}{39}{subsection.4.3.1}
 \contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{39}{section*.12}
 \contentsline {subsubsection}{ Dal\v s\IeC {\'\i } parametry}{40}{section*.13}
 \contentsline {subsection}{\numberline {4.3.2}\rmfamily \texttt {WARC-TOOLS / hanzo}}{40}{subsection.4.3.2}
-\contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{41}{section*.14}
+\contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{40}{section*.14}
 \contentsline {subsubsection}{ Dal\v s\IeC {\'\i } parametry}{41}{section*.15}
 \contentsline {subsection}{\numberline {4.3.3}\rmfamily \texttt {WARC-TOOLS / kpk09}}{41}{subsection.4.3.3}
-\contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{42}{section*.16}
+\contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{41}{section*.16}
 \contentsline {subsubsection}{ Dal\v s\IeC {\'\i } parametry}{42}{section*.17}
-\contentsline {section}{\numberline {4.4}\slshape Podobnost \texttt {WARCTOOLS / hanzo s kpk09}}{43}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}\rmfamily Porovn\'an\IeC {\'\i } v\'ystup\r u pro stejn\'e vstupy}{43}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.4}\slshape Podobnost \texttt {WARCTOOLS / hanzo s kpk09}}{42}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}\rmfamily Porovn\'an\IeC {\'\i } v\'ystup\r u pro stejn\'e vstupy}{42}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}\rmfamily Porovn\'an\IeC {\'\i } zdrojov\'eho k\'odu}{43}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}\slshape Z\'av\v ery z porovn\'av\'an\IeC {\'\i } n\'astroj\r u}{44}{section.4.5}
-\contentsline {section}{\numberline {4.6}\slshape Implementace \'uprav v migra\v cn\IeC {\'\i }ch n\'astroj\IeC {\'\i }ch}{44}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}\rmfamily \'Uvod}{44}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}\rmfamily \'Uprava pro krokov\'e testov\'an\IeC {\'\i } ka\v zd\'eho souboru v archivu}{45}{subsection.4.6.2}
-\contentsline {subsubsection}{ \'Uprava \texttt {JHOVE2}}{45}{section*.18}
-\contentsline {subsubsection}{ \'Uprava \texttt {WARCTOOLS / hanzo}}{46}{section*.19}
-\contentsline {section}{\numberline {4.7}\slshape V\'ystupy z anal\'yzy obsahu p\v rev\'ad\v en\'ych archiv\r u}{47}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}\rmfamily \'Uvod}{47}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}\rmfamily Anal\'yza hav\'ari\IeC {\'\i } p\v ri migraci archivu}{47}{subsection.4.7.2}
-\contentsline {subsection}{\numberline {4.7.3}\rmfamily Efektivita}{47}{subsection.4.7.3}
-\contentsline {subsection}{\numberline {4.7.4}\rmfamily Z\'av\v er}{48}{subsection.4.7.4}
-\contentsline {chapter}{\numberline {5}\bfseries Z\'av\v er}{49}{chapter.5}
+\contentsline {section}{\numberline {4.5}\slshape Z\'av\v ery z porovn\'av\'an\IeC {\'\i } n\'astroj\r u}{43}{section.4.5}
+\contentsline {chapter}{\numberline {5}\bfseries Implementace \'uprav v migra\v cn\IeC {\'\i }ch n\'astroj\IeC {\'\i }ch}{45}{chapter.5}
+\contentsline {section}{\numberline {5.1}\slshape \'Uvod}{45}{section.5.1}
+\contentsline {section}{\numberline {5.2}\slshape \'Uprava \texttt {JHOVE2}}{46}{section.5.2}
+\contentsline {section}{\numberline {5.3}\slshape \'Uprava \texttt {WARCTOOLS / hanzo}}{46}{section.5.3}
+\contentsline {section}{\numberline {5.4}\slshape V\'ystupy z anal\'yzy obsahu p\v rev\'ad\v en\'ych archiv\r u}{47}{section.5.4}
+\contentsline {section}{\numberline {5.5}\slshape Hav\'arie n\'astroje}{49}{section.5.5}
+\contentsline {section}{\numberline {5.6}\slshape Dal\v s\IeC {\'\i } n\'astroje sady \texttt {WARCTOOLS / hanzo}}{49}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}\rmfamily \texttt {warcindex.py}}{49}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}\rmfamily \texttt {warcvalid.py}}{49}{subsection.5.6.2}
+\contentsline {section}{\numberline {5.7}\slshape Doporu\v cen\IeC {\'\i } pro implementaci}{49}{section.5.7}
+\contentsline {chapter}{\numberline {6}\bfseries Z\'av\v er}{50}{chapter.6}
