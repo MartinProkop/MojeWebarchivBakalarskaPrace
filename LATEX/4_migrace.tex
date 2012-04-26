@@ -212,7 +212,23 @@ Své programy \texttt{arc2warc\_jhove2.py} jsem otestoval pøi pøevodu nìkolika so
 
 Jak se dalo pøedem oèekávat migrace spojená s testováním obsahu archivu je èasovì velmi nároèná. V následující tabulce podávám pøehled výsledkù testování. Je evidentní, ¾e migrace bez analýzy archivu pomocí nástroje \texttt{JHOVE2} bude mnohem rychlej¹í.\footnote{Musím zdùraznit, ¾e jsem testování provádìl na svém osobním poèítaèi s parametry: \texttt{Intel Core 2 Duo CPU T7100 @ 1.80GHz * 2, 2 GB RAM, Linux 3.0.0-19-generic 32-bit}. Reálná èísla pøi pou¾ití nástroje na strojích WebArchivu by byla jistì rozdílná. Dùle¾itý je zde pouze pomìr èasu s u¾itím nástroje \texttt{JHOVE2} a bez nìj.}.
 
-
 Ke zefektivnìní nástroje by se pravdìpodobnì dalo dojít tak, ¾e by se v rámci nástroje \texttt{JHOVE2} implementovala tøída, která by umo¾nila pøímou charakterizaci souborù, bez nutnosti vytváøení doèasných souborù na disku. Taková zmìna v¹ak není vzhledem k rozsahu nástroj \texttt{JHOVE2} jednoduchá. V souèasné implementace funguje nástroj tak, ¾e i kdy¾ dostane na vstup \texttt{bytestream}, vytvoøí z nìj doèasný soubor. Nástroj \texttt{JHOVE2} je vyvíjen týmem lidí, který mìl zøejmì dùvod takouto u¾iteènou funkcionalitu neimplementovat.
+
+\begin{table}[htbp!]
+\caption{Doby migrace souborù}
+\label{tabulka_obsahu_webarchivu}
+\begin{center}
+\begin{tabular}{|l||c|c|c|c|c|c|}
+\hline
+\textbf{Pokus}&\textbf{MB}&\textbf{Souborù}&\textbf{\texttt{WARCTOOLS}}&\textbf{\texttt{JHOVE2}}&\textbf{Èas validace}\\
+\hline
+1	&	100	&	3 682&	31 s&	2 m 50 s&	10 s\\
+1	&	100	&	3 682&	32 s&	46.35: 2 m 50 s&	10 s\\
+\hline
+Prùmìr	&	3 017 05	&	106 520	&	&	&	\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
 \subsection{Závìr}
 Závìr o analýze

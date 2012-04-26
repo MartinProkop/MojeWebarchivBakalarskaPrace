@@ -1,0 +1,86 @@
+Dobrý den,
+při používání nástroje WARCTOOLS jsem pravděpodobně objevil chybu.
+
+Při migraci souborů přes nástroj arc2warc dochází k chybám.
+
+U některých archivů vznikají nevalidní soubry. Závisí to na využití nástroje.
+
+Rozdíl je v tom, jestli se výstupní warc soubor definuje pomocí přepínače "-o" nebo užití přesměrování (symbol >).
+
+
+Pro některé archivy je výstupní warc soubor validní při užití varianty "-o" u jiných varianty ">". U Pro některé archivy hlásí warcvalidator při variantách různé chyby. Někdy
+[('incorrect trailing newline', '\r')] jindy [('incorrect trailing newline', '\r')]
+
+
+Pravděpodobně se jedná o závadu v souboru: warc.py
+
+Jedná se o kódování konců řádky.
+
+
+
+
+
+
+
+
+
+I have found a problem in warctools.
+
+ 
+
+An error occurred during the migration of arc.gz to warc.gz using the arc2warc.py program. Program sometimes crashs witt error:
+
+Traceback (most recent call last):
+  File "./arc2warc_debug.py", line 84, in
+    sys.exit(main(sys.argv))
+  File "./arc2warc_debug.py", line 53, in main
+    for record in fh:
+  File "/home/kovar/WEBARCHIV/TESTOVANI/tools/warc-tools_hanzo/warctools/stream.py", line 75, in __iter__
+    offset, record, errors = self._read_record(offsets=False)
+  File "/home/kovar/WEBARCHIV/TESTOVANI/tools/warc-tools_hanzo/warctools/stream.py", line 116, in _read_record
+    record, r_errors= self.record_parser.parse(self.gz)
+  File "/home/kovar/WEBARCHIV/TESTOVANI/tools/warc-tools_hanzo/warctools/arc.py", line 63, in parse
+    header_line = stream.readline()
+  File "/home/kovar/WEBARCHIV/TESTOVANI/tools/warc-tools_hanzo/warctools/stream.py", line 175, in readline
+    out = self.z.decompress(chunk)
+zlib.error: Error -3 while decompressing: incorrect header check
+ 
+ 
+File causing error is sent in attachment. (about 9 MB).
+ 
+ 
+An arc record has been found in the error causing file:
+ 
+ 
+ 
+Is there a problem with warcotools or do I do somthing wrong?
+
+
+
+
+
+
+
+http://code.google.com/p/warc-tools/issues/entry
+
+ 
+
+OTESTUJ JESTLI JSOU TY ARC VALIDNI.
+
+ 
+
+ 
+
+https://webarchive.jira.com/browse/HER-1748
+
+https://webarchive.jira.com/browse/HER-1750
+
+https://webarchive.jira.com/browse/HER-1588
+
+ 
+
+ 
+
+http://groups.google.com/group/warc-tools/browse_thread/thread/677e614f95aefafa?pli=1
+
+http://groups.google.com/group/warc-tools/browse_thread/thread/b65d54481590cb01/82e1ebcd5a878508

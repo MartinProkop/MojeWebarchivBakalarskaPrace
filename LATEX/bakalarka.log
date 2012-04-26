@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  25 APR 2012 18:46
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  26 APR 2012 12:55
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -228,8 +228,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 ) (./bakalarka.aux (./1_uvod.aux)
-(./2_webarchiv.aux) (./3_archivacniformaty.aux) (./4_migrace.aux)
-(./5_zaver.aux) (./bibliografie.aux) (./prilohy.aux))
+(./2_webarchiv.aux) (./3_archivacniformaty.aux) (./4_migrace.aux
+
+LaTeX Warning: Label `tabulka_obsahu_webarchivu' multiply defined.
+
+) (./5_zaver.aux) (./bibliografie.aux) (./prilohy.aux))
 \openout1 = `bakalarka.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -786,14 +789,14 @@ ní \IL2/lmtt/m/n/12 WARC-TOOLS[][][]\IL2/lmr/m/n/12 .
 
 
 Overfull \hbox (5.6612pt too wide) in paragraph at lines 114--115
-[]\IL2/lmr/m/n/12 V \IL2/lmtt/m/n/12 pøíloze W na s. []64[] \IL2/lmr/m/n/12 je 
+[]\IL2/lmr/m/n/12 V \IL2/lmtt/m/n/12 pøíloze W na s. []63[] \IL2/lmr/m/n/12 je 
 k na-le-zení do-ku-men-tace ná-stroje. \IL2/lmtt/m/n/12 Pøíloha
  []
 
 [40]
 Overfull \hbox (0.30045pt too wide) in paragraph at lines 133--135
 \IL2/lmtt/m/n/12 / hanzo[][][]\IL2/lmr/m/n/12 . V \IL2/lmtt/m/n/12 pøíloze Z na
- s. []65[] \IL2/lmr/m/n/12 je k na-le-zení do-ku-men-tace ná-stroje.
+ s. []64[] \IL2/lmr/m/n/12 je k na-le-zení do-ku-men-tace ná-stroje.
  []
 
 [41]
@@ -909,11 +912,16 @@ Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 204.
 
+
+Overfull \hbox (7.2113pt too wide) in paragraph at lines 221--230
+ [] 
+ []
+
 [47]
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 217.
+(hyperref)                removing `\textasciicaron' on input line 232.
 
 ) [48]
 \openout2 = `5_zaver.aux'.
@@ -1357,13 +1365,13 @@ LaTeX Font Warning: Font shape `OMS/lmtt/m/n' undefined
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4920 strings out of 495027
- 71959 string characters out of 1181419
- 143630 words of memory out of 3000000
+ 4921 strings out of 495027
+ 71968 string characters out of 1181419
+ 143669 words of memory out of 3000000
  7622 multiletter control sequences out of 15000+50000
  48501 words of font info for 48 fonts, out of 3000000 for 9000
  38 hyphenation exceptions out of 8191
@@ -1382,9 +1390,9 @@ f/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmtti10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtto10.
 pfb>
-Output written on bakalarka.pdf (75 pages, 690956 bytes).
+Output written on bakalarka.pdf (75 pages, 690793 bytes).
 PDF statistics:
- 1366 PDF objects out of 1440 (max. 8388607)
- 345 named destinations out of 1000 (max. 500000)
+ 1367 PDF objects out of 1440 (max. 8388607)
+ 346 named destinations out of 1000 (max. 500000)
  809 words of extra memory for PDF output out of 10000 (max. 10000000)
 
