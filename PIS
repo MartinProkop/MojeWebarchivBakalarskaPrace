@@ -1,11 +1,7 @@
 
 
 
-Testovani castu prevodu+warcvalid do tabulky - do tabulky jeste jeden m;j
-
 Napis mail.
-
-
 
 
 
@@ -15,10 +11,15 @@ NAKPIRUJ PAK NOVY WARCTOOLS/HANZO - ARCHIV
 HLAVNI SOUBOR - i arc2warc_jhove, arc2warc
 
 PIS:
-porovnej novy a stary hanzo
-PRAZDNA AK, AL, AR,AS,AT,AQ! priloha
+
+
 ABSTRACT!
-doporuš WARCVALID! / rozved u testu casu pro chyby - validace
+
 UPRAV ZAVER
 doporučení
 havarie / validace - ze se jedna o CRLF: "-o", ">"
+
+
+
+
+Objevil jsem havárii nástroje, rozhodl jsem se použít jeho nejnovější verzi, která se s částí problémů vypořádala. Narozdíl od předchozí verze nehavaruje při převodu archivu.	

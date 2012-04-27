@@ -18,7 +18,7 @@ Dále jsem zjistil, ¾e nástroj pøi pou¾ívání modulu \texttt{XmlFormat} zpracovává
 
 Poslední problém, který jsem objevil u nástroje \texttt{JHOVE2} je to, ¾e v nìm vzniká výjimka pøi testování archivù. Bylo kvùli tomu nutné upravit nástroj \texttt{arc2warc.py}, tak aby výjimky neohrozili bìh migrace.
 
-Ukázku této tøídy je mo¾no najít v \texttt{pøíloze AU a na s. \pageref{pr:au}}, kompletní implementovaný nástroj je k nalezení v \texttt{pøíloze AW na s. \pageref{pr:aw}}.
+Ukázku této tøídy je mo¾no najít v \texttt{pøíloze AK a na s. \pageref{pr:ak}}, kompletní implementovaný nástroj je k nalezení v \texttt{pøíloze AQ na s. \pageref{pr:aq}}.
 
 \section{Úprava \texttt{WARCTOOLS / hanzo}}
 Pøi úpravì nástroje \texttt{WARCTOOLS} staèilo upravit pouze \texttt{arc2warc.py}, který je implementovám v programovacím jazyce \texttt{Python}. Bylo nutné provést takové zmìny, aby bylo mo¾no pøímo pøi bìhu programu spustit aplikaci v programovacím \texttt{Java}. A upravit program tak, aby bylo mo¾no pøistupovat k jednotlivým souborùm uvnitø \texttt{arc} archivu. Dal¹ím problémem bylo, ¾e program \texttt{JHOVE2} neumo¾òuje vícenásobné spu¹tìní. Opakovaná inicializace by v¹ak byla výpoèetnì velmi nároèná\footnote{Typický archiv je má velikost 100 MB a obsahuje stovky a¾ tisíce souborù.}.
@@ -27,15 +27,16 @@ Pro úèely spou¹tìní \texttt{Java} aplikace v rámci rámci skriptu v jazyce \textt
 
 Pùvodní program pøevádí \texttt{arc} archiv tak, ¾e pøedìlá metadata uvnitø archivu a jeho obsah -- soubory v nìm obsa¾ené -- jako \texttt{bytestream} pøevede do nového \texttt{warc} archivu. Mùj výsledný upravený program pracuje tak, ¾e bìhem pøevodu archivu provede pomocí regulárního výrazu filtrování jednotlivých souborù uvnitø archivu. Ty ulo¾í do doèasného adresáøe a volá na nì nástroj \texttt{JHOVE2} z tìla skriptu \texttt{arc2warc} pøedtím, ne¾ je provedeno zaøazení souboru do nového archivu. Nakonec jsou soubory z doèasného adresáøe odstranìny.
 
-Upravený program pod názvem \texttt{arc2warc\_loop\_jhove2.py} nabízím v \texttt{pøíloze AV na s. \pageref{pr:av}}, kde jsou i moje komentáøe k úpravám zdrojového kódu.
+Upravený program pod názvem \texttt{arc2warc\_jhove.py} nabízím v \texttt{pøíloze AL na s. \pageref{pr:al}}, kde jsou i moje komentáøe k úpravám zdrojového kódu.
+
 \section{Výstupy z analýzy obsahu pøevádìných archivù}
-Své programy \texttt{arc2warc\_jhove2.py} jsem otestoval pøi pøevodu nìkolika souborù \texttt{arc.gz}, které jsem pomocí nástroje \texttt{Heritrix} sám sklidil. V \texttt{pøíloze AP na s. \pageref{pr:ap}} nabízím \texttt{warc} soubor, který vznil pøevodem testovacího \texttt{arc.gz} archivu z \texttt{pøílohy E na s. \pageref{pr:e}}. 
+Svùj program \texttt{arc2warc\_jhove.py} jsem otestoval pøi pøevodu nìkolika souborù \texttt{arc.gz}, které jsem pomocí nástroje \texttt{Heritrix} sám sklidil a nìkolika archivù z repozitáøe WebArchvivu. V \texttt{pøíloze AP na s. \pageref{pr:ap}} nabízím \texttt{warc} soubor, který vznil pøevodem testovacího \texttt{arc.gz} archivu z \texttt{pøílohy E na s. \pageref{pr:e}}. 
 
 Jak se dalo pøedem oèekávat migrace spojená s testováním obsahu archivu je èasovì velmi nároèná. V následující tabulce podávám pøehled výsledkù testování. Je evidentní, ¾e migrace bez analýzy archivu pomocí nástroje \texttt{JHOVE2} bude mnohem rychlej¹í.\footnote{Musím zdùraznit, ¾e jsem testování provádìl na svém osobním poèítaèi s parametry: \texttt{Intel Core 2 Duo CPU T7100 @ 1.80GHz * 2, 2 GB RAM, Linux 3.0.0-19-generic 32-bit}. Reálná èísla pøi pou¾ití nástroje na strojích WebArchivu by byla jistì rozdílná. Dùle¾itý je zde pouze pomìr èasu s u¾itím nástroje \texttt{JHOVE2} a bez nìj.}.
 
 Ke zefektivnìní nástroje by se pravdìpodobnì dalo dojít tak, ¾e by se v rámci nástroje \texttt{JHOVE2} implementovala tøída, která by umo¾nila pøímou charakterizaci souborù, bez nutnosti vytváøení doèasných souborù na disku. Taková zmìna v¹ak není vzhledem k rozsahu nástroj \texttt{JHOVE2} jednoduchá. V souèasné implementace funguje nástroj tak, ¾e i kdy¾ dostane na vstup \texttt{bytestream}, vytvoøí z nìj doèasný soubor. Nástroj \texttt{JHOVE2} je vyvíjen týmem lidí, který mìl zøejmì dùvod takouto u¾iteènou funkcionalitu neimplementovat.
 
-V následující tabulce uvádím èasy na zpracování zpracování archivù a poznámky z testovaných archivù. Pou¾il jsem rùzné archivy z repozitáøe WebArchivu. V¹echny mìli 100 MB. U nìkterých neuvádím èas validace vzniklého \texttt{warc} archivu. Jedná se o ty, které migraèní nástroj nepøevedl správnì -- haváriím pøevodu se vìnuji v následující kapitole.
+V následující tabulce uvádím èasy na zpracování zpracování archivù a poznámky z testovaných archivù. Pou¾il jsem rùzné archivy z repozitáøe WebArchivu a jeden sta¾ený pøímo mnou, v¹echny mìli velikost 100 MB. U nìkterých neuvádím èas validace vzniklého \texttt{warc} archivu. Jedná se o ty, které migraèní nástroj nepøevedl správnì -- haváriím pøevodu se vìnuji v následující kapitole.
 \begin{table}[htbp!]
 \caption{Èasy migrace souborù}
 \label{tabulka_obsahu_webarchivu}
@@ -53,8 +54,9 @@ V následující tabulce uvádím èasy na zpracování zpracování archivù a poznámky z 
 7	&	7 472&	29 s&	2 m 40 s&	12 s\\
 8	&	10 113&	22 s&	3 m 0 s&	x\\
 9	&	8 307&	33 s&	2 m 39 s&	x\\
+10	&	707&	22 s&	56s	&	7 s\\
 \hline
-Prùmìr	&	&	&	&	\\
+Prùmìr	&	x&	32 s&	2m 31 s&	10 s\\
 \hline
 \end{tabular}
 \end{center}
@@ -62,13 +64,13 @@ Prùmìr	&	&	&	&	\\
 
 \section{Havárie nástroje \texttt{WARCTOOLS / hanzo}}
 
-\section{Porovnání u¾itých verzí nástroje  \texttt{WARCTOOLS / hanzo}}
-
 \section{Dal¹í nástroje sady \texttt{WARCTOOLS / hanzo}}
 Jak bylo øeèeno ji¾ vý¹e, \texttt{WARCTOOLS / hanzo} je sada nástrojù. Kromì migraèního nástroje obsahuje i nástroje pro práci s \texttt{warc} archivy. Nìkteré znich jsou pro projekt WebArchiv dùle¾í. V následující kapitole o nich podám nìkolik základních informací a doporuèení.
 \subsection{\texttt{warcindex.py}}
 Tento nástroj slou¾í k vytvoøení \texttt{CDX indexu} pro \texttt{warc} archivy. Jak jsem ji¾ zmiòoval, \texttt{CDX indexy} slou¾í k interpretaci dat z archivù pomocí nástroje \texttt{Wayback}. Nástroj \texttt{warcindex.py} doporuèuji k vytváøení \texttt{CDX indexù warc} souborù. 
 \subsection{\texttt{warcvalid.py}}
+Dal¹ím dùle¾itým nástrojem je nástroj \texttt{warcvalid.py}. Tento nástroj slou¾í k validaci \texttt{warc} archivù jeví jako vhodný pro kontrolu validity nových \texttt{warc} archivù vzniklých pøi migraci.
 
+Díky nástroji jsem odhalil problémy s migraèním nástrojem, který popisuju v kapitole vìnované haváriím nástroje.
 
 \section{Doporuèení pro implementaci migrace archivu}

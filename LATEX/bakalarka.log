@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  27 APR 2012 12:29
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.27)  28 APR 2012 01:17
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -793,69 +793,81 @@ k na-le-zení do-ku-men-tace ná-stroje. \IL2/lmtt/m/n/12 Pøíloha
  []
 
 [40]
-Overfull \hbox (0.30045pt too wide) in paragraph at lines 133--135
+
+Package hyperref Warning: Composite letter `\textring+u'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textring' on input line 131.
+
+
+Overfull \hbox (0.30045pt too wide) in paragraph at lines 137--139
 \IL2/lmtt/m/n/12 / hanzo[][][]\IL2/lmr/m/n/12 . V \IL2/lmtt/m/n/12 pøíloze Z na
  s. []65[] \IL2/lmr/m/n/12 je k na-le-zení do-ku-men-tace ná-stroje.
  []
 
 [41]
-Overfull \hbox (6.75334pt too wide) in paragraph at lines 149--150
+Overfull \hbox (6.75334pt too wide) in paragraph at lines 153--154
 []\IL2/lmr/m/n/12 Zjistil jsem, ¾e ná-stroj ha-va-ruje, stejnì jako \IL2/lmtt/m
 /n/12 WARCTOOLS / hanzo\IL2/lmr/m/n/12 ,
  []
 
 
+Overfull \vbox (1.24994pt too high) has occurred while \output is active []
+
+
+[42]
+
 Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 155.
+(hyperref)                removing `\textring' on input line 159.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 [][][][]\IL2/lmr/m/n/10 Informace o ná-stroji \IL2/lmtt/m/n/10 diff \IL2/lmr/m/
 n/10 do-stupné on-line na ad-rese
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 [][][][]\IL2/lmr/m/n/10 Informace o ná-stroji \IL2/lmtt/m/n/10 zdiff \IL2/lmr/m
 /n/10 do-stupné on-line na ad-rese
  []
 
-[42]
-Underfull \hbox (badness 2057) in paragraph at lines 163--163
+
+Underfull \hbox (badness 2057) in paragraph at lines 167--167
 [][][][]\IL2/lmr/m/n/10 Náhled zmìn mezi po-rov-ná-va-nými ná-stroji do-stupný 
 on-line na ad-rese
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--163
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 \IL2/lmtt/m/n/10 https://bitbucket.org/kpk09/warc-tools/compare/hanzo/warc-tool
-s\IL2/lmr/m/n/10 .
+s..\IL2/lmr/m/n/10 .
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 164--164
+Underfull \hbox (badness 2057) in paragraph at lines 168--168
 [][][][]\IL2/lmr/m/n/10 Náhled zmìn mezi po-rov-ná-va-nými ná-stroji do-stupný 
 on-line na ad-rese
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--164
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
 \IL2/lmtt/m/n/10 https://bitbucket.org/kpk09/warc-tools/compare/..hanzo/warc-to
 ols\IL2/lmr/m/n/10 .
  []
 
+[43]
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 167.
+(hyperref)                removing `\textasciicaron' on input line 171.
 
 
 Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 167.
+(hyperref)                removing `\textring' on input line 171.
 
-[43]) [44]
+) [44]
 \openout2 = `5_implementace.aux'.
 
  (./5_implementace.tex
@@ -896,32 +908,35 @@ e
  []
 
 
+Overfull \hbox (17.99854pt too wide) in paragraph at lines 30--31
+[]\IL2/lmr/m/n/12 Upravený pro-gram pod ná-zvem \IL2/lmtt/m/n/12 arc2warc[]jhov
+e.py \IL2/lmr/m/n/12 na-bí-zím v \IL2/lmtt/m/n/12 pøíloze
+ []
+
+
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 31.
+(hyperref)                removing `\textasciicaron' on input line 32.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 31.
+(hyperref)                removing `\textasciicaron' on input line 32.
 
 
 Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 31.
+(hyperref)                removing `\textring' on input line 32.
 
 
 Overfull \vbox (2.91663pt too high) has occurred while \output is active []
 
 
-[47]
-Underfull \vbox (badness 1448) has occurred while \output is active []
-
- [48]
+[47] [48]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 74.
+(hyperref)                removing `\textasciicaron' on input line 76.
 
 ) [49]
 \openout2 = `6_zaver.aux'.
@@ -1340,25 +1355,29 @@ Underfull \vbox (badness 1132) has occurred while \output is active []
 
  [62]
 [63] [64] [65]
-Underfull \vbox (badness 1661) has occurred while \output is active []
-
- [66]
-[67]
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
-[68]
-LaTeX Font Info:    Try loading font information for OMS+lmtt on input line 315
+[66]
+LaTeX Font Info:    Try loading font information for OMS+lmtt on input line 247
 .
-LaTeX Font Info:    No file OMSlmtt.fd. on input line 315.
+LaTeX Font Info:    No file OMSlmtt.fd. on input line 247.
 
 
 LaTeX Font Warning: Font shape `OMS/lmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 315.
+(Font)              for symbol `textbraceleft' on input line 247.
 
-[69]) [70] (./bakalarka.aux (./1_uvod.aux) (./2_webarchiv.aux)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+[68]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [69])
+[70] (./bakalarka.aux (./1_uvod.aux) (./2_webarchiv.aux)
 (./3_archivacniformaty.aux) (./4_migrace.aux) (./5_implementace.aux)
 (./6_zaver.aux) (./bibliografie.aux) (./prilohy.aux))
 
@@ -1369,10 +1388,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4928 strings out of 495027
- 72036 string characters out of 1181419
- 143971 words of memory out of 3000000
- 7621 multiletter control sequences out of 15000+50000
+ 4917 strings out of 495027
+ 71940 string characters out of 1181419
+ 144647 words of memory out of 3000000
+ 7615 multiletter control sequences out of 15000+50000
  47874 words of font info for 46 fonts, out of 3000000 for 9000
  38 hyphenation exceptions out of 8191
  38i,8n,42p,1079b,445s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1389,9 +1408,9 @@ msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtto10.pfb>
-Output written on bakalarka.pdf (76 pages, 676898 bytes).
+Output written on bakalarka.pdf (76 pages, 677377 bytes).
 PDF statistics:
- 1371 PDF objects out of 1440 (max. 8388607)
- 348 named destinations out of 1000 (max. 500000)
+ 1367 PDF objects out of 1440 (max. 8388607)
+ 343 named destinations out of 1000 (max. 500000)
  817 words of extra memory for PDF output out of 10000 (max. 10000000)
 

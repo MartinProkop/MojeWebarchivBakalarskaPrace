@@ -128,6 +128,10 @@ V \texttt{pøíloze W na s. \pageref{pr:w}} je k nalezení dokumentace nástroje. \t
 \item Nástroj nemá dokonèenou dokumentaci. V manuálu stojí, ¾e vytváøí \uv{crappy} \texttt{warc} soubory. Nástroj pro migraci je údajnì pøevzat z nástroje \texttt{WARCTOOLS}. \cite{Hanzo}
 \item Zjistil jsem, ¾e nástroj havaruje pøi pøevodu archivu se specifickým záznamem. 
 \end{itemize}
+\subsubsection{Rùzné verze nástroje  \texttt{WARCTOOLS / hanzo}}
+V prùbìhu implementace a testování nástroje jsem objevil nìkolik chyb, proto jsem byl nucen vyzkou¹et více verzí nástroje. Není potøeba popisovat zmìny, které pøiná¹í nové verze nástroje. V¹echny zmìny jsou ostatnì uvedeny na stránkách projektu v sekci Commits\footnote{Webové stránky projektu \texttt{WARCTOOLS / hanzo} dostupné online na adrese \texttt{http://code.hanzoarchives.com/warc-tools/changesets}.}. 
+
+Jak uvedu v následujícím kapitolách, i nejnovìj¹í verze nástroje je problematická. Pøesto se dá øíci, ¾e vývojáøi na nástroji neustále pracují, odstraòují jeho nedostatky a doplòují funkcionalitu.
 
 \subsection{\texttt{WARC-TOOLS / kpk09}}
 Tøetí mnou testovaný nástroj na urèený pro migraci \texttt{arc} souborù. Jedná se o projekt, který je vyvíjen jako fork k pùvodnímu kódu \texttt{WARC TOOLS / hanzo}\footnote{Webové stránky projektu \texttt{WARC-TOOLS / kpk09} dostupné online na adrese \texttt{https://bitbucket.org/kpk09/warc-tools/wiki/Home}.}.
@@ -160,8 +164,8 @@ Musím zdùraznit, ¾e jsem pou¾il relativnì malý testovací vzorek. Proto abych moh
 Porovnání zdrojového kódu je nároènìj¹í procedura, ale pravdìpodobnì mù¾e jasnì odpovìdìt na otázku. Pravdìpodobnì by bylo nejlep¹í dotázat se na rozdílnost obou nástrojù pøímo vývojáøù. 
 Server, na kterém jsou oba nástroje umístìny, umo¾òuje pøímé porovnávání pomocí nástroje \texttt{diff}. Informace o rozdílnosti je mo¾né zhlédnout z dvou hledisek.
 \begin{itemize}
-\item Zmìny ve \texttt{WARCTOOLS / hanzo}, které se neprojevily v druhém nástroji\footnote{Náhled zmìn mezi porovnávanými nástroji dostupný online na adrese \texttt{https://bitbucket.org/kpk09/warc-tools/compare/hanzo/warc-tools}. 11.4.2012 ¹lo o modifikace ve 34 souborech.}. 
-\item Zmìny ve \texttt{WARCTOOLS /kpk09}, které se neprojevily v druhém nástroji\footnote{Náhled zmìn mezi porovnávanými nástroji dostupný online na adrese \texttt{https://bitbucket.org/kpk09/warc-tools/compare/..hanzo/warc-tools}. 11.4.2012 ¹lo o modifikace ve 7 souborech.}.
+\item Zmìny ve \texttt{WARCTOOLS / hanzo}, které se neprojevily v druhém nástroji\footnote{Náhled zmìn mezi porovnávanými nástroji dostupný online na adrese \texttt{https://bitbucket.org/kpk09/warc-tools/compare/hanzo/warc-tools..}. 28.4.2012 ¹lo o modifikace ve 105 souborech.}. 
+\item Zmìny ve \texttt{WARCTOOLS /kpk09}, které se neprojevily v druhém nástroji\footnote{Náhled zmìn mezi porovnávanými nástroji dostupný online na adrese \texttt{https://bitbucket.org/kpk09/warc-tools/compare/..hanzo/warc-tools}. 28.4.2012 ¹lo o modifikace ve 7 souborech.}.
 \end{itemize}
 
 \section{Závìry z porovnávání nástrojù}

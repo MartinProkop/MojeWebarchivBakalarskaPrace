@@ -81,9 +81,10 @@
 \BOOKMARK [2][-]{subsection.4.3.2}{ WARC-TOOLS / hanzo}{section.4.3}
 \BOOKMARK [3][-]{section*.14}{ Kompatibilita s ostatn\355mi n\341stroji}{subsection.4.3.2}
 \BOOKMARK [3][-]{section*.15}{ Dal\235\355 parametry}{subsection.4.3.2}
+\BOOKMARK [3][-]{section*.16}{ Ruzn\351 verze n\341stroje WARCTOOLS / hanzo}{subsection.4.3.2}
 \BOOKMARK [2][-]{subsection.4.3.3}{ WARC-TOOLS / kpk09}{section.4.3}
-\BOOKMARK [3][-]{section*.16}{ Kompatibilita s ostatn\355mi n\341stroji}{subsection.4.3.3}
-\BOOKMARK [3][-]{section*.17}{ Dal\235\355 parametry}{subsection.4.3.3}
+\BOOKMARK [3][-]{section*.17}{ Kompatibilita s ostatn\355mi n\341stroji}{subsection.4.3.3}
+\BOOKMARK [3][-]{section*.18}{ Dal\235\355 parametry}{subsection.4.3.3}
 \BOOKMARK [1][-]{section.4.4}{ Podobnost WARCTOOLS / hanzo s kpk09}{chapter.4}
 \BOOKMARK [2][-]{subsection.4.4.1}{ Porovn\341n\355 v\375stupu pro stejn\351 vstupy}{section.4.4}
 \BOOKMARK [2][-]{subsection.4.4.2}{ Porovn\341n\355 zdrojov\351ho k\363du}{section.4.4}
@@ -94,9 +95,8 @@
 \BOOKMARK [1][-]{section.5.3}{ \332prava WARCTOOLS / hanzo}{chapter.5}
 \BOOKMARK [1][-]{section.5.4}{ V\375stupy z anal\375zy obsahu prev\341den\375ch archivu}{chapter.5}
 \BOOKMARK [1][-]{section.5.5}{ Hav\341rie n\341stroje WARCTOOLS / hanzo}{chapter.5}
-\BOOKMARK [1][-]{section.5.6}{ Porovn\341n\355 u\236it\375ch verz\355 n\341stroje WARCTOOLS / hanzo}{chapter.5}
-\BOOKMARK [1][-]{section.5.7}{ Dal\235\355 n\341stroje sady WARCTOOLS / hanzo}{chapter.5}
-\BOOKMARK [2][-]{subsection.5.7.1}{ warcindex.py}{section.5.7}
-\BOOKMARK [2][-]{subsection.5.7.2}{ warcvalid.py}{section.5.7}
-\BOOKMARK [1][-]{section.5.8}{ Doporucen\355 pro implementaci migrace archivu}{chapter.5}
+\BOOKMARK [1][-]{section.5.6}{ Dal\235\355 n\341stroje sady WARCTOOLS / hanzo}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.6.1}{ warcindex.py}{section.5.6}
+\BOOKMARK [2][-]{subsection.5.6.2}{ warcvalid.py}{section.5.6}
+\BOOKMARK [1][-]{section.5.7}{ Doporucen\355 pro implementaci migrace archivu}{chapter.5}
 \BOOKMARK [0][-]{chapter.6}{Z\341ver}{}
