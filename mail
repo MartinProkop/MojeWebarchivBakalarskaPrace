@@ -10,6 +10,7 @@ Rozdíl je v tom, jestli se výstupní warc soubor definuje pomocí přepínače
 
 Pro některé archivy je výstupní warc soubor validní při užití varianty "-o" u jiných varianty ">". U Pro některé archivy hlásí warcvalidator při variantách různé chyby. Někdy
 [('incorrect trailing newline', '\r')] jindy [('incorrect trailing newline', '\r')]
+[('incorrect trailing newline', '\n')]
 
 
 Pravděpodobně se jedná o závadu v souboru: warc.py
