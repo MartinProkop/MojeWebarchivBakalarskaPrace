@@ -16,7 +16,7 @@ Pøi implementaci jsem objevil ne pøíli¹ vá¾nou chybu v nástroji: nástroj vypisuj
 
 Dále jsem zjistil, ¾e nástroj pøi pou¾ívání modulu \texttt{XmlFormat} zpracovává nìteré soubory neúmìrnì dlouho. Jednalo se o soubory, které obsahovali napøíklad data ve formì \texttt{CDATA}. Proto mi vedoucí práce, mgr. Václav Rosecký, doporuèil daný modul odstranit. jeho absence nebude mít výrazný vliv na validování obsahu souborù.
 
-Poslední problém, který jsem objevil u nástroje \texttt{JHOVE2} je to, ¾e v nìm vzniká výjimka pøi testování archivù. Bylo kvùli tomu nutné upravit nástroj \texttt{arc2warc.py}, tak aby výjimky neohrozili bìh migrace.
+Poslední problém, který jsem objevil u nástroje \texttt{JHOVE2} je to, ¾e v nìm vzniká chyba pøi testování archivù -- nátroj vyhazuje výjimku. Bylo kvùli tomu nutné upravit nástroj \texttt{arc2warc.py}, tak aby výjimky neohrozili bìh migrace.
 
 Ukázku této tøídy je mo¾no najít v \texttt{pøíloze AK a na s. \pageref{pr:ak}}, kompletní implementovaný nástroj je k nalezení v \texttt{pøíloze AQ na s. \pageref{pr:aq}}.
 
