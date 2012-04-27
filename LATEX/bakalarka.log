@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  26 APR 2012 22:30
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.10)  27 APR 2012 12:29
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -915,16 +915,15 @@ Overfull \vbox (2.91663pt too high) has occurred while \output is active []
 
 
 [47]
+Underfull \vbox (badness 1448) has occurred while \output is active []
+
+ [48]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 68.
+(hyperref)                removing `\textasciicaron' on input line 74.
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48]
-[49]
+) [49]
 \openout2 = `6_zaver.aux'.
 
  (./6_zaver.tex
@@ -1390,7 +1389,7 @@ msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtto10.pfb>
-Output written on bakalarka.pdf (76 pages, 675726 bytes).
+Output written on bakalarka.pdf (76 pages, 676898 bytes).
 PDF statistics:
  1371 PDF objects out of 1440 (max. 8388607)
  348 named destinations out of 1000 (max. 500000)

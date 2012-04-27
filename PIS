@@ -1,9 +1,7 @@
 
-HAVARII pusobi CRLF. Pisu o tom mail - chyba je v tom, ze pres ruzne vystupy haze ruzne chyby "-o" nebo ">"
 
 
-Testovani castu prevodu+warcvalid do tabulky - do tabulky
-
+Testovani castu prevodu+warcvalid do tabulky - do tabulky jeste jeden m;j
 
 Napis mail.
 
@@ -18,12 +16,9 @@ HLAVNI SOUBOR - i arc2warc_jhove, arc2warc
 
 PIS:
 porovnej novy a stary hanzo
-porovnani cdxindex a warcindex jakoze jsou totozne napis
 PRAZDNA AK, AL, AR,AS,AT,AQ! priloha
 ABSTRACT!
-doporuš WARCVALID!
+doporuš WARCVALID! / rozved u testu casu pro chyby - validace
 UPRAV ZAVER
 doporučení
-havarie
-
-rozved u testu casu pro chyby - validace
+havarie / validace - ze se jedna o CRLF: "-o", ">"

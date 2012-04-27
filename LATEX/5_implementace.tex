@@ -42,7 +42,7 @@ V následující tabulce uvádím èasy na zpracování zpracování archivù a poznámky z 
 \begin{center}
 \begin{tabular}{|l||c|c|c|c|c|}
 \hline
-\textbf{Pokus}&\textbf{Souborù}&\textbf{\texttt{WARCTOOLS}}&\textbf{\texttt{JHOVE2}}&\textbf{validace}\\
+\textbf{Pokus}&\textbf{Souborù}&\textbf{\texttt{WARCTOOLS}}&S \textbf{\texttt{JHOVE2}}&\textbf{validace}\\
 \hline
 1	&	3 682&	31 s&	2 m 50 s&	10 s\\
 2	&	4 045&	32 s&	2 m 25 s&	12 s\\
@@ -50,6 +50,9 @@ V následující tabulce uvádím èasy na zpracování zpracování archivù a poznámky z 
 4	&	5 754&	38 s&	2 m 5 s	&	13 s\\
 5	&	10 372&	42 s&	3 m 9 s	&	x\\
 6	&	11 681&	36 s&	3 m 16 s&	x\\
+7	&	7 472&	29 s&	2 m 40 s&	12 s\\
+8	&	10 113&	22 s&	3 m 0 s&	x\\
+9	&	8 307&	33 s&	2 m 39 s&	x\\
 \hline
 Prùmìr	&	&	&	&	\\
 \hline
@@ -62,8 +65,9 @@ Prùmìr	&	&	&	&	\\
 \section{Porovnání u¾itých verzí nástroje  \texttt{WARCTOOLS / hanzo}}
 
 \section{Dal¹í nástroje sady \texttt{WARCTOOLS / hanzo}}
+Jak bylo øeèeno ji¾ vý¹e, \texttt{WARCTOOLS / hanzo} je sada nástrojù. Kromì migraèního nástroje obsahuje i nástroje pro práci s \texttt{warc} archivy. Nìkteré znich jsou pro projekt WebArchiv dùle¾í. V následující kapitole o nich podám nìkolik základních informací a doporuèení.
 \subsection{\texttt{warcindex.py}}
-
+Tento nástroj slou¾í k vytvoøení \texttt{CDX indexu} pro \texttt{warc} archivy. Jak jsem ji¾ zmiòoval, \texttt{CDX indexy} slou¾í k interpretaci dat z archivù pomocí nástroje \texttt{Wayback}. Nástroj \texttt{warcindex.py} doporuèuji k vytváøení \texttt{CDX indexù warc} souborù. 
 \subsection{\texttt{warcvalid.py}}
 
 
