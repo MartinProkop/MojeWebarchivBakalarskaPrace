@@ -69,8 +69,9 @@ Jak bylo øeèeno ji¾ vý¹e, \texttt{WARCTOOLS / hanzo} je sada nástrojù. Kromì mig
 \subsection{\texttt{warcindex.py}}
 Tento nástroj slou¾í k vytvoøení \texttt{CDX indexu} pro \texttt{warc} archivy. Jak jsem ji¾ zmiòoval, \texttt{CDX indexy} slou¾í k interpretaci dat z archivù pomocí nástroje \texttt{Wayback}. Nástroj \texttt{warcindex.py} doporuèuji k vytváøení \texttt{CDX indexù warc} souborù. 
 \subsection{\texttt{warcvalid.py}}
-Dal¹ím dùle¾itým nástrojem je nástroj \texttt{warcvalid.py}. Tento nástroj slou¾í k validaci \texttt{warc} archivù jeví jako vhodný pro kontrolu validity nových \texttt{warc} archivù vzniklých pøi migraci.
-
-Díky nástroji jsem odhalil problémy s migraèním nástrojem, který popisuju v kapitole vìnované haváriím nástroje.
+Dal¹ím dùle¾itým nástrojem je nástroj \texttt{warcvalid.py}. Tento nástroj slou¾í k validaci \texttt{warc} archivù jeví jako vhodný pro kontrolu validity nových \texttt{warc} archivù vzniklých pøi migraci. Díky nástroji jsem odhalil problémy s migraèním nástrojem, který popisuju v kapitole vìnované haváriím nástroje. Nástroj doporuèuji k ovìøování validity \texttt{warc} archivù.
 
 \section{Doporuèení pro implementaci migrace archivu}
+Jak jsem ji¾ z mínil v èásti práce, ve které se vìnuji rùzným migraèním nástrojù, doporuèiji nástroj \texttt{WARCTOOLS / hanzo} k realizaci migrace archivu WebArchiv. Musím ale zdùraznit, ¾e nástroj je¹tì není spolehlivì implmentován. Pøed samotným pou¾itím je potøeba zajistit aby v¹echny soubory, které ním budou pøevádìny byli validní. 
+
+Jak jsem ukázal v kapitole, ve které se zabývám havárií nástroje, existují archivy, které jím nejsou pøevedeny spolehlivì. A¾ bude odstranìn zmínìný nedostatek dopruèuji provést je¹tì nìkolik ovìøení migraèního nástroje. Migrace celého archivu bude èasovì i výpoèetnì velmi nároèná operace a je nutné zajistit aby pøí ní nedoèlo k ¾ádným komplikacím.

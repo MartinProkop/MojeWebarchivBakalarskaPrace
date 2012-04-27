@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.27)  28 APR 2012 01:17
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.27)  28 APR 2012 01:52
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -891,7 +891,7 @@ Overfull \hbox (10.07965pt too wide) in paragraph at lines 13--14
  []
 
 
-Overfull \vbox (2.21672pt too high) has occurred while \output is active []
+Overfull \vbox (2.55006pt too high) has occurred while \output is active []
 
 
 [46]
@@ -932,11 +932,15 @@ Package hyperref Warning: Composite letter `\textring+u'
 Overfull \vbox (2.91663pt too high) has occurred while \output is active []
 
 
-[47] [48]
+[47]
+Overfull \vbox (4.23032pt too high) has occurred while \output is active []
+
+
+[48]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 76.
+(hyperref)                removing `\textasciicaron' on input line 74.
 
 ) [49]
 \openout2 = `6_zaver.aux'.
@@ -1408,7 +1412,7 @@ msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtto10.pfb>
-Output written on bakalarka.pdf (76 pages, 677377 bytes).
+Output written on bakalarka.pdf (76 pages, 678356 bytes).
 PDF statistics:
  1367 PDF objects out of 1440 (max. 8388607)
  343 named destinations out of 1000 (max. 500000)
