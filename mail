@@ -1,30 +1,59 @@
+
+
+
+
+
+
 Dobrý den,
-při používání nástroje WARCTOOLS jsem pravděpodobně objevil chybu.
+píši bakalářskou práci na téma migrace web archivu. Na Masaryk university v Brně CZ.
 
-Při migraci souborů pomocí nástroje arc2warc.py dochází k chybám.
+Práce se venuje moznosti migrace weboveho archivu Webarchiv.cz (http://www.webarchiv.cz/) - clen IIPC.
 
-Při mikraci některých archivů vznikají nevalidní soubory. To závisí to na způsobu spuštění nástroje. Rozdíl je v tom, jestli se výstupní warc soubor definuje pomocí přepínače "-o" nebo užití přesměrování (symbol >).
+Při testování nástroje WARCTOOLS jsem pravděpodobně objevil chybu.
+
+Při migraci souborů z repozitáře WebArchivu pomocí nástroje arc2warc.py dochází k chybám.
+
+Při mikraci některých archivů vznikají nevalidní soubory. To závisí to na způsobu spuštění nástroje. Rozdíl je v tom, jestli se výstupní warc.gz soubor definuje pomocí přepínače "-o" nebo užití přesměrování (symbol >).
 
 
 Pro některé archivy je výstupní warc soubor validní při užití varianty "-o" u jiných varianty ">". Pro některé archivy hlásí warcvalidator při obou variantách různé chyby. Někdy
 [('incorrect trailing newline', '\r')] jindy [('incorrect trailing newline', '\n')]
 
-
-Pravděpodobně se jedná o závadu v souboru: warc.py
-
-Podle mých znalostí se jedná se o peoblém s kódování znaku NEWLINE.
+Podle mých znalostí se jedná se o peoblém s kódování znaku NEWLINE. Pravděpodobně se jedná o závadu v souboru: warc.py
 
 
-Z technických důvodů Vám nemůžu poslat celý 100 MB soubor, na kterém jsem závadu testoval.
+Z technických důvodů Vám nemůžu poslat celé 100 MB soubory, na kterých jem to testoval.
+
+Validaci jsem testoval nástrojem warcvalid.py
 
 
-
-
+Používám verzi - Tag: 4.3-rc; Revision: 017110fd860a8; Date: 2012-03-02
 
 
 
 
+thomas.figg@hanzoarchives.com
 
+
+
+
+
+*************************
+
+Bakalářská práce se zabývá možností migrace webového archivu vytvořeného v rámci projektu WebArchiv. Představuje projekt WebArchiv a jeho vývoj, dále podává přehled nástrojů a prací s ním souvisejících.
+
+Po přehledu a sumarizaci informací o WebArchivu pokračuje přehledem archivačních formátů. Předvádí výhody a nevýhody jednotlivých formátů. Zdůvodňuje, proč je potřeba provést migraci stávajícího archivu.
+
+Poslední část práce se zabývá konkrétními nástroji sloužícími k migraci archivů. Cílem práce je představit výhody a nevýhody jednotlivých nástrojů a připravit tak podklad pro další studii možnosti migrace webového archivu a její realizaci.
+
+
+This bachelor thesis deals with migration of beb archive created by the project WebArchiv. At the beginning of the work, it would like to introduce project WebArchich followed by an overview of tools and listing of related studies.
+ 
+After review and summary of information it continue with archive formats survey. It present the advantages and disadvantages of each format. It show why it is necessary to migrate the existing archive.
+ 
+The last part deals with a real solution to archive migration. Goal is to present the advantages and disadvantages of different instruments, and prepare a base for further study possibilities of migration and, above all, its implementation.
+
+**************************
 
 
 
