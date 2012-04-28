@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.27)  28 APR 2012 01:52
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.27)  28 APR 2012 10:22
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -788,7 +788,7 @@ ní \IL2/lmtt/m/n/12 WARC-TOOLS[][][]\IL2/lmr/m/n/12 .
 
 
 Overfull \hbox (5.6612pt too wide) in paragraph at lines 114--115
-[]\IL2/lmr/m/n/12 V \IL2/lmtt/m/n/12 pøíloze W na s. []64[] \IL2/lmr/m/n/12 je 
+[]\IL2/lmr/m/n/12 V \IL2/lmtt/m/n/12 pøíloze W na s. []65[] \IL2/lmr/m/n/12 je 
 k na-le-zení do-ku-men-tace ná-stroje. \IL2/lmtt/m/n/12 Pøíloha
  []
 
@@ -799,9 +799,9 @@ Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                removing `\textring' on input line 131.
 
 
-Overfull \hbox (0.30045pt too wide) in paragraph at lines 137--139
+Overfull \hbox (0.29344pt too wide) in paragraph at lines 137--139
 \IL2/lmtt/m/n/12 / hanzo[][][]\IL2/lmr/m/n/12 . V \IL2/lmtt/m/n/12 pøíloze Z na
- s. []65[] \IL2/lmr/m/n/12 je k na-le-zení do-ku-men-tace ná-stroje.
+ s. []66[] \IL2/lmr/m/n/12 je k na-le-zení do-ku-men-tace ná-stroje.
  []
 
 [41]
@@ -1412,7 +1412,7 @@ msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtto10.pfb>
-Output written on bakalarka.pdf (76 pages, 678356 bytes).
+Output written on bakalarka.pdf (76 pages, 678367 bytes).
 PDF statistics:
  1367 PDF objects out of 1440 (max. 8388607)
  343 named destinations out of 1000 (max. 500000)
