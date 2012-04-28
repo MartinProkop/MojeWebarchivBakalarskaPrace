@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.27)  28 APR 2012 12:15
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.27)  28 APR 2012 16:58
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -937,20 +937,19 @@ Overfull \vbox (4.23032pt too high) has occurred while \output is active []
 
 
 [48]
-Overfull \hbox (33.90869pt too wide) in paragraph at lines 68--69
-\IL2/lmr/m/n/12 cesu mi-grace, ale mi-gro-vané sou-bory jsou po kon-t-role ná-s
-tro-jem \IL2/lmtt/m/n/12 warcindex.py
+Overfull \hbox (9.691pt too wide) in paragraph at lines 68--69
+\IL2/lmr/m/n/12 mi-grace, ale mi-gro-vané sou-bory jsou po kon-t-role ná-stro-j
+em \IL2/lmtt/m/n/12 warcindex.py
  []
 
 
-Overfull \vbox (3.79997pt too high) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-[49]
+ [49]
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 84.
+(hyperref)                removing `\textasciicaron' on input line 83.
 
 ) [50]
 \openout2 = `6_zaver.aux'.
@@ -1402,10 +1401,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4920 strings out of 495027
- 71971 string characters out of 1181419
- 144647 words of memory out of 3000000
- 7615 multiletter control sequences out of 15000+50000
+ 4922 strings out of 495027
+ 71989 string characters out of 1181419
+ 144720 words of memory out of 3000000
+ 7616 multiletter control sequences out of 15000+50000
  47874 words of font info for 46 fonts, out of 3000000 for 9000
  38 hyphenation exceptions out of 8191
  38i,8n,42p,1079b,445s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1422,9 +1421,9 @@ msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtto10.pfb>
-Output written on bakalarka.pdf (77 pages, 683000 bytes).
+Output written on bakalarka.pdf (77 pages, 684598 bytes).
 PDF statistics:
- 1375 PDF objects out of 1440 (max. 8388607)
- 346 named destinations out of 1000 (max. 500000)
+ 1377 PDF objects out of 1440 (max. 8388607)
+ 347 named destinations out of 1000 (max. 500000)
  817 words of extra memory for PDF output out of 10000 (max. 10000000)
 

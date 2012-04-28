@@ -1,0 +1,21 @@
+TO: thomas.figg@hanzoarchives.com 
+
+Hello, 
+
+I'm writing a bachelor's thesis dealing with the migration tools of web archive at Masaryk's University in Brno. The thesis is concerned with the possibility of migration of project WEBARCHIVE.CZ (member of IIPC) repository.
+
+During the warctools testing I probably discovered a bug. So I would like report it. 
+
+I'm using your arc2warc.py migration script. The warcvalid.py script reports that some invalid warc files are created during the migration. That depends on the way of running the arc2warc.py tool - either and more often using a parameter "-o" (according to the documentation of warctools.py) or using the redirection of a standard output in shell.
+
+For some of the archives the error occurs in both of the cases. In some cases the validator reports either this [('incorrect trailing newline', '\r')] or [('incorrect trailing newline', '\n')].
+
+According to my knowledge there's a problem with the NEWLINE character coding. It's probably a mistake in the warc.py file.
+
+The used archives have over 100 MB each so I can't send it to you.
+
+I'm using the version of warctools - Tag: 4.3-rc; Revision: 017110fd860a8; Date: 2012-03-02.
+
+
+Best regards,
+Martin Prokop.

@@ -1,38 +1,24 @@
+TO: thomas.figg@hanzoarchives.com 
+
+Hello, 
+
+I'm writing a bachelor's thesis dealing with the migration tools of web archive at Masaryk's University in Brno. The thesis is concerned with the possibility of migration of project WEBARCHIVE.CZ (member of IIPC) repository.
+
+During the warctools testing I probably discovered a bug. So I would like report it. 
+
+I'm using your arc2warc.py migration script. The warcvalid.py script reports that some invalid warc files are created during the migration. That depends on the way of running the arc2warc.py tool - either and more often using a parameter "-o" (according to the documentation of warctools.py) or using the redirection of a standard output in shell.
+
+For some of the archives the error occurs in both of the cases. In some cases the validator reports either this [('incorrect trailing newline', '\r')] or [('incorrect trailing newline', '\n')].
+
+According to my knowledge there's a problem with the NEWLINE character coding. It's probably a mistake in the warc.py file.
+
+The used archives have over 100 MB each so I can't send it to you.
+
+I'm using the version of warctools - Tag: 4.3-rc; Revision: 017110fd860a8; Date: 2012-03-02.
 
 
-
-
-
-
-Dobrý den,
-píši bakalářskou práci na téma migrace web archivu. Na Masaryk university v Brně CZ.
-
-Práce se venuje moznosti migrace weboveho archivu Webarchiv.cz (http://www.webarchiv.cz/) - clen IIPC.
-
-Při testování nástroje WARCTOOLS jsem pravděpodobně objevil chybu.
-
-Při migraci souborů z repozitáře WebArchivu pomocí nástroje arc2warc.py dochází k chybám.
-
-Při mikraci některých archivů vznikají nevalidní soubory. To závisí to na způsobu spuštění nástroje. Rozdíl je v tom, jestli se výstupní warc.gz soubor definuje pomocí přepínače "-o" nebo užití přesměrování (symbol >).
-
-
-Pro některé archivy je výstupní warc soubor validní při užití varianty "-o" u jiných varianty ">". Pro některé archivy hlásí warcvalidator při obou variantách různé chyby. Někdy
-[('incorrect trailing newline', '\r')] jindy [('incorrect trailing newline', '\n')]
-
-Podle mých znalostí se jedná se o peoblém s kódování znaku NEWLINE. Pravděpodobně se jedná o závadu v souboru: warc.py
-
-
-Z technických důvodů Vám nemůžu poslat celé 100 MB soubory, na kterých jem to testoval.
-
-Validaci jsem testoval nástrojem warcvalid.py
-
-
-Používám verzi - Tag: 4.3-rc; Revision: 017110fd860a8; Date: 2012-03-02
-
-
-
-
-thomas.figg@hanzoarchives.com
+Best regards,
+Martin Prokop.
 
 
 
@@ -44,14 +30,14 @@ Bakalářská práce se zabývá možností migrace webového archivu vytvořen�
 
 Po přehledu a sumarizaci informací o WebArchivu pokračuje přehledem archivačních formátů. Předvádí výhody a nevýhody jednotlivých formátů. Zdůvodňuje, proč je potřeba provést migraci stávajícího archivu.
 
-Poslední část práce se zabývá konkrétními nástroji sloužícími k migraci archivů. Cílem práce je představit výhody a nevýhody jednotlivých nástrojů a připravit tak podklad pro další studii možnosti migrace webového archivu a její realizaci.
+Poslední část práce se zabývá konkrétními nástroji sloužícími k migraci archivů. Cílem práce je představit výhody a nevýhody jednotlivých nástrojů a dále upravit a implementovat nejvhodnější z nich pro potřeby projektu WebArchiv. Práce tak tvoří podklad pro realizaci migrace celého webového archivu.
 
 
-This bachelor thesis deals with migration of beb archive created by the project WebArchiv. At the beginning of the work, it would like to introduce project WebArchich followed by an overview of tools and listing of related studies.
+This bachelor thesis deals with migration of web archive created by the project WebArchiv. At the beginning the thesis introduces the project WebArchiv and continues with an overview of tools and listing of related studies.
  
-After review and summary of information it continue with archive formats survey. It present the advantages and disadvantages of each format. It show why it is necessary to migrate the existing archive.
+After review and summary of information it continues with archive formats survey. The advantages and disadvantages of each format are presented. It is shown why it is necessary to migrate the existing archive.
  
-The last part deals with a real solution to archive migration. Goal is to present the advantages and disadvantages of different instruments, and prepare a base for further study possibilities of migration and, above all, its implementation.
+The last part deals with a real solution to archive migration. The purpose is to present the advantages and disadvantages of different instruments and modify and implement the most useful of them for the purposes of the WebArchiv project. The thesis is then a groundwork for the migration of the whole repository of data.
 
 **************************
 
