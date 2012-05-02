@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.27)  2 MAY 2012 11:50
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.27)  2 MAY 2012 12:09
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -233,11 +233,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 LaTeX Warning: Label `tabulka_obsahu_webarchivu' multiply defined.
 
-) (./6_zaver.aux) (./bibliografie.aux) (./prilohy.aux
-
-LaTeX Warning: Label `pr:ar' multiply defined.
-
-))
+) (./6_zaver.aux) (./bibliografie.aux) (./prilohy.aux))
 \openout1 = `bakalarka.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -256,7 +252,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 18.
 LaTeX Font Info:    Try loading font information for IL2+cmr on input line 18.
- (/usr/share/texmf-texlive/tex/latex/cslatex/il2cmr.fd
+
+(/usr/share/texmf-texlive/tex/latex/cslatex/il2cmr.fd
 File: il2cmr.fd 1997/02/06 CSLaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 18.
@@ -936,10 +933,6 @@ Overfull \vbox (2.91663pt too high) has occurred while \output is active []
 
 
 [47]
-
-LaTeX Warning: Reference `pr:as' on page 48 undefined on input line 39.
-
-
 Overfull \hbox (9.691pt too wide) in paragraph at lines 68--69
 \IL2/lmr/m/n/12 mi-grace, ale mi-gro-vané sou-bory jsou po kon-t-role ná-stro-j
 em \IL2/lmtt/m/n/12 warcindex.py
@@ -953,7 +946,7 @@ Overfull \vbox (3.91663pt too high) has occurred while \output is active []
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 83.
+(hyperref)                removing `\textasciicaron' on input line 85.
 
 ) [50]
 \openout2 = `6_zaver.aux'.
@@ -1401,16 +1394,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  4924 strings out of 495027
  72007 string characters out of 1181419
- 143735 words of memory out of 3000000
+ 143808 words of memory out of 3000000
  7617 multiletter control sequences out of 15000+50000
  47874 words of font info for 46 fonts, out of 3000000 for 9000
  38 hyphenation exceptions out of 8191
@@ -1428,9 +1418,9 @@ msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtto10.pfb>
-Output written on bakalarka.pdf (77 pages, 685366 bytes).
+Output written on bakalarka.pdf (77 pages, 685440 bytes).
 PDF statistics:
- 1378 PDF objects out of 1440 (max. 8388607)
+ 1379 PDF objects out of 1440 (max. 8388607)
  348 named destinations out of 1000 (max. 500000)
  817 words of extra memory for PDF output out of 10000 (max. 10000000)
 

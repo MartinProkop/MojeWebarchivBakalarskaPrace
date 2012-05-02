@@ -69,14 +69,16 @@ Nová verze ji¾ na testovaných archivech nehlásí chybu pøi procesu migrace, ale m
 
 Dále jsem tedy zjistil, ¾e pøi spou¹tìní z pøíkazové øádky a pøesmìrování standardního výstupu (\texttt{'>'}) do cílového \texttt{warc.gz} archivu vede k lep¹ím výsledkùm -- z mnout testovaných archivù jich je více validních. Pøesto v¹ak jsem mìl k dispozici \texttt{arc.gz archivy}, které pøi migraci pøes obì varianty hlásily nevalidní výsledky.
 
-Chyba, kterou validátor hlásil byla buï: \texttt{('incorrect trailing newline', '$\backslash$n') }a nebo \texttt{('incorrect trailing newline', '$\backslash$r')}. Jedná se vlastnì o chybu ve kódování nového øádku ve výsledných souborech\footnote{Konec øádkù se typicky znaèí buï znakem \texttt{CR} -- zkratka \texttt{CR} znamená \texttt{Carriage Return}, -- nebo \texttt{LF} -- zkratka \texttt{LF} znamená \texttt{Line Feed} --, nebo jejich kombinací. V Unixovský operaèních systémech se u¾ívá \texttt{CR}, v systémech vycházejících z \texttt{CP/M} se u¾ívá \texttt{CR+LF} a v systémech Commodore a Apple se u¾ívá \texttt{LF}.}. 
+Chyba, kterou validátor hlásil byla buï: \texttt{('incorrect trailing newline', '$\backslash$n') }a nebo \texttt{('incorrect trailing newline', '$\backslash$r')}. Jedná se vlastnì o chybu ve kódování nového øádku ve výsledných souborech\footnote{Konec øádkù se typicky znaèí buï znakem \texttt{CR} -- zkratka \texttt{CR} znamená \texttt{Carriage Return} --, nebo \texttt{LF} -- zkratka \texttt{LF} znamená \texttt{Line Feed} --, nebo jejich kombinací. V Unixovský operaèních systémech se u¾ívá \texttt{CR}, v systémech vycházejících z \texttt{CP/M} se u¾ívá \texttt{CR+LF} a v systémech Commodore a Apple se u¾ívá \texttt{LF}.}. 
 
 Proto jsem se rozhodl po dohodì s vedoucím práce informovat o této skuteènosti vývojáøe nástroje. Dokud nebude tato chyba opravena, nedoporuèuji nástroj pou¾ívat. V \texttt{pøíloze AR na s. \pageref{pr:ar}} je k dohledání hlá¹ení o chybì. 
 
 \section{Dal¹í nástroje sady \texttt{WARCTOOLS / hanzo}}
 Jak bylo øeèeno ji¾ vý¹e, \texttt{WARCTOOLS / hanzo} je sada nástrojù. Kromì migraèního nástroje obsahuje i nástroje pro práci s \texttt{warc} archivy. Nìkteré znich jsou pro projekt WebArchiv dùle¾í. V následující kapitole o nich podám nìkolik základních informací a doporuèení.
 \subsection{\texttt{warcindex.py}}
-Tento nástroj slou¾í k vytvoøení \texttt{CDX indexu} pro \texttt{warc} archivy. Jak jsem ji¾ zmiòoval, \texttt{CDX indexy} slou¾í k interpretaci dat z archivù pomocí nástroje \texttt{Wayback}. Nástroj \texttt{warcindex.py} doporuèuji k vytváøení \texttt{CDX indexù warc} souborù. 
+Tento nástroj slou¾í k vytvoøení \texttt{CDX indexu} pro \texttt{warc} archivy. Jak jsem ji¾ zmiòoval, \texttt{CDX indexy} slou¾í k interpretaci dat z archivù pomocí nástroje \texttt{Wayback}. \texttt{CDX indexy} jsou také pou¾ít k porovnání obsahu \texttt{arc} a \texttt{warc} archivù vzniklých migrací. Tím lze kontrolovat úspì¹nost provedené migrace. Nástroj \texttt{warcindex.py} doporuèuji k vytváøení \texttt{CDX indexù warc} souborù.
+
+
 \subsection{\texttt{warcvalid.py}}
 Dal¹ím dùle¾itým nástrojem je nástroj \texttt{warcvalid.py}. Tento nástroj slou¾í k validaci \texttt{warc} archivù jeví jako vhodný pro kontrolu validity nových \texttt{warc} archivù vzniklých pøi migraci. Díky nástroji jsem odhalil problémy s migraèním nástrojem, který popisuju v kapitole vìnované haváriím nástroje. Nástroj doporuèuji k ovìøování validity \texttt{warc} archivù.
 
