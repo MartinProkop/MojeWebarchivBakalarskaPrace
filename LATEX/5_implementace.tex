@@ -36,7 +36,7 @@ Jak se dalo pøedem oèekávat migrace spojená s testováním obsahu archivu je èasov
 
 Ke zefektivnìní nástroje by se pravdìpodobnì dalo dojít tak, ¾e by se v rámci nástroje \texttt{JHOVE2} implementovala tøída, která by umo¾nila pøímou charakterizaci souborù, bez nutnosti vytváøení doèasných souborù na disku. Taková zmìna v¹ak není vzhledem k rozsahu nástroj \texttt{JHOVE2} jednoduchá. V souèasné implementace funguje nástroj tak, ¾e i kdy¾ dostane na vstup \texttt{bytestream}, vytvoøí z nìj doèasný soubor. Nástroj \texttt{JHOVE2} je vyvíjen týmem lidí, který mìl zøejmì dùvod takouto u¾iteènou funkcionalitu neimplementovat.
 
-V následující tabulce uvádím èasy na zpracování zpracování archivù a poznámky z testovaných archivù. Pou¾il jsem rùzné archivy z repozitáøe WebArchivu a jeden sta¾ený pøímo mnou, v¹echny mìli velikost 100 MB. U nìkterých neuvádím èas validace vzniklého \texttt{warc} archivu. Jedná se o ty, které migraèní nástroj nepøevedl správnì -- haváriím pøevodu se vìnuji v následující kapitole.
+V následující tabulce uvádím èasy na zpracování zpracování archivù a poznámky z testovaných archivù. Pou¾il jsem rùzné archivy z repozitáøe WebArchivu a jeden sta¾ený pøímo mnou, v¹echny mìli velikost 100 MB. U nìkterých neuvádím èas validace vzniklého \texttt{warc} archivu. Jedná se o ty, které migraèní nástroj nepøevedl správnì -- haváriím pøevodu se vìnuji v následující kapitole. V \texttt{pøíloze AS na s. \pageref{pr:as}} jsou v¹echny testované soubory vèetnì výsledných \texttt{warc} souborù.
 \begin{table}[htbp!]
 \caption{Èasy migrace souborù}
 \label{tabulka_obsahu_webarchivu}
