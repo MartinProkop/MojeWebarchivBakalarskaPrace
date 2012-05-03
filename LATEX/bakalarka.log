@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.27)  3 MAY 2012 02:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.27)  3 MAY 2012 08:40
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -360,13 +360,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 12.
-
-Overfull \hbox (8.21373pt too wide) in paragraph at lines 13--14
-[]\IL2/lmr/m/n/12 Publikace od-bor-ného, umìlec-kého a zpravodajsko-publicistic
-kého
- []
-
-[6
+ [6
 
 
 
@@ -416,11 +410,6 @@ Overfull \vbox (2.66663pt too high) has occurred while \output is active []
 
 
 [10]
-Overfull \hbox (3.67128pt too wide) in paragraph at lines 64--65
-[]\IL2/lmr/m/n/12 V tomto roce bylo pro-ve-deno de-vìt vý-bì-ro-vých sklizní. A
- sa-mozøejmì
- []
-
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
@@ -608,12 +597,6 @@ Overfull \vbox (5.90833pt too high) has occurred while \output is active []
 
 
 [20]
-Overfull \hbox (25.42374pt too wide) in paragraph at lines 190--191
-\IL2/lmr/m/n/12 vých in-for-ma-è-ních zdrojù. \IL2/lmtt/m/n/12 WA Admin v2 \IL2
-/lmr/m/n/12 na-hra-dil ná-stroj vy-tvoøený Luká¹em
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 195--195
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 Waybak \IL2/l
 mr/m/n/10 do-stupné on-line na ad-rese
@@ -803,12 +786,6 @@ Overfull \hbox (4.59917pt too wide) in paragraph at lines 105--106
 ní \IL2/lmtt/m/n/12 WARC-TOOLS[][][]\IL2/lmr/m/n/12 . 
  []
 
-
-Overfull \hbox (5.6612pt too wide) in paragraph at lines 107--108
-[]\IL2/lmr/m/n/12 V \IL2/lmtt/m/n/12 pøíloze W na s. []65[] \IL2/lmr/m/n/12 je 
-k na-le-zení do-ku-men-tace ná-stroje. \IL2/lmtt/m/n/12 Pøíloha
- []
-
 [40]
 
 Package hyperref Warning: Composite letter `\textring+u'
@@ -822,9 +799,9 @@ Overfull \hbox (0.29344pt too wide) in paragraph at lines 129--131
  []
 
 [41]
-Overfull \hbox (12.92834pt too wide) in paragraph at lines 145--146
+Overfull \hbox (3.48935pt too wide) in paragraph at lines 145--146
 []\IL2/lmr/m/n/12 Zjistil jsem, ¾e ná-stroj ha-va-ruje, stejnì jako \IL2/lmtt/m
-/n/12 WARC-TOOLS / hanzo\IL2/lmr/m/n/12 ,
+/n/12 WARC-TOOLS / han-
  []
 
 
@@ -1428,7 +1405,7 @@ msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtto10.pfb>
-Output written on bakalarka.pdf (77 pages, 684226 bytes).
+Output written on bakalarka.pdf (77 pages, 684243 bytes).
 PDF statistics:
  1372 PDF objects out of 1440 (max. 8388607)
  345 named destinations out of 1000 (max. 500000)
