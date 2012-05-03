@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.27)  3 MAY 2012 02:15
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.27)  3 MAY 2012 02:40
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -447,9 +447,20 @@ Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                removing `\textasciicaron' on input line 102.
 
 
+Overfull \hbox (7.04465pt too wide) in paragraph at lines 105--106
+[][][][] \IL2/lmr/m/n/12 pro-vádí vý-zkum, má za úkol zveøejòo-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 107--107
 [][][][]\IL2/lmr/m/n/10 Bli¾¹í in-for-mace o or-ga-ni-zaci CZ.NIC do-stupné on-
 line na ad-rese
+ []
+
+
+Overfull \hbox (6.36073pt too wide) in paragraph at lines 107--108
+[][][][] \IL2/lmr/m/n/12 po-sky-tuje WebAr-chivu se-znam do-mén pro ce-lo-plo¹n
+é skliznì
  []
 
 
@@ -562,31 +573,35 @@ Underfull \hbox (badness 7433) in paragraph at lines 171--171
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
 [][][][]\IL2/lmr/m/n/10 Nástroj \IL2/lmtt/m/n/10 Generátor URN \IL2/lmr/m/n/10 
-do-stupný on-lina na ad-rese
+do-stupný on-line na ad-rese
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 Heritrix \IL2
 /lmr/m/n/10 do-stupné on-line na ad-rese
  []
 
+
+Overfull \vbox (7.40007pt too high) has occurred while \output is active []
+
+
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 [][][][]\IL2/lmr/m/n/10 Podrobné in-for-mace o for-mátu \IL2/lmtt/m/n/10 GZip \
 IL2/lmr/m/n/10 do-stupné on-line na ad-rese
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 [][][][]\IL2/lmr/m/n/10 Popis \IL2/lmtt/m/n/10 RFC standardu SHA-1 \IL2/lmr/m/n
 /10 do-stupný on-line na ad-rese
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 NutchWAX \IL2
 /lmr/m/n/10 do-stupné on-line na ad-rese
  []
@@ -596,23 +611,25 @@ Overfull \vbox (5.90833pt too high) has occurred while \output is active []
 
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Overfull \hbox (25.42374pt too wide) in paragraph at lines 190--191
+\IL2/lmr/m/n/12 vých in-for-ma-è-ních zdrojù. \IL2/lmtt/m/n/12 WA Admin v2 \IL2
+/lmr/m/n/12 na-hra-dil ná-stroj vy-tvoøený Luká¹em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 Waybak \IL2/l
 mr/m/n/10 do-stupné on-line na ad-rese
  []
 
-
-Overfull \vbox (6.25836pt too high) has occurred while \output is active []
-
-
 [21]
-Overfull \hbox (0.47223pt too wide) in paragraph at lines 195--196
+Overfull \hbox (0.47223pt too wide) in paragraph at lines 197--198
 []\IL2/lmr/m/n/12 Po na-kon-fi-gu-ro-vání \IL2/lmtt/m/n/12 WayBack \IL2/lmr/m/n
 /12 zob-ra-zuje v¹echny ar-chi-vo-va-ného webo-
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 203--203
+Underfull \hbox (badness 1122) in paragraph at lines 205--205
 [][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 Web Curator T
 ool \IL2/lmr/m/n/10 do-stupné on-line na ad-rese
  []
@@ -738,11 +755,6 @@ Underfull \hbox (badness 4036) in paragraph at lines 37--37
 Underfull \vbox (badness 1584) has occurred while \output is active []
 
  [35]
-Overfull \hbox (0.8562pt too wide) in paragraph at lines 46--47
-\IL2/lmr/m/n/12 roky urèe-nými u¾i-va-te-lem soft-waru. Ná-stroj je tedy mo¾no 
-þper-
- []
-
 [36]
 Overfull \hbox (5.74033pt too wide) in paragraph at lines 58--59
 \IL2/lmr/m/n/12 které do-ká¾e iden-ti-fi-ko-vat a va-li-do-vat. Iden-ti-fi-ko-v
@@ -784,8 +796,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38]
 Underfull \hbox (badness 10000) in paragraph at lines 81--81
-[][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 WARCTOOLS \IL
-2/lmr/m/n/10 do-stupná on-line na ad-rese
+[][][][]\IL2/lmr/m/n/10 Webové stránky pro-jektu \IL2/lmtt/m/n/10 WARC-TOOLS \I
+L2/lmr/m/n/10 do-stupná on-line na ad-rese
  []
 
 [39]
@@ -1395,7 +1407,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  4921 strings out of 495027
  71971 string characters out of 1181419
- 143808 words of memory out of 3000000
+ 143824 words of memory out of 3000000
  7617 multiletter control sequences out of 15000+50000
  47874 words of font info for 46 fonts, out of 3000000 for 9000
  38 hyphenation exceptions out of 8191
@@ -1413,7 +1425,7 @@ msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtto10.pfb>
-Output written on bakalarka.pdf (77 pages, 684393 bytes).
+Output written on bakalarka.pdf (77 pages, 684296 bytes).
 PDF statistics:
  1372 PDF objects out of 1440 (max. 8388607)
  345 named destinations out of 1000 (max. 500000)

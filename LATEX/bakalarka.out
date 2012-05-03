@@ -92,10 +92,10 @@
 \BOOKMARK [0][-]{chapter.5}{Implementace \372prav v migracn\355ch n\341stroj\355ch}{}
 \BOOKMARK [1][-]{section.5.1}{ \332vod}{chapter.5}
 \BOOKMARK [1][-]{section.5.2}{ \332prava JHOVE2}{chapter.5}
-\BOOKMARK [1][-]{section.5.3}{ \332prava WARCTOOLS / hanzo}{chapter.5}
+\BOOKMARK [1][-]{section.5.3}{ \332prava WARC-TOOLS / hanzo}{chapter.5}
 \BOOKMARK [1][-]{section.5.4}{ V\375stupy z anal\375zy obsahu prev\341den\375ch archivu}{chapter.5}
-\BOOKMARK [1][-]{section.5.5}{ Hav\341rie n\341stroje WARCTOOLS / hanzo}{chapter.5}
-\BOOKMARK [1][-]{section.5.6}{ Dal\235\355 n\341stroje sady WARCTOOLS / hanzo}{chapter.5}
+\BOOKMARK [1][-]{section.5.5}{ Hav\341rie n\341stroje WARC-TOOLS / hanzo}{chapter.5}
+\BOOKMARK [1][-]{section.5.6}{ Dal\235\355 n\341stroje sady WARC-TOOLS / hanzo}{chapter.5}
 \BOOKMARK [2][-]{subsection.5.6.1}{ warcindex.py}{section.5.6}
 \BOOKMARK [2][-]{subsection.5.6.2}{ warcvalid.py}{section.5.6}
 \BOOKMARK [1][-]{section.5.7}{ Doporucen\355 pro implementaci migrace archivu}{chapter.5}

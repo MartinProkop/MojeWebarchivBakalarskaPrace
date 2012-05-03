@@ -102,9 +102,9 @@ Sledování podmínek u¾ití licence Creative Commons je jedním z velmi dùle¾itých ú
 \subsection{Partneøi projektu}
 \noindent Hlavní partneøi projektu WebArchiv jsou: \cite{Partneri projektu}
 \begin{description}
-\item[Moravská zemská knihovna]\footnote{Bli¾¹í informace o Moravské zemské knihovnì dostupné online na adrese \texttt{http://www.mzk.cz}.} provádí výzkum, má za úkol zveøej\-òovat výsledky výzkumu a publikuje informaci o projektu. Jejím zøizovatelem je Ministerstvo kultury ÈR.
-\item[ÚVT Masarykovy univerzity]\footnote{Bli¾¹í informace o UVT Masarykovy univerzity dostupné online na adrese \texttt{http://www.muni.cz/ics}.} se zabývá výzkumem v oboru digitálních knihoven, zpracování a uchování multimédií. 
-\item[CZ.NIC]\footnote{Bli¾¹í informace o organizaci CZ.NIC dostupné online  na adrese \texttt{http://www.nic.cz}.} poskytuje WebArchivu seznam domén pro celoplo¹né skliz\-nì v rámci \texttt{domény CZ}.
+\item[Moravská zemská knihovna]\footnote{Bli¾¹í informace o Moravské zemské knihovnì dostupné online na adrese \texttt{http://www.mzk.cz}.} provádí výzkum, má za úkol zveøejòovat výsledky výzkumu a publikuje informaci o projektu. Jejím zøizovatelem je Ministerstvo kultury ÈR.
+\item[ÚVT Masarykovy univerzity]\footnote{Bli¾¹í informace o UVT Masarykovy univerzity dostupné online na adrese \texttt{http://www.muni.cz/ics}.} se zabývá výzkumem v oboru digitálních knihoven, zpracování a uchování multimédií.
+\item[CZ.NIC]\footnote{Bli¾¹í informace o organizaci CZ.NIC dostupné online  na adrese \texttt{http://www.nic.cz}.} poskytuje WebArchivu seznam domén pro celoplo¹né skliznì v rámci \texttt{domény CZ}.
 \end{description}
 \subsection{Nasmlouvané webové zdroje}
 Mimo licence Creative Commons má WebArchiv uzavøené smlouvy s autory webových zdrojù. Smlouva umo¾òuje archivovat tyto zdroje. Vlastníci webových informaèních zdrojù by mìli mít zájem o archivaci svých webových zdrojù. Dùvodù pro to je mnoho. Hlavním je samozøejmì dostupnost starých verzí webù. Èasto se stává, ¾e majitel webu ztratí stará data nebo o nì pøijde. Je pro nìj tudí¾ výhodné, ¾e si je mù¾e dohledat v WebArchivu. Navíc jde podle mého názoru o vcelku presti¾ní zále¾itost -- mít webové stránky ulo¾ené do budoucna pod hlavièkou zachování èeského kulturního dìdictví. \cite{Pro vydavatele}
@@ -169,8 +169,10 @@ V této kapitolo pøedstavuji základní nástroje, které jsou pou¾ívané v rámci WebA
 \uv{\textit{\texttt{Arcretriever} je modul pro dodání dokumentu, jen¾ je souèástí systému \texttt{WERA}. \texttt{Java} web aplikace na základe jména archivního souboru a pozice (offsetu) zobrazuje dokumenty vrácené z archivu.}} \cite{MATEJKA2006} Tento nástroj byl pou¾íván ve WebArchivu v kombinaci s nástrojem \texttt{WERA} a \texttt{NutchWAX}.
 \subsection{\texttt{DeDuplicator}}
 Jedná se o modul programu \texttt{Heritrix}, který má na starost zachytávání duplicitních souborù v rámci série sklizní. Modul vyvíjí National and University Library of Iceland a je volnì dostupný\footnote{Webové stránky nástroje \texttt{DeDuplicator} dostupné online na adrese \texttt{http://deduplicator.sourceforge.net/}.} ke sta¾ení. Nástroj byl poprvé nasazen pøi sklizni v roce 2010, funguje tak, ¾e kontroluje duplicitu archivovaných souborù, které mají jiný \texttt{mimetype} ne¾ \texttt{html/text}.
+
+Dal¹í informace o deduplikace nabízím v èásti práce vìnované nástroji \texttt{Heritrix}, \texttt{Wayback} a formátu \texttt{warc}.
 \subsection{\texttt{Generátor URN}}
-Nástroj dostupný na stránkách projektu WebArchivu\footnote{Nástroj \texttt{Generátor URN} dostupný onlina na adrese \texttt{http://www.webarchiv.cz/generator/dc\_generator.php}.}. Slou¾í ke generování \texttt{Dublin Core Metadata Element Set} k zadané \texttt{URL} adrese. Nástroj byl vytvoøen pracovníky WebArchivu.
+Nástroj dostupný na stránkách projektu WebArchivu\footnote{Nástroj \texttt{Generátor URN} dostupný online na adrese \texttt{http://www.webarchiv.cz/generator/dc\_generator.php}.}. Slou¾í ke generování \texttt{Dublin Core Metadata Element Set} k zadané \texttt{URL} adrese. Nástroj byl vytvoøen pracovníky WebArchivu.
 \label{nastroje:heritrix}
 \subsection{\texttt{HERITRIX}}
 Nástroj \texttt{Heritrix} vyu¾ívá WebArchiv pøímo v provozu na skliznì webových zdrojù. Pou¾íval jsem ho pøi cvièných sklizních. Nástroj umo¾òuje ¹iroké mno¾ství mo¾ností pro konfiguraci parametrù skliznì. Jedná se napøíklad o maximální objem sta¾ených dat, ale i o nastavení procházení webové stránky pøi jejím stahování. Jsou pro nìj vytváøeny i moduly, které doplòují jeho funkcionalitu. Nástroj je volnì dostupný ke sta¾ení\footnote{Webové stránky projektu \texttt{Heritrix} dostupné online na adrese \texttt{http://crawler.archive.org/}.}.. Je to jeden z nejpou¾ívanìj¹ích crawlerù.
@@ -185,9 +187,9 @@ Nástroj vytvoøený v rámci bakaláøské práce vypracované Filipem Kusalíkem v roce 
 \subsection{\texttt{NutchWAX}}
 Nástroj pou¾ívá WebArchiv pro fulltextové vyhledávání ve svém archivu. Je napojen na nástroj \texttt{WayBack}, který nenabízí mo¾nost fulltextového vyhledávání v archivu. Nástroj byl v projektu WebArchiv pou¾íván v kombinaci s nástroji \texttt{WERA} a \texttt{ARCRetriever.} \texttt{NutchWAX} je souèást projektu\footnote{Webové stránky projektu \texttt{NutchWAX} dostupné online na adrese \texttt{http://archive-access.sourceforge.net/projects/nutch/}.} \texttt{Nutch}, který zahrnuje nástroje pro archivaci a vyhledávání webových zdrojù vèetnì práce s arc soubory.\texttt{Nutch} nabízí komplexní øe¹ení archivace webových zdrojù.
 \subsection{\texttt{WA ADMIN}}
-V roce 2009 realizoval Adam Broke¹ \texttt{WA Admin v2} v rámci své bakaláøské práce s názvem Systém pro správu procesu archivace webových informaèních zdrojù. \texttt{WA Admin v2} nahradil nástroj vytvoøený Luká¹em Matìjkou a stejnì jako WA Admin slou¾il pro správu zdrojù, vydavatelù a smluv WebArchivu. \cite{BROKES2009}
+V roce 2009 nástroj realizoval Adam Broke¹ \texttt{WA Admin v2} v rámci své bakaláøské práce s názvem Systém pro správu procesu archivace webových informaèních zdrojù. \texttt{WA Admin v2} nahradil nástroj vytvoøený Luká¹em Matìjkou a stejnì jako WA Admin slou¾il pro správu zdrojù, vydavatelù a smluv WebArchivu. \cite{BROKES2009}
 \subsection{\texttt{WA-CZ}}
-Tento nástroj vytvoøil jako v roce 2006 Luká¹ Matìjka v rámci své diplomové práce s názvem Zpøístupnìní archivu èeského webu. Nástroj slou¾il pro prùbì¾nou sklizeò a indexaci sta¾ených webových zdrojù. Podrobnìji se nástrojem zabývám v kapitole, která se týká star¹ích prací. \cite{MATEJKA2006}
+Tento nástroj vytvoøil v roce 2006 Luká¹ Matìjka v rámci své diplomové práce s názvem Zpøístupnìní archivu èeského webu. Nástroj slou¾il pro prùbì¾nou sklizeò a indexaci sta¾ených webových zdrojù. Podrobnìji se nástrojem zabývám v kapitole, která se týká star¹ích prací. \cite{MATEJKA2006}
 \label{nastroje:wayback}
 \subsection{\texttt{Wayback}}
 Wayback je nástroj pro vyhledávání dokumentù v archivech. WebArchiv jej pou¾ívá v bì¾ném provozu. Je volnì dostupný\footnote{Webové stránky projektu \texttt{Waybak} dostupné online na adrese \texttt{http://archive-access.sourceforge.net/projects/wayback}.} na internetu. Pou¾íval jsem ho pro prohlí¾ení mnou sta¾ených webových zdrojù pomocí virtuálního serveru \texttt{Apache Tomcat}. Pro vyhledávání v archivu je potøeba vytvoøit \texttt{CDX index}\footnote{Jedná se standardní textový soubor, který obsahuje základní informace o souborech obsa¾ených v internetovém archivu. Jednotlivé záznamy jsou v nìm oddìleny pouhým odøádkováním. Pøíklad \texttt{CDX indexu} je k nalezení v \texttt{pøíloze H na s. \pageref{pr:a}}.} v¹ech souborù, které jsou archivované. To se provádí nástrojem, který je k WayBacku pøidru¾ený. \texttt{WayBack} obsahuje vìt¹í sadu nástrojù pro práci s \texttt{CDX indexy}.
@@ -198,6 +200,6 @@ Nástroj umo¾òuje té¾ interpteraci sta¾ených webových zdrojù formátu \texttt{warc
 
 Deduplikací se podrobnìji zabývám v èásti práce vìnované formátu \texttt{warc} na s. \pageref{warc:deduplikace}.
 \subsection{\texttt{WebAnalyzer}}
-Nástroj, který pro WebArchiv vytvoøil Ivan Vlèek v rámci své bakaláøské práce s názvem Rozpoznání a archivace èeského webu mimo národní doménu v roce 2008. Nástroj se v souèasné dobì pou¾ívá. \cite{VLCEK2008}
+Nástroj, který pro WebArchiv vytvoøil Ivan Vlèek v rámci své bakaláøské práce s názvem Rozpoznání a archivace èeského webu mimo národní doménu v roce 2008. Nástroj se v souèasné dobì stále pou¾ívá. \cite{VLCEK2008}
 \subsection{\texttt{Web Curator Tool}}
 Nástroj vyvinutý v roce 2006 National Library of New Zealand a The British Library. Nástroj slou¾í k øízení a stahování webových zdrojù a je stále podporován\footnote{Webové stránky projektu \texttt{Web Curator Tool} dostupné online na adrese \texttt{http://webcurator.sourceforge.net/}.}. Stejnì jako Dánský \texttt{NetarchiveSuite} pou¾ívá \texttt{Heritrix}, na rozdíl od \texttt{NetarchiveSuite} je \texttt{Heritrix} jeho souèástí.

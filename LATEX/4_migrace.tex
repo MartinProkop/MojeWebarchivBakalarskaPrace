@@ -43,17 +43,17 @@ Jak jsem zmínil vý¹e, program \texttt{JHOVE2} je novìj¹í verzí programu \texttt{
 \item[Identifikace] urèení formátu objektu.
 \item[Feature extraction (extrakce rysù)] urèení charakteristických rysù objektu.
 \item[Validace] urèení stupnì korespondence objektu se specifikací formátu.
-\item[Assessment] urèení stupnì korespondence objektu se specifickými nároky urèenými u¾ivatelem softwaru. Nástroj je tedy mo¾no \uv{personalizovat} pro potøeby u¾ivatele, co¾ je výhodné hlavnì proto, ¾e témìø ka¾dá organizace zabývající se archivací webových zdrojù, pou¾ívá odli¹nou politiku archivace dat. Nástroj poté dovede napøíklad urèit rizika pøi práci s rùznými objekty, nebo provést èi doporuèit dal¹í akce ke zpracování objektù.
+\item[Assessment] urèení stupnì korespondence objektu se specifickými nároky urèenými u¾ivatelem softwaru. Nástroj je tedy mo¾no personalizovat pro potøeby u¾ivatele, co¾ je výhodné hlavnì proto, ¾e témìø ka¾dá organizace zabývající se archivací webových zdrojù pou¾ívá odli¹nou politiku archivace dat. Nástroj poté dovede napøíklad urèit rizika pøi práci s rùznými objekty nebo provést èi doporuèit dal¹í akce ke zpracování objektù.
 \end{description}
 \noindent \\ Mezi dal¹í pøednosti programu patøí \cite{JHOVE2}:
 \begin{itemize}
-\item Modulární architektura a práce s plug-iny
-\item Jednoduché \texttt{API} a design základních modulù
-\item \texttt{Bufferovaní I/O} operací
+\item Modulární architektura a práce s plug-iny.
+\item Jednoduché \texttt{API} a design základních modulù.
+\item \texttt{Bufferovaní I/O} operací.
 \item Internacionalizovaný výstup: podporuje více formátù -- \texttt{JSON, XML}, text.
-\item ©iroká mo¾nost konfigurace nástroje
-\item Kompletní dokumentace nástroje
-\item ©iroká ¹kála rozpoznatelných objektù\footnote{V následujícím odstavci podávám pouze neúplný výèet podporovaných objektù, podrobný výèet lze nalézt v \texttt{pøíloze AG na s. \pageref{pr:ag}}.}
+\item ©iroká mo¾nost konfigurace nástroje.
+\item Kompletní dokumentace nástroje.
+\item ©iroká ¹kála rozpoznatelných objektù\footnote{V následujícím odstavci podávám pouze neúplný výèet podporovaných objektù, podrobný výèet lze nalézt v \texttt{pøíloze AG na s. \pageref{pr:ag}}.}.
 \end{itemize}
 Hlavní pøedností nástroje je samozøejmì ¹iroká ¹kála typù souborù, které doká¾e identifikovat a validovat. Identifikovat doká¾e \texttt{JHOVE2} v¹ech\-ny objekty obsa¾ené v databázi \texttt{PRONOM}\footnote{Organizace zabývající se problematikou souborových formátù a softwarových produkù s nimi souvisejících. Webové stránky databáze \texttt{PRONOM} dostupné online na adrese \texttt{http://www.nationalarchives.gov.uk/PRONOM}.}, respektive objekty, které definují \texttt{DROID signature files}\footnote{\texttt{DROID} (Digital Record Object Identificatio), je nástroj pro automatickou identifikaci formátu souborù. Webové stránky nástroje \texttt{DROID} dostupné online na adrese \texttt{http://droid.sourceforge.net}.} -- jedná se o více ne¾ 550 formátù. Výèet typù objektù, které dovede \texttt{JHOVE2} validovat obsahuje napøíklad: \texttt{ICC color profile, JPEG 2000, PDF, SGML, Shapefile, TIFF,\\ UTF-8, WAVE, XML, Zip}.
 
@@ -78,7 +78,7 @@ Migraci realizuji pomocí nìkolika variant nástrojù \texttt{WARC-TOOLS}. Pokusím 
 Sada nástrojù pro práci s \texttt{arc} a \texttt{warc} soubory. Skripty jsou napsány v nìkolika programovacích jazycích -- \texttt{C, Python, Ruby}.
 Souèástí sady skriptù jsou jak skripty pro pøevod archivù, tak skripty pro analýzy \texttt{warc} souborù. Jedná se konkrétnì o \texttt{warcdump} a \texttt{warcvalidator}. Bohu¾el \texttt{WARC-TOOLS} neobsahuje i nástroje na práci s \texttt{warc} archivy.
 
-Tento nástroj není ji¾ v souèasnosti dále vyvíjen a podporován, ale je stále dostupný ke sta¾ení\footnote{Webové stránky projektu \texttt{WARCTOOLS} dostupná online na adrese \texttt{http://code.google.com/p/warc-tools/}.}. Na webových stránkách projektu je dostupná dokumentace, kterou nabízím v \texttt{pøílohách R, S, T a U na s. \pageref{pr:r}}. \texttt{Pøíloha O na s. \pageref{pr:o}} obsahuje výpis z programu \texttt{JHOVE2} pro \texttt{warc} archiv generovaný tímto nástrojem. \texttt{Pøíloha V na s. \pageref{pr:v}} obsahuje výstup z nástroje \texttt{warcdump} pro \texttt{warc} archiv. V \texttt{pøíloze L na s. \pageref{pr:l}} je \texttt{warc} archiv generovaný nástrojem \texttt{WARCTOOLS}. \texttt{Pøíloha AC na s. \pageref{pr:ac}} obsahuje kompletní nástroj.
+Tento nástroj není ji¾ v souèasnosti dále vyvíjen a podporován, ale je stále dostupný ke sta¾ení\footnote{Webové stránky projektu \texttt{WARC-TOOLS} dostupná online na adrese \texttt{http://code.google.com/p/warc-tools/}.}. Na webových stránkách projektu je dostupná dokumentace, kterou nabízím v \texttt{pøílohách R, S, T a U na s. \pageref{pr:r}}. \texttt{Pøíloha O na s. \pageref{pr:o}} obsahuje výpis z programu \texttt{JHOVE2} pro \texttt{warc} archiv generovaný tímto nástrojem. \texttt{Pøíloha V na s. \pageref{pr:v}} obsahuje výstup z nástroje \texttt{warcdump} pro \texttt{warc} archiv. V \texttt{pøíloze L na s. \pageref{pr:l}} je \texttt{warc} archiv generovaný nástrojem \texttt{WARC-TOOLS}. \texttt{Pøíloha AC na s. \pageref{pr:ac}} obsahuje kompletní nástroj.
 \subsubsection{Kompatibilita s ostatními nástroji}
 \noindent Nástroj \texttt{warcdump} není kompatibilní s ostatními mnou testovanými nástroji.
 \begin{itemize}
@@ -122,7 +122,7 @@ V \texttt{pøíloze W na s. \pageref{pr:w}} je k nalezení dokumentace nástroje. \t
 \item Zjistil jsem, ¾e nástroj havaruje pøi pøevodu archivu se specifickým záznamem. 
 \end{itemize}
 \subsubsection{Rùzné verze nástroje  \texttt{WARC-TOOLS / hanzo}}
-V prùbìhu implementace a testování nástroje jsem objevil nìkolik chyb, proto jsem byl nucen vyzkou¹et více verzí nástroje. Není potøeba popisovat zmìny, které pøiná¹ejí nové verze nástroje. V¹echny zmìny jsou ostatnì uvedeny na stránkách projektu v sekci Commits\footnote{Webové stránky projektu \texttt{WARCTOOLS / hanzo} dostupné online na adrese \texttt{http://code.hanzoarchives.com/warc-tools/changesets}.}. 
+V prùbìhu implementace a testování nástroje jsem objevil nìkolik chyb, proto jsem byl nucen vyzkou¹et více verzí nástroje. Není potøeba popisovat zmìny, které pøiná¹ejí nové verze nástroje. V¹echny zmìny jsou ostatnì uvedeny na stránkách projektu v sekci Commits\footnote{Webové stránky projektu \texttt{WARC-TOOLS / hanzo} dostupné online na adrese \texttt{http://code.hanzoarchives.com/warc-tools/changesets}.}. 
 
 Jak uvedu v následujících kapitolách, i nejnovìj¹í verze nástroje je problematická. Pøesto se dá øíci, ¾e vývojáøi na nástroji neustále pracují, odstraòují jeho nedostatky a doplòují funkcionalitu.
 \subsection{\texttt{WARC-TOOLS / kpk09}}
@@ -155,10 +155,10 @@ Musím zdùraznit, ¾e jsem pou¾il relativnì malý testovací vzorek. Proto, abych mo
 Porovnání zdrojového kódu je nároènìj¹í procedura, ale pravdìpodobnì mù¾e jasnì odpovìdìt na otázku. Pravdìpodobnì by bylo nejlep¹í dotázat se na rozdílnost obou nástrojù pøímo vývojáøù. 
 Server, na kterém jsou oba nástroje umístìny, umo¾òuje pøímé porovnávání pomocí nástroje \texttt{diff}. Informace o rozdílnosti je mo¾né zhlédnout z dvou hledisek.
 \begin{itemize}
-\item Zmìny ve \texttt{WARCTOOLS / hanzo}, které se neprojevily v druhém nástroji\footnote{Náhled zmìn mezi porovnávanými nástroji dostupný online na adrese \texttt{https://bitbucket.org/kpk09/warc-tools/compare/hanzo/warc-tools..}. 28.4.2012 ¹lo o modifikace ve 105 souborech.}. 
-\item Zmìny ve \texttt{WARCTOOLS /kpk09}, které se neprojevily v druhém nástroji\footnote{Náhled zmìn mezi porovnávanými nástroji dostupný online na adrese \texttt{https://bitbucket.org/kpk09/warc-tools/compare/..hanzo/warc-tools}. 28.4.2012 ¹lo o modifikace ve 7 souborech.}.
+\item Zmìny ve \texttt{WARC-TOOLS / hanzo}, které se neprojevily v druhém nástroji\footnote{Náhled zmìn mezi porovnávanými nástroji dostupný online na adrese \texttt{https://bitbucket.org/kpk09/warc-tools/compare/hanzo/warc-tools..}. 28.4.2012 ¹lo o modifikace ve 105 souborech.}. 
+\item Zmìny ve \texttt{WARC-TOOLS /kpk09}, které se neprojevily v druhém nástroji\footnote{Náhled zmìn mezi porovnávanými nástroji dostupný online na adrese \texttt{https://bitbucket.org/kpk09/warc-tools/compare/..hanzo/warc-tools}. 28.4.2012 ¹lo o modifikace ve 7 souborech.}.
 \end{itemize}
 \section{Závìry z porovnávání nástrojù}
-Na základì porovnání jednotlivých nástrojù, které rozvádím v pøedcházející kapitole, jsem po poradì se svým vedoucím, Mgr. Václavem Roseckým, do¹el k závìru, ¾e nejlep¹ím nástrojem pro pøípadný pøevod webového archivu bude nástroj \texttt{WARCTOOLS / hanzo}.
+Na základì porovnání jednotlivých nástrojù, které rozvádím v pøedcházející kapitole, jsem po poradì se svým vedoucím, Mgr. Václavem Roseckým, do¹el k závìru, ¾e nejlep¹ím nástrojem pro pøípadný pøevod webového archivu bude nástroj \texttt{WARC-TOOLS / hanzo}.
 
 Hlavní výhodou tohoto nástroje je to, ¾e je neustále vyvíjen a za jeho vývojem stojí organizace Hanzo Archives.

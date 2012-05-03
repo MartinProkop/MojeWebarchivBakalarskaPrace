@@ -79,7 +79,7 @@ Seznam definovaných polí, která se mohou v záznamu zobrazovat lze nalézt v \text
 
 \noindent \texttt{Warc} záznamy jsouo nìkolika rùzných typù, podle toho k èemu záznam slou¾í: \cite{Information and documentation -- The WARC File Format}
 \begin{description}
-\item[Warcinfo] popisuje ostatní \texttt{warc} záznamy, které ho následují. Typicky je na zaèátku \texttt{WARC} souboru. Má tedy èistì informativní charakte. Lze v nìm najít informace o tom, jaký software daný soubor vytvoøil, \texttt{IP adresa} stroje na kterém byl vytvoøe atd.  Pøíklad záznamu v \texttt{pøíloze K na s. \pageref{pr:s}}.
+\item[Warcinfo] popisuje ostatní \texttt{warc} záznamy, které ho následují. Typicky je na zaèátku \texttt{WARC} souboru. Má tedy èistì informativní charakte. Lze v nìm najít informace o tom, jaký software daný soubor vytvoøil, \texttt{IP adresa} stroje na kterém byl vytvoøe atd. Pøíklad záznamu v \texttt{pøíloze K na s. \pageref{pr:s}}.
 \item[Response] nese odpovìï na urèitý dotaz. Obsahuje informace o tom jak daný dotaz probíhal. Lze v nìm najít \texttt{HTTP} hlavièky dotazu atd.
 \item[Resource] je urèitý sta¾ený zdroj, ale bez informací protokolu. Ty jsou, jak je zøejmé, neseny v jiném typu záznamu. Data jsou v nìm ulo¾eny v \texttt{Record block}. Záznam se bude li¹it podle toho, jestli bude obsahovat data z urèitého \texttt{HTTP} zdroje, \texttt{ftp} zdroje atd.
 \item[Request] je ¾ádost o webový zdroj. Obsahuje detailní informace o provedeném dotazu a o ¾ádaném webovém zdroji. Pøíklad záznamu v \texttt{pøíloze J na s. \pageref{pr:j}}.
