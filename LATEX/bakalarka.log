@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.27)  3 MAY 2012 02:40
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.27)  3 MAY 2012 02:51
 entering extended mode
  %&-line parsing enabled.
 **bakalarka.tex
@@ -426,6 +426,7 @@ Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 67.
 
+[11]
 LaTeX Font Info:    Font shape `IL2/lmtt/bx/n' in size <12> not available
 (Font)              Font shape `IL2/lmtt/b/n' tried instead on input line 97.
 
@@ -440,7 +441,7 @@ Overfull \hbox (11.1664pt too wide) in paragraph at lines 98--99
 mtt/m/n/12 Creative Commons[][][]\IL2/lmr/m/n/12 .
  []
 
-[11] [12]
+[12]
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
@@ -462,10 +463,6 @@ Overfull \hbox (6.36073pt too wide) in paragraph at lines 107--108
 [][][][] \IL2/lmr/m/n/12 po-sky-tuje WebAr-chivu se-znam do-mén pro ce-lo-plo¹n
 é skliznì
  []
-
-
-Overfull \vbox (5.16675pt too high) has occurred while \output is active []
-
 
 [13]
 Underfull \hbox (badness 1831) in paragraph at lines 125--125
@@ -969,7 +966,13 @@ Package hyperref Warning: Composite letter `\textasciicaron+e'
 
 
 
-]) [52]
+])
+Overfull \hbox (4.1957pt too wide) in paragraph at lines 19--64
+\IL2/lmr/m/n/12 (zøi-zo-va-tel pro-jektu WebAr-chiv) jako pod-klady k re-a-li-z
+aci mi-grace webo-
+ []
+
+[52]
 \openout2 = `bibliografie.aux'.
 
  (./bibliografie.tex
@@ -1411,7 +1414,7 @@ Here is how much of TeX's memory you used:
  7617 multiletter control sequences out of 15000+50000
  47874 words of font info for 46 fonts, out of 3000000 for 9000
  38 hyphenation exceptions out of 8191
- 38i,8n,42p,1061b,445s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,7n,42p,1061b,445s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-cstt.enc}{/usr/share/texmf/fonts/enc/
 dvips/lm/lm-cs.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc} </usr/sh
 are/texmf/fonts/pk/fi-logo/fi-logo.514pk>{/usr/share/texmf/fonts/enc/dvips/lm/l
@@ -1425,7 +1428,7 @@ msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtto10.pfb>
-Output written on bakalarka.pdf (77 pages, 684296 bytes).
+Output written on bakalarka.pdf (77 pages, 684226 bytes).
 PDF statistics:
  1372 PDF objects out of 1440 (max. 8388607)
  345 named destinations out of 1000 (max. 500000)

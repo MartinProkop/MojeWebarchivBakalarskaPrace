@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {2.2.11}\rmfamily Rok 2010}{11}{subsection.2.2.11}
 \contentsline {subsection}{\numberline {2.2.12}\rmfamily Rok 2011}{11}{subsection.2.2.12}
 \contentsline {section}{\numberline {2.3}\slshape Sou\v casn\'y obsah datab\'aze}{11}{section.2.3}
-\contentsline {section}{\numberline {2.4}\slshape Dal\v s\IeC {\'\i } informace o projektu}{11}{section.2.4}
+\contentsline {section}{\numberline {2.4}\slshape Dal\v s\IeC {\'\i } informace o projektu}{12}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}\rmfamily \texttt {Creative Commons}}{12}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}\rmfamily Partne\v ri projektu}{13}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}\rmfamily Nasmlouvan\'e webov\'e zdroje}{13}{subsection.2.4.3}
