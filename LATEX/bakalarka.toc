@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {2.2.11}\rmfamily Rok 2010}{11}{subsection.2.2.11}
 \contentsline {subsection}{\numberline {2.2.12}\rmfamily Rok 2011}{11}{subsection.2.2.12}
 \contentsline {section}{\numberline {2.3}\slshape Sou\v casn\'y obsah datab\'aze}{11}{section.2.3}
-\contentsline {section}{\numberline {2.4}\slshape Dal\v s\IeC {\'\i } informace o projektu}{12}{section.2.4}
+\contentsline {section}{\numberline {2.4}\slshape Dal\v s\IeC {\'\i } informace o projektu}{11}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}\rmfamily \texttt {Creative Commons}}{12}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}\rmfamily Partne\v ri projektu}{13}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}\rmfamily Nasmlouvan\'e webov\'e zdroje}{13}{subsection.2.4.3}
@@ -26,10 +26,10 @@
 \contentsline {subsection}{\numberline {2.4.7}\rmfamily Krit\'eria v\'yb\v eru webov\'ych zdroj\r u}{15}{subsection.2.4.7}
 \contentsline {subsubsection}{ Plo\v sn\'a archivace -- harvesting}{16}{section*.7}
 \contentsline {subsubsection}{ V\'yb\v erov\'y p\v r\IeC {\'\i }stup -- konspekt}{16}{section*.8}
-\contentsline {subsubsection}{ Tematick\'e sb\IeC {\'\i }rky}{17}{section*.9}
+\contentsline {subsubsection}{ Tematick\'e sb\IeC {\'\i }rky}{16}{section*.9}
 \contentsline {section}{\numberline {2.5}\slshape Star\v s\IeC {\'\i } pr\'ace na t\'ema WebArchiv}{17}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}\rmfamily Syst\'em pro spr\'avu procesu archivace webov\'ych informa\v cn\IeC {\'\i }ch zdroj\r u}{17}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}\rmfamily Identifikace a omezen\IeC {\'\i } p\v r\IeC {\'\i }stupu k \uv {nevhodn\'ym} str\'ank\'am ve\IeC {\nobreakspace }webov\'em archivu}{18}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.2}\rmfamily Identifikace a omezen\IeC {\'\i } p\v r\IeC {\'\i }stupu k \uv {nevhodn\'ym} str\'ank\'am ve\IeC {\nobreakspace }webov\'em archivu}{17}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}\rmfamily Rozpozn\'an\IeC {\'\i } a archivace \v cesk\'eho webu mimo n\'arodn\IeC {\'\i } dom\'enu}{18}{subsection.2.5.3}
 \contentsline {subsection}{\numberline {2.5.4}\rmfamily Implementace \texttt {OAI-PMH} pro \v cesk\'y WebArchiv}{18}{subsection.2.5.4}
 \contentsline {subsection}{\numberline {2.5.5}\rmfamily Zp\v r\IeC {\'\i }stupn\v en\IeC {\'\i } archivu \v cesk\'eho webu}{18}{subsection.2.5.5}
@@ -37,13 +37,13 @@
 \contentsline {subsection}{\numberline {2.6.1}\rmfamily \texttt {APACHE TOMCAT}}{19}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2}\rmfamily \texttt {ARCRetriever}}{19}{subsection.2.6.2}
 \contentsline {subsection}{\numberline {2.6.3}\rmfamily \texttt {DeDuplicator}}{19}{subsection.2.6.3}
-\contentsline {subsection}{\numberline {2.6.4}\rmfamily \texttt {Gener\'ator URN}}{20}{subsection.2.6.4}
+\contentsline {subsection}{\numberline {2.6.4}\rmfamily \texttt {Gener\'ator URN}}{19}{subsection.2.6.4}
 \contentsline {subsection}{\numberline {2.6.5}\rmfamily \texttt {HERITRIX}}{20}{subsection.2.6.5}
-\contentsline {subsection}{\numberline {2.6.6}\rmfamily \texttt {ImpEval}}{21}{subsection.2.6.6}
+\contentsline {subsection}{\numberline {2.6.6}\rmfamily \texttt {ImpEval}}{20}{subsection.2.6.6}
 \contentsline {subsection}{\numberline {2.6.7}\rmfamily \texttt {NutchWAX}}{21}{subsection.2.6.7}
 \contentsline {subsection}{\numberline {2.6.8}\rmfamily \texttt {WA ADMIN}}{21}{subsection.2.6.8}
 \contentsline {subsection}{\numberline {2.6.9}\rmfamily \texttt {WA-CZ}}{21}{subsection.2.6.9}
-\contentsline {subsection}{\numberline {2.6.10}\rmfamily \texttt {Wayback}}{22}{subsection.2.6.10}
+\contentsline {subsection}{\numberline {2.6.10}\rmfamily \texttt {Wayback}}{21}{subsection.2.6.10}
 \contentsline {subsection}{\numberline {2.6.11}\rmfamily \texttt {WebAnalyzer}}{22}{subsection.2.6.11}
 \contentsline {subsection}{\numberline {2.6.12}\rmfamily \texttt {Web Curator Tool}}{22}{subsection.2.6.12}
 \contentsline {chapter}{\numberline {3}\bfseries Archiva\v cn\IeC {\'\i } form\'aty}{23}{chapter.3}
@@ -82,11 +82,11 @@
 \contentsline {subsection}{\numberline {4.3.2}\rmfamily \texttt {WARC-TOOLS / hanzo}}{40}{subsection.4.3.2}
 \contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{40}{section*.14}
 \contentsline {subsubsection}{ Dal\v s\IeC {\'\i } parametry}{41}{section*.15}
-\contentsline {subsubsection}{ R\r uzn\'e verze n\'astroje \texttt {WARCTOOLS / hanzo}}{41}{section*.16}
+\contentsline {subsubsection}{ R\r uzn\'e verze n\'astroje \texttt {WARC-TOOLS / hanzo}}{41}{section*.16}
 \contentsline {subsection}{\numberline {4.3.3}\rmfamily \texttt {WARC-TOOLS / kpk09}}{42}{subsection.4.3.3}
 \contentsline {subsubsection}{ Kompatibilita s ostatn\IeC {\'\i }mi n\'astroji}{42}{section*.17}
 \contentsline {subsubsection}{ Dal\v s\IeC {\'\i } parametry}{42}{section*.18}
-\contentsline {section}{\numberline {4.4}\slshape Podobnost \texttt {WARCTOOLS / hanzo s kpk09}}{43}{section.4.4}
+\contentsline {section}{\numberline {4.4}\slshape Podobnost \texttt {WARC-TOOLS / hanzo s kpk09}}{43}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}\rmfamily Porovn\'an\IeC {\'\i } v\'ystup\r u pro stejn\'e vstupy}{43}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}\rmfamily Porovn\'an\IeC {\'\i } zdrojov\'eho k\'odu}{43}{subsection.4.4.2}
 \contentsline {section}{\numberline {4.5}\slshape Z\'av\v ery z porovn\'av\'an\IeC {\'\i } n\'astroj\r u}{44}{section.4.5}
@@ -95,7 +95,7 @@
 \contentsline {section}{\numberline {5.2}\slshape \'Uprava \texttt {JHOVE2}}{46}{section.5.2}
 \contentsline {section}{\numberline {5.3}\slshape \'Uprava \texttt {WARCTOOLS / hanzo}}{46}{section.5.3}
 \contentsline {section}{\numberline {5.4}\slshape V\'ystupy z anal\'yzy obsahu p\v rev\'ad\v en\'ych archiv\r u}{47}{section.5.4}
-\contentsline {section}{\numberline {5.5}\slshape Hav\'arie n\'astroje \texttt {WARCTOOLS / hanzo}}{48}{section.5.5}
+\contentsline {section}{\numberline {5.5}\slshape Hav\'arie n\'astroje \texttt {WARCTOOLS / hanzo}}{49}{section.5.5}
 \contentsline {section}{\numberline {5.6}\slshape Dal\v s\IeC {\'\i } n\'astroje sady \texttt {WARCTOOLS / hanzo}}{50}{section.5.6}
 \contentsline {subsection}{\numberline {5.6.1}\rmfamily \texttt {warcindex.py}}{50}{subsection.5.6.1}
 \contentsline {subsection}{\numberline {5.6.2}\rmfamily \texttt {warcvalid.py}}{50}{subsection.5.6.2}

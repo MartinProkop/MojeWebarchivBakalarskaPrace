@@ -23,25 +23,6 @@ Martin Prokop.
 
 
 
-*************************
-
-Bakalářská práce se zabývá možností migrace webového archivu vytvořeného v rámci projektu WebArchiv. Představuje projekt WebArchiv a jeho vývoj, dále podává přehled nástrojů a prací s ním souvisejících.
-
-Po přehledu a sumarizaci informací o WebArchivu pokračuje přehledem archivačních formátů. Předvádí výhody a nevýhody jednotlivých formátů. Zdůvodňuje, proč je potřeba provést migraci stávajícího archivu.
-
-Poslední část práce se zabývá konkrétními nástroji sloužícími k migraci archivů. Cílem práce je představit výhody a nevýhody jednotlivých nástrojů a dále upravit a implementovat nejvhodnější z nich pro potřeby projektu WebArchiv. Práce tak tvoří podklad pro realizaci migrace celého webového archivu.
-
-
-This bachelor thesis deals with migration of web archive created by the project WebArchiv. At the beginning the thesis introduces the project WebArchiv and continues with an overview of tools and listing of related studies.
- 
-After review and summary of information it continues with archive formats survey. The advantages and disadvantages of each format are presented. It is shown why it is necessary to migrate the existing archive.
- 
-The last part deals with a real solution to archive migration. The purpose is to present the advantages and disadvantages of different instruments and modify and implement the most useful of them for the purposes of the WebArchiv project. The thesis is then a groundwork for the migration of the whole repository of data.
-
-**************************
-
-
-
 
 http://code.google.com/p/warc-tools/issues/entry
 
