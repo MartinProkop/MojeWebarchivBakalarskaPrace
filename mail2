@@ -48,3 +48,90 @@ If this is not possible, I can try to arrange for an ftp server�for you to upl
 
 
 Jasne nahraju, jen maj 100MB
+
+
+
+
+
+
+
+
+
+
+
+Hello, thanks for your reply.
+
+I've already tried to update to the latest version, but the problem
+remained.
+
+I'm using UNIX - Linux 3.2.0-24-generic #38-Ubuntu SMP Tue May 1 16:21:07 UTC
+2012 i686 i686 i386 GNU/Linux.
+
+I use Python 2.6.
+
+To verify the warc I use this command: ./warcvalid.py ARCHIVE
+
+The two ways of running the arc2warc are: ./arc2warc.py -Z -o WARC ARC
+                                          ./arc2warc.py -Z ARC > WARC
+
+
+
+
+
+
+Thomas Figg <thomas.figg@hanzoarchives.com> wrote on Mon, 30 Apr 2012 14:39:05
++0100:
+> 
+> On 28 Apr 2012, at 16:44, Martin Prokop wrote:
+> 
+> > Hello, 
+> > 
+> > During the warctools testing I probably discovered a bug. So I would like
+> > report it. 
+> 
+> Thanks, although without being able to replicate it, I am going to struggle
+> to 
+> find the bug.
+> 
+> 
+> > I'm using the version of warctools - Tag: 4.3-rc; Revision:
+> 017110fd860a8;
+> > Date: 2012-03-02.
+> 
+> If you could update to the latest version, and try again - A similar bug
+> was
+> reported earlier, and could be the cause:
+> 
+> (the fix is http://code.hanzoarchives.com/warc-tools/changeset/3c6b6c16080b
+> )
+> 
+> If this does not work, could you provide a little more information:
+> 
+> What platform are you running warctools under? Which version of
+> python?
+> 
+> What command did you run to create the warc, verify the warc? What
+> happened?
+> You mentioned that it depended on how you ran the programs - what other way
+> did you run them?
+> 
+> Finally, I will need to inspect the ARC if upgrading does not solve the
+> issue.
+> If you can arrange for it to be uploaded somewhere, I can make a copy. 
+> If this is not possible, I can try to arrange for an ftp server for you to
+> upload it to.
+> 
+> 
+> --
+> Thomas Figg | thomas.figg@hanzoarchives.com
+> 
+> Hanzo Archives Limited. Registered in England. Number: 5410483. Office: 64
+> Clifton Street, London, EC2A 4HB, U.K. VAT: 912 8708 19.
+> 
+> 
+> 
+
+
+--
+Martin Prokop
+
